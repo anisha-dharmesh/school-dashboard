@@ -1,5 +1,104 @@
 [
   {
+    "id": "614fc052364bb245",
+    "posted_date": "28-09-2026",
+    "posted_date_iso": "2026-09-28",
+    "event_date_iso": "2026-09-28",
+    "text": "Class III F\n\nToday's Daily Class Update \n28/09/2026\nPeriod 1: Science \nSkill Fest Preparation \n\nPeriod 2: Science \nSkill Fest Preparation \n\nPeriod 3: Marathi - 8. आगगाडीतून सफर या पाठचा स्वाध्याय पाठयपुस्तकात लिहिण्यास सुरुवात केली.\nH. W. पाठयपुस्तकातील पान नं 50 कलर करणे.\n\nPeriod 4: Maths proxy\n\nPeriod 5: Computer Science chapter 5 Explanation is done\n\nPeriod 6: Art and craft -Still life(Pg.No.40)\n\nPeriod 7: Leadership - Habit 4 Think win- win \nDiscussed about Emotional Bank Account.\n\nPeriod 8: Lifeskill : Reading of Ch 7 Touches was done \n\nPeriod 9: English- Written work of chapter 1 was solved in textbook.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "pattern",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Science",
+        "note": "Skill Fest Preparation",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "Skill Fest Preparation",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "8. आगगाडीतून सफर या पाठचा स्वाध्याय पाठयपुस्तकात लिहिण्यास सुरुवात केली",
+        "hw": "पाठयपुस्तकातील पान नं 50 कलर करणे"
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "proxy",
+        "hw": null
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "chapter 5 Explanation is done",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Art & Craft",
+        "note": "Still life(Pg.No.40)",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Leadership",
+        "note": "Habit 4 Think win- win \nDiscussed about Emotional Bank Account.",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Life Skills",
+        "note": "Reading of Ch 7 Touches was done",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Written work of chapter 1 was solved in textbook.",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 0.9,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "73e63da76774eada",
+    "posted_date": "28-09-2026",
+    "posted_date_iso": "2026-09-28",
+    "event_date_iso": "2026-09-28",
+    "text": "​Dear Parent,\n\n​As partners in your child's well-being, we want to share an important CBSE initiative aimed at empowering students to make healthy lifestyle choices and build resilience.\n\n​CBSE recently launched the \"Nasha Mukt Yuva for Viksit Bharat\" (Drug-Free Youth) campaign. You can watch the recorded live session and expert discussions here: CBSE Nasha Mukt Yuva Talkathon.\n\n​Let us work together to guide our youth toward a bright and healthy future.\n\nhttps://www.youtube.com/live/35J7sEpBHVU?si=w3hVGp1yUn0ZoM3u",
+    "attachment_url": null,
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "3f6633893f3982f0",
     "posted_date": "26-09-2026",
     "posted_date_iso": "2026-09-26",
