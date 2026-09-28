@@ -1,7 +1,8 @@
 import { useEffect } from "react";
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../app/hooks";
 import { fetchDashboardData } from "../features/data/dataSlice";
+import { useGuardedNavigate } from "../context/NavigationGuardContext";
 import { Button } from "../components/ui/button";
 import {
   Sidebar,
@@ -30,6 +31,8 @@ const TABS = [
 
 export default function AppLayout() {
   const location = useLocation();
+  const navigate = useNavigate();
+  const guardedNavigate = useGuardedNavigate();
   const dispatch = useAppDispatch();
   const status = useAppSelector((s) => s.data.status);
   const error = useAppSelector((s) => s.data.error);
@@ -59,7 +62,25 @@ export default function AppLayout() {
               <SidebarMenu>
                 {TABS.map((tab) => (
                   <SidebarMenuItem key={tab.to}>
-                    <SidebarMenuButton size="sm" isActive={location.pathname.startsWith(tab.to)} render={<Link to={tab.to} />}>
+                    <SidebarMenuButton
+                      size="sm"
+                      isActive={location.pathname.startsWith(tab.to)}
+                      render={
+                        <a
+                          // Real href (with the deploy's base path) so a modified click
+                          // -- open in new tab, etc. -- still resolves correctly; a plain
+                          // click is intercepted below and goes through the router instead.
+                          href={`${import.meta.env.BASE_URL}${tab.to.replace(/^\//, "")}`}
+                          onClick={(e) => {
+                            // Let modified clicks (open in new tab, etc.) fall through untouched --
+                            // only a plain click is ours to intercept and guard.
+                            if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+                            e.preventDefault();
+                            guardedNavigate(() => navigate(tab.to));
+                          }}
+                        />
+                      }
+                    >
                       {tab.label}
                     </SidebarMenuButton>
                   </SidebarMenuItem>

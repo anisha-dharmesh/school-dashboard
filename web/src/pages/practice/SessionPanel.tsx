@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { CheckCircle2, XCircle } from "lucide-react";
 import { useAppDispatch } from "../../app/hooks";
+import { useLeaveGuard } from "../../context/NavigationGuardContext";
 import { addSession } from "../../features/practice/practiceSlice";
 import { emptyResponse, hasResponse, toResult, type Response } from "../../practice/session";
 import type { Chapter, PracticeItem, PracticeResult, PracticeSession, Subject } from "../../practice/types";
@@ -48,6 +49,10 @@ export default function SessionPanel({ subject, chapter, queue, onFinish }: Prop
 
   const answered = results.length;
   const correct = results.filter((r) => r.ok).length;
+
+  // Same as tapping "End session" -- whatever's been answered so far still
+  // gets saved to history rather than silently dropped by the navigation.
+  useLeaveGuard(answered > 0, () => finish(results));
 
   return (
     <div className="flex w-full max-w-2xl flex-col gap-4 self-center">

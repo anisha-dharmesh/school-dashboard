@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { RotateCcw } from "lucide-react";
+import { useLeaveGuard } from "../../context/NavigationGuardContext";
 import { TABLES_QUIZ_MISSES_KEY } from "../../lib/constants";
 import { Card, CardContent } from "../../components/ui/card";
 import { Badge } from "../../components/ui/badge";
@@ -118,6 +119,10 @@ export default function QuizPanel() {
   const advanceTimer = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   useEffect(() => () => clearTimeout(advanceTimer.current), []);
+
+  // Once a question's been answered, leaving via the sidebar needs confirming --
+  // the score itself isn't saved anywhere, so walking away silently drops it.
+  useLeaveGuard(score.total > 0, () => {});
 
   const weakSpots = useMemo(
     () =>
