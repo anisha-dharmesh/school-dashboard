@@ -58,6 +58,12 @@ export const HW_SEED_DAYS = 7; // backlog older than this is auto-marked done on
 // as a weak spot. Keyed "N-M", e.g. "7-8".
 export const TABLES_QUIZ_MISSES_KEY = "tablesQuizMisses_v1";
 
+// Finished practice sessions (Practice tab), newest first. Each session
+// snapshots its questions and answers, so it stays readable after the
+// practice content changes; the cap keeps localStorage bounded.
+export const PRACTICE_HISTORY_KEY = "practiceHistory_v1";
+export const PRACTICE_HISTORY_LIMIT = 100;
+
 // A photo attachment (a seek-kit materials list, a Facebook-recap photo) is
 // more useful shown inline than as a bare "View attachment" link -- a PDF
 // (worksheet, portion sheet) still needs the link since it can't render
