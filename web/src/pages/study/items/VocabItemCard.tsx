@@ -5,7 +5,7 @@ import SourceMarks from "../SourceMarks";
 export default function VocabItemCard({ item }: { item: VocabItem }) {
   return (
     <div className="flex flex-col gap-0.5 py-2.5 md:flex-row md:flex-wrap md:items-baseline md:gap-x-5">
-      <p className="font-semibold md:w-32 md:shrink-0">
+      <p className="font-semibold whitespace-nowrap md:w-48 md:shrink-0">
         {item.word}
         <SourceMarks sources={item.sources} />
       </p>
