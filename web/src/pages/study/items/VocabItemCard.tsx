@@ -4,8 +4,8 @@ import SourceMarks from "../SourceMarks";
 /** One word, its meaning and (where the source gave one) an example sentence. */
 export default function VocabItemCard({ item }: { item: VocabItem }) {
   return (
-    <div className="flex flex-col gap-0.5 py-2.5 md:grid md:grid-cols-[minmax(8rem,12rem)_1fr_1fr] md:items-baseline md:gap-x-4">
-      <p className="font-semibold">
+    <div className="flex flex-col gap-0.5 py-2.5 md:flex-row md:flex-wrap md:items-baseline md:gap-x-5">
+      <p className="font-semibold md:w-32 md:shrink-0">
         {item.word}
         <SourceMarks sources={item.sources} />
       </p>
