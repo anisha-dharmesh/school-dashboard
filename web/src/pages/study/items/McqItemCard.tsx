@@ -27,12 +27,12 @@ export default function McqItemCard({ item }: { item: McqItem }) {
                 key={letter}
                 className={`flex items-center gap-2.5 rounded-lg border px-3 py-2 text-sm ${
                   ok
-                    ? `${HIDE} border-emerald-500/40 bg-emerald-500/10 group-data-[hide=true]/study:border-border group-data-[hide=true]/study:bg-transparent`
+                    ? "border-emerald-500/40 bg-emerald-500/10 group-data-[hide=true]/study:border-border group-data-[hide=true]/study:bg-transparent"
                     : ""
                 }`}
               >
                 <span className="font-mono text-xs text-muted-foreground uppercase">{letter}</span>
-                <span className={ok ? "group-data-[hide=true]/study:text-foreground" : ""}>{text}</span>
+                <span>{text}</span>
               </li>
             );
           })}

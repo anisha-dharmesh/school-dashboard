@@ -106,14 +106,23 @@
       "items": [
         {
           "question": "Reference to Context: “How happy we were there!”",
-          "answer": [
-            "(a) Who are referred to as 'we'? — The children.",
-            "(b) Why does the speaker say so? — The giant had built a wall around his garden, so they had no place to play.",
-            "(c) Write the opposite of 'happy'. — sad."
-          ],
           "sources": {
             "notes": true
-          }
+          },
+          "parts": [
+            {
+              "question": "(a) Who are referred to as 'we'?",
+              "answer": "The children."
+            },
+            {
+              "question": "(b) Why does the speaker say so?",
+              "answer": "The giant had built a wall around his garden, so they had no place to play."
+            },
+            {
+              "question": "(c) Write the opposite of 'happy'.",
+              "answer": "sad."
+            }
+          ]
         },
         {
           "question": "Personal Response: What have you learnt from this story?",

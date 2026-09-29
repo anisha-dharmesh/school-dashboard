@@ -97,14 +97,23 @@
       "items": [
         {
           "question": "Reference to Context: “I would listen to the clouds of sheep bleat / That graze on the blue.”",
-          "answer": [
-            "(a) Who will graze on the blue? — Sheep.",
-            "(b) What do you understand by 'sheep bleat'? — The sound that sheep make.",
-            "(c) What does the poet mean by 'blue'? — The sky."
-          ],
           "sources": {
             "notes": true
-          }
+          },
+          "parts": [
+            {
+              "question": "(a) Who will graze on the blue?",
+              "answer": "Sheep."
+            },
+            {
+              "question": "(b) What do you understand by 'sheep bleat'?",
+              "answer": "The sound that sheep make."
+            },
+            {
+              "question": "(c) What does the poet mean by 'blue'?",
+              "answer": "The sky."
+            }
+          ]
         }
       ]
     },

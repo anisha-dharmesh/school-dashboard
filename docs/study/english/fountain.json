@@ -170,15 +170,24 @@
       "items": [
         {
           "question": "Reference to Context: “But, but… this fountain is not made of gold, nor does it have golden water.”",
-          "answer": [
-            "(a) Which fountain is being talked about here? — The fountain in the house on the hill that Sana visited.",
-            "(b) Why did the speaker say so? — She expected it to be made of gold with golden water, but discovered that wasn't true.",
-            "(c) What did the speaker realise? — That her first impression about the fountain was incorrect."
-          ],
           "sources": {
             "notes": true,
             "textbook": true
-          }
+          },
+          "parts": [
+            {
+              "question": "(a) Which fountain is being talked about here?",
+              "answer": "The fountain in the house on the hill that Sana visited."
+            },
+            {
+              "question": "(b) Why did the speaker say so?",
+              "answer": "She expected it to be made of gold with golden water, but discovered that wasn't true."
+            },
+            {
+              "question": "(c) What did the speaker realise?",
+              "answer": "That her first impression about the fountain was incorrect."
+            }
+          ]
         }
       ]
     },

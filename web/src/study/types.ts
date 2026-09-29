@@ -58,7 +58,10 @@ export interface QaItem {
   question: string;
   /** A picture the question refers to (path under public/ or a full URL). */
   image?: string;
-  answer: string | string[];
+  /** Absent when the question is a stem (e.g. a quoted passage) with `parts` below. */
+  answer?: string | string[];
+  /** Sub-questions of a stem question, each with its own answer, e.g. "(a) Who is meant here?". */
+  parts?: { question: string; answer: string | string[] }[];
   sources?: SourceMarks;
 }
 

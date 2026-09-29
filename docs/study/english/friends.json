@@ -106,13 +106,19 @@
       "items": [
         {
           "question": "Reference to Context: “The Sunshine flickers through the lace, Of leaves above my head, And kisses me upon the face Like Mother, before bed.”",
-          "answer": [
-            "(a) Why does the poet compare the sunshine's touch to mother's love? — To show that both are gentle and loving.",
-            "(b) How does the poet feel about the sunshine? — Loved and cherished, like the warmth and comfort of a mother's love."
-          ],
           "sources": {
             "notes": true
-          }
+          },
+          "parts": [
+            {
+              "question": "(a) Why does the poet compare the sunshine's touch to mother's love?",
+              "answer": "To show that both are gentle and loving."
+            },
+            {
+              "question": "(b) How does the poet feel about the sunshine?",
+              "answer": "Loved and cherished, like the warmth and comfort of a mother's love."
+            }
+          ]
         }
       ]
     },
