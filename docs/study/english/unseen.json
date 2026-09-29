@@ -1,0 +1,102 @@
+{
+  "subject": "English",
+  "chapter": "Unseen Comprehension",
+  "number": 7,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Unseen Comprehension",
+      "type": "passage",
+      "items": [
+        {
+          "title": "A Visit to the Library",
+          "text": "Last Saturday, Rohan and his friends visited the library in their town. The library was full of books about animals, science, and adventure stories. A kind librarian helped them find books they liked. Rohan borrowed a book about dinosaurs, while his friends chose storybooks. Reading books in the library made them curious to learn more about the world.",
+          "questions": [
+            {
+              "question": "Where did Rohan and his friends go on Saturday?",
+              "answer": "Rohan and his friends visited the library in their town."
+            },
+            {
+              "question": "How did the librarian help the children?",
+              "answer": "The librarian helped by finding books they liked."
+            },
+            {
+              "question": "What did Rohan borrow from the library?",
+              "answer": "Rohan borrowed a book about dinosaurs."
+            },
+            {
+              "question": "Fill in the blanks: The library was full of ___. The librarian was very ___.",
+              "answer": "books · kind"
+            }
+          ],
+          "date": "23 Apr 2026",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "title": "Lina Bakes Chocolate Chip Cookies",
+          "text": "Lina helped her mother bake chocolate chip cookies on Saturday afternoon. The kitchen smelled sweet and warm. They measured flour, sugar, butter and stirred the dough together. Lina rolled the dough into small balls and placed them on the tray. The oven timer beeped and they pulled the tray out carefully. Lina tasted a cookie and declared it the best cookie ever. She packed some in a jar for her father's snack the next day.",
+          "questions": [
+            {
+              "question": "What activity did Lina help with?",
+              "answer": "Lina helped her mother bake chocolate chip cookies on Saturday afternoon."
+            },
+            {
+              "question": "What did Lina put into a jar?",
+              "answer": "She packed some cookies in a jar, having declared them the best cookies ever."
+            },
+            {
+              "question": "Write rhyming words for: tray, sweet",
+              "answer": "tray → gray · sweet → meet"
+            },
+            {
+              "question": "Write the meaning of 'measured' and use it in a sentence.",
+              "answer": "measured — found the size or amount of something. “I measured the milk.”"
+            }
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "title": "Mina's Flower Garden",
+          "text": "Mina visited a flower garden at the edge of town with her teacher. The garden had rows of pink roses, orange marigolds and violet tulips. A gentle breeze made the petals dance and butterflies landed on the blooms. Mina bent down to sniff a rose and felt its soft petals brush her fingers. Her teacher said, “Nature is full of wonders.” Mina nodded and pressed a flower between her notebook pages to remember this visit.",
+          "questions": [
+            {
+              "question": "Who visited the flower garden with Mina?",
+              "answer": "Mina visited the flower garden with her teacher."
+            },
+            {
+              "question": "What flowers did she see?",
+              "answer": "She saw pink roses, orange marigolds and violet tulips."
+            },
+            {
+              "question": "Write a rhyming word for 'fingers'.",
+              "answer": "singers"
+            },
+            {
+              "question": "What did Mina press between her notebook pages?",
+              "answer": "Mina pressed a flower between her notebook pages."
+            },
+            {
+              "question": "Find and write one each from the passage:",
+              "answer": [
+                "Noun — garden",
+                "Adjective — pink",
+                "Pronoun — her"
+              ]
+            }
+          ],
+          "date": "27 Aug 2026",
+          "sources": {
+            "notes": true
+          }
+        }
+      ],
+      "note": "She has practiced this with 9 different unseen passages between April and August 2026 — three worked examples below show the range of question types: recall, rhyming words, vocabulary-in-context, and (in the most recent ones) spotting a noun / adjective / pronoun in the passage."
+    }
+  ]
+}

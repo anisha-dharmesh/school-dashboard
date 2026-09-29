@@ -1,6 +1,5 @@
 import { createAsyncThunk, createSlice, type PayloadAction } from "@reduxjs/toolkit";
 import type {
-  ChapterNotebook,
   EventsCalendar,
   Holidays,
   LastUpdated,
@@ -8,11 +7,12 @@ import type {
   PortionSchedules,
   Timetable,
 } from "../../types";
+import type { StudyIndex } from "../../study/types";
 
 interface DashboardData {
   notices: Notice[];
   portionSchedules: PortionSchedules;
-  chapterNotebooks: ChapterNotebook[];
+  studyIndex: StudyIndex;
   holidays: Holidays;
   eventsCalendar: EventsCalendar;
   lastUpdated: LastUpdated | null;
@@ -24,6 +24,7 @@ interface DataState extends DashboardData {
   error: string | null;
 }
 
+const EMPTY_STUDY_INDEX: StudyIndex = { subjects: [] };
 const EMPTY_HOLIDAYS: Holidays = { holidays: [], vacations: [] };
 const EMPTY_EVENTS_CALENDAR: EventsCalendar = { events: [], ptm: [], exam_windows: [] };
 
@@ -47,10 +48,10 @@ async function fetchJsonOr<T>(path: string, fallback: T): Promise<T> {
 }
 
 export const fetchDashboardData = createAsyncThunk<DashboardData>("data/fetchDashboardData", async () => {
-  const [notices, portionSchedules, chapterNotebooks, holidays, eventsCalendar, lastUpdated, timetable] = await Promise.all([
+  const [notices, portionSchedules, studyIndex, holidays, eventsCalendar, lastUpdated, timetable] = await Promise.all([
     fetchJson<Notice[]>("notices.json"),
     fetchJsonOr<PortionSchedules>("portion_schedules.json", {}),
-    fetchJsonOr<ChapterNotebook[]>("chapter_notebooks.json", []),
+    fetchJsonOr<StudyIndex>("study/index.json", EMPTY_STUDY_INDEX),
     fetchJsonOr<Holidays>("holidays.json", EMPTY_HOLIDAYS),
     fetchJsonOr<EventsCalendar>("events_calendar.json", EMPTY_EVENTS_CALENDAR),
     fetchJsonOr<LastUpdated | null>("last_updated.json", null),
@@ -60,7 +61,7 @@ export const fetchDashboardData = createAsyncThunk<DashboardData>("data/fetchDas
   return {
     notices: [...notices].sort((a, b) => parseDMYms(b.posted_date) - parseDMYms(a.posted_date)),
     portionSchedules,
-    chapterNotebooks,
+    studyIndex,
     holidays: { ...EMPTY_HOLIDAYS, ...holidays },
     eventsCalendar: { ...EMPTY_EVENTS_CALENDAR, ...eventsCalendar },
     lastUpdated,
@@ -76,7 +77,7 @@ function parseDMYms(d: string): number {
 const initialState: DataState = {
   notices: [],
   portionSchedules: {},
-  chapterNotebooks: [],
+  studyIndex: EMPTY_STUDY_INDEX,
   holidays: EMPTY_HOLIDAYS,
   eventsCalendar: EMPTY_EVENTS_CALENDAR,
   lastUpdated: null,

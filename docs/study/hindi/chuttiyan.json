@@ -1,0 +1,337 @@
+{
+  "subject": "Hindi",
+  "chapter": "ऐसे किया छुट्टियों का सदुपयोग",
+  "number": 3,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "शब्दार्थ (Word Meanings)",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "खुश",
+          "meaning": "प्रसन्न",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "सदुपयोग",
+          "meaning": "सही उपयोग",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "मज़दूर",
+          "meaning": "शारीरिक श्रम करने वाला",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "राहगीर",
+          "meaning": "राह पर चलने वाला",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "बेज़बान",
+          "meaning": "मूक, जो बोल नहीं सकते",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "चिंता",
+          "meaning": "सोच",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "शुरू",
+          "meaning": "आरंभ",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "खप्पर",
+          "meaning": "खोपड़ी, खोल",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "रिक्त स्थान भरिए (Fill in the Blanks)",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "ऐसी भीषण ___ में तो बाहर निकलना मुश्किल हो गया था। (गरमी/सरदी)",
+              "answers": [
+                "गरमी"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "उन बेज़बान जानवरों और पक्षियों की क्या हालत होती होगी जो अपनी ___ किसी से कह भी नहीं सकते। (पीड़ा/इच्छा)",
+              "answers": [
+                "पीड़ा"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "अंश ने सभी को अपनी ___ बताई। (योजना/कार्य)",
+              "answers": [
+                "योजना"
+              ],
+              "sources": {
+                "textbook": true,
+                "worksheet": true
+              }
+            },
+            {
+              "template": "सीमेंट की टंकियाँ ___ के किनारे और चौराहों पर रखी गईं। (सड़क/घर)",
+              "answers": [
+                "सड़क"
+              ],
+              "sources": {
+                "textbook": true,
+                "worksheet": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "सुमेलन कीजिए (Match the Following)",
+      "type": "match",
+      "sets": [
+        {
+          "sources": {
+            "textbook": true
+          },
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "बात तो तुम ठीक कह रहे हो।",
+              "right": "प्रांजल ने अंश से"
+            },
+            {
+              "left": "हम अपनी छुट्टियों को यादगार बनाते हुए कुछ अलग हटकर काम कर सकते हैं।",
+              "right": "अंश ने मित्रों से"
+            }
+          ],
+          "answerLine": "बात तो तुम ठीक कह रहे हो—प्रांजल ने अंश से, हम अपनी छुट्टियों...काम कर सकते हैं—अंश ने मित्रों से"
+        },
+        {
+          "sources": {
+            "textbook": true
+          },
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "चार रास्ते वाला",
+              "right": "चौराहा"
+            },
+            {
+              "left": "तीन रास्ते वाला",
+              "right": "तिराहा"
+            },
+            {
+              "left": "राह पर चलने वाला",
+              "right": "राहगीर"
+            },
+            {
+              "left": "मेहनत करने वाला",
+              "right": "मेहनती"
+            }
+          ],
+          "answerLine": "चार रास्ते वाला–चौराहा, तीन रास्ते वाला–तिराहा, राह पर चलने वाला–राहगीर, मेहनत करने वाला–मेहनती"
+        }
+      ]
+    },
+    {
+      "title": "विलोम एवं पर्यायवाची शब्द (Antonyms & Synonyms)",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "सदुपयोग का विलोम",
+          "answer": "दुरुपयोग",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "मुश्किल का विलोम",
+          "answer": "आसान",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "मित्र का विलोम",
+          "answer": "शत्रु",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "पक्षी का पर्यायवाची",
+          "answer": "खग",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "मित्र का पर्यायवाची",
+          "answer": "दोस्त",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "पानी का पर्यायवाची",
+          "answer": "जल",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "घर का पर्यायवाची",
+          "answer": "गृह",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "ठंडा का पर्यायवाची",
+          "answer": "शीतल",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "जानवर का पर्यायवाची",
+          "answer": "पशु",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "बहुविकल्पीय प्रश्न (MCQ Practice)",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "गरमी में क्या बुझने का नाम नहीं ले रही थी?",
+          "options": "(क) भूख    (ख) प्यास    (ग) आग",
+          "answer": "(ख) प्यास",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "अंश ने अपनी योजना किसे बताई?",
+          "options": "(क) मम्मी-पापा को    (ख) मित्रों को    (ग) शिक्षकों को",
+          "answer": "(ख) मित्रों को",
+          "sources": {
+            "textbook": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "ठंडा रखने के लिए मिट्टी के घड़ों पर क्या लपेटा गया?",
+          "options": "(क) कपड़े    (ख) तिनके    (ग) टाट की पट्टियाँ",
+          "answer": "(ग) टाट की पट्टियाँ",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "प्रश्न-उत्तर (Question Answers)",
+      "type": "qa",
+      "items": [
+        {
+          "question": "अंश क्यों खुश था?",
+          "answer": "अंश की गर्मियों की छुट्टियाँ पड़ी थीं, जिस कारण अंश खुश था।",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "अंश की कितने दिनों की छुट्टियाँ हो गई थीं?",
+          "answer": "अंश की एक महीने की छुट्टियाँ हो गई थीं।",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "पाठ में किस मौसम की बात हो रही है?",
+          "answer": "पाठ में गरमी के मौसम की बात हो रही है।",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "अंश किस-किसके बारे में बातें कर रहा था?",
+          "answer": "अंश मज़दूर, राहगीरों और बेज़बान जानवरों के बारे में बातें कर रहा था।",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "question": "अंश ने अपनी कौन-सी चिंता मित्रों के सामने रखी?",
+          "answer": "अंश गर्मी से बेहाल आदमियों और बेज़बान जानवरों के लिए चिंतित था, जो उसने अपने दोस्तों के साथ साझा की।",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "question": "अंश ने अपने मित्रों को क्या योजना बताई?",
+          "answer": "अंश ने गरमी से बेहाल मज़दूरों, राहगीरों और बेज़बान जानवरों की सहायता की योजना अपने मित्रों को बताई।",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "अंश की योजना में बड़ों ने किस प्रकार सहयोग किया?",
+          "answer": "अंश की योजना में सभी बड़ों ने पाँच-पाँच सौ की राशि देकर अपना सहयोग सुनिश्चित किया।",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "अंश और उसके मित्रों के कार्य का क्या परिणाम हुआ?",
+          "answer": "अंश और उसके मित्रों के कार्य से सभी राहगीर, मज़दूर व पशु-पक्षी खुशी से झूम उठे और अपने-अपने तरीकों से धन्यवाद कहने लगे।",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "subject": "Hindi",
+  "chapter": "गेहूँ की बालियाँ",
+  "number": 1,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "विलोम एवं पर्यायवाची शब्द (Antonyms & Synonyms)",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "पक्का का विलोम",
+          "answer": "कच्चा",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "इधर का विलोम",
+          "answer": "उधर",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "अंदर का विलोम",
+          "answer": "बाहर",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "सुबह का विलोम",
+          "answer": "शाम",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "आना का विलोम",
+          "answer": "जाना",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "रुकना का विलोम",
+          "answer": "चलना",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "पंछी का पर्यायवाची नहीं है",
+          "answer": "पतंग (पंछी, खग, विहग सही पर्यायवाची हैं)",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "पेड़ का पर्यायवाची नहीं है",
+          "answer": "शाखा (पेड़, वृक्ष, तरु सही पर्यायवाची हैं)",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "नदी का पर्यायवाची नहीं है",
+          "answer": "सरोवर (सरिता, नदी, तटिनी सही पर्यायवाची हैं)",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "एक शब्द में उत्तर दीजिए (Name the Following)",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "बाली का बहुवचन",
+          "answer": "बालियाँ",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "लड़की का बहुवचन",
+          "answer": "लड़कियाँ",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "रोटी का बहुवचन",
+          "answer": "रोटियाँ",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "मिठाई का बहुवचन",
+          "answer": "मिठाइयाँ",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "खुशी का बहुवचन",
+          "answer": "खुशियाँ",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "दवाई का बहुवचन",
+          "answer": "दवाइयाँ",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "बहुविकल्पीय प्रश्न (MCQ Practice)",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "सोने की-सी क्या लग रही हैं?",
+          "options": "(क) गेहूँ की बालियाँ    (ख) सूरज की किरणें    (ग) बालक की हँसी",
+          "answer": "(क) गेहूँ की बालियाँ",
+          "sources": {
+            "worksheet": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "झूम-झूमकर गीत कौन सुना रहा है?",
+          "options": "(क) पंछी    (ख) किसनू काका    (ग) पेड़-पौधे",
+          "answer": "(ख) किसनू काका",
+          "sources": {
+            "worksheet": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "कौन इतराते हैं?",
+          "options": "(क) लड़के    (ख) पंछी    (ग) किसनू काका",
+          "answer": "(ख) पंछी",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "question": "कवि किसकी तरह झूमना चाहते हैं?",
+          "options": "(क) तीतर और कबूतर की तरह    (ख) तोता और मैना की तरह    (ग) चिड़िया और गौरैया की तरह",
+          "answer": "(क) तीतर और कबूतर की तरह",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "प्रश्न-उत्तर (Question Answers)",
+      "type": "qa",
+      "items": [
+        {
+          "question": "लहराते खेतों को देखकर कौन झूमते हैं?",
+          "answer": "लहराते खेतों को देखकर किसनू काका झूमते हैं।",
+          "sources": {
+            "worksheet": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "गेहूँ की बालियाँ कब और क्या रचती हैं?",
+          "answer": "हवा चलने पर गेहूँ की बालियाँ सोने का सागर रचती हैं।",
+          "sources": {
+            "worksheet": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "लहराते खेतों को देखकर कवि की क्या इच्छा हो रही है?",
+          "answer": "लहराते खेतों को देखकर कवि की तीतर और कबूतर के समान घूमने की इच्छा हो रही है।",
+          "sources": {
+            "worksheet": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -77,8 +77,8 @@ jobs:
             docs/events_calendar.json
             docs/last_updated.json
             docs/timetable.json
-            docs/chapter_notebooks.json
-            docs/revision-notebooks/*.json
+            docs/study/index.json
+            docs/study/*/*.json
 
   deploy:
     needs: [scrape]
@@ -119,9 +119,8 @@ jobs:
       # Runtime-fetched, not bundled: notices.json only grows, and bundling
       # it would bust the JS/CSS cache hash on every scrape run. See
       # web/src/features/data/dataSlice.ts and
-      # web/src/features/revision/revisionSlice.ts (same pattern -- a new
-      # subject's revision notebook is just a JSON file here, no code or
-      # workflow change needed).
+      # web/src/features/study/studySlice.ts (same pattern -- a new
+      # study chapter is just a JSON file here, no code or workflow change).
       - name: Copy scraped data + add SPA fallback into the build output
         run: |
           mkdir -p web/dist/data
@@ -129,8 +128,7 @@ jobs:
             cp -r docs-data/. web/dist/data/
           else
             cp docs/*.json web/dist/data/
-            mkdir -p web/dist/data/revision-notebooks
-            cp docs/revision-notebooks/*.json web/dist/data/revision-notebooks/
+            cp -r docs/study web/dist/data/study
           fi
           # GitHub Pages has no server-side rewrite -- a hard refresh or
           # shared link on a client-side route (e.g. /exam/Half-Yearly)

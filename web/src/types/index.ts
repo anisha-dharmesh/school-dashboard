@@ -54,7 +54,6 @@ export interface PortionScheduleRow {
   subject: string;
   portion: string;
   marks?: number | null;
-  revision_notebook_url?: string | null;
 }
 
 export interface PortionSchedule {
@@ -62,13 +61,6 @@ export interface PortionSchedule {
   timing?: string | null;
   notes?: string[];
   schedule: PortionScheduleRow[];
-}
-
-/** A hand-authored revision notebook for a single chapter (e.g. a class-test chapter). */
-export interface ChapterNotebook {
-  subject: string;
-  chapter: string;
-  url: string;
 }
 
 export type PortionSchedules = Record<string, PortionSchedule>;

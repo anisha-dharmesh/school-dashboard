@@ -1,0 +1,128 @@
+{
+  "subject": "English",
+  "chapter": "The Selfish Giant",
+  "number": 1,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Word Meanings & Vocabulary",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "creeping",
+          "meaning": "moving gradually and not easily noticed",
+          "example": "I saw a spider creeping on the wall.",
+          "sources": {
+            "worksheet": true,
+            "notes": true
+          }
+        },
+        {
+          "word": "selfish",
+          "meaning": "caring about yourself rather than about other people",
+          "example": "He is selfish and does not share his toys.",
+          "sources": {
+            "worksheet": true,
+            "notes": true
+          }
+        },
+        {
+          "word": "peeps",
+          "meaning": "looks quickly and secretly at something",
+          "example": "She peeps through the window to see the garden.",
+          "sources": {
+            "worksheet": true,
+            "notes": true
+          }
+        },
+        {
+          "word": "trespassers",
+          "meaning": "people who go onto somebody's land without permission",
+          "example": "The guard stopped the trespassers at the gate.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "feeble",
+          "meaning": "very weak",
+          "example": "The feeble old dog lay on the mat.",
+          "sources": {
+            "notes": true,
+            "revisionSheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Comprehension Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What was written on the notice put up by the giant? Why does the giant put up this notice?",
+          "answer": "The notice put up by the selfish giant said 'TRESPASSERS WILL BE PROSECUTED'. The giant put up this notice because he doesn't want children to play in his garden.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "How did the giant react on seeing the children play in his garden?",
+          "answer": "The giant reacted angrily and did not allow the children to play in his garden.",
+          "sources": {
+            "worksheet": true,
+            "notes": true
+          }
+        },
+        {
+          "question": "Why was the giant happy at the end?",
+          "answer": "The selfish giant was happy in the end because he had learnt the secret of happiness that lies in sharing and caring.",
+          "sources": {
+            "worksheet": true,
+            "notes": true
+          }
+        },
+        {
+          "question": "Do you think the trees were glad to have the children back? Give a reason for your answer.",
+          "answer": "The trees were so glad to have the children back again that they had covered themselves with flowers and were waving their arms gently above the children's heads.",
+          "sources": {
+            "notes": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "Why do you think spring forgets to visit the giant's garden?",
+          "answer": "Spring forgets to visit the giant's garden because the giant's selfishness and the absence of children's laughter made the garden lack the joy and the happiness.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Reference to Context & Personal Response",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Reference to Context: “How happy we were there!”",
+          "answer": [
+            "(a) Who are referred to as 'we'? — The children.",
+            "(b) Why does the speaker say so? — The giant had built a wall around his garden, so they had no place to play.",
+            "(c) Write the opposite of 'happy'. — sad."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Personal Response: What have you learnt from this story?",
+          "answer": "We should share our things with friends. This will make you happy.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    }
+  ]
+}

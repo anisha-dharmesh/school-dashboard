@@ -87,32 +87,28 @@
         "day": "Wednesday",
         "subject": "Social Studies",
         "marks": 60,
-        "portion": "Our Government, Delhi and Mumbai, Our Leaders, Transport",
-        "revision_notebook_url": "revision/social-studies-half-yearly"
+        "portion": "Our Government, Delhi and Mumbai, Our Leaders, Transport"
       },
       {
         "date_iso": "2026-09-10",
         "day": "Thursday",
         "subject": "English",
         "marks": 60,
-        "portion": "Literature: The Selfish Giant, Friends (Poem), The Golden Fountain, If I Had A Wings (Poem)\nGrammar: Comma, Nouns (Common, Proper, Singular, Plural, Male and Female), Adjectives, Comparison\nComposition: Letter Writing\nUnseen Comprehension",
-        "revision_notebook_url": "revision/english-half-yearly"
+        "portion": "Literature: The Selfish Giant, Friends (Poem), The Golden Fountain, If I Had A Wings (Poem)\nGrammar: Comma, Nouns (Common, Proper, Singular, Plural, Male and Female), Adjectives, Comparison\nComposition: Letter Writing\nUnseen Comprehension"
       },
       {
         "date_iso": "2026-09-11",
         "day": "Friday",
         "subject": "Science",
         "marks": 60,
-        "portion": "Food and Nutrition in Humans, Birds, Our Body is a Wonderful Machine",
-        "revision_notebook_url": "revision/science-half-yearly"
+        "portion": "Food and Nutrition in Humans, Birds, Our Body is a Wonderful Machine"
       },
       {
         "date_iso": "2026-09-12",
         "day": "Saturday",
         "subject": "Hindi",
         "marks": 60,
-        "portion": "साहित्य - गेहूँ की बालियाँ,मधुर वाणी, ऐसे किया छुट्टियों का सदुपयोग\nव्याकरण - मात्राएँ शब्द और वाक्य, संज्ञा, गिनती (1 से 35 तक)\nरचनात्मक अभिव्यक्ति - चित्र वर्णन\nअपठित गद्यांश",
-        "revision_notebook_url": "revision/hindi-half-yearly"
+        "portion": "साहित्य - गेहूँ की बालियाँ,मधुर वाणी, ऐसे किया छुट्टियों का सदुपयोग\nव्याकरण - मात्राएँ शब्द और वाक्य, संज्ञा, गिनती (1 से 35 तक)\nरचनात्मक अभिव्यक्ति - चित्र वर्णन\nअपठित गद्यांश"
       }
     ]
   }

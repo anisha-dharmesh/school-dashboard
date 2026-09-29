@@ -24,6 +24,7 @@ const TABS = [
   { to: "/timetable", label: "Timetable" },
   { to: "/hw", label: "Homework" },
   { to: "/notes", label: "Notes" },
+  { to: "/study", label: "Study" },
   { to: "/tables", label: "Tables" },
   { to: "/practice", label: "Practice" },
   { to: "/history", label: "History" },

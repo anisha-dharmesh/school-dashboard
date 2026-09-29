@@ -1,0 +1,343 @@
+{
+  "subject": "Social Studies",
+  "chapter": "Delhi & Mumbai",
+  "number": 2,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "Delhi is situated along the banks of the River ___.",
+              "answers": [
+                "Yamuna"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            },
+            {
+              "template": "The official name of Delhi is the ___ Capital Territory of Delhi.",
+              "answers": [
+                "National"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            },
+            {
+              "template": "The Central Secretariat building has ___ blocks.",
+              "answers": [
+                "two"
+              ]
+            },
+            {
+              "template": "Foreign offices are called ___ or High Commissions.",
+              "answers": [
+                "Embassies"
+              ]
+            },
+            {
+              "template": "___ is one of the largest business spots.",
+              "answers": [
+                "Connaught Place"
+              ]
+            },
+            {
+              "template": "___ present the most beautiful view of Mumbai.",
+              "answers": [
+                "Malabar Hills"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            }
+          ]
+        },
+        {
+          "note": "More practice blanks, now confirmed from her own completed worksheet:",
+          "items": [
+            {
+              "template": "Mumbai is the ___ city of India and an important ___.",
+              "answers": [
+                "richest",
+                "port"
+              ]
+            },
+            {
+              "template": "___ is one of the oldest and busiest markets in Delhi.",
+              "answers": [
+                "Chandni Chowk"
+              ]
+            },
+            {
+              "template": "___ is an important festival in Mumbai.",
+              "answers": [
+                "Ganesh Chaturthi"
+              ]
+            },
+            {
+              "template": "The climate of Delhi is ___.",
+              "answers": [
+                "extreme"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Match the Following",
+      "type": "match",
+      "sets": [
+        {
+          "label": "Set A",
+          "sources": {
+            "worksheet": true
+          },
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "1. Raj Ghat",
+              "right": "(c) Samadhi of Mahatma Gandhi"
+            },
+            {
+              "left": "2. Marine Drive",
+              "right": "(e) Queen's Necklace"
+            },
+            {
+              "left": "3. Sarojini Naidu",
+              "right": "(a) Nightingale of India"
+            },
+            {
+              "left": "4. Sardar Patel",
+              "right": "(b) Iron Man of India"
+            },
+            {
+              "left": "5. Bal Gangadhar Tilak",
+              "right": "(d) Lokmanya"
+            }
+          ],
+          "answerLine": "1–c, 2–e, 3–a, 4–b, 5–d"
+        },
+        {
+          "label": "Set B",
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "1. Raj Ghat",
+              "right": "(c) Samadhi of Gandhi"
+            },
+            {
+              "left": "2. Shanti Van",
+              "right": "(a) Memorial of Nehru"
+            },
+            {
+              "left": "3. Akshardham Temple",
+              "right": "(d) Delhi"
+            },
+            {
+              "left": "4. Marine Drive",
+              "right": "(e) Queen's Necklace"
+            },
+            {
+              "left": "5. Textile Mills",
+              "right": "(b) Mumbai"
+            }
+          ],
+          "answerLine": "1–c, 2–a, 3–d, 4–e, 5–b"
+        }
+      ]
+    },
+    {
+      "title": "Name the Following / One Word",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "Who built Jantar Mantar?",
+          "answer": "Maharaja Jai Singh II",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "prompt": "Which event was successfully hosted by the city of Delhi in 2023?",
+          "answer": "G20 Summit",
+          "sources": {
+            "revisionSheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Write Short Answers",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What is Mumbai also known for?",
+          "answer": "Mumbai is also known as the entertainment and business capital of India.",
+          "sources": {
+            "worksheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Long Answers",
+      "type": "qa",
+      "items": [
+        {
+          "question": "List (a) any five places of tourist interest in Delhi (b) two government offices located in Delhi.",
+          "answer": [
+            "(a) Red Fort, India Gate, Qutub Minar, Jantar Mantar, Nehru Planetarium",
+            "(b) Parliament, Prime Minister's Office"
+          ]
+        },
+        {
+          "question": "What are embassies?",
+          "answer": "The governments of other countries have offices in Delhi. These foreign offices are called Embassies or High Commissions."
+        },
+        {
+          "question": "List any five tourist spots of Mumbai.",
+          "answer": "Gateway of India, Jehangir Art Gallery, Marine Drive, Taraporewala Aquarium, Essel World."
+        },
+        {
+          "question": "Why is New Delhi often referred to as 'Lutyens' Delhi'?",
+          "answer": "The city of Delhi was planned and designed by British architect Sir Edwin Lutyens. Therefore, it is often referred to as 'Lutyens' Delhi'.",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "Why is Mumbai called the 'City of Dreams'?",
+          "answer": "People from all over India come to Mumbai for employment or to become actors. It is home to many television and film stars, so Mumbai is called the City of Dreams."
+        },
+        {
+          "question": "Describe the climate of Delhi.",
+          "answer": "The climate of Delhi is extreme. It has very hot summers. Hot and dry winds called loo blow from April to June. The winters are very cold, and it rains from July to September."
+        },
+        {
+          "question": "Write a short note on the transport system of Mumbai.",
+          "answer": [
+            "Local train networks connect the city very well and it is the best public transport system in Mumbai.",
+            "The city also has one of the busiest railway stations in India — the Chhatrapati Shivaji Terminus (CST)."
+          ]
+        },
+        {
+          "question": "What makes Delhi a well-connected city?",
+          "answer": [
+            "Well-developed modern roads, bridges and flyovers have made Delhi a modern and comfortable city to live in.",
+            "Delhi Metro provides a fast and cheap means of transport to the people."
+          ]
+        },
+        {
+          "question": "Why do you think Delhi is called a 'Mini India'?",
+          "answer": [
+            "Delhi is famous for job opportunities and education, so people from different states come here.",
+            "Many universities in Delhi are great centres of learning and higher education; students from all over the world come to study here."
+          ],
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "question": "Why do you think Bombay High is of great importance?",
+          "answer": "Bombay High is an important place because mineral oil is found here in the seabed. This mineral oil is purified in a refinery."
+        }
+      ]
+    },
+    {
+      "title": "Application Based",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Kanika lives in Mumbai. What kind of clothes do you think she wears in (a) summer (b) winter?",
+          "answer": [
+            "Summer in Mumbai is warm and humid, so Kanika wears light, cotton clothes.",
+            "Winters are not very cold but pleasant, so she wears light but warm clothes."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice",
+      "type": "mcq",
+      "note": "All answers below are confirmed from her own worksheet ticks/fill-ins, or directly derivable from the textbook passage on the same page.",
+      "items": [
+        {
+          "question": "The ______ built New Delhi as the Capital of India.",
+          "options": "(a) French  (b) Portuguese  (c) Americans  (d) British",
+          "answer": "(d) British"
+        },
+        {
+          "question": "Which one of the following stadiums is not in Delhi?",
+          "options": "(a) Jawaharlal Nehru Stadium  (b) Indira Gandhi Stadium  (c) Talkatora Stadium  (d) Narendra Modi Stadium",
+          "answer": "(d) Narendra Modi Stadium"
+        },
+        {
+          "question": "Which one of the following places of Mumbai is famously known as Queen's Necklace?",
+          "options": "(a) the CST  (b) Malabar Hills  (c) the Elephanta Caves  (d) the Marine Drive",
+          "answer": "(d) the Marine Drive"
+        },
+        {
+          "question": "Which one of the following states is a neighbouring state of Delhi?",
+          "options": "(a) Uttarakhand  (b) Maharashtra  (c) Haryana  (d) Punjab",
+          "answer": "(c) Haryana"
+        },
+        {
+          "question": "Which one of the following statements is correct about New Delhi?",
+          "options": "(a) New Delhi is our national capital.  (b) It is a beautiful city situated along the banks of the River Yamuna.  (c) It was first built by the Pandava Kings.  (d) All of these",
+          "answer": "(d) All of these"
+        },
+        {
+          "question": "Which one of the following statements is true about Mumbai?",
+          "options": "(a) Mumbai was at one time a group of seven islands.  (b) Mumbai lies on the west coast of India.  (c) Both (a) and (b)  (d) Mumbai is the capital of India.",
+          "answer": "(c) Both (a) and (b)"
+        },
+        {
+          "question": "You visit Mumbai in the month of May. You experience a ______ climate.",
+          "options": "(a) warm and humid  (b) cold and dry  (c) cool and pleasant  (d) cool and wet",
+          "answer": "(a) warm and humid"
+        }
+      ]
+    },
+    {
+      "title": "Picture Study",
+      "type": "picture",
+      "items": [
+        {
+          "image": "https://en.wikipedia.org/wiki/Special:FilePath/Marine_Drive_at_Night.jpg?width=200",
+          "caption": "Marine Drive",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "image": "https://en.wikipedia.org/wiki/Special:FilePath/India_Gate_in_New_Delhi_03-2016.jpg?width=200",
+          "caption": "India Gate",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "image": "https://en.wikipedia.org/wiki/Special:FilePath/New_Parliament_Building,_New_Delhi.jpg?width=200",
+          "caption": "The Parliament House",
+          "sources": {
+            "revisionSheet": true
+          }
+        }
+      ]
+    }
+  ]
+}

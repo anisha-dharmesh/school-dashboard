@@ -2,10 +2,11 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 import type { UpcomingItem } from "../../types";
 import { useAppSelector } from "../../app/hooks";
 import { CATEGORY_META, MATERIAL_GROUPS } from "../../lib/constants";
-import { isYearlyCycle, noticeTitle } from "../../lib/notices";
+import { noticeTitle } from "../../lib/notices";
+import { chapterStudyPath, subjectStudyPath } from "../../lib/study";
 import { relatedMaterialsFor } from "../../lib/upcoming";
 import { highlightDates } from "../../lib/highlightDates";
-import { findScheduleRow, sortMaterialsByTypeThenDate } from "../../lib/materials";
+import { sortMaterialsByTypeThenDate } from "../../lib/materials";
 import { Card, CardAction, CardContent, CardHeader, CardTitle } from "../../components/ui/card";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "../../components/ui/collapsible";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../components/ui/tabs";
@@ -14,13 +15,12 @@ import { Badge } from "../../components/ui/badge";
 import AttachmentLink from "../../components/ui/AttachmentLink";
 import PeriodList from "../../components/notices/PeriodList";
 import MaterialItem from "../../components/materials/MaterialItem";
-import RevisionNotebookLink from "../../components/materials/RevisionNotebookLink";
+import StudyLink from "../study/StudyLink";
 import styles from "./ActionCard.module.css";
 
 export default function ActionCard({ item }: { item: UpcomingItem }) {
   const notices = useAppSelector((s) => s.data.notices);
-  const portionSchedules = useAppSelector((s) => s.data.portionSchedules);
-  const chapterNotebooks = useAppSelector((s) => s.data.chapterNotebooks);
+  const studyIndex = useAppSelector((s) => s.data.studyIndex);
 
   const state = item._days < 0 ? "past" : item._days === 0 ? "today" : item._days <= 3 ? "soon" : "future";
   const stateClass = state === "past" ? styles.statePast : "";
@@ -53,9 +53,12 @@ export default function ActionCard({ item }: { item: UpcomingItem }) {
   // array shape belongs to Subject Notes records, which Upcoming now also
   // renders alongside everything else, so this narrows rather than assumes.
   const cycle = typeof item.exam_cycle === "string" ? item.exam_cycle : undefined;
-  const scheduleRow = findScheduleRow(portionSchedules, cycle, item.subject);
-  const chapterNotebook =
-    item.category === "Exam/Test" && item.chapter ? chapterNotebooks.find((n) => n.subject === item.subject && n.chapter === item.chapter) : undefined;
+  // A class test names its chapter; a formal exam entry links to the subject's
+  // chapters carrying that exam's label.
+  const studyPath =
+    item.category === "Exam/Test"
+      ? (chapterStudyPath(studyIndex, item.subject, item.chapter) ?? (isExamEntry ? subjectStudyPath(studyIndex, item.subject, cycle) : undefined))
+      : undefined;
 
   return (
     <Collapsible defaultOpen={isFocusDay}>
@@ -76,8 +79,7 @@ export default function ActionCard({ item }: { item: UpcomingItem }) {
         <CollapsibleContent>
           <CardContent className="flex flex-col gap-2 pb-4">
             {item.periods?.length ? <PeriodList periods={item.periods} /> : <div className={styles.full}>{highlightDates(item.text)}</div>}
-            <RevisionNotebookLink url={isExamEntry && isYearlyCycle(cycle) ? scheduleRow?.revision_notebook_url : undefined} />
-            <RevisionNotebookLink url={chapterNotebook?.url} label="Chapter Revision Notebook (Q&A practice)" />
+            {studyPath && <StudyLink to={studyPath} label={item.chapter ? "Study this chapter" : "Study for this exam"} />}
             <AttachmentLink url={item.attachment_url} />
             {relatedMaterials.length > 0 && <Separator />}
             {relatedMaterials.length === 1 ? (

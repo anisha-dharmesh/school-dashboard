@@ -8,7 +8,7 @@ import NotesPage from "./pages/notes/NotesPage";
 import PracticePage from "./pages/practice/PracticePage";
 import TablesPage from "./pages/tables/TablesPage";
 import HistoryPage from "./pages/history/HistoryPage";
-import RevisionNotebookPage from "./pages/revision/RevisionNotebookPage";
+import StudyPage from "./pages/study/StudyPage";
 
 export default function App() {
   return (
@@ -22,12 +22,14 @@ export default function App() {
             <Route path="hw" element={<HwPage />} />
             <Route path="notes" element={<NotesPage />} />
             <Route path="notes/:subject" element={<NotesPage />} />
+            <Route path="study" element={<StudyPage />} />
+            <Route path="study/:subject" element={<StudyPage />} />
+            <Route path="study/:subject/:chapter" element={<StudyPage />} />
             <Route path="practice" element={<PracticePage />} />
             <Route path="tables" element={<TablesPage />} />
             <Route path="history" element={<HistoryPage />} />
             <Route path="feed" element={<Navigate to="/history" replace />} />
           </Route>
-          <Route path="revision/:slug" element={<RevisionNotebookPage />} />
         </Routes>
       </NavigationGuardProvider>
     </BrowserRouter>

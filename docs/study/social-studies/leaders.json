@@ -1,0 +1,340 @@
+{
+  "subject": "Social Studies",
+  "chapter": "Our Leaders",
+  "number": 3,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "Mahatma Gandhi was popularly known as ___.",
+              "answers": [
+                "Bapu"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            },
+            {
+              "template": "Sarojini Naidu was given the title ___ of India.",
+              "answers": [
+                "Nightingale"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            },
+            {
+              "template": "___ means respected by all.",
+              "answers": [
+                "Lokmanya"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            },
+            {
+              "template": "The slogan ___ was used by Netaji Subhash Chandra Bose.",
+              "answers": [
+                "\"Jai Hind\""
+              ]
+            },
+            {
+              "template": "Sarojini Naidu is known as the ___.",
+              "answers": [
+                "Nightingale of India"
+              ]
+            },
+            {
+              "template": "Tilak started two weekly newspapers, ___ (in Marathi) and ___ (in English).",
+              "answers": [
+                "Kesari",
+                "Mahratta"
+              ]
+            },
+            {
+              "template": "Rani Lakshmi Bai was married to ___, the King of ___.",
+              "answers": [
+                "Gangadhar Rao",
+                "Jhansi"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Match the Following",
+      "type": "match",
+      "sets": [
+        {
+          "label": "Set A",
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "1. Bal Gangadhar Tilak",
+              "right": "(b) Lokmanya"
+            },
+            {
+              "left": "2. Sarojini Naidu",
+              "right": "(d) First woman governor of India"
+            },
+            {
+              "left": "3. Sardar Patel",
+              "right": "(a) Iron Man of India"
+            },
+            {
+              "left": "4. Subhash Chandra Bose",
+              "right": "(c) \"Give me blood, I will give you freedom\""
+            }
+          ],
+          "answerLine": "1–b, 2–d, 3–a, 4–c"
+        },
+        {
+          "label": "Set B",
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "1. Rani Jhansi Bahini",
+              "right": "(b) Captain Lakshmi Sahgal"
+            },
+            {
+              "left": "2. Jai Hind",
+              "right": "(c) a slogan"
+            },
+            {
+              "left": "3. Subhash Chandra Bose",
+              "right": "(d) born in Odisha"
+            },
+            {
+              "left": "4. Indian National Army",
+              "right": "(a) Azad Hind Fauj"
+            }
+          ],
+          "answerLine": "1–b, 2–c, 3–d, 4–a"
+        }
+      ]
+    },
+    {
+      "title": "True or False",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "Bal Gangadhar Tilak is also known as 'Iron Man of India'.",
+          "answer": false
+        },
+        {
+          "statement": "Mahatma Gandhi is called the 'Father of Nation'.",
+          "answer": true
+        },
+        {
+          "statement": "Mahatma Gandhi studied law in America.",
+          "answer": false
+        },
+        {
+          "statement": "The slogan 'Jai Hind' was used by Netaji Subhash Chandra Bose to encourage Indians.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "title": "Name the Following / One Word",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "Which national leader is also known as the 'Father of the Nation'?",
+          "answer": "Mahatma Gandhi"
+        },
+        {
+          "prompt": "Nightingale of India",
+          "answer": "Sarojini Naidu",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "prompt": "Father of Nation",
+          "answer": "Mahatma Gandhi",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "prompt": "What was Mahatma Gandhi's full name?",
+          "answer": "Mohandas Karamchand Gandhi",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "prompt": "When did Rani Laxmibai die?",
+          "answer": "1858"
+        },
+        {
+          "prompt": "What is the name of the women's army unit formed by Subhash Chandra Bose?",
+          "answer": "Rani Jhansi Bahini"
+        }
+      ]
+    },
+    {
+      "title": "Write Short Answers",
+      "type": "qa",
+      "items": [
+        {
+          "question": "When and where was Mahatma Gandhi born? What did he study in England?",
+          "image": "leaders/gandhi.jpg",
+          "answer": "Mahatma Gandhi was born on 2nd October, 1869, in Porbandar, Gujarat. He studied law in England.",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "Which slogan was given by Lokmanya Tilak to encourage millions of Indians?",
+          "image": "leaders/tilak.jpg",
+          "answer": "\"Swaraj is my birthright and I shall have it.\"",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "question": "Which two slogans were used by Netaji to encourage the Indians?",
+          "image": "leaders/bose.jpg",
+          "answer": "\"Jai Hind\" and \"Give me blood, I will give you freedom.\""
+        }
+      ]
+    },
+    {
+      "title": "Long Answers",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What were the two methods used by Mahatma Gandhi to fight against the British?",
+          "image": "leaders/gandhi.jpg",
+          "answer": "Satyagraha and Ahimsa (non-violence)."
+        },
+        {
+          "question": "Write three sentences on Sardar Patel.",
+          "image": "leaders/patel.jpg",
+          "answer": "Sardar Vallabhbhai Patel was a lawyer by profession. He was a strong and brave leader. He was inspired by Mahatma Gandhi to take part in the struggle for freedom. He is also known as the 'Iron Man of India'.",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "question": "Why did Rani Laxmibai fight against the British?",
+          "image": "leaders/rani.jpg",
+          "answer": "Rani Laxmibai fought against the British because she wanted to save her kingdom from the British. She joined the soldiers from Meerut and fought for Jhansi. She, along with other leaders, fought against the British in the Revolt of 1857."
+        },
+        {
+          "question": "Great people never give up in spite of difficulties. What do you do when you face difficulties in your studies?",
+          "answer": "When I face difficulties in my studies, I never give up. I try again and again. I take help from my teacher and parents. I practice more and more until I understand well."
+        }
+      ]
+    },
+    {
+      "title": "Application Based",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Mahatma Gandhi was a messenger of peace. What can you learn from him as a leader?",
+          "image": "leaders/gandhi.jpg",
+          "answer": "I can learn to always speak the truth and be honest. I can solve problems in a peaceful way without fighting. I can be kind and helpful to others and respect everyone equally. I can also learn to stand up for what is right and work hard for the welfare of the people.",
+          "sources": {
+            "revisionSheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice",
+      "type": "mcq",
+      "note": "All answers below are confirmed from her own worksheet ticks/fill-ins, or directly derivable from the textbook passage on the same page.",
+      "items": [
+        {
+          "question": "Mahatma Gandhi was born on ______.",
+          "options": "(a) 2 October 1879  (b) 2 October 1869  (c) 2 October 1969  (d) 2 October 1959",
+          "answer": "(b) 2 October 1869"
+        },
+        {
+          "question": "Mahatma Gandhi used ______ and Ahimsa to fight against the British.",
+          "options": "(a) Satyagraha  (b) non-violence  (c) army  (d) navy",
+          "answer": "(a) Satyagraha"
+        },
+        {
+          "question": "Sardar Vallabhbhai Patel was a brave and ______ leader.",
+          "options": "(a) old  (b) weak  (c) strong  (d) none of these",
+          "answer": "(c) strong"
+        },
+        {
+          "question": "Sardar Patel was a ______ by profession.",
+          "options": "(a) lawyer  (b) doctor  (c) military man  (d) teacher",
+          "answer": "(a) lawyer"
+        },
+        {
+          "question": "______ was the first woman President of the Indian National Congress.",
+          "options": "(a) Lakshmi Bai  (b) Indira Gandhi  (c) Sarojini Naidu  (d) Jhalkari Bai",
+          "answer": "(c) Sarojini Naidu"
+        },
+        {
+          "question": "Rani Lakshmi Bai was the Queen of ______.",
+          "options": "(a) Meerut  (b) Jhansi  (c) Uttar Pradesh  (d) Delhi",
+          "answer": "(b) Jhansi"
+        }
+      ]
+    },
+    {
+      "title": "Picture Study",
+      "type": "picture",
+      "items": [
+        {
+          "image": "leaders/tilak.jpg",
+          "caption": "Lokmanya Bal Gangadhar Tilak",
+          "sources": {
+            "revisionSheet": true
+          }
+        }
+      ],
+      "leaderGrid": {
+        "label": "Look at the pictures and identify the famous leaders",
+        "items": [
+          {
+            "image": "leaders/gandhi.jpg",
+            "caption": "1. Mahatma Gandhi"
+          },
+          {
+            "image": "leaders/naidu.jpg",
+            "caption": "2. Sarojini Naidu"
+          },
+          {
+            "image": "leaders/bose.jpg",
+            "caption": "3. Subhash Chandra Bose"
+          },
+          {
+            "image": "leaders/patel.jpg",
+            "caption": "4. Sardar Vallabhbhai Patel"
+          },
+          {
+            "image": "leaders/tilak.jpg",
+            "caption": "5. Bal Gangadhar Tilak"
+          },
+          {
+            "image": "leaders/rani.jpg",
+            "caption": "6. Rani Lakshmi Bai"
+          }
+        ]
+      }
+    }
+  ]
+}

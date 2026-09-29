@@ -1,0 +1,188 @@
+{
+  "subjects": [
+    {
+      "subject": "English",
+      "slug": "english",
+      "chapters": [
+        {
+          "slug": "giant",
+          "title": "The Selfish Giant",
+          "number": 1,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "friends",
+          "title": "Friends",
+          "number": 2,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "fountain",
+          "title": "The Golden Fountain",
+          "number": 3,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "wings",
+          "title": "If I Had Wings",
+          "number": 4,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "grammar",
+          "title": "Grammar",
+          "number": 5,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "writing",
+          "title": "Letter Writing",
+          "number": 6,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "unseen",
+          "title": "Unseen Comprehension",
+          "number": 7,
+          "tests": [
+            "Half Yearly"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Hindi",
+      "slug": "hindi",
+      "chapters": [
+        {
+          "slug": "gehun",
+          "title": "गेहूँ की बालियाँ",
+          "number": 1,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "madhur",
+          "title": "मधुर वाणी",
+          "number": 2,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "chuttiyan",
+          "title": "ऐसे किया छुट्टियों का सदुपयोग",
+          "number": 3,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "vyakaran",
+          "title": "व्याकरण",
+          "number": 4,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "chitra",
+          "title": "चित्र वर्णन",
+          "number": 5,
+          "tests": [
+            "Half Yearly"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Science",
+      "slug": "science",
+      "chapters": [
+        {
+          "slug": "food",
+          "title": "Food and Nutrition in Humans",
+          "number": 1,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "birds",
+          "title": "Birds",
+          "number": 2,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "body",
+          "title": "Our Body is a Wonderful Machine",
+          "number": 3,
+          "tests": [
+            "Half Yearly"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Social Studies",
+      "slug": "social-studies",
+      "chapters": [
+        {
+          "slug": "knowing-our-earth",
+          "title": "Knowing Our Earth",
+          "number": 1,
+          "tests": [
+            "Class Test"
+          ]
+        },
+        {
+          "slug": "gov",
+          "title": "Our Government",
+          "number": 1,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "delhi",
+          "title": "Delhi & Mumbai",
+          "number": 2,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "leaders",
+          "title": "Our Leaders",
+          "number": 3,
+          "tests": [
+            "Half Yearly"
+          ]
+        },
+        {
+          "slug": "transport",
+          "title": "Transport",
+          "number": 4,
+          "tests": [
+            "Half Yearly"
+          ]
+        }
+      ]
+    }
+  ]
+}

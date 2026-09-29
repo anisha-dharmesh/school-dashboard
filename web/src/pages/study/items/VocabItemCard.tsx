@@ -1,0 +1,18 @@
+import type { VocabItem } from "../../../study/types";
+import SourceMarks from "../SourceMarks";
+import styles from "../Study.module.css";
+
+/** One "new word" entry -- word, its meaning, and a worked example sentence.
+ * Reused by every chapter's vocabulary list. */
+export default function VocabItemCard({ item }: { item: VocabItem }) {
+  return (
+    <div className={styles.vocabItem}>
+      <p className={styles.vocabWord}>
+        {item.word}
+        <SourceMarks sources={item.sources} />
+      </p>
+      <p className={styles.vocabMeaning}>{item.meaning}</p>
+      {item.example && <p className={styles.vocabExample}>{item.example}</p>}
+    </div>
+  );
+}

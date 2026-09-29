@@ -2,8 +2,8 @@
 
 React + TypeScript + Vite app for the dashboard. Deployed to GitHub Pages by
 `.github/workflows/scrape.yml`, which builds this app and copies `../docs/*.json`
-(scraper output) plus `../docs/revision-notebooks/*.json` (hand-authored
-revision notebooks) into `dist/data/` so the app can fetch them at runtime.
+(scraper output) plus `../docs/study/**/*.json` (hand-authored
+study chapters) into `dist/data/` so the app can fetch them at runtime.
 
 ## Local development
 
@@ -16,14 +16,15 @@ npm run dev
 server serves real data without needing CI. Re-run `npm run predev` (or
 just restart `npm run dev`) after the scraper updates `../docs/*.json`.
 
-## Adding a new subject's revision notebook
+## Adding a study chapter
 
-No code change needed — add `../docs/revision-notebooks/<slug>.json` in the
-`RevisionNotebook` shape (see `src/revision-notebooks/types.ts`), add any
-images it needs under `public/`, and link to it from a
-`portion_schedules.json` row's `revision_notebook_url` as `revision/<slug>`.
-The `/revision/:slug` route fetches it by slug at runtime
-(`src/features/revision/revisionSlice.ts`).
+No code change needed — add `../docs/study/<subject-slug>/<chapter-slug>.json`
+(`StudyChapter` in `src/study/types.ts`: plain-text sections, each with a
+`type` such as `fib`, `trueFalse`, `mcq`, `qa`), add any images under
+`public/`, then run `python3 build_study_index.py` from the repo root to
+refresh `docs/study/index.json`. The `tests` array labels the exams a chapter
+belongs to (e.g. `"Half Yearly"`, `"PT-1"`, `"Class Test"`); the Notes and
+Upcoming tabs link to it from those labels and from the chapter name.
 
 ## Scripts
 
@@ -31,7 +32,3 @@ The `/revision/:slug` route fetches it by slug at runtime
 - `npm run build` — typecheck + production build to `dist/`
 - `npm run preview` — serve the production build locally
 - `npm run lint` — oxlint
-- `npm run parse-revision-notebook` — historical: the one-off script that
-  originally parsed the legacy static SST revision notebook HTML page into
-  JSON (that source HTML no longer exists, so this can't be re-run, but it's
-  a worked reference for migrating another legacy HTML notebook page)

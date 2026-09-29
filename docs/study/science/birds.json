@@ -1,0 +1,566 @@
+{
+  "subject": "Science",
+  "chapter": "Birds",
+  "number": 2,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Word Meanings & Definitions",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "Beak",
+          "meaning": "The hard, pointed mouthpart of a bird used for eating, pecking and building nests.",
+          "sources": {
+            "notes": true,
+            "worksheet": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "word": "Nest",
+          "meaning": "A home made by birds to lay eggs and raise their young ones.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Claws",
+          "meaning": "Sharp nails on the bird's feet used for catching food and holding branches.",
+          "sources": {
+            "notes": true,
+            "worksheet": true
+          }
+        },
+        {
+          "word": "Perching",
+          "meaning": "The act of sitting or resting on a branch using feet and claws is called perching.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Points to Remember",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Summary",
+          "lines": [
+            "The different parts of a bird's body are — beak, eyes, feathers, claws, wings and tail.",
+            "A bird has three types of feathers — flight feathers, down feathers and body feathers.",
+            "Different birds have different types of beaks, depending on the kind of food they eat.",
+            "Different birds have different types of feet and claws.",
+            "Birds make nests to lay eggs and protect their eggs and nestlings."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Diagram Labeling",
+      "type": "picture",
+      "items": [
+        {
+          "image": "science/bird-body-parts.jpg",
+          "caption": "Parts of a bird's body — 1: Beak, 2: Eye, 3: Body feathers, 4: Wings, 5: Claws, 6: Flight feather, 7: Tail.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "image": "science/types-of-feathers.jpg",
+          "caption": "Flight feathers — long and flat, found in the wings and tail, help the bird to fly. Down feathers — soft and fluffy, keep the bird warm. Body feathers — cover the bird's body and give it shape.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "image": "science/duck-webbed-feet.jpg",
+          "caption": "Webbed feet — help swimming birds like ducks and swans to swim in water.",
+          "sources": {
+            "worksheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "note": "Worksheet No. 4",
+          "items": [
+            {
+              "template": "___ have thin and long legs with wide spreading toes.",
+              "answers": [
+                "Wading birds"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            },
+            {
+              "template": "A ___ bird has a sticky mouth and tongue to catch insects.",
+              "answers": [
+                "Swallow"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            },
+            {
+              "template": "Bird's ___ bones make the body light.",
+              "answers": [
+                "hollow"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            }
+          ]
+        },
+        {
+          "note": "Complete the following with the words in the Help Box",
+          "items": [
+            {
+              "template": "The woodpecker uses its ___ like beak to make a hole in a tree trunk.",
+              "answers": [
+                "chisel"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Swans have ___ feet.",
+              "answers": [
+                "webbed"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "A tailor bird uses its ___ to sew its nest.",
+              "answers": [
+                "beak"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ feathers cover the body of a bird.",
+              "answers": [
+                "Body"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Strong and sharp claws of flesh-eating birds are called ___.",
+              "answers": [
+                "talons"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The nest of a ___ hangs from the branch of a tree.",
+              "answers": [
+                "weaver bird"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "A ___ has a long and slender beak.",
+              "answers": [
+                "hoopoe"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ feathers keep the bird warm.",
+              "answers": [
+                "Down"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        },
+        {
+          "note": "Fill in the blanks with the help of the given words",
+          "items": [
+            {
+              "template": "An ostrich has ___ toes on each foot. (three/two)",
+              "answers": [
+                "two"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Ducks have ___ feet to swim in water. (webbed/sharp)",
+              "answers": [
+                "webbed"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "A bird's home is called a ___. (hut/nest)",
+              "answers": [
+                "nest"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "A ___ makes its nest on high trees. (tailor bird/vulture)",
+              "answers": [
+                "vulture"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Match the Following",
+      "type": "match",
+      "sets": [
+        {
+          "sources": {
+            "worksheet": true
+          },
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "Climbing bird",
+              "right": "Parrot"
+            },
+            {
+              "left": "Perching bird",
+              "right": "Crow"
+            },
+            {
+              "left": "Preying bird",
+              "right": "Eagle"
+            },
+            {
+              "left": "Excretory system",
+              "right": "Kidney"
+            },
+            {
+              "left": "Wading bird",
+              "right": "Crane"
+            }
+          ],
+          "answerLine": "Climbing bird–Parrot, Perching bird–Crow, Preying bird–Eagle, Excretory system–Kidney, Wading bird–Crane"
+        }
+      ]
+    },
+    {
+      "title": "True or False",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "Different birds have different types of feet and claws.",
+          "answer": true,
+          "sources": {
+            "revisionSheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Name the Following / One Word",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "Two birds that have short and horny beaks",
+          "answer": "Pigeon and Sparrows",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "A bird that sucks nectar from flowers",
+          "answer": "Humming birds",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Two birds of prey",
+          "answer": "Eagle and Owl",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The bird whose nest looks like a shallow cup",
+          "answer": "Vultures",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Preying birds (example)",
+          "answer": "Eagle / Vulture / Owl",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "prompt": "Long, thin and curved beak (example)",
+          "answer": "Sunbird / Humming bird",
+          "sources": {
+            "revisionSheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Short Answer Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Name the different types of feathers found on a bird's body.",
+          "answer": "Flight feather, down feather and body feather.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "What is perching?",
+          "answer": "The act of sitting or resting on a branch using feet and claws is called perching.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "List two features that help birds to fly.",
+          "answer": "Birds have wings and hollow bones that help them to fly.",
+          "sources": {
+            "notes": true,
+            "revisionSheet": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "Write any two features that help a bird to fly.",
+          "answer": [
+            "Birds have a light body, well-formed wings and strong muscles that help them to fly.",
+            "Birds have a boat-shaped body."
+          ],
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "question": "Describe the feet and claws of a wading bird.",
+          "answer": "Wading birds, like crane and herons, have thin and long legs with wide spreading toes.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "Why are only some birds like duck and swan able to swim while most other birds cannot?",
+          "answer": "Ducks and swans have webbed feet that act like paddles, helping them to swim in the water.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "A bird has wings but no tail. How does this affect the bird while flying?",
+          "answer": "The bird cannot balance or change direction properly while flying.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Long Answer & Application-Based Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "How does a broad and flat beak with tiny holes help a duck to eat insects?",
+          "answer": "A broad and flat beak with tiny holes helps a duck catch insects in the water. The muddy water flows out from the tiny holes, leaving behind plants and insects inside the beak.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "Why do pigeons and vultures have different types of beaks?",
+          "answer": [
+            "Pigeons have short and horny beaks to crush nuts, grains and seeds, while vultures have sharp, hooked beaks for tearing flesh.",
+            "They have different beaks because they eat different kinds of food."
+          ],
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "Differentiate between the upstroke and downstroke movement of wings.",
+          "answer": "| Upstroke | Downstroke |\n|---|---|\n| It is the upward movement of wings, which helps birds get ready for the next flap. | It is the downward movement of wings that pushes air and helps the bird rise and fly. |",
+          "sources": {
+            "notes": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "Sagar sees a pigeon in his courtyard, struggling to fly as its claws are caught in a net. Sagar runs and releases the bird from the net. (a) Which type of bird is a pigeon — perching or preying? (b) How are the claws of a perching bird different from those of a preying bird?",
+          "answer": [
+            "(a) Pigeons are perching birds.",
+            "(b) The claws of a perching bird, like a pigeon, are usually shorter and more curved. Preying birds, like eagles, have longer and sharper claws for catching and holding onto their prey."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "What happens if all the toes of a woodpecker are pointed in the same direction?",
+          "answer": "If all the toes of a woodpecker were pointed in the same direction, it would be difficult for the woodpecker to cling to a tree trunk. Woodpeckers need two toes pointing forward and two pointing backward to grip onto trees securely while they peck.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Which type of bird will have strong claws — a bird that catches fish or a bird that hunts small animals? Why?",
+          "answer": "A bird that hunts small animals, like an eagle, will have strong, sharp claws to catch and hold its prey tightly.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "You see a bird's nest made of soft cotton and wood. What do you think this tells you about the kind of eggs or nestlings it might have?",
+          "answer": "The soft nest will keep the eggs warm and protect the nestlings, so the bird probably has small and delicate nestlings.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Rohan draws a humming bird with a broad and flat beak. Mita says that Rohan has drawn the beak of the humming bird incorrectly. Do you think Mita is right? Give a reason for your answer.",
+          "answer": "Yes, Mita is right. A humming bird has a long and slender beak, which helps it suck the nectar of flowers. Broad and flat beaks are found in water birds like the duck.",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Case-Based & Picture-Based Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "A bird has feathers all over its body. Answer the following according to your understanding: (i) Small fluffy feathers that cover a bird's body to keep it warm are — (ii) Long and sturdy feathers attached to the wings and tailbone are — (iii) Feathers that give shape and colour to the bird are —",
+          "answer": [
+            "(i) Down feathers.",
+            "(ii) Flight feathers.",
+            "(iii) Body feathers."
+          ],
+          "sources": {
+            "worksheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "___ are animals with feathers on their bodies.",
+          "options": "(a) Snakes    (b) Birds    (c) Frogs",
+          "answer": "(b) Birds",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Birds like duck and swan have —",
+          "options": "(a) strong and hooked beak    (b) broad and flat beak    (c) strong and short beak",
+          "answer": "(b) broad and flat beak",
+          "sources": {
+            "revisionSheet": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "The feathers that keep a bird warm are called ___ feathers.",
+          "options": "(a) flight    (b) down    (c) body",
+          "answer": "(b) down",
+          "sources": {
+            "revisionSheet": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "Feet with three toes pointing forward and one toe pointing backward help the birds to",
+          "options": "(a) hold branches tightly    (b) walk through water    (c) climb on trees",
+          "answer": "(a) hold branches tightly",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Which of the following features help the eagle to hunt its prey? P: sharp eyesight  Q: sharp beak  R: down feathers",
+          "options": "(a) P and Q    (b) Q and R    (c) P and R",
+          "answer": "(a) P and Q",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Birds have hollow bones",
+          "options": "(a) to make their body light    (b) to change the direction while flying    (c) to attach wings to their body",
+          "answer": "(a) to make their body light",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Which one of the following characteristics does not help a bird to fly?",
+          "options": "(a) hollow bones    (b) strong beak    (c) wings",
+          "answer": "(b) strong beak",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}

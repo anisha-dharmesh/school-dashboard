@@ -1,0 +1,438 @@
+{
+  "subject": "Science",
+  "chapter": "Our Body is a Wonderful Machine",
+  "number": 3,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Word Meanings & Definitions",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "Tissue",
+          "meaning": "A group of similar type of cells that join together to do one kind of work.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Organ",
+          "meaning": "An organ is a group of different tissues that work together to perform a specific function.",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "word": "Organ System",
+          "meaning": "A group of organs that work together to perform a function forms an organ system.",
+          "example": "Respiratory system: nose, windpipe, lungs.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Cell",
+          "meaning": "Cell is the smallest part of our body. It is like a tiny building block that makes our body.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Skeleton",
+          "meaning": "The hard framework of bones that gives shape and support to our body.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Muscles",
+          "meaning": "Soft tissues in our body that help in movement.",
+          "sources": {
+            "worksheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Points to Remember",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Summary",
+          "lines": [
+            "Our body is made up of tiny structures called cells.",
+            "All bones form the skeletal system and all muscles form the muscular system.",
+            "The mouth, food pipe, stomach, small intestine, large intestine and anus form the digestive system.",
+            "Nose, windpipe and lungs form the respiratory system.",
+            "Heart, blood and blood vessels form the circulatory system.",
+            "Kidneys, lungs and skin form the excretory system.",
+            "Brain, spinal cord and nerves form the nervous system.",
+            "Special organs for producing babies form the reproductive system."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Diagram Labeling",
+      "type": "picture",
+      "items": [
+        {
+          "image": "science/respiratory-system.jpg",
+          "caption": "The respiratory system — (a) Nose, (b) Windpipe, (c) Lungs.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "image": "science/excretory-system.jpg",
+          "caption": "The excretory system — includes the kidneys and urinary bladder; removes waste and extra water from our body.",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "image": "science/circulatory-system.jpg",
+          "caption": "The circulatory system — the heart and blood vessels that carry blood to all parts of the body.",
+          "sources": {
+            "worksheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "note": "Revision-2",
+          "items": [
+            {
+              "template": "Different ___ forms an organ system.",
+              "answers": [
+                "organs"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            },
+            {
+              "template": "Our skeletal system is made up of ___ bones.",
+              "answers": [
+                "206"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            }
+          ]
+        },
+        {
+          "note": "Worksheet No. 4",
+          "items": [
+            {
+              "template": "The heart ___ blood to all parts of our body.",
+              "answers": [
+                "pumps"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            },
+            {
+              "template": "The brain orders each part of the body by sending messages through ___.",
+              "answers": [
+                "nerves"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "template": "The ___ system helps to produce babies.",
+              "answers": [
+                "reproductive"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Match the Following",
+      "type": "match",
+      "sets": [
+        {
+          "sources": {
+            "revisionSheet": true
+          },
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "Long and slender beak",
+              "right": "Hoopoe"
+            },
+            {
+              "left": "Nerves",
+              "right": "Nervous system"
+            },
+            {
+              "left": "Pulses",
+              "right": "Body building food"
+            },
+            {
+              "left": "Heart",
+              "right": "Circulatory system"
+            }
+          ],
+          "answerLine": "Long and slender beak–Hoopoe, Nerves–Nervous system, Pulses–Body building food, Heart–Circulatory system"
+        }
+      ]
+    },
+    {
+      "title": "True or False",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "Nose, windpipe and lungs form the nervous system.",
+          "answer": false,
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "statement": "All bones form the skeletal system and all muscles form the muscular system.",
+          "answer": true,
+          "sources": {
+            "revisionSheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Name the Following / One Word",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "Blood vessels which carry blood from the heart to different parts of the body",
+          "answer": "Arteries",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "A system in the body for producing babies",
+          "answer": "Reproductive system",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "A soft part that covers the skeleton",
+          "answer": "Muscles",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "The smallest unit of our body",
+          "answer": "Cell",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "It pumps blood to all parts of the body",
+          "answer": "Heart",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "Organ of the nervous system",
+          "answer": "Brain / Spinal Cord / Nerves",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Short Answer Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "How does the excretory system work in our body?",
+          "answer": "The excretory system, which includes organs like the kidneys and urinary bladder, removes waste and extra water from our body.",
+          "sources": {
+            "worksheet": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "List two ways in which the skeletal system is useful for us.",
+          "answer": [
+            "The skeleton gives shape, size and support to our body.",
+            "It protects the internal organs of our body — for example, the skull protects our brain."
+          ],
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "question": "What is the role of the nervous system in our body?",
+          "answer": "The nervous system controls all our activities like learning, thinking and action. The brain orders each part of the body by sending messages through nerves.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Write the function of the lungs.",
+          "answer": "The air reaches the lungs and the lungs expand. The blood present in the lungs absorbs oxygen.",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "Why should we breathe through the nose and not through the mouth?",
+          "answer": "We breathe through our nose because its inside surface is lined with many small hairs that prevent the entry of germs and dust into our body.",
+          "sources": {
+            "revisionSheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Long Answer & Application-Based Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What do you think would happen if the organs in an organ system did not work together properly?",
+          "answer": "If an organ system does not function properly, the body may become unhealthy.",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "question": "Our organ systems work together to carry out major functions of our body. Name any two organ systems that work together.",
+          "answer": [
+            "Two organ systems that work together are the respiratory system and the circulatory system.",
+            "The respiratory system helps us breathe and the circulatory system pumps blood carrying oxygen to all parts of our body."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Name the organs that form the respiratory system. What does this system do?",
+          "answer": [
+            "These organs form the respiratory system: (a) Nose (b) Windpipe (c) Lungs.",
+            "Function — The respiratory system helps us to breathe. We take in air through our nose. Air goes down through the windpipe. The air reaches the lungs and our body uses the oxygen from the air. Oxygen helps our body release energy from food."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "How does the circulatory system work in our body?",
+          "answer": [
+            "The heart, blood and blood vessels together form the circulatory system.",
+            "The heart pumps blood to big blood vessels.",
+            "This blood is carried by blood vessels (thin tubes) to all parts of our body."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "If we had no muscles, would we be able to move our body with the help of bones only? Support your answer with a reason.",
+          "answer": [
+            "No, if we had no muscles, we would not be able to move our body.",
+            "Muscles are soft parts of our body that cover the skeleton. Some of them are attached to the bones.",
+            "The skeleton works together with the muscles to make our body stand, move and work."
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Case-Based & Picture-Based Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Look at the given diagram of the respiratory system and answer: (1) Name the organ system shown. (2) Label (a), (b) and (c). (3) Write the function of (c).",
+          "image": "science/respiratory-system.jpg",
+          "answer": [
+            "(1) Respiratory system.",
+            "(2) (a) Nose (b) Windpipe (c) Lungs.",
+            "(3) The air reaches the lungs and the lungs expand. The blood present in the lungs absorbs oxygen."
+          ],
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "Deep breathing is a good yoga practice. It is a process of taking long breaths to relax the whole body. How does deep breathing relax the whole body?",
+          "answer": "It helps in the intake of more oxygen in the body.",
+          "sources": {
+            "worksheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "Which one of the following functions is performed by the respiratory system?",
+          "options": "(a) giving oxygen to the body    (b) digesting food    (c) getting fresh air inside the room",
+          "answer": "(a) giving oxygen to the body",
+          "sources": {
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "Blood goes to different parts of our body through",
+          "options": "(a) blood vessels    (b) spinal cord    (c) lungs",
+          "answer": "(a) blood vessels",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Which one of the following organs is not a part of the nervous system?",
+          "options": "(a) brain    (b) spinal cord    (c) heart",
+          "answer": "(c) heart",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "A dancer swings, bends and swirls her body during a dance performance. Which one of the following organ systems helps her to perform these actions?",
+          "options": "(a) muscular system    (b) digestive system    (c) excretory system",
+          "answer": "(a) muscular system",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}

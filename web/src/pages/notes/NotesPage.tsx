@@ -2,7 +2,8 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useAppSelector } from "../../app/hooks";
 import { fmtDate, parseDMY, parseISO } from "../../lib/date";
-import { cyclesOf, isYearlyCycle } from "../../lib/notices";
+import { cyclesOf } from "../../lib/notices";
+import { subjectStudyPath } from "../../lib/study";
 import { findScheduleRow, groupMaterialsByTitle } from "../../lib/materials";
 import { subjectAbbr } from "../../lib/subjects";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../components/ui/tabs";
@@ -12,7 +13,7 @@ import { Badge } from "../../components/ui/badge";
 import { Button } from "../../components/ui/button";
 import EmptyState from "../../components/ui/EmptyState";
 import MaterialItem from "../../components/materials/MaterialItem";
-import RevisionNotebookLink from "../../components/materials/RevisionNotebookLink";
+import StudyLink from "../study/StudyLink";
 
 // Notes tab's own grouping: three tabs, not four -- an unpaired Answer Key
 // (a paired one's link already rides along on its Worksheet's row, so it
@@ -29,7 +30,7 @@ export default function NotesPage() {
   const { subject: subjectParam } = useParams<{ subject?: string }>();
   const notices = useAppSelector((s) => s.data.notices);
   const portionSchedules = useAppSelector((s) => s.data.portionSchedules);
-  const chapterNotebooks = useAppSelector((s) => s.data.chapterNotebooks);
+  const studyIndex = useAppSelector((s) => s.data.studyIndex);
   const [cycleFilter, setCycleFilter] = useState("All");
 
   const subjects = [...new Set(notices.filter((r) => r.category === "Subject Notes" && r.subject).map((r) => r.subject as string))].sort();
@@ -70,6 +71,8 @@ export default function NotesPage() {
   const portionNotice =
     effectiveCycle !== "All" ? notices.find((r) => r.category === "Exam/Test" && r.material_type === "Portion" && r.exam_cycle === effectiveCycle) : undefined;
 
+  const studyPath = scheduleRow ? subjectStudyPath(studyIndex, scheduleRow.subject, effectiveCycle) : undefined;
+
   return (
     <>
       <ToggleGroup size="sm" value={activeSubject ? [activeSubject] : []} onValueChange={(v) => v[0] && navigate(`/notes/${encodeURIComponent(v[0])}`)}>
@@ -96,14 +99,11 @@ export default function NotesPage() {
             </ToggleGroup>
           )}
 
-          {chapterNotebooks
-            .filter((n) => n.subject === activeSubject)
-            .map((n) => (
-              <div key={n.url} className="flex flex-wrap items-center gap-2">
-                <span className="text-sm text-muted-foreground">{n.chapter}</span>
-                <RevisionNotebookLink url={n.url} label="Revision Notebook (Q&A practice)" />
-              </div>
-            ))}
+          {activeSubject && subjectStudyPath(studyIndex, activeSubject) && (
+            <div className="flex flex-wrap items-center gap-2">
+              <StudyLink to={subjectStudyPath(studyIndex, activeSubject)!} label={`Study ${activeSubject} chapters`} />
+            </div>
+          )}
 
           {scheduleRow && (
             <Card size="sm" className="max-w-md gap-2">
@@ -118,9 +118,9 @@ export default function NotesPage() {
                   </CardAction>
                 ) : null}
               </CardHeader>
-              {(portionNotice?.attachment_url || (isYearlyCycle(effectiveCycle) && scheduleRow.revision_notebook_url)) && (
+              {(portionNotice?.attachment_url || studyPath) && (
                 <CardFooter className="flex-wrap items-center gap-2">
-                  {isYearlyCycle(effectiveCycle) && <RevisionNotebookLink url={scheduleRow.revision_notebook_url} />}
+                  {studyPath && <StudyLink to={studyPath} label={`Study for ${effectiveCycle}`} />}
                   {portionNotice?.attachment_url && (
                     <Button
                       variant="outline"

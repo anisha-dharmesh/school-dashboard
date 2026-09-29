@@ -1,0 +1,75 @@
+{
+  "subject": "English",
+  "chapter": "Letter Writing",
+  "number": 6,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Letter Writing",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Format of an Informal (Personal) Letter",
+          "lines": [
+            "1. Sender's Address",
+            "2. Date",
+            "3. Salutation",
+            "4. Body of the letter",
+            "5. Closing line",
+            "6. Name of the sender"
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Worked example — letter to a cousin about summer vacation",
+          "lines": [
+            "2, Green Park",
+            "Pune – 411001",
+            "19 July 2026",
+            "",
+            "Dear Cousin,",
+            "",
+            "How are you? I am fine and hope you are doing well.",
+            "",
+            "I want to tell you about my summer vacation. I visited my grandparents in the village. Every morning, I played with my cousins and helped my grandmother water the plants. In the evening, we went to the park and enjoyed eating ice cream.",
+            "",
+            "I also read storybooks, drew pictures, and learned to ride a bicycle. We had a wonderful time together. My summer vacation was full of fun and happy memories.",
+            "",
+            "I hope you also had a great vacation. Please write back and tell me about your holidays.",
+            "",
+            "Yours lovingly,",
+            "Aarav"
+          ],
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "heading": "Worked example — declining a birthday invite (unit test the next day)",
+          "lines": [
+            "12, Magarpatta Road",
+            "Pune",
+            "14 August 2026",
+            "",
+            "Dear Beena,",
+            "",
+            "Thank you very much for your invitation. But I am sorry, I won't be able to join your birthday party because I have my unit test the next day. I hope you understand.",
+            "",
+            "I wish you a very happy birthday in advance and hope you will enjoy the day.",
+            "",
+            "With love,",
+            "Your friend,",
+            "Meena"
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}

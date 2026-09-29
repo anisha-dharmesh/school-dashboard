@@ -1,0 +1,208 @@
+{
+  "subject": "English",
+  "chapter": "The Golden Fountain",
+  "number": 3,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Word Meanings & Vocabulary",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "fountain",
+          "meaning": "a structure from which water is sent up into the air by a pump",
+          "example": "Birds were drinking from the fountain.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "plain",
+          "meaning": "something very ordinary and not special in any way",
+          "example": "On her birthday, she wore a plain dress.",
+          "sources": {
+            "notes": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "word": "surprise",
+          "meaning": "an event or a piece of news that is unexpected",
+          "example": "She opened the box and found a surprise inside.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "wish",
+          "meaning": "to want something to happen or to be true",
+          "example": "I wish to visit Disneyland someday.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "presented",
+          "meaning": "gave something to somebody as a gift",
+          "example": "They presented a toy to the baby.",
+          "sources": {
+            "notes": true,
+            "worksheet": true,
+            "revisionSheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "True or False",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "Sana had a golden fountain in her garden.",
+          "answer": false,
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "Sana learned to ride a bicycle.",
+          "answer": true,
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "Sana's mother did not like the plain fountain in the neighbour's house.",
+          "answer": false,
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "The fountain was not made of gold.",
+          "answer": true,
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Name the Following / One Word",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "fountain (find the adjective)",
+          "answer": "golden",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Sana (find the adjective)",
+          "answer": "happy",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "water (find the adjective)",
+          "answer": "plain",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "sun (find the adjective)",
+          "answer": "hot",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Comprehension Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Where was the house situated that Sana saw? What did it have in its garden?",
+          "answer": "The house that Sana saw was situated on a hill right in front of her own house. It had a golden fountain in its garden.",
+          "sources": {
+            "notes": true,
+            "worksheet": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "What did Sana wish to have in her own garden?",
+          "answer": "Sana wished to have a golden fountain in her own garden.",
+          "sources": {
+            "notes": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "Why did the fountain appear golden to Sana?",
+          "answer": "The fountain appeared golden to Sana because of the rays of the sun shining on it. The sunlight made the fountain shine like gold.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Why was Sana shocked when she saw (a) the fountain on the hill, and (b) her own fountain from the house on the hill?",
+          "answer": [
+            "(a) She was shocked because it was not as she had imagined — it wasn't made of gold and didn't have golden water.",
+            "(b) She was shocked because her own fountain appeared golden due to the sun's rays, which surprised her and changed her understanding of it."
+          ],
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Reference to Context & Personal Response",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Reference to Context: “But, but… this fountain is not made of gold, nor does it have golden water.”",
+          "answer": [
+            "(a) Which fountain is being talked about here? — The fountain in the house on the hill that Sana visited.",
+            "(b) Why did the speaker say so? — She expected it to be made of gold with golden water, but discovered that wasn't true.",
+            "(c) What did the speaker realise? — That her first impression about the fountain was incorrect."
+          ],
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "Sana's father presented her a bicycle on her ___.",
+          "options": "(a) birthday    (b) annual day    (c) result day",
+          "answer": "(a) birthday",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Sana realised that her fountain is as ___ as the fountain in the other house.",
+          "options": "(a) big    (b) ugly    (c) beautiful",
+          "answer": "(c) beautiful",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}

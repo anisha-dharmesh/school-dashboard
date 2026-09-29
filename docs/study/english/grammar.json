@@ -1,0 +1,731 @@
+{
+  "subject": "English",
+  "chapter": "Grammar",
+  "number": 5,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Grammar Notes",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Nouns — Common & Proper",
+          "lines": [
+            "The name we give in general to every person, animal, place or thing of the same kind is a common noun. Examples: boy, dog, city, pencil.",
+            "",
+            "The name we give to a particular person, animal, place or thing is a proper noun. Examples: Aman, Tommy, Delhi.",
+            "",
+            "Proper nouns always begin with a capital letter."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Compound Nouns",
+          "lines": [
+            "Some nouns are made up of more than one word — these are called compound nouns. They can be written as:",
+            "• one word, e.g. streetlight, cornflakes",
+            "• separate words, e.g. washing powder, baby tooth",
+            "• words joined with a hyphen, e.g. father-in-law, mother-in-law"
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Nouns — Male & Female",
+          "lines": [
+            "Words like 'girl', 'sister' and 'daughter' belong to the female group.",
+            "Words like 'boy', 'brother' and 'son' belong to the male group."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Adjectives",
+          "lines": [
+            "Words like happy, angry and sad are describing words — they tell us more about a noun. Example: Sana is a happy girl.",
+            "Describing words are called adjectives."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Degrees of Comparison",
+          "lines": [
+            "Adjectives describe nouns and pronouns, and can show comparison using three degrees.",
+            "",
+            "1. Positive Degree — describes only one person or thing; no comparison is made. e.g. Rahul is tall. This is a beautiful dress.",
+            "",
+            "2. Comparative Degree — compares two people or things, using '-er' or 'more' before the adjective. e.g. Rahul is taller than Shyam. This dress is more beautiful than that one.",
+            "",
+            "3. Superlative Degree — compares more than two (three or more), using '-est' or 'most' before the adjective, usually with 'the'. e.g. Rahul is the tallest boy in the class. This is the most beautiful dress of all.",
+            "",
+            "Short words usually take -er/-est (tall → taller → tallest). Longer words take more/most instead (comfortable → more comfortable → most comfortable)."
+          ],
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Commas & Full Stops",
+          "lines": [
+            "A full stop is used at the end of a sentence.",
+            "",
+            "Capital letters are used to begin a sentence, to write 'I', and to write a proper noun.",
+            "",
+            "When there are more than two similar words in a sentence, we use commas to separate them. e.g. I have brought a chappati, some vegetables, salad and sweets.",
+            "",
+            "A comma is also used to separate a noun used to address a person from the rest of the sentence. e.g. Dad, what are you having for dinner today?"
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Apostrophe (Possessive Nouns)",
+          "lines": [
+            "An apostrophe + 's' is used to show belonging. e.g. the boy's bag.",
+            "",
+            "For plural nouns that already end in 's', we add only the apostrophe (no extra 's'). e.g. the students' books."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "note": "Nouns — singular & plural",
+          "items": [
+            {
+              "template": "One child but many ___.",
+              "answers": [
+                "children"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            },
+            {
+              "template": "One book but many ___.",
+              "answers": [
+                "books"
+              ],
+              "sources": {
+                "worksheet": true
+              }
+            },
+            {
+              "template": "One leaf but many ___.",
+              "answers": [
+                "leaves"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "One wolf but several ___.",
+              "answers": [
+                "wolves"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "One lady but two ___.",
+              "answers": [
+                "ladies"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "One boy but two ___.",
+              "answers": [
+                "boys"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "One girl but many ___.",
+              "answers": [
+                "girls"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "One ___ but several tigers.",
+              "answers": [
+                "tiger"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "One ___ but many tomatoes.",
+              "answers": [
+                "tomato"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "One star but many ___.",
+              "answers": [
+                "stars"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "One ___ but many horses.",
+              "answers": [
+                "horse"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "One pen but many ___.",
+              "answers": [
+                "pens"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "One desk but two ___.",
+              "answers": [
+                "desks"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The farmer kept the ___ (potato) in a basket.",
+              "answers": [
+                "potatoes"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            },
+            {
+              "template": "The ___ (child) are playing in the playground.",
+              "answers": [
+                "children"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            },
+            {
+              "template": "Keep these ___ (book) on the shelf.",
+              "answers": [
+                "books"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            }
+          ]
+        },
+        {
+          "note": "Adjectives",
+          "items": [
+            {
+              "template": "There are ___ days in a week.",
+              "answers": [
+                "seven"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "During summer, we wear ___ clothes.",
+              "answers": [
+                "cotton"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The tiger has ___ stripes on its body.",
+              "answers": [
+                "black"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "An elephant is a ___ animal.",
+              "answers": [
+                "large"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "A square has ___ sides.",
+              "answers": [
+                "four"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "There are ___ players in a cricket team.",
+              "answers": [
+                "eleven"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "There are many stars but only ___ moon in the sky.",
+              "answers": [
+                "one"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Watermelon is green outside but ___ inside.",
+              "answers": [
+                "red"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        },
+        {
+          "note": "Comparison (degrees of adjectives)",
+          "items": [
+            {
+              "template": "This book is ___ than that one. (light)",
+              "answers": [
+                "lighter"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Mohan is ___ than Sohan. (strong)",
+              "answers": [
+                "stronger"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Tarun is ___ than his brother. (smart)",
+              "answers": [
+                "smarter"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The aeroplane moves ___ than the train. (fast)",
+              "answers": [
+                "faster"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Rita's hair is ___ than Richa's hair. (short)",
+              "answers": [
+                "shorter"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "I am ___ in this seat than that. (comfortable)",
+              "answers": [
+                "more comfortable"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Jyoti is ___ than Meena. (beautiful)",
+              "answers": [
+                "more beautiful"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "This lesson is ___ than the next lesson. (important)",
+              "answers": [
+                "more important"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Our journey to Shimla was ___ than our journey to Goa. (exciting)",
+              "answers": [
+                "more exciting"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Sana is a ___ girl. (smart / smarter / smartest)",
+              "answers": [
+                "smart"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Ours is the ___ beautiful fountain. (much / more / most)",
+              "answers": [
+                "most"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The blue box is ___ than the red box. (heavy / heavier / heaviest)",
+              "answers": [
+                "heavier"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Sana's dress is ___ than yours. (pretty / prettier / prettiest)",
+              "answers": [
+                "prettier"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "A train is ___ than a bicycle. (fast)",
+              "answers": [
+                "faster"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            },
+            {
+              "template": "My new shoes are ___ than my old shoes. (comfortable)",
+              "answers": [
+                "more comfortable"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            },
+            {
+              "template": "This is the ___ room in our house. (bright)",
+              "answers": [
+                "brightest"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            },
+            {
+              "template": "This is the ___ book I have read this year. (interesting)",
+              "answers": [
+                "most interesting"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Match the Following",
+      "type": "match",
+      "sets": [
+        {
+          "label": "Male & Female — Set A",
+          "sources": {
+            "textbook": true
+          },
+          "columns": [
+            "Male",
+            "Female"
+          ],
+          "pairs": [
+            {
+              "left": "bull",
+              "right": "cow"
+            },
+            {
+              "left": "peacock",
+              "right": "peahen"
+            },
+            {
+              "left": "horse",
+              "right": "mare"
+            }
+          ]
+        },
+        {
+          "label": "Male & Female — Set B",
+          "sources": {
+            "worksheet": true
+          },
+          "columns": [
+            "Male",
+            "Female"
+          ],
+          "pairs": [
+            {
+              "left": "King",
+              "right": "queen"
+            },
+            {
+              "left": "Prince",
+              "right": "princess"
+            },
+            {
+              "left": "Uncle",
+              "right": "aunt"
+            },
+            {
+              "left": "Tiger",
+              "right": "tigress"
+            },
+            {
+              "left": "Wizard",
+              "right": "witch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Name the Following / One Word",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "I drive children to school in a big yellow bus. Who am I?",
+          "answer": "Driver",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "I grow vegetables, fruits and grains in the field. Who am I?",
+          "answer": "Farmer",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "I fly an aeroplane in the sky. Who am I?",
+          "answer": "Pilot",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "I build houses, roads and bridges. Who am I?",
+          "answer": "Engineer",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "Opposite gender of: Bull",
+          "answer": "Cow",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "Opposite gender of: Husband",
+          "answer": "Wife",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "Opposite gender of: Peacock",
+          "answer": "Peahen",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "Opposite gender of: Lion",
+          "answer": "Lioness",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "Opposite gender of: King",
+          "answer": "Queen",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "prompt": "boy — common or proper noun?",
+          "answer": "Common",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Goa — common or proper noun?",
+          "answer": "Proper",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Rahul — common or proper noun?",
+          "answer": "Proper",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "pencil — common or proper noun?",
+          "answer": "Common",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "beach — common or proper noun?",
+          "answer": "Common",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Bruno — common or proper noun?",
+          "answer": "Proper",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Richa — common or proper noun?",
+          "answer": "Proper",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "mountains — common or proper noun?",
+          "answer": "Common",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "the pizza of children (write using an apostrophe)",
+          "answer": "children's pizza",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "the mugs of the men (write using an apostrophe)",
+          "answer": "men's mugs",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "the beard of father (write using an apostrophe)",
+          "answer": "father's beard",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "the dolls of the girls (write using an apostrophe)",
+          "answer": "girls' dolls",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Kush + pizza (show belonging)",
+          "answer": "Kush's pizza",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "dog + bone (show belonging)",
+          "answer": "dog's bone",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "grandmother + spectacles (show belonging)",
+          "answer": "grandmother's spectacles",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}

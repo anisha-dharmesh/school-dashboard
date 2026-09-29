@@ -1,0 +1,134 @@
+{
+  "subject": "English",
+  "chapter": "If I Had Wings",
+  "number": 4,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Word Meanings & Vocabulary",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "fingertip",
+          "meaning": "the end of the finger that is furthest from the hand",
+          "example": "He pressed the button with his fingertip.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "glide",
+          "meaning": "to move smoothly",
+          "example": "She watched the boat glide over the calm water.",
+          "sources": {
+            "notes": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "word": "chunk",
+          "meaning": "a thick solid piece that has been cut or broken off something",
+          "example": "I want a chunk of chocolate.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "graze",
+          "meaning": "to eat grass that is growing in a field",
+          "example": "The cows graze in the field.",
+          "sources": {
+            "notes": true,
+            "worksheet": true
+          }
+        },
+        {
+          "word": "gaze",
+          "meaning": "to look at somebody or something for a long time",
+          "example": "The old man gazed at the mountains.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "cling",
+          "meaning": "to hold on tightly",
+          "example": "Tourists cling to the rope on the bridge.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Comprehension Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What does the child wish for in the poem?",
+          "answer": "The child wishes to have wings.",
+          "sources": {
+            "notes": true,
+            "worksheet": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "What does the child want to do with wings?",
+          "answer": "The child wants to fly everywhere and see the world.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "From where do you think the poet plans to gaze at the people on the earth?",
+          "answer": "The poet imagines flying with wings and looking down at the people on the earth from the sky.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Reference to Context & Personal Response",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Reference to Context: “I would listen to the clouds of sheep bleat / That graze on the blue.”",
+          "answer": [
+            "(a) Who will graze on the blue? — Sheep.",
+            "(b) What do you understand by 'sheep bleat'? — The sound that sheep make.",
+            "(c) What does the poet mean by 'blue'? — The sky."
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "'If I Had Wings' shows the ___ of the poet to fly.",
+          "options": "(a) wish    (b) song    (c) story",
+          "answer": "(a) wish",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Which of the following does the poet NOT mention in the poem?",
+          "options": "(a) taste a chunk of the moon    (b) swimming the deserts    (c) glide on the wind's breath",
+          "answer": "(a) taste a chunk of the moon",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}

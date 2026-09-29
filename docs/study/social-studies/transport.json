@@ -1,0 +1,217 @@
+{
+  "subject": "Social Studies",
+  "chapter": "Transport",
+  "number": 4,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "Bullock carts and bicycles are mostly used by people living in ___ areas.",
+              "answers": [
+                "rural"
+              ]
+            },
+            {
+              "template": "___ transport is the fastest means of transport.",
+              "answers": [
+                "Air"
+              ]
+            },
+            {
+              "template": "Animal transport has been a means of ___ transport since ancient times.",
+              "answers": [
+                "land"
+              ]
+            },
+            {
+              "template": "Ships are used to transport huge ___ of goods to other countries.",
+              "answers": [
+                "quantities"
+              ],
+              "sources": {
+                "revisionSheet": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Match the Following",
+      "type": "match",
+      "sets": [
+        {
+          "label": "Road signs — Help Box matching",
+          "columns": [
+            "Sign",
+            "Meaning (Help Box)"
+          ],
+          "pairs": [
+            {
+              "left": "",
+              "right": "Zebra crossing",
+              "leftSvg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n                <polygon points=\"50,8 92,88 8,88\" fill=\"#fff\" stroke=\"#D32F2F\" stroke-width=\"7\" stroke-linejoin=\"round\"></polygon>\n                <circle cx=\"50\" cy=\"42\" r=\"6\" fill=\"#111\"></circle>\n                <path d=\"M50 48 L50 66 M50 54 L39 62 M50 54 L61 62 M50 66 L41 80 M50 66 L59 80\" stroke=\"#111\" stroke-width=\"4.5\" stroke-linecap=\"round\" fill=\"none\"></path>\n              </svg>"
+            },
+            {
+              "left": "",
+              "right": "No U-turn",
+              "leftSvg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n                <circle cx=\"50\" cy=\"50\" r=\"43\" fill=\"#fff\" stroke=\"#D32F2F\" stroke-width=\"7\"></circle>\n                <path d=\"M34 66 V44 A16 16 0 0 1 66 44 V52\" stroke=\"#111\" stroke-width=\"6.5\" fill=\"none\" stroke-linecap=\"round\"></path>\n                <polygon points=\"66,45 78,52 66,60\" fill=\"#111\"></polygon>\n                <line x1=\"18\" y1=\"82\" x2=\"82\" y2=\"18\" stroke=\"#D32F2F\" stroke-width=\"6.5\"></line>\n              </svg>"
+            },
+            {
+              "left": "",
+              "right": "Railway crossing",
+              "leftSvg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n                <polygon points=\"50,8 92,88 8,88\" fill=\"#fff\" stroke=\"#D32F2F\" stroke-width=\"7\" stroke-linejoin=\"round\"></polygon>\n                <rect x=\"24\" y=\"44\" width=\"7\" height=\"32\" fill=\"#111\"></rect>\n                <rect x=\"69\" y=\"44\" width=\"7\" height=\"32\" fill=\"#111\"></rect>\n                <line x1=\"27\" y1=\"50\" x2=\"73\" y2=\"70\" stroke=\"#111\" stroke-width=\"6\"></line>\n                <line x1=\"27\" y1=\"70\" x2=\"73\" y2=\"50\" stroke=\"#111\" stroke-width=\"6\"></line>\n              </svg>"
+            },
+            {
+              "left": "",
+              "right": "No pedestrian",
+              "leftSvg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n                <circle cx=\"50\" cy=\"50\" r=\"43\" fill=\"#fff\" stroke=\"#D32F2F\" stroke-width=\"7\"></circle>\n                <circle cx=\"50\" cy=\"34\" r=\"6.5\" fill=\"#111\"></circle>\n                <path d=\"M50 41 L50 60 M50 47 L38 57 M50 47 L62 57 M50 60 L40 77 M50 60 L60 77\" stroke=\"#111\" stroke-width=\"4.5\" stroke-linecap=\"round\" fill=\"none\"></path>\n                <line x1=\"18\" y1=\"82\" x2=\"82\" y2=\"18\" stroke=\"#D32F2F\" stroke-width=\"6.5\"></line>\n              </svg>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "True or False",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "Vehicles carry people and goods from one place to another.",
+          "answer": true
+        },
+        {
+          "statement": "We must not follow the road safety rules.",
+          "answer": false
+        },
+        {
+          "statement": "Camel is called the 'Ship of the Desert'.",
+          "answer": true
+        },
+        {
+          "statement": "We must not use zebra crossing to cross the road.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Define",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Transportation",
+          "answer": "It means to carry people and goods from place to place by means of vehicles."
+        },
+        {
+          "question": "Subway",
+          "answer": "It is an underground way to cross the road safely."
+        },
+        {
+          "question": "Level Crossing",
+          "answer": "It is a place where a railway line and a road cross each other."
+        }
+      ]
+    },
+    {
+      "title": "Write Short Answers",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What are the common means of transport used in villages?",
+          "answer": "In Indian villages, bullock carts or animal carts are used to carry goods and people."
+        },
+        {
+          "question": "Why do people need to be careful on the roads or streets?",
+          "answer": "Because even a bit of carelessness can cost them their life."
+        },
+        {
+          "question": "Why do we use means of transport?",
+          "answer": "Means of transport help people to travel from one place to another.",
+          "sources": {
+            "revisionSheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Long Answers",
+      "type": "qa",
+      "items": [
+        {
+          "question": "List any five rules for road safety.",
+          "answer": [
+            "Cross the road using the zebra crossing.",
+            "Look right, then left, then right again before crossing the road.",
+            "Walk on the footpath.",
+            "Obey traffic rules and cross the road only when the traffic stops.",
+            "If cycling to school, keep to the left; use bylanes to stay safe."
+          ]
+        },
+        {
+          "question": "Write short notes on the following means of transport:",
+          "answer": [
+            "Land: These means of transport move only on land. Example: buses, tractors, cars.",
+            "Water: These means of transport move only on water. Example: ships, boats, tankers and steamers.",
+            "Air: It is the fastest means of transport. Used to cover long distances in less time. Example: aeroplane, helicopter.",
+            "Animal: Animal transport has been a means of transport since ancient times. The camel is used in the desert, ponies and mules are used in hilly areas, and elephants are used in forest areas."
+          ]
+        },
+        {
+          "question": "Why should we use subways?",
+          "answer": "Subways help us reach places quickly without getting stuck in traffic. Subways and foot-over bridges should be used to cross the roads.",
+          "sources": {
+            "revisionSheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Application Based",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What mode of transportation, regardless of cost, would you choose if you needed to get somewhere far away in the least amount of time? Explain.",
+          "answer": "I would choose an aeroplane or a helicopter to travel to a far-away place in the least amount of time because they are the fastest mode of transport."
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice",
+      "type": "mcq",
+      "note": "All answers below are confirmed from her own worksheet ticks/fill-ins, or directly derivable from the textbook passage on the same page.",
+      "items": [
+        {
+          "question": "The choice of transport depends on ______.",
+          "options": "(a) the distance to be travelled  (b) the money we have  (c) time available  (d) all of these",
+          "answer": "(d) all of these"
+        },
+        {
+          "question": "Which one of the following means of transport is used to send huge amounts of grain from one country to another?",
+          "options": "(a) Car  (b) Ship  (c) Helicopter  (d) Bullock Cart",
+          "answer": "(b) Ship"
+        },
+        {
+          "question": "What are the two kinds of land transport?",
+          "options": "(a) camels and ponies  (b) aeroplanes and helicopters  (c) cars and trains  (d) ships and yachts",
+          "answer": "(c) cars and trains"
+        },
+        {
+          "question": "Which one of the following options is true about level crossing?",
+          "options": "(a) It is a place where a railway line and a road cross each other.  (b) We should not cross a railway track when the gates are down.  (c) Level crossings can be dangerous.  (d) All of these",
+          "answer": "(d) All of these"
+        },
+        {
+          "question": "What will you use to move big logs of wood in thick forests?",
+          "options": "(a) elephants  (b) camels  (c) ponies  (d) bullock carts",
+          "answer": "(a) elephants"
+        }
+      ]
+    }
+  ]
+}

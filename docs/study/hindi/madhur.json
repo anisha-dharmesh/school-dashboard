@@ -1,0 +1,168 @@
+{
+  "subject": "Hindi",
+  "chapter": "मधुर वाणी",
+  "number": 2,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "शब्दार्थ (Word Meanings)",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "आदर",
+          "meaning": "सम्मान",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "तालाब",
+          "meaning": "पोखर",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "झोंपड़ी",
+          "meaning": "कुटिया",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "मधुर",
+          "meaning": "मीठा",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "प्यास",
+          "meaning": "पानी की तेज़ इच्छा",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "रिक्त स्थान भरिए (Fill in the Blanks)",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "राजा बहुत ___ था।",
+              "answers": [
+                "दयालु"
+              ],
+              "sources": {
+                "worksheet": true,
+                "notes": true
+              }
+            },
+            {
+              "template": "आस-पास कोई ___ नहीं था।",
+              "answers": [
+                "तालाब"
+              ],
+              "sources": {
+                "worksheet": true,
+                "notes": true
+              }
+            },
+            {
+              "template": "बूढ़ी महिला राजा के हाथ-मुँह धुलाकर ___ परोसती है।",
+              "answers": [
+                "भोजन"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "मैंने तुम्हें पानी और भोजन तुम्हारी ___ सुनकर दिया।",
+              "answers": [
+                "मधुर वाणी"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "विलोम एवं पर्यायवाची शब्द (Antonyms & Synonyms)",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "राजा का विलोम",
+          "answer": "रंक",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "दयालु का विलोम",
+          "answer": "क्रूर",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "प्रश्न-उत्तर (Question Answers)",
+      "type": "qa",
+      "items": [
+        {
+          "question": "राजा कहाँ गया था?",
+          "answer": "राजा शिकार करने गया था।",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "सिपाही ने बूढ़ी महिला से क्या कहा?",
+          "answer": "सिपाही ने बूढ़ी महिला से निरादरपूर्वक पानी लाने को कहा।",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "मंत्री ने राजा को झोंपड़ी क्यों दिखाई?",
+          "answer": "राजा प्यास के कारण व्याकुल था, इसलिए उन्हें धीरज धरने को कहने के लिए मंत्री ने राजा को झोंपड़ी दिखाई।",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "बूढ़ी महिला ने मंत्री और सिपाही को पानी न देने का क्या कारण बताया?",
+          "answer": "बूढ़ी महिला ने मंत्री को घमंडी और सिपाही को असभ्य होने के कारण पानी देने से इंकार कर दिया।",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "बूढ़ी महिला राजा से प्रसन्न क्यों थी?",
+          "answer": "बूढ़ी महिला राजा की मधुर वाणी सुनकर उससे प्रसन्न थी।",
+          "sources": {
+            "worksheet": true
+          }
+        },
+        {
+          "question": "कैसे पता चलता है कि राजा नेक व दयालु था?",
+          "answer": "राजा बड़ों का आदर व अपने छोटों से प्रेमपूर्वक व्यवहार करता था। वह त्योहार व उत्सव पर सभी को उनके अनुसार उपहार देता था, जिससे उसके नेक व दयालु होने का पता चलता है।",
+          "sources": {
+            "worksheet": true
+          }
+        }
+      ]
+    }
+  ]
+}

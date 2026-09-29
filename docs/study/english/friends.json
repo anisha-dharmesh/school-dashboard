@@ -1,0 +1,134 @@
+{
+  "subject": "English",
+  "chapter": "Friends",
+  "number": 2,
+  "tests": [
+    "Half Yearly"
+  ],
+  "sections": [
+    {
+      "title": "Word Meanings & Vocabulary",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "flickers",
+          "meaning": "(verb) to move or shine unsteadily",
+          "example": "The candle flickered due to the wind.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "word": "stealing",
+          "meaning": "moving quietly and softly",
+          "example": "The cool breeze came stealing through the window.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "scarcely",
+          "meaning": "(adverb) hardly or barely",
+          "example": "It was so dark, I could scarcely see the road.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "word": "whisper",
+          "meaning": "(verb) to speak very softly",
+          "example": "She whispered a prayer before going to bed.",
+          "sources": {
+            "notes": true,
+            "textbook": true,
+            "worksheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Match the Following",
+      "type": "match",
+      "sets": [
+        {
+          "sources": {
+            "textbook": true
+          },
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "(i) What does the poet compare the sky to?",
+              "right": "(b) A kind smile"
+            },
+            {
+              "left": "(ii) How does the wind come to the poet?",
+              "right": "(c) It comes stealing over the grass and whispers pretty things."
+            },
+            {
+              "left": "(iii) What does the sunshine do to the poet?",
+              "right": "(a) Flickers through the lace of leaves and kisses him like a mother before bed."
+            }
+          ],
+          "answerLine": "i–b, ii–c, iii–a"
+        }
+      ]
+    },
+    {
+      "title": "Comprehension Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What does the poet mean by saying 'a child should never feel a fear' in nature?",
+          "answer": "The poet means that nature is full of gentle and kind things that make a child feel safe and comfortable. There's no need for a child to feel afraid when surrounded by the caring elements of nature.",
+          "sources": {
+            "notes": true,
+            "revisionSheet": true
+          }
+        },
+        {
+          "question": "Which lines of the poem tell us that nature is caring and loving?",
+          "answer": "The lines “The sunshine flickers through the lace, of leaves above my head, and kisses me upon the face like mother before bed,” convey that nature is caring and loving.",
+          "sources": {
+            "notes": true,
+            "worksheet": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Reference to Context & Personal Response",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Reference to Context: “The Sunshine flickers through the lace, Of leaves above my head, And kisses me upon the face Like Mother, before bed.”",
+          "answer": [
+            "(a) Why does the poet compare the sunshine's touch to mother's love? — To show that both are gentle and loving.",
+            "(b) How does the poet feel about the sunshine? — Loved and cherished, like the warmth and comfort of a mother's love."
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "A: The poet is lying under a tree, looking at the sky, feeling the sunshine and the wind. B: The poet enjoys being outside in nature. Which is correct?",
+          "options": "(a) Both A and B are true and B explains A    (b) Both A and B are true but B doesn't explain A    (c) A is false and B is true",
+          "answer": "(a) Both A and B are true and B explains A",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}
