@@ -133,6 +133,8 @@ export type SectionType = StudySection["type"];
 export interface StudyChapter {
   subject: string;
   chapter: string;
+  /** "Term 1" / "Term 2"; the number is its position within that term's textbook. */
+  term?: string | null;
   number?: number | null;
   /** Exams this chapter is part of, e.g. "Half Yearly", "PT-1", "Class Test". Optional labels only. */
   tests: string[];
@@ -142,6 +144,7 @@ export interface StudyChapter {
 export interface StudyChapterEntry {
   slug: string;
   title: string;
+  term?: string | null;
   number?: number | null;
   tests: string[];
 }

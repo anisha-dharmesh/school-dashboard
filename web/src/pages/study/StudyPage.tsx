@@ -98,19 +98,33 @@ function ChapterList({ subjectSlug }: { subjectSlug: string }) {
   const [selected, setSelected] = useState<string[]>([]);
   if (!subject) return null;
   const tests = [...new Set(subject.chapters.flatMap((c) => c.tests))];
+  const terms = [...new Set(subject.chapters.map((c) => c.term).filter(Boolean) as string[])].sort();
   const test = params.get("test") ?? "All";
-  const chapters = test === "All" ? subject.chapters : subject.chapters.filter((c) => c.tests.includes(test));
+  const term = params.get("term") ?? "All";
+  const chapters = subject.chapters.filter((c) => (test === "All" || c.tests.includes(test)) && (term === "All" || c.term === term));
+  const setFilter = (key: "test" | "term", value: string | undefined) => {
+    const next = new URLSearchParams(params);
+    if (value && value !== "All") next.set(key, value);
+    else next.delete(key);
+    setParams(next, { replace: true });
+  };
   const picked = chapters.filter((c) => selected.includes(c.slug));
   const toggle = (slug: string, on: boolean) => setSelected(on ? [...selected, slug] : selected.filter((s) => s !== slug));
 
   return (
     <div className="flex flex-col gap-2">
+      {terms.length > 1 && (
+        <ToggleGroup size="sm" value={[term]} onValueChange={(v) => setFilter("term", v[0])}>
+          <ToggleGroupItem value="All">All terms</ToggleGroupItem>
+          {terms.map((t) => (
+            <ToggleGroupItem key={t} value={t}>
+              {t}
+            </ToggleGroupItem>
+          ))}
+        </ToggleGroup>
+      )}
       {tests.length > 0 && (
-        <ToggleGroup
-          size="sm"
-          value={[test]}
-          onValueChange={(v) => setParams(v[0] && v[0] !== "All" ? { test: v[0] } : {}, { replace: true })}
-        >
+        <ToggleGroup size="sm" value={[test]} onValueChange={(v) => setFilter("test", v[0])}>
           <ToggleGroupItem value="All">All</ToggleGroupItem>
           {tests.map((t) => (
             <ToggleGroupItem key={t} value={t}>
@@ -130,6 +144,7 @@ function ChapterList({ subjectSlug }: { subjectSlug: string }) {
                   {c.title}
                 </CardTitle>
                 <CardAction className="flex flex-wrap gap-1">
+                  {terms.length > 1 && c.term && <Badge variant="outline">{c.term}</Badge>}
                   {c.tests.map((t) => (
                     <Badge key={t} variant="secondary">
                       {t}

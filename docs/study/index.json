@@ -7,6 +7,7 @@
         {
           "slug": "giant",
           "title": "The Selfish Giant",
+          "term": "Term 1",
           "number": 1,
           "tests": [
             "Half Yearly"
@@ -15,6 +16,7 @@
         {
           "slug": "friends",
           "title": "Friends",
+          "term": "Term 1",
           "number": 2,
           "tests": [
             "Half Yearly"
@@ -23,6 +25,7 @@
         {
           "slug": "fountain",
           "title": "The Golden Fountain",
+          "term": "Term 1",
           "number": 3,
           "tests": [
             "Half Yearly"
@@ -31,6 +34,7 @@
         {
           "slug": "wings",
           "title": "If I Had Wings",
+          "term": "Term 1",
           "number": 4,
           "tests": [
             "Half Yearly"
@@ -39,6 +43,7 @@
         {
           "slug": "grammar",
           "title": "Grammar",
+          "term": "Term 1",
           "number": 5,
           "tests": [
             "Half Yearly"
@@ -47,6 +52,7 @@
         {
           "slug": "writing",
           "title": "Letter Writing",
+          "term": "Term 1",
           "number": 6,
           "tests": [
             "Half Yearly"
@@ -55,6 +61,7 @@
         {
           "slug": "unseen",
           "title": "Unseen Comprehension",
+          "term": "Term 1",
           "number": 7,
           "tests": [
             "Half Yearly"
@@ -69,6 +76,7 @@
         {
           "slug": "gehun",
           "title": "गेहूँ की बालियाँ",
+          "term": "Term 1",
           "number": 1,
           "tests": [
             "Half Yearly"
@@ -77,6 +85,7 @@
         {
           "slug": "madhur",
           "title": "मधुर वाणी",
+          "term": "Term 1",
           "number": 2,
           "tests": [
             "Half Yearly"
@@ -85,6 +94,7 @@
         {
           "slug": "chuttiyan",
           "title": "ऐसे किया छुट्टियों का सदुपयोग",
+          "term": "Term 1",
           "number": 3,
           "tests": [
             "Half Yearly"
@@ -93,6 +103,7 @@
         {
           "slug": "vyakaran",
           "title": "व्याकरण",
+          "term": "Term 1",
           "number": 4,
           "tests": [
             "Half Yearly"
@@ -101,6 +112,7 @@
         {
           "slug": "chitra",
           "title": "चित्र वर्णन",
+          "term": "Term 1",
           "number": 5,
           "tests": [
             "Half Yearly"
@@ -115,6 +127,7 @@
         {
           "slug": "food",
           "title": "Food and Nutrition in Humans",
+          "term": "Term 1",
           "number": 1,
           "tests": [
             "Half Yearly"
@@ -123,6 +136,7 @@
         {
           "slug": "birds",
           "title": "Birds",
+          "term": "Term 1",
           "number": 2,
           "tests": [
             "Half Yearly"
@@ -131,6 +145,7 @@
         {
           "slug": "body",
           "title": "Our Body is a Wonderful Machine",
+          "term": "Term 1",
           "number": 3,
           "tests": [
             "Half Yearly"
@@ -145,6 +160,7 @@
         {
           "slug": "gov",
           "title": "Our Government",
+          "term": "Term 1",
           "number": 1,
           "tests": [
             "Half Yearly"
@@ -153,6 +169,7 @@
         {
           "slug": "delhi",
           "title": "Delhi & Mumbai",
+          "term": "Term 1",
           "number": 2,
           "tests": [
             "Half Yearly"
@@ -161,6 +178,7 @@
         {
           "slug": "leaders",
           "title": "Our Leaders",
+          "term": "Term 1",
           "number": 3,
           "tests": [
             "Half Yearly"
@@ -169,6 +187,7 @@
         {
           "slug": "transport",
           "title": "Transport",
+          "term": "Term 1",
           "number": 4,
           "tests": [
             "Half Yearly"
@@ -177,7 +196,8 @@
         {
           "slug": "knowing-our-earth",
           "title": "Knowing Our Earth",
-          "number": 5,
+          "term": "Term 2",
+          "number": 1,
           "tests": [
             "Class Test"
           ]
