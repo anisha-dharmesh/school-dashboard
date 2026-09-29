@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { fetchStudyChapter, studyKey } from "../../features/study/studySlice";
@@ -128,11 +128,42 @@ function ChapterView({ subjectSlug, chapterSlug }: { subjectSlug: string; chapte
     }).filter((p) => p.sections.length > 0);
   }, [chapter]);
 
+  // Scroll-spy: the part whose section sits in the upper part of the viewport
+  // is the active tab. Paused briefly after a tab tap so the smooth scroll
+  // doesn't flicker through the parts it passes.
+  const lockUntil = useRef(0);
+  const partValues = parts.map((p) => p.value).join(",");
+  useEffect(() => {
+    if (!partValues) return;
+    // Any section crossing the band re-evaluates: the active part is the last
+    // one whose top has reached the band line, or the first at the very top.
+    const observer = new IntersectionObserver(
+      () => {
+        if (Date.now() < lockUntil.current) return;
+        const line = window.innerHeight * 0.2;
+        const values = partValues.split(",");
+        let current = values[0];
+        for (const v of values) {
+          const top = document.getElementById(`part-${v}`)?.getBoundingClientRect().top;
+          if (top !== undefined && top <= line) current = v;
+        }
+        setActive(current);
+      },
+      { rootMargin: "-20% 0px -70% 0px" },
+    );
+    partValues.split(",").forEach((v) => {
+      const el = document.getElementById(`part-${v}`);
+      if (el) observer.observe(el);
+    });
+    return () => observer.disconnect();
+  }, [partValues]);
+
   if (!entry || entry.status === "loading") return <EmptyState>Loading…</EmptyState>;
   if (!chapter) return <EmptyState>{entry.error ?? "Not found."}</EmptyState>;
 
   const goTo = (value: string) => {
     setActive(value);
+    lockUntil.current = Date.now() + 900;
     document.getElementById(`part-${value}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
