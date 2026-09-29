@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
  * exam cycle -- optional per portion-schedule row, so most cards never
  * render it. Shared by the Exam tab's subject cards and the Upcoming tab's
  * exam cards, so the link never silently disappears from just one of them. */
-export default function RevisionNotebookLink({ url }: { url: string | null | undefined }) {
+export default function RevisionNotebookLink({ url, label = "Revision Notebook (Q&A practice)" }: { url: string | null | undefined; label?: string }) {
   if (!url) return null;
   return (
     <Button
@@ -15,7 +15,7 @@ export default function RevisionNotebookLink({ url }: { url: string | null | und
       render={<a href={`${import.meta.env.BASE_URL}${url}`} target="_blank" rel="noopener noreferrer" />}
     >
       <BookOpen />
-      Revision Notebook (Q&A practice)
+      {label}
     </Button>
   );
 }

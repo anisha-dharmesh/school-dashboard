@@ -29,6 +29,7 @@ export default function NotesPage() {
   const { subject: subjectParam } = useParams<{ subject?: string }>();
   const notices = useAppSelector((s) => s.data.notices);
   const portionSchedules = useAppSelector((s) => s.data.portionSchedules);
+  const chapterNotebooks = useAppSelector((s) => s.data.chapterNotebooks);
   const [cycleFilter, setCycleFilter] = useState("All");
 
   const subjects = [...new Set(notices.filter((r) => r.category === "Subject Notes" && r.subject).map((r) => r.subject as string))].sort();
@@ -94,6 +95,15 @@ export default function NotesPage() {
               ))}
             </ToggleGroup>
           )}
+
+          {chapterNotebooks
+            .filter((n) => n.subject === activeSubject)
+            .map((n) => (
+              <div key={n.url} className="flex flex-wrap items-center gap-2">
+                <span className="text-sm text-muted-foreground">{n.chapter}</span>
+                <RevisionNotebookLink url={n.url} label="Revision Notebook (Q&A practice)" />
+              </div>
+            ))}
 
           {scheduleRow && (
             <Card size="sm" className="max-w-md gap-2">

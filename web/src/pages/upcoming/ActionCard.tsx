@@ -20,6 +20,7 @@ import styles from "./ActionCard.module.css";
 export default function ActionCard({ item }: { item: UpcomingItem }) {
   const notices = useAppSelector((s) => s.data.notices);
   const portionSchedules = useAppSelector((s) => s.data.portionSchedules);
+  const chapterNotebooks = useAppSelector((s) => s.data.chapterNotebooks);
 
   const state = item._days < 0 ? "past" : item._days === 0 ? "today" : item._days <= 3 ? "soon" : "future";
   const stateClass = state === "past" ? styles.statePast : "";
@@ -53,6 +54,8 @@ export default function ActionCard({ item }: { item: UpcomingItem }) {
   // renders alongside everything else, so this narrows rather than assumes.
   const cycle = typeof item.exam_cycle === "string" ? item.exam_cycle : undefined;
   const scheduleRow = findScheduleRow(portionSchedules, cycle, item.subject);
+  const chapterNotebook =
+    item.category === "Exam/Test" && item.chapter ? chapterNotebooks.find((n) => n.subject === item.subject && n.chapter === item.chapter) : undefined;
 
   return (
     <Collapsible defaultOpen={isFocusDay}>
@@ -74,6 +77,7 @@ export default function ActionCard({ item }: { item: UpcomingItem }) {
           <CardContent className="flex flex-col gap-2 pb-4">
             {item.periods?.length ? <PeriodList periods={item.periods} /> : <div className={styles.full}>{highlightDates(item.text)}</div>}
             <RevisionNotebookLink url={isExamEntry && isYearlyCycle(cycle) ? scheduleRow?.revision_notebook_url : undefined} />
+            <RevisionNotebookLink url={chapterNotebook?.url} label="Chapter Revision Notebook (Q&A practice)" />
             <AttachmentLink url={item.attachment_url} />
             {relatedMaterials.length > 0 && <Separator />}
             {relatedMaterials.length === 1 ? (

@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice, type PayloadAction } from "@reduxjs/toolkit";
 import type {
+  ChapterNotebook,
   EventsCalendar,
   Holidays,
   LastUpdated,
@@ -11,6 +12,7 @@ import type {
 interface DashboardData {
   notices: Notice[];
   portionSchedules: PortionSchedules;
+  chapterNotebooks: ChapterNotebook[];
   holidays: Holidays;
   eventsCalendar: EventsCalendar;
   lastUpdated: LastUpdated | null;
@@ -45,9 +47,10 @@ async function fetchJsonOr<T>(path: string, fallback: T): Promise<T> {
 }
 
 export const fetchDashboardData = createAsyncThunk<DashboardData>("data/fetchDashboardData", async () => {
-  const [notices, portionSchedules, holidays, eventsCalendar, lastUpdated, timetable] = await Promise.all([
+  const [notices, portionSchedules, chapterNotebooks, holidays, eventsCalendar, lastUpdated, timetable] = await Promise.all([
     fetchJson<Notice[]>("notices.json"),
     fetchJsonOr<PortionSchedules>("portion_schedules.json", {}),
+    fetchJsonOr<ChapterNotebook[]>("chapter_notebooks.json", []),
     fetchJsonOr<Holidays>("holidays.json", EMPTY_HOLIDAYS),
     fetchJsonOr<EventsCalendar>("events_calendar.json", EMPTY_EVENTS_CALENDAR),
     fetchJsonOr<LastUpdated | null>("last_updated.json", null),
@@ -57,6 +60,7 @@ export const fetchDashboardData = createAsyncThunk<DashboardData>("data/fetchDas
   return {
     notices: [...notices].sort((a, b) => parseDMYms(b.posted_date) - parseDMYms(a.posted_date)),
     portionSchedules,
+    chapterNotebooks,
     holidays: { ...EMPTY_HOLIDAYS, ...holidays },
     eventsCalendar: { ...EMPTY_EVENTS_CALENDAR, ...eventsCalendar },
     lastUpdated,
@@ -72,6 +76,7 @@ function parseDMYms(d: string): number {
 const initialState: DataState = {
   notices: [],
   portionSchedules: {},
+  chapterNotebooks: [],
   holidays: EMPTY_HOLIDAYS,
   eventsCalendar: EMPTY_EVENTS_CALENDAR,
   lastUpdated: null,

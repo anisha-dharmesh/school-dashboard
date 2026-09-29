@@ -64,6 +64,13 @@ export interface PortionSchedule {
   schedule: PortionScheduleRow[];
 }
 
+/** A hand-authored revision notebook for a single chapter (e.g. a class-test chapter). */
+export interface ChapterNotebook {
+  subject: string;
+  chapter: string;
+  url: string;
+}
+
 export type PortionSchedules = Record<string, PortionSchedule>;
 
 export interface HolidayEntry {
