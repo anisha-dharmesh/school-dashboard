@@ -1,0 +1,576 @@
+{
+  "slug": "social-studies-knowing-our-earth",
+  "subjectBadge": "Social Studies",
+  "title": "Revision Notebook",
+  "subtitle": "Chapter 1 · Knowing Our Earth — from her notebook pages and the Social Studies-3 (Term-2) textbook.",
+  "examMeta": "Class Test · Thu, 1 Oct · SST",
+  "chapters": [
+    {
+      "id": "earth",
+      "label": "Knowing Our Earth"
+    }
+  ],
+  "categories": [
+    {
+      "num": 1,
+      "title": "New Words",
+      "data": {
+        "type": "block",
+        "groups": [
+          {
+            "chapter": "earth",
+            "items": [
+              {
+                "heading": "New Words",
+                "lines": [
+                  "globe",
+                  "countries",
+                  "oceans",
+                  "seas",
+                  "map",
+                  "world",
+                  "atlas",
+                  "Asia",
+                  "Europe",
+                  "Pacific",
+                  "Atlantic",
+                  "Arctic",
+                  "Antarctic",
+                  "Indian",
+                  "continents",
+                  "Australia",
+                  "Africa",
+                  "America",
+                  "cities",
+                  "earth"
+                ],
+                "sources": {
+                  "notes": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "num": 2,
+      "title": "Define",
+      "data": {
+        "type": "qa",
+        "groups": [
+          {
+            "chapter": "earth",
+            "items": [
+              {
+                "question": "Map",
+                "answer": "It is a drawing of places on a flat surface that shows the location of countries, states and cities.",
+                "sources": {
+                  "notes": true
+                }
+              },
+              {
+                "question": "Globe",
+                "answer": "It is a small, round model of earth. It shows the countries, oceans and seas.",
+                "sources": {
+                  "notes": true
+                }
+              },
+              {
+                "question": "Atlas",
+                "answer": "It is a book of maps. It is easy to carry than a globe.",
+                "sources": {
+                  "notes": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "num": 3,
+      "title": "Fill in the Blanks",
+      "data": {
+        "type": "fib",
+        "groups": [
+          {
+            "chapter": "earth",
+            "sets": [
+              {
+                "items": [
+                  {
+                    "template": "The blue colour on the map of the world shows ___.",
+                    "answers": [
+                      "water"
+                    ],
+                    "sources": {
+                      "notes": true
+                    }
+                  },
+                  {
+                    "template": "Large land masses are ___.",
+                    "answers": [
+                      "continents"
+                    ],
+                    "sources": {
+                      "notes": true
+                    }
+                  },
+                  {
+                    "template": "___ is the largest continent.",
+                    "answers": [
+                      "Asia"
+                    ],
+                    "sources": {
+                      "notes": true
+                    }
+                  },
+                  {
+                    "template": "There are ___ continents.",
+                    "answers": [
+                      "seven"
+                    ],
+                    "sources": {
+                      "notes": true
+                    }
+                  },
+                  {
+                    "template": "Continents are further divided into ___.",
+                    "answers": [
+                      "countries"
+                    ],
+                    "sources": {
+                      "notes": true
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Name the Following / One Word",
+      "data": {
+        "type": "name",
+        "groups": [
+          {
+            "chapter": "earth",
+            "items": [
+              {
+                "prompt": "What is a book of maps called?",
+                "answer": "Atlas",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "prompt": "Name the largest continent.",
+                "answer": "Asia",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "prompt": "Name the smallest continent.",
+                "answer": "Australia",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "prompt": "Name the largest and deepest ocean.",
+                "answer": "Pacific Ocean",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "prompt": "Name the smallest ocean.",
+                "answer": "Arctic Ocean",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "prompt": "Another name for the Antarctic Ocean.",
+                "answer": "Southern Ocean",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "prompt": "Large maps hung on classroom walls are called?",
+                "answer": "Wall maps",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "prompt": "A small round model of the Earth is called a?",
+                "answer": "Globe",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "prompt": "Very large water bodies are called?",
+                "answer": "Oceans",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "prompt": "Smaller water bodies are called?",
+                "answer": "Seas, rivers and lakes",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "prompt": "Which continent do we (India) live in?",
+                "answer": "Asia",
+                "sources": {
+                  "textbook": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "num": 4
+    },
+    {
+      "num": 5,
+      "title": "True or False",
+      "data": {
+        "type": "trueFalse",
+        "groups": [
+          {
+            "chapter": "earth",
+            "items": [
+              {
+                "statement": "People in India live only in villages.",
+                "answer": false,
+                "sources": {
+                  "notes": true
+                }
+              },
+              {
+                "statement": "India is in the continent of Asia.",
+                "answer": true,
+                "sources": {
+                  "notes": true
+                }
+              },
+              {
+                "statement": "Australia is the smallest continent.",
+                "answer": true,
+                "sources": {
+                  "notes": true
+                }
+              },
+              {
+                "statement": "When you stand facing the rising sun, east is in front of you.",
+                "answer": true,
+                "sources": {
+                  "notes": true
+                }
+              },
+              {
+                "statement": "There are five main directions.",
+                "answer": false,
+                "sources": {
+                  "notes": true
+                }
+              },
+              {
+                "statement": "A globe is rotated to see the entire Earth.",
+                "answer": true,
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "statement": "The Sun rises in the west.",
+                "answer": false,
+                "explanation": "The Sun rises in the east and sets in the west.",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "statement": "The blue colour on the map shows water.",
+                "answer": true,
+                "sources": {
+                  "textbook": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "num": 6,
+      "title": "Write Short Notes",
+      "data": {
+        "type": "qa",
+        "groups": [
+          {
+            "chapter": "earth",
+            "items": [
+              {
+                "question": "Define a map.",
+                "answer": "A map is a drawing of the Earth, countries, states and even cities on a flat surface.",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "question": "What are oceans? Name the five oceans.",
+                "answer": [
+                  "The very large water bodies are called oceans. There are five oceans:",
+                  "Pacific Ocean",
+                  "Atlantic Ocean",
+                  "Indian Ocean",
+                  "Arctic Ocean",
+                  "Antarctic Ocean"
+                ],
+                "sources": {
+                  "notes": true
+                }
+              },
+              {
+                "question": "What are continents? Name the seven continents.",
+                "answer": [
+                  "Large land masses are called continents. The seven continents are:",
+                  "Asia",
+                  "Europe",
+                  "Africa",
+                  "Australia",
+                  "Antarctica",
+                  "North America",
+                  "South America"
+                ],
+                "sources": {
+                  "notes": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "num": 7,
+      "title": "Answer the Following Questions",
+      "data": {
+        "type": "qa",
+        "groups": [
+          {
+            "chapter": "earth",
+            "items": [
+              {
+                "question": "Name the four directions with the help of a labelled diagram.",
+                "answer": [
+                  "There are four main directions: north, south, east and west.",
+                  "The Sun rises in the east and sets in the west. When you stand facing the rising Sun, east is in front and west behind you. North is on your left and south on your right.",
+                  "North is at the top, South at the bottom, East on the right and West on the left."
+                ],
+                "sources": {
+                  "notes": true
+                }
+              },
+              {
+                "question": "Why is a map more convenient than a globe?",
+                "answer": "A map can be folded and carried easily. Besides, a large wall map can be hung on the wall so that everybody can see the details clearly.",
+                "sources": {
+                  "notes": true
+                }
+              },
+              {
+                "question": "What is the difference between a wall map and an atlas?",
+                "answer": "Wall maps are big and can be hung on the wall in the classroom so that all children can see the details, whereas an atlas is a book of maps and it is easy to carry.",
+                "sources": {
+                  "notes": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "num": 8,
+      "title": "Application Based Questions",
+      "data": {
+        "type": "qa",
+        "groups": [
+          {
+            "chapter": "earth",
+            "items": [
+              {
+                "question": "You want to find the shortest route from your house to the nearest railway station. Would you use a map or a globe? Give a reason for your answer.",
+                "answer": "I would use a map to find the shortest route from my house to the nearest railway station, because a map shows details of a place clearly.",
+                "sources": {
+                  "notes": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "MCQ Practice",
+      "data": {
+        "type": "mcq",
+        "groups": [
+          {
+            "chapter": "earth",
+            "items": [
+              {
+                "question": "A model of the Earth is called a/an ______.",
+                "options": "(a) globe (b) atlas (c) map (d) wall map",
+                "answer": "(a) globe",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "question": "A ______ is a drawing of a place that shows how it appears from above (a bird's eye view).",
+                "options": "(a) globe (b) map (c) model (d) atlas",
+                "answer": "(b) map",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "question": "Large land masses are called ______.",
+                "options": "(a) continents (b) countries (c) cities (d) oceans",
+                "answer": "(a) continents",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "question": "The girl (facing the rising Sun) stands facing the ______ direction.",
+                "options": "(a) north (b) east",
+                "answer": "(b) east",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "question": "Which direction is to her left?",
+                "options": "(a) north (b) south",
+                "answer": "(a) north",
+                "sources": {
+                  "textbook": true
+                }
+              },
+              {
+                "question": "Which direction is to her right?",
+                "options": "(a) north (b) south",
+                "answer": "(b) south",
+                "sources": {
+                  "textbook": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "num": 9
+    },
+    {
+      "title": "Points to Remember",
+      "data": {
+        "type": "block",
+        "groups": [
+          {
+            "chapter": "earth",
+            "items": [
+              {
+                "heading": "Points to Remember",
+                "lines": [
+                  "A globe is a model of the Earth.",
+                  "A map is a drawing of the Earth.",
+                  "An atlas is a book of maps.",
+                  "Very large water bodies are called oceans.",
+                  "North, south, east and west are the four main directions.",
+                  "A globe shows only one part of the Earth at a time, so it has to be rotated. It cannot show all the details.",
+                  "There are five oceans: Pacific, Atlantic, Indian, Arctic and Antarctic. The Pacific is the largest and deepest; the Arctic is the smallest.",
+                  "There are seven continents: Asia, Africa, North America, South America, Europe, Australia and Antarctica.",
+                  "A compass needle always points towards the north."
+                ],
+                "sources": {
+                  "textbook": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "num": 10
+    },
+    {
+      "title": "Map Activity",
+      "data": {
+        "type": "match",
+        "groups": [
+          {
+            "chapter": "earth",
+            "sets": [
+              {
+                "label": "Colour the continents",
+                "sources": {
+                  "textbook": true
+                },
+                "columns": [
+                  "Continent",
+                  "Colour"
+                ],
+                "pairs": [
+                  {
+                    "left": "Australia",
+                    "right": "Orange"
+                  },
+                  {
+                    "left": "Europe",
+                    "right": "Pink"
+                  },
+                  {
+                    "left": "Asia",
+                    "right": "Yellow"
+                  },
+                  {
+                    "left": "Africa",
+                    "right": "Brown"
+                  },
+                  {
+                    "left": "North America",
+                    "right": "Green"
+                  },
+                  {
+                    "left": "Antarctica",
+                    "right": "White"
+                  },
+                  {
+                    "left": "South America",
+                    "right": "Red"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "num": 11
+    }
+  ],
+  "footerNote": "End of notebook. Notebook pages (checked 17 Sep 2026) and textbook pp. 183–186."
+}
