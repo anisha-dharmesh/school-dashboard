@@ -3,19 +3,19 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from ".
 import { HIDE } from "../answer";
 import SourceMarks from "../SourceMarks";
 
-// One colour per pair. Shown with answers on; with answers hidden every
-// badge falls back to the same neutral grey (the group-data-[hide] classes).
+// One colour per pair, applied to the whole cell. With answers hidden the
+// colour goes away (the group-data-[hide] classes).
 const NEUTRAL =
-  "group-data-[hide=true]/study:border-border group-data-[hide=true]/study:bg-muted group-data-[hide=true]/study:text-muted-foreground";
+  "group-data-[hide=true]/study:border-transparent group-data-[hide=true]/study:bg-transparent group-data-[hide=true]/study:text-foreground";
 const PAIR_COLORS = [
-  "border-blue-500/40 bg-blue-500/15 text-blue-700 dark:text-blue-300",
-  "border-amber-500/40 bg-amber-500/15 text-amber-700 dark:text-amber-300",
-  "border-emerald-500/40 bg-emerald-500/15 text-emerald-700 dark:text-emerald-300",
-  "border-purple-500/40 bg-purple-500/15 text-purple-700 dark:text-purple-300",
-  "border-rose-500/40 bg-rose-500/15 text-rose-700 dark:text-rose-300",
-  "border-cyan-500/40 bg-cyan-500/15 text-cyan-700 dark:text-cyan-300",
-  "border-orange-500/40 bg-orange-500/15 text-orange-700 dark:text-orange-300",
-  "border-lime-500/40 bg-lime-500/15 text-lime-700 dark:text-lime-300",
+  "border-blue-500/40 bg-blue-500/15 text-blue-800 dark:text-blue-200",
+  "border-amber-500/40 bg-amber-500/15 text-amber-800 dark:text-amber-200",
+  "border-emerald-500/40 bg-emerald-500/15 text-emerald-800 dark:text-emerald-200",
+  "border-purple-500/40 bg-purple-500/15 text-purple-800 dark:text-purple-200",
+  "border-rose-500/40 bg-rose-500/15 text-rose-800 dark:text-rose-200",
+  "border-cyan-500/40 bg-cyan-500/15 text-cyan-800 dark:text-cyan-200",
+  "border-orange-500/40 bg-orange-500/15 text-orange-800 dark:text-orange-200",
+  "border-lime-500/40 bg-lime-500/15 text-lime-800 dark:text-lime-200",
 ];
 
 // "1. Nagaland" / "(c) Kohima" / "(ii) How ..." -> label + text.
@@ -37,13 +37,15 @@ function displayOrder(count: number, lettered: boolean, labels: (string | undefi
   return shuffled.every((v, i) => v === i) ? idx.reverse() : shuffled;
 }
 
-function Badge({ children, pair }: { children: string; pair: number }) {
+/** One side of a pair: its number/letter and its text, coloured as a whole. */
+function Cell({ pair, label, children }: { pair: number; label: string; children: React.ReactNode }) {
   return (
-    <span
-      className={`mr-2 inline-flex h-5 min-w-5 shrink-0 items-center justify-center rounded-md border px-1 font-mono text-xs font-medium transition-colors ${PAIR_COLORS[pair % PAIR_COLORS.length]} ${NEUTRAL}`}
+    <div
+      className={`flex items-baseline gap-2 rounded-lg border px-2.5 py-1.5 transition-colors ${PAIR_COLORS[pair % PAIR_COLORS.length]} ${NEUTRAL}`}
     >
-      {children}
-    </span>
+      <span className="min-w-4 shrink-0 font-mono text-xs font-semibold opacity-80">{label}</span>
+      <span>{children}</span>
+    </div>
   );
 }
 
@@ -52,8 +54,8 @@ function leftCell(pair: MatchPair, text: string) {
 }
 
 /** A match-the-following table. Left items stay in order; the right items
- * are re-ordered. With answers shown, each pair's number and letter badges
- * share a colour; with answers hidden they are all plain grey. */
+ * are re-ordered. With answers shown, both cells of a pair share a colour;
+ * with answers hidden there is no colour. */
 export default function MatchSetCard({ set }: { set: MatchSet }) {
   const lefts = set.pairs.map((p) => splitLabel(p.left));
   const rights = set.pairs.map((p) => splitLabel(p.right));
@@ -81,12 +83,14 @@ export default function MatchSetCard({ set }: { set: MatchSet }) {
             return (
               <TableRow key={row}>
                 <TableCell className="align-top whitespace-normal">
-                  <Badge pair={row}>{lefts[row].label ?? String(row + 1)}</Badge>
-                  {leftCell(set.pairs[row], lefts[row].text)}
+                  <Cell pair={row} label={lefts[row].label ?? String(row + 1)}>
+                    {leftCell(set.pairs[row], lefts[row].text)}
+                  </Cell>
                 </TableCell>
                 <TableCell className="align-top whitespace-normal">
-                  <Badge pair={pairAtRight}>{right.label ?? String.fromCharCode(97 + row)}</Badge>
-                  {right.text}
+                  <Cell pair={pairAtRight} label={right.label ?? String.fromCharCode(97 + row)}>
+                    {right.text}
+                  </Cell>
                 </TableCell>
               </TableRow>
             );
