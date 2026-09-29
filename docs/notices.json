@@ -44,6 +44,105 @@
     "exam_cycle": "Half Yearly"
   },
   {
+    "id": "a599e7922ae8b6eb",
+    "posted_date": "29-09-2026",
+    "posted_date_iso": "2026-09-29",
+    "event_date_iso": "2026-09-29",
+    "text": "Dear Parent,\n\nWe are pleased to share the Facebook post featuring photographs from Our Green Day Celebration.\n\nhttps://www.facebook.com/share/p/1Ebrvtrt8V/\n\n We invite you to like, share, and follow our Facebook page to stay updated with the latest events, celebrations, and achievements at SNBP International School, Wagholi.",
+    "attachment_url": null,
+    "category": "Event/Celebration",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "7aee9c16a478f6fa",
+    "posted_date": "29-09-2026",
+    "posted_date_iso": "2026-09-29",
+    "event_date_iso": "2026-09-29",
+    "text": "Class III F \n\n*Today's Daily Class update*\n29/09/2026\n\nPeriod 1: Science- Discussed topic ‘Saving and Storing Water’ and ‘Exercises’ in the textbook \n\nPeriod 2: Science- Written work for chapter ‘Water’ was done\n \nPeriod 3: - SST Proxy \n\nPeriod 4 : Maths \nCh - 5, Exercise 3 - Q1 (a,c) of page number 121  were discussed and completed.\nHW- Revise the same.\n\nPeriod 5: Computer Science/ Robotics activity is conducted \n\nPeriod 6: Dance Proxy\n\nPeriod 7: Seek/G.k - Science- Written work for chapter ‘Water’ was done in the notebook \n\nPeriod 8: Reading program class is conducted \n\nPeriod 9: Hindi subject enrichment activity is done",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "pattern",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Science",
+        "note": "Discussed topic ‘Saving and Storing Water’ and ‘Exercises’ in the textbook",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "Written work for chapter ‘Water’ was done",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Social Studies",
+        "note": "Proxy",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch - 5, Exercise 3 - Q1 (a,c) of page number 121  were discussed and completed",
+        "hw": "Revise the same"
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "/ Robotics activity is conducted",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Dance",
+        "note": "Proxy",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": null,
+        "note": "Seek/G.k - Science- Written work for chapter ‘Water’ was done in the notebook",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Reading Program",
+        "note": "class is conducted",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "Hindi",
+        "note": "subject enrichment activity is done",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 0.9,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "614fc052364bb245",
     "posted_date": "28-09-2026",
     "posted_date_iso": "2026-09-28",
