@@ -23,12 +23,12 @@ export default function SectionView({ section }: { section: StudySection }) {
     case "vocab":
       return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <VocabItemCard key={i} item={it} />)} />;
     case "block":
-      return <SectionCard {...frame} limit={3} nodes={section.items.map((it, i) => <BlockItemCard key={i} item={it} layout={section.layout} />)} />;
+      return <SectionCard {...frame} nodes={section.items.map((it, i) => <BlockItemCard key={i} item={it} layout={section.layout} />)} />;
     case "capitals":
       return (
         <SectionCard
           {...frame}
-          limit={8}
+         
           nodes={[
             <Table key="t">
               <TableHeader>
@@ -52,28 +52,28 @@ export default function SectionView({ section }: { section: StudySection }) {
             ...(set.note ? [<p key={`n${si}`} className="-ml-5 list-none text-sm text-muted-foreground">{set.note}</p>] : []),
             ...set.items.map((it, i) => <FibItemCard key={`${si}-${i}`} item={it} />),
           ])}
-          limit={6}
+         
           count={section.sets.reduce((n, set) => n + set.items.length, 0)}
         />
       );
     case "match":
-      return <SectionCard {...frame} limit={2} nodes={section.sets.map((set, i) => <MatchSetCard key={i} set={set} />)} />;
+      return <SectionCard {...frame} nodes={section.sets.map((set, i) => <MatchSetCard key={i} set={set} />)} />;
     case "trueFalse":
       return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <TrueFalseItemCard key={i} item={it} />)} />;
     case "name":
       return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <NameItemCard key={i} item={it} />)} />;
     case "mcq":
-      return <SectionCard {...frame} as="rows" limit={4} nodes={section.items.map((it, i) => <McqItemCard key={i} item={it} />)} />;
+      return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <McqItemCard key={i} item={it} />)} />;
     case "qa":
-      return <SectionCard {...frame} as="rows" limit={5} nodes={section.items.map((it, i) => <QaItemCard key={i} item={it} layout={section.layout} />)} />;
+      return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <QaItemCard key={i} item={it} layout={section.layout} />)} />;
     case "passage":
-      return <SectionCard {...frame} as="rows" limit={1} nodes={section.items.map((it, i) => <PassageItemCard key={i} item={it} />)} />;
+      return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <PassageItemCard key={i} item={it} />)} />;
     case "picture":
       return (
         <SectionCard
           {...frame}
           as="rows"
-          limit={3}
+         
           nodes={[
             ...section.items.map((it, i) => <PictureItemCard key={i} item={it} />),
             ...(section.leaderGrid
