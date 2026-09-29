@@ -5,7 +5,7 @@ import SourceMarks from "../SourceMarks";
 export default function TrueFalseItemCard({ item }: { item: TrueFalseItem }) {
   return (
     <div className="flex flex-col gap-1 py-3">
-      <div className="flex items-start justify-between gap-3">
+      <div className="flex items-start justify-between gap-3 md:justify-start">
         <span className="text-[15px] leading-snug">
           {item.statement}
           <SourceMarks sources={item.sources} />

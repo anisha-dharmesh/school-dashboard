@@ -19,7 +19,7 @@ export default function McqItemCard({ item }: { item: McqItem }) {
         <SourceMarks sources={item.sources} />
       </p>
       {options.length >= 2 ? (
-        <ul className="flex flex-col gap-1.5">
+        <ul className="grid gap-1.5 md:grid-cols-[repeat(auto-fit,minmax(9rem,1fr))]">
           {options.map(([letter, text]) => {
             const ok = letter === correct;
             return (

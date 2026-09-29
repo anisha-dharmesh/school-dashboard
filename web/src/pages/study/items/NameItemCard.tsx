@@ -4,7 +4,7 @@ import SourceMarks from "../SourceMarks";
 
 export default function NameItemCard({ item }: { item: NameItem }) {
   return (
-    <div className="flex flex-col items-start gap-1 py-2.5">
+    <div className="flex flex-col items-start gap-1 py-2.5 md:flex-row md:items-baseline md:gap-3">
       <p className="text-sm text-muted-foreground">
         {item.prompt}
         <SourceMarks sources={item.sources} />
