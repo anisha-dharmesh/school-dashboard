@@ -1,5 +1,6 @@
 import type { StudySection } from "../../study/types";
-import SectionCard from "./SectionCard";
+import type { ReactNode } from "react";
+import SectionCard, { type SectionGroup } from "./SectionCard";
 import VocabItemCard from "./items/VocabItemCard";
 import BlockItemCard from "./items/BlockItemCard";
 import CapitalRowItem from "./items/CapitalRowItem";
@@ -14,82 +15,98 @@ import PictureItemCard from "./items/PictureItemCard";
 import LeaderFigureCard from "./items/LeaderFigureCard";
 import { Table, TableBody, TableHead, TableHeader, TableRow } from "../../components/ui/table";
 
-/** Renders one section of a chapter: picks the item component for its
- * `type` and hands it the section's plain data. */
-export default function SectionView({ section }: { section: StudySection }) {
-  const { title, note } = section;
-  const frame = { title, note };
+export interface SectionParts {
+  nodes: ReactNode[];
+  as?: "div" | "rows" | "ol";
+  count: number;
+}
+
+/** Picks the item component for a section's `type` and hands it the
+ * section's plain data; returns the rendered items. */
+export function sectionParts(section: StudySection): SectionParts {
   switch (section.type) {
     case "vocab":
-      return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <VocabItemCard key={i} item={it} />)} />;
+      return { as: "rows", count: section.items.length, nodes: section.items.map((it, i) => <VocabItemCard key={i} item={it} />) };
     case "block":
-      return <SectionCard {...frame} nodes={section.items.map((it, i) => <BlockItemCard key={i} item={it} layout={section.layout} />)} />;
+      return { count: section.items.length, nodes: section.items.map((it, i) => <BlockItemCard key={i} item={it} layout={section.layout} />) };
     case "capitals":
-      return (
-        <SectionCard
-          {...frame}
-         
-          nodes={[
-            <Table key="t">
-              <TableHeader>
-                <TableRow>
-                  <TableHead>State / UT</TableHead>
-                  <TableHead>Capital</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>{section.items.map((row, i) => <CapitalRowItem key={i} row={row} />)}</TableBody>
-            </Table>,
-          ]}
-          count={section.items.length}
-        />
-      );
+      return {
+        count: section.items.length,
+        nodes: [
+          <Table key="t">
+            <TableHeader>
+              <TableRow>
+                <TableHead>State / UT</TableHead>
+                <TableHead>Capital</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>{section.items.map((row, i) => <CapitalRowItem key={i} row={row} />)}</TableBody>
+          </Table>,
+        ],
+      };
     case "fib":
-      return (
-        <SectionCard
-          {...frame}
-          as="ol"
-          nodes={section.sets.flatMap((set, si) => [
-            ...(set.note ? [<p key={`n${si}`} className="-ml-5 list-none text-sm text-muted-foreground">{set.note}</p>] : []),
-            ...set.items.map((it, i) => <FibItemCard key={`${si}-${i}`} item={it} />),
-          ])}
-         
-          count={section.sets.reduce((n, set) => n + set.items.length, 0)}
-        />
-      );
+      return {
+        as: "ol",
+        count: section.sets.reduce((n, set) => n + set.items.length, 0),
+        nodes: section.sets.flatMap((set, si) => [
+          ...(set.note ? [<p key={`n${si}`} className="-ml-5 list-none text-sm text-muted-foreground">{set.note}</p>] : []),
+          ...set.items.map((it, i) => <FibItemCard key={`${si}-${i}`} item={it} />),
+        ]),
+      };
     case "match":
-      return <SectionCard {...frame} nodes={section.sets.map((set, i) => <MatchSetCard key={i} set={set} />)} />;
+      return { count: section.sets.length, nodes: section.sets.map((set, i) => <MatchSetCard key={i} set={set} />) };
     case "trueFalse":
-      return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <TrueFalseItemCard key={i} item={it} />)} />;
+      return { as: "rows", count: section.items.length, nodes: section.items.map((it, i) => <TrueFalseItemCard key={i} item={it} />) };
     case "name":
-      return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <NameItemCard key={i} item={it} />)} />;
+      return { as: "rows", count: section.items.length, nodes: section.items.map((it, i) => <NameItemCard key={i} item={it} />) };
     case "mcq":
-      return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <McqItemCard key={i} item={it} />)} />;
+      return { as: "rows", count: section.items.length, nodes: section.items.map((it, i) => <McqItemCard key={i} item={it} />) };
     case "qa":
-      return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <QaItemCard key={i} item={it} layout={section.layout} />)} />;
+      return { as: "rows", count: section.items.length, nodes: section.items.map((it, i) => <QaItemCard key={i} item={it} layout={section.layout} />) };
     case "passage":
-      return <SectionCard {...frame} as="rows" nodes={section.items.map((it, i) => <PassageItemCard key={i} item={it} />)} />;
+      return { as: "rows", count: section.items.length, nodes: section.items.map((it, i) => <PassageItemCard key={i} item={it} />) };
     case "picture":
-      return (
-        <SectionCard
-          {...frame}
-          as="rows"
-         
-          nodes={[
-            ...section.items.map((it, i) => <PictureItemCard key={i} item={it} />),
-            ...(section.leaderGrid
-              ? [
-                  <div key="grid">
-                    <h4 className="text-xs font-medium text-muted-foreground">{section.leaderGrid.label}</h4>
-                    <div className="mt-2 grid grid-cols-[repeat(auto-fill,minmax(74px,1fr))] gap-2">
-                      {section.leaderGrid.items.map((fig, i) => (
-                        <LeaderFigureCard key={i} item={fig} />
-                      ))}
-                    </div>
-                  </div>,
-                ]
-              : []),
-          ]}
-        />
-      );
+      return {
+        as: "rows",
+        count: section.items.length,
+        nodes: [
+          ...section.items.map((it, i) => <PictureItemCard key={i} item={it} />),
+          ...(section.leaderGrid
+            ? [
+                <div key="grid">
+                  <h4 className="text-xs font-medium text-muted-foreground">{section.leaderGrid.label}</h4>
+                  <div className="mt-2 grid grid-cols-[repeat(auto-fill,minmax(74px,1fr))] gap-2">
+                    {section.leaderGrid.items.map((fig, i) => (
+                      <LeaderFigureCard key={i} item={fig} />
+                    ))}
+                  </div>
+                </div>,
+              ]
+            : []),
+        ],
+      };
   }
+}
+
+/** One section of one chapter. */
+export default function SectionView({ section }: { section: StudySection }) {
+  const { nodes, as, count } = sectionParts(section);
+  return <SectionCard title={section.title} note={section.note} nodes={nodes} as={as} count={count} />;
+}
+
+export interface SectionMember {
+  label: string;
+  /** Tailwind background class for the chapter's colour dot. */
+  dot: string;
+  section: StudySection;
+}
+
+/** Sections of the same kind from several chapters as one card, with each
+ * chapter's items under its own small heading. */
+export function MergedSectionView({ members }: { members: SectionMember[] }) {
+  const groups: SectionGroup[] = members.map((m) => ({ label: m.label, dot: m.dot, nodes: sectionParts(m.section).nodes }));
+  const first = sectionParts(members[0].section);
+  const count = members.reduce((n, m) => n + sectionParts(m.section).count, 0);
+  const notes = members.map((m) => m.section.note).filter(Boolean);
+  return <SectionCard title={members[0].section.title} note={notes[0]} groups={groups} as={first.as} count={count} />;
 }

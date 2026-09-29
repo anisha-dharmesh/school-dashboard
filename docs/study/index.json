@@ -143,14 +143,6 @@
       "slug": "social-studies",
       "chapters": [
         {
-          "slug": "knowing-our-earth",
-          "title": "Knowing Our Earth",
-          "number": 1,
-          "tests": [
-            "Class Test"
-          ]
-        },
-        {
           "slug": "gov",
           "title": "Our Government",
           "number": 1,
@@ -180,6 +172,14 @@
           "number": 4,
           "tests": [
             "Half Yearly"
+          ]
+        },
+        {
+          "slug": "knowing-our-earth",
+          "title": "Knowing Our Earth",
+          "number": 5,
+          "tests": [
+            "Class Test"
           ]
         }
       ]

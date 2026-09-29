@@ -1,10 +1,10 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { fetchStudyChapter, studyKey } from "../../features/study/studySlice";
 import type { SectionType, StudySection } from "../../study/types";
 import { Switch } from "../../components/ui/switch";
-import { ChevronLeft } from "lucide-react";
+import { ChevronLeft, Layers } from "lucide-react";
 import { ToggleGroup, ToggleGroupItem } from "../../components/ui/toggle-group";
 import { Tabs, TabsList, TabsTrigger } from "../../components/ui/tabs";
 import { Badge } from "../../components/ui/badge";
@@ -12,7 +12,8 @@ import { Button } from "../../components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardAction } from "../../components/ui/card";
 import EmptyState from "../../components/ui/EmptyState";
 import SubjectBadge from "../../components/subjects/SubjectBadge";
-import SectionView from "./SectionView";
+import { Checkbox } from "../../components/ui/checkbox";
+import SectionView, { MergedSectionView, type SectionMember } from "./SectionView";
 
 // Sections are grouped into four parts, in this order; a part with no
 // sections in the chapter is left out.
@@ -30,15 +31,42 @@ function itemCount(section: StudySection): number {
   return section.items.length;
 }
 
-/** /study, /study/:subject and /study/:subject/:chapter -- browse by
- * subject, then chapter, then that chapter's sections. */
+// A colour per chapter for the combined view's headings.
+const CHAPTER_DOTS = ["bg-blue-500", "bg-amber-500", "bg-emerald-500", "bg-purple-500", "bg-rose-500", "bg-cyan-500", "bg-orange-500", "bg-lime-500"];
+
+interface Entry {
+  label: string;
+  dot: string;
+  sections: StudySection[];
+}
+
+// Sections of the same type, layout and title (ignoring case and punctuation)
+// merge into one card; first appearance decides the order.
+function mergeSections(entries: Entry[], types: SectionType[]): SectionMember[][] {
+  const merged = new Map<string, SectionMember[]>();
+  for (const e of entries) {
+    for (const section of e.sections) {
+      if (!types.includes(section.type)) continue;
+      const layout = "layout" in section ? (section.layout ?? "") : "";
+      const key = `${section.type}|${layout}|${section.title.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "")}`;
+      merged.set(key, [...(merged.get(key) ?? []), { label: e.label, dot: e.dot, section }]);
+    }
+  }
+  return [...merged.values()];
+}
+
+/** /study, /study/:subject, /study/:subject/:chapter and
+ * /study/:subject?chapters=a,b -- browse by subject, then chapter (or several
+ * chapters together), then the sections. */
 export default function StudyPage() {
   const { subject: subjectSlug, chapter: chapterSlug } = useParams<{ subject?: string; chapter?: string }>();
+  const [params] = useSearchParams();
   const index = useAppSelector((s) => s.data.studyIndex);
   const navigate = useNavigate();
 
   const activeSlug = subjectSlug ?? index.subjects.find((s) => s.subject === "English")?.slug ?? index.subjects[0]?.slug;
   const subject = index.subjects.find((s) => s.slug === activeSlug);
+  const together = (params.get("chapters") ?? "").split(",").filter(Boolean);
 
   return (
     <>
@@ -54,6 +82,8 @@ export default function StudyPage() {
         <EmptyState>Nothing to study yet.</EmptyState>
       ) : chapterSlug ? (
         <ChapterView subjectSlug={subject.slug} chapterSlug={chapterSlug} />
+      ) : together.length > 0 ? (
+        <CombinedView subjectSlug={subject.slug} slugs={together} />
       ) : (
         <ChapterList subjectSlug={subject.slug} />
       )}
@@ -64,10 +94,14 @@ export default function StudyPage() {
 function ChapterList({ subjectSlug }: { subjectSlug: string }) {
   const subject = useAppSelector((s) => s.data.studyIndex.subjects.find((x) => x.slug === subjectSlug));
   const [params, setParams] = useSearchParams();
+  const navigate = useNavigate();
+  const [selected, setSelected] = useState<string[]>([]);
   if (!subject) return null;
   const tests = [...new Set(subject.chapters.flatMap((c) => c.tests))];
   const test = params.get("test") ?? "All";
   const chapters = test === "All" ? subject.chapters : subject.chapters.filter((c) => c.tests.includes(test));
+  const picked = chapters.filter((c) => selected.includes(c.slug));
+  const toggle = (slug: string, on: boolean) => setSelected(on ? [...selected, slug] : selected.filter((s) => s !== slug));
 
   return (
     <div className="flex flex-col gap-2">
@@ -86,47 +120,141 @@ function ChapterList({ subjectSlug }: { subjectSlug: string }) {
         </ToggleGroup>
       )}
       {chapters.map((c) => (
-        <Link key={c.slug} to={`/study/${subject.slug}/${c.slug}`}>
-          <Card size="sm">
-            <CardHeader>
-              <CardTitle>
-                {c.number ? `${c.number}. ` : ""}
-                {c.title}
-              </CardTitle>
-              <CardAction className="flex flex-wrap gap-1">
-                {c.tests.map((t) => (
-                  <Badge key={t} variant="secondary">
-                    {t}
-                  </Badge>
-                ))}
-              </CardAction>
-            </CardHeader>
-          </Card>
-        </Link>
+        <div key={c.slug} className="flex items-center gap-3">
+          <Checkbox checked={selected.includes(c.slug)} onCheckedChange={(on) => toggle(c.slug, on)} aria-label={`Select ${c.title}`} />
+          <Link to={`/study/${subject.slug}/${c.slug}`} className="min-w-0 flex-1">
+            <Card size="sm">
+              <CardHeader>
+                <CardTitle>
+                  {c.number ? `${c.number}. ` : ""}
+                  {c.title}
+                </CardTitle>
+                <CardAction className="flex flex-wrap gap-1">
+                  {c.tests.map((t) => (
+                    <Badge key={t} variant="secondary">
+                      {t}
+                    </Badge>
+                  ))}
+                </CardAction>
+              </CardHeader>
+            </Card>
+          </Link>
+        </div>
       ))}
+      {chapters.length > 1 && (
+        <div className="sticky bottom-3 z-10 mt-2 flex flex-wrap items-center gap-2 rounded-xl bg-card p-3 shadow-md ring-1 ring-foreground/10">
+          <span className="text-sm text-muted-foreground">
+            {picked.length === 0 ? "Tick chapters to study them together" : `${picked.length} selected`}
+          </span>
+          <div className="ml-auto flex gap-2">
+            <Button variant="ghost" size="sm" onClick={() => setSelected(picked.length === chapters.length ? [] : chapters.map((c) => c.slug))}>
+              {picked.length === chapters.length ? "Clear" : "Select all"}
+            </Button>
+            <Button
+              size="sm"
+              disabled={picked.length < 2}
+              onClick={() => navigate(`/study/${subject.slug}?chapters=${picked.map((c) => c.slug).join(",")}`)}
+            >
+              <Layers />
+              Study together
+            </Button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
 
-function ChapterView({ subjectSlug, chapterSlug }: { subjectSlug: string; chapterSlug: string }) {
+function useChapters(subjectSlug: string, slugs: string[]) {
   const dispatch = useAppDispatch();
-  const key = studyKey(subjectSlug, chapterSlug);
-  const entry = useAppSelector((s) => s.study.chapters[key]);
+  const loaded = useAppSelector((s) => s.study.chapters);
+  const keys = slugs.map((slug) => studyKey(subjectSlug, slug));
+  const missing = keys.filter((k) => !loaded[k]).join(",");
+  useEffect(() => {
+    missing.split(",").filter(Boolean).forEach((k) => dispatch(fetchStudyChapter(k)));
+  }, [missing, dispatch]);
+  return keys.map((k) => loaded[k]);
+}
+
+function ChapterView({ subjectSlug, chapterSlug }: { subjectSlug: string; chapterSlug: string }) {
+  const [entry] = useChapters(subjectSlug, [chapterSlug]);
+  if (!entry || entry.status === "loading") return <EmptyState>Loading…</EmptyState>;
+  const chapter = entry.chapter;
+  if (!chapter) return <EmptyState>{entry.error ?? "Not found."}</EmptyState>;
+  return (
+    <StudyContent
+      key={chapterSlug}
+      backTo={`/study/${subjectSlug}`}
+      entries={[{ label: chapter.chapter, dot: CHAPTER_DOTS[0], sections: chapter.sections }]}
+      header={
+        <>
+          <div className="flex flex-wrap gap-2">
+            <SubjectBadge subject={chapter.subject} />
+            {chapter.tests.map((t) => (
+              <Badge key={t} variant="secondary">
+                {t}
+              </Badge>
+            ))}
+          </div>
+          <h2 className="text-3xl leading-tight font-bold tracking-tight">{chapter.chapter}</h2>
+          <p className="text-sm text-muted-foreground">Chapter revision · {chapter.sections.length} sections</p>
+        </>
+      }
+    />
+  );
+}
+
+function CombinedView({ subjectSlug, slugs }: { subjectSlug: string; slugs: string[] }) {
+  const subject = useAppSelector((s) => s.data.studyIndex.subjects.find((x) => x.slug === subjectSlug));
+  // Chapters always appear in the index's order, whatever order the URL lists them in.
+  const ordered = subject ? subject.chapters.filter((c) => slugs.includes(c.slug)).map((c) => c.slug) : [];
+  const entries = useChapters(subjectSlug, ordered);
+  if (!subject || ordered.length === 0) return <EmptyState>Not found.</EmptyState>;
+  if (entries.some((e) => !e || e.status === "loading")) return <EmptyState>Loading…</EmptyState>;
+  const failed = entries.find((e) => !e.chapter);
+  if (failed) return <EmptyState>{failed.error ?? "Not found."}</EmptyState>;
+  const built: Entry[] = entries.map((e, i) => ({ label: e.chapter!.chapter, dot: CHAPTER_DOTS[i % CHAPTER_DOTS.length], sections: e.chapter!.sections }));
+  return (
+    <StudyContent
+      key={ordered.join(",")}
+      backTo={`/study/${subjectSlug}`}
+      entries={built}
+      header={
+        <>
+          <div className="flex flex-wrap gap-2">
+            <SubjectBadge subject={subject.subject} />
+          </div>
+          <h2 className="text-3xl leading-tight font-bold tracking-tight">{built.length} chapters together</h2>
+          <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted-foreground">
+            {built.map((b) => (
+              <span key={b.label} className="flex items-center gap-1.5">
+                <span className={`size-2 rounded-[2px] ${b.dot}`} />
+                {b.label}
+              </span>
+            ))}
+          </div>
+        </>
+      }
+    />
+  );
+}
+
+/** The study page body shared by one chapter and several together: Hide
+ * answers switch, stat tiles, sticky section bar and the four parts. */
+function StudyContent({ backTo, header, entries }: { backTo: string; header: ReactNode; entries: Entry[] }) {
   const [hide, setHide] = useState(false);
   const [active, setActive] = useState("learn");
+  const combined = entries.length > 1;
 
-  useEffect(() => {
-    if (!entry) dispatch(fetchStudyChapter(key));
-  }, [entry, key, dispatch]);
-
-  const chapter = entry?.status === "succeeded" ? entry.chapter : undefined;
-  const parts = useMemo(() => {
-    if (!chapter) return [];
-    return PARTS.map((p) => {
-      const sections = chapter.sections.filter((s) => p.types.includes(s.type));
-      return { ...p, sections, total: sections.reduce((n, s) => n + itemCount(s), 0) };
-    }).filter((p) => p.sections.length > 0);
-  }, [chapter]);
+  const parts = useMemo(
+    () =>
+      PARTS.map((p) => {
+        const merged = mergeSections(entries, p.types);
+        const total = merged.reduce((n, members) => n + members.reduce((m, x) => m + itemCount(x.section), 0), 0);
+        return { ...p, merged, total };
+      }).filter((p) => p.merged.length > 0),
+    [entries],
+  );
 
   // Scroll-spy: the part whose section sits in the upper part of the viewport
   // is the active tab. Paused briefly after a tab tap so the smooth scroll
@@ -158,9 +286,6 @@ function ChapterView({ subjectSlug, chapterSlug }: { subjectSlug: string; chapte
     return () => observer.disconnect();
   }, [partValues]);
 
-  if (!entry || entry.status === "loading") return <EmptyState>Loading…</EmptyState>;
-  if (!chapter) return <EmptyState>{entry.error ?? "Not found."}</EmptyState>;
-
   const goTo = (value: string) => {
     setActive(value);
     lockUntil.current = Date.now() + 900;
@@ -171,7 +296,7 @@ function ChapterView({ subjectSlug, chapterSlug }: { subjectSlug: string; chapte
     <div className="group/study flex flex-col gap-6" data-hide={hide}>
       <header className="flex flex-col gap-3">
         <div className="flex items-center justify-between">
-          <Button variant="ghost" size="sm" className="-ml-2" nativeButton={false} render={<Link to={`/study/${subjectSlug}`} />}>
+          <Button variant="ghost" size="sm" className="-ml-2" nativeButton={false} render={<Link to={backTo} />}>
             <ChevronLeft />
             All chapters
           </Button>
@@ -180,16 +305,7 @@ function ChapterView({ subjectSlug, chapterSlug }: { subjectSlug: string; chapte
             <Switch checked={hide} onCheckedChange={setHide} aria-label="Hide answers" />
           </label>
         </div>
-        <div className="flex flex-wrap gap-2">
-          <SubjectBadge subject={chapter.subject} />
-          {chapter.tests.map((t) => (
-            <Badge key={t} variant="secondary">
-              {t}
-            </Badge>
-          ))}
-        </div>
-        <h2 className="text-3xl leading-tight font-bold tracking-tight">{chapter.chapter}</h2>
-        <p className="text-sm text-muted-foreground">Chapter revision · {chapter.sections.length} sections</p>
+        {header}
       </header>
 
       <div className="grid grid-cols-2 gap-2.5 md:grid-cols-4">
@@ -234,12 +350,12 @@ function ChapterView({ subjectSlug, chapterSlug }: { subjectSlug: string; chapte
                   <p className="text-sm text-muted-foreground">{p.blurb}</p>
                 </div>
                 <Badge variant="outline" className="shrink-0 text-muted-foreground">
-                  {p.sections.length} {p.sections.length === 1 ? "part" : "parts"}
+                  {p.merged.length} {p.merged.length === 1 ? "part" : "parts"}
                 </Badge>
               </div>
-              {p.sections.map((section, j) => (
-                <SectionView key={j} section={section} />
-              ))}
+              {p.merged.map((members, j) =>
+                combined ? <MergedSectionView key={j} members={members} /> : <SectionView key={j} section={members[0].section} />,
+              )}
             </section>
           ))}
         </div>
