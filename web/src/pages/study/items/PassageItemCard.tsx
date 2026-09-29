@@ -1,24 +1,20 @@
 import type { PassageItem } from "../../../study/types";
 import SourceMarks from "../SourceMarks";
 import QaItemCard from "./QaItemCard";
-import styles from "../Study.module.css";
 
-/** One unseen-comprehension passage she practiced, plus the Q&A she
- * answered about it -- the passage text sits in its own box so it reads as
- * "unfamiliar text", then reuses QaItemCard for each question so answer
- * rendering (incl. bulleted answers) isn't duplicated. */
+/** An unseen passage plus the questions asked about it. */
 export default function PassageItemCard({ item }: { item: PassageItem }) {
   return (
-    <div className={styles.passage}>
-      <p className={styles.passageTitle}>
+    <div className="flex flex-col gap-2 py-3">
+      <p className="flex items-baseline justify-between gap-2 font-semibold">
         <span>
           {item.title}
           <SourceMarks sources={item.sources} />
         </span>
-        {item.date && <span className={styles.passageDate}>{item.date}</span>}
+        {item.date && <span className="font-mono text-xs font-normal text-muted-foreground">{item.date}</span>}
       </p>
-      <p className={styles.passageText}>{item.text}</p>
-      <div className={styles.passageQs}>
+      <p className="rounded-lg bg-muted/60 px-3 py-2 text-[15px] leading-relaxed whitespace-pre-line">{item.text}</p>
+      <div className="flex flex-col divide-y">
         {item.questions.map((q, i) => (
           <QaItemCard key={i} item={q} />
         ))}

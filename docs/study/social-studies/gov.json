@@ -207,7 +207,8 @@
             "worksheet": true
           }
         }
-      ]
+      ],
+      "layout": "terms"
     },
     {
       "title": "State / UT Capitals",

@@ -1,5 +1,4 @@
 import type { SourceMarks as SourceMarksType } from "../../study/types";
-import styles from "./Study.module.css";
 
 const TAGS = [
   { key: "notes", tag: "N", title: "From her own notebook" },
@@ -14,7 +13,11 @@ export default function SourceMarks({ sources }: { sources?: SourceMarksType }) 
   return (
     <>
       {TAGS.filter((t) => sources[t.key]).map((t) => (
-        <span key={t.key} className={styles.srcTag} title={t.title}>
+        <span
+          key={t.key}
+          title={t.title}
+          className="ml-1 inline-flex h-4 min-w-4 cursor-help items-center justify-center rounded border px-1 align-middle font-mono text-[10px] font-medium text-muted-foreground"
+        >
           {t.tag}
         </span>
       ))}

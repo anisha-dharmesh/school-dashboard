@@ -1,25 +1,34 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { fetchStudyChapter, studyKey } from "../../features/study/studySlice";
-import type { SectionType } from "../../study/types";
+import type { SectionType, StudySection } from "../../study/types";
+import { Switch } from "../../components/ui/switch";
+import { ChevronLeft } from "lucide-react";
 import { ToggleGroup, ToggleGroupItem } from "../../components/ui/toggle-group";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger } from "../../components/ui/tabs";
 import { Badge } from "../../components/ui/badge";
-import { Card, CardHeader, CardTitle, CardAction } from "../../components/ui/card";
+import { Button } from "../../components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle, CardAction } from "../../components/ui/card";
 import EmptyState from "../../components/ui/EmptyState";
 import SubjectBadge from "../../components/subjects/SubjectBadge";
 import SectionView from "./SectionView";
-import styles from "./Study.module.css";
 
 // Sections are grouped into four parts, in this order; a part with no
-// sections in the chapter doesn't get a tab.
-const PARTS: { value: string; label: string; types: SectionType[] }[] = [
-  { value: "learn", label: "Learn", types: ["vocab", "block", "capitals"] },
-  { value: "practice", label: "Practice", types: ["fib", "match", "trueFalse", "name", "mcq"] },
-  { value: "write", label: "Write", types: ["qa", "passage"] },
-  { value: "picture", label: "Picture", types: ["picture"] },
+// sections in the chapter is left out.
+const PARTS: { value: string; label: string; blurb: string; unit: string; dot: string; text: string; types: SectionType[] }[] = [
+  { value: "learn", label: "Learn", blurb: "Words, meanings and facts to remember", unit: "facts & words", dot: "bg-blue-500", text: "text-blue-600 dark:text-blue-400", types: ["vocab", "block", "capitals"] },
+  { value: "practice", label: "Practice", blurb: "Short, quick-answer questions", unit: "quick questions", dot: "bg-amber-500", text: "text-amber-600 dark:text-amber-400", types: ["fib", "match", "trueFalse", "name", "mcq"] },
+  { value: "write", label: "Write", blurb: "Longer answers in your own words", unit: "written answers", dot: "bg-emerald-500", text: "text-emerald-600 dark:text-emerald-400", types: ["qa", "passage"] },
+  { value: "activity", label: "Activity", blurb: "Pictures, maps and diagrams", unit: "picture tasks", dot: "bg-purple-500", text: "text-purple-600 dark:text-purple-400", types: ["picture"] },
 ];
+
+function itemCount(section: StudySection): number {
+  if (section.type === "fib") return section.sets.reduce((n, set) => n + set.items.length, 0);
+  if (section.type === "match") return section.sets.reduce((n, set) => n + set.pairs.length, 0);
+  if (section.type === "block") return section.items.reduce((n, b) => n + (section.layout === "text" || !section.layout ? 1 : b.lines.length), 0);
+  return section.items.length;
+}
 
 /** /study, /study/:subject and /study/:subject/:chapter -- browse by
  * subject, then chapter, then that chapter's sections. */
@@ -103,6 +112,8 @@ function ChapterView({ subjectSlug, chapterSlug }: { subjectSlug: string; chapte
   const dispatch = useAppDispatch();
   const key = studyKey(subjectSlug, chapterSlug);
   const entry = useAppSelector((s) => s.study.chapters[key]);
+  const [hide, setHide] = useState(false);
+  const [active, setActive] = useState("learn");
 
   useEffect(() => {
     if (!entry) dispatch(fetchStudyChapter(key));
@@ -111,53 +122,97 @@ function ChapterView({ subjectSlug, chapterSlug }: { subjectSlug: string; chapte
   const chapter = entry?.status === "succeeded" ? entry.chapter : undefined;
   const parts = useMemo(() => {
     if (!chapter) return [];
-    let n = 0;
-    return PARTS.map((p) => ({
-      ...p,
-      sections: chapter.sections.filter((s) => p.types.includes(s.type)).map((section) => ({ section, num: ++n })),
-    })).filter((p) => p.sections.length > 0);
+    return PARTS.map((p) => {
+      const sections = chapter.sections.filter((s) => p.types.includes(s.type));
+      return { ...p, sections, total: sections.reduce((n, s) => n + itemCount(s), 0) };
+    }).filter((p) => p.sections.length > 0);
   }, [chapter]);
 
   if (!entry || entry.status === "loading") return <EmptyState>Loading…</EmptyState>;
   if (!chapter) return <EmptyState>{entry.error ?? "Not found."}</EmptyState>;
 
+  const goTo = (value: string) => {
+    setActive(value);
+    document.getElementById(`part-${value}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
-    <>
-      <header className={styles.chapterHead}>
-        <Link className={styles.backLink} to={`/study/${subjectSlug}`}>
-          ← All chapters
-        </Link>
-        <h2 className={styles.chapterTitle}>
-          <SubjectBadge subject={chapter.subject} /> {chapter.chapter}
-        </h2>
-        <div className={styles.chips}>
+    <div className="group/study flex flex-col gap-6" data-hide={hide}>
+      <header className="flex flex-col gap-3">
+        <div className="flex items-center justify-between">
+          <Button variant="ghost" size="sm" className="-ml-2" nativeButton={false} render={<Link to={`/study/${subjectSlug}`} />}>
+            <ChevronLeft />
+            All chapters
+          </Button>
+          <label className="flex min-h-11 cursor-pointer items-center gap-2.5 text-sm font-medium">
+            Hide answers
+            <Switch checked={hide} onCheckedChange={setHide} aria-label="Hide answers" />
+          </label>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <SubjectBadge subject={chapter.subject} />
           {chapter.tests.map((t) => (
             <Badge key={t} variant="secondary">
               {t}
             </Badge>
           ))}
         </div>
+        <h2 className="text-3xl leading-tight font-bold tracking-tight">{chapter.chapter}</h2>
+        <p className="text-sm text-muted-foreground">Chapter revision · {chapter.sections.length} sections</p>
       </header>
+
+      <div className="grid grid-cols-2 gap-2.5 md:grid-cols-4">
+        {parts.map((p) => (
+          <Card key={p.value} size="sm" className="gap-1">
+            <CardHeader>
+              <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                <span className={`size-2 rounded-[2px] ${p.dot}`} />
+                {p.label}
+              </div>
+            </CardHeader>
+            <CardContent className="text-2xl font-bold">
+              {p.total} <span className="text-[13px] font-normal text-muted-foreground">{p.unit}</span>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+
+      <Tabs value={active} onValueChange={goTo} className="sticky top-0 z-10 bg-background py-2">
+        <TabsList className="grid w-full" style={{ gridTemplateColumns: `repeat(${parts.length}, minmax(0, 1fr))` }}>
+          {parts.map((p) => (
+            <TabsTrigger key={p.value} value={p.value}>
+              {p.label}
+            </TabsTrigger>
+          ))}
+        </TabsList>
+      </Tabs>
+
       {parts.length === 0 ? (
         <EmptyState>Nothing here yet.</EmptyState>
       ) : (
-        <Tabs key={key} defaultValue={parts[0].value} className="w-full">
-          <TabsList variant="line">
-            {parts.map((p) => (
-              <TabsTrigger key={p.value} value={p.value}>
-                {p.label}
-              </TabsTrigger>
-            ))}
-          </TabsList>
-          {parts.map((p) => (
-            <TabsContent key={p.value} value={p.value} className="flex flex-col gap-3">
-              {p.sections.map(({ section, num }) => (
-                <SectionView key={num} num={num} section={section} />
+        <div className="flex flex-col gap-10">
+          {parts.map((p, i) => (
+            <section key={p.value} id={`part-${p.value}`} className="flex scroll-mt-16 flex-col gap-3.5">
+              <div className="flex items-end justify-between gap-3">
+                <div className="flex flex-col gap-1">
+                  <div className={`flex items-center gap-2 text-xs font-semibold tracking-widest uppercase ${p.text}`}>
+                    <span className={`size-2 rounded-[2px] ${p.dot}`} />
+                    Part {String.fromCharCode(65 + i)}
+                  </div>
+                  <h3 className="text-2xl font-bold tracking-tight">{p.label}</h3>
+                  <p className="text-sm text-muted-foreground">{p.blurb}</p>
+                </div>
+                <Badge variant="outline" className="shrink-0 text-muted-foreground">
+                  {p.sections.length} {p.sections.length === 1 ? "part" : "parts"}
+                </Badge>
+              </div>
+              {p.sections.map((section, j) => (
+                <SectionView key={j} section={section} />
               ))}
-            </TabsContent>
+            </section>
           ))}
-        </Tabs>
+        </div>
       )}
-    </>
+    </div>
   );
 }

@@ -114,14 +114,14 @@ interface SectionBase {
 }
 export type StudySection =
   | (SectionBase & { type: "vocab"; items: VocabItem[] })
-  | (SectionBase & { type: "block"; items: BlockItem[] })
+  | (SectionBase & { type: "block"; layout?: "text" | "list" | "chips"; items: BlockItem[] })
   | (SectionBase & { type: "capitals"; items: CapitalRow[] })
   | (SectionBase & { type: "fib"; sets: FibSet[] })
   | (SectionBase & { type: "match"; sets: MatchSet[] })
   | (SectionBase & { type: "trueFalse"; items: TrueFalseItem[] })
   | (SectionBase & { type: "name"; items: NameItem[] })
   | (SectionBase & { type: "mcq"; items: McqItem[] })
-  | (SectionBase & { type: "qa"; items: QaItem[] })
+  | (SectionBase & { type: "qa"; layout?: "terms"; items: QaItem[] })
   | (SectionBase & { type: "passage"; items: PassageItem[] })
   | (SectionBase & { type: "picture"; items: PictureItem[]; leaderGrid?: { label: string; items: LeaderGridItem[] } });
 

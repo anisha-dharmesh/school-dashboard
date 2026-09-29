@@ -75,7 +75,8 @@
             "textbook": true
           }
         }
-      ]
+      ],
+      "layout": "list"
     },
     {
       "title": "Diagram Labeling",

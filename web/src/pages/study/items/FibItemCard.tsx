@@ -1,11 +1,9 @@
 import type { ReactNode } from "react";
 import type { FibItem } from "../../../study/types";
+import { ANSWER_TEXT } from "../answer";
 import SourceMarks from "../SourceMarks";
-import styles from "../Study.module.css";
 
-/** One fill-in-the-blank sentence, answers always shown inline. Used
- * everywhere a FIB item renders -- change how an answer/source-mark looks
- * once, here, and every chapter's FIB list picks it up. */
+/** One fill-in-the-blank sentence with each answer inline. */
 export default function FibItemCard({ item }: { item: FibItem }) {
   return (
     <li>
@@ -20,7 +18,7 @@ function renderTemplate(template: string, answers: string[]) {
   const out: ReactNode[] = [parts[0]];
   parts.slice(1).forEach((part, i) => {
     out.push(
-      <span key={i} className={styles.fibAnswer}>
+      <span key={i} className={ANSWER_TEXT}>
         {answers[i]}
       </span>,
     );

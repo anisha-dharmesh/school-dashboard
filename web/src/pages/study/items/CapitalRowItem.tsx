@@ -1,14 +1,15 @@
 import type { CapitalRow } from "../../../study/types";
+import { TableCell, TableRow } from "../../../components/ui/table";
 import SourceMarks from "../SourceMarks";
 
 export default function CapitalRowItem({ row }: { row: CapitalRow }) {
   return (
-    <tr>
-      <td>{row.state}</td>
-      <td>{row.capital}</td>
-      <td>
+    <TableRow>
+      <TableCell>{row.state}</TableCell>
+      <TableCell className="font-medium">
+        {row.capital}
         <SourceMarks sources={row.sources} />
-      </td>
-    </tr>
+      </TableCell>
+    </TableRow>
   );
 }
