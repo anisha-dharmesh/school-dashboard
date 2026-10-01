@@ -1,5 +1,128 @@
 [
   {
+    "id": "5f1b25be0d05c949",
+    "posted_date": "01-10-2026",
+    "posted_date_iso": "2026-10-01",
+    "event_date_iso": "2026-10-01",
+    "text": "Class III F\n\n*Today's Daily Class update*\n01/10/2026\n\nPeriod 1: Assembly- Assembly was conducted .\n\nPeriod 2: Dance Class is conducted \n \nPeriod 3: Marathi - उजळणी घेतली.\n\nPeriod 4: Maths\n\nCh - 5, Exercise 4 page number 124 - Q1 was discussed and completed.\nHW- Complete Review Exercise  page number 125 - Q2- (a,c,e) in the notebook.\n\nPeriod 5: SST\nChapter No.1\nClass Test Conducted \n\nPeriod 6: Hindi- विशेषण की व्याख्या की गई तथा लिखित कार्य पाठ्यपुस्तक में करवाए गए \n\nPeriod 7: Skating Class is conducted \n\nPeriod 8: Skating class is conducted \n\nPeriod 9 : Marathi - ससा या कवितेचे स्पष्टीकरण देण्यास सुरुवात केली.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "pattern",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "Assembly was conducted .",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Dance",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "उजळणी घेतली.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch - 5, Exercise 4 page number 124 - Q1 was discussed and completed",
+        "hw": "Complete Review Exercise  page number 125 - Q2- (a,c,e) in the notebook"
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "Chapter No.1\nClass Test Conducted",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Hindi",
+        "note": "विशेषण की व्याख्या की गई तथा लिखित कार्य पाठ्यपुस्तक में करवाए गए",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Skating",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Skating",
+        "note": "class is conducted",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "Marathi",
+        "note": "ससा या कवितेचे स्पष्टीकरण देण्यास सुरुवात केली.",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 0.9,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "6f401d19a2c2b3e5",
+    "posted_date": "01-10-2026",
+    "posted_date_iso": "2026-10-01",
+    "event_date_iso": "2026-10-03",
+    "text": "Grade III F\n​Dear Parent,\n\n​The Term I Progress Report meeting will be held on Saturday, 3rd October 2026 in your ward's classroom.\n\nSharing the ​schedule for the same:\n​9:30 a.m. – 10:30 a.m.: Roll No. 1 to 6\n​10:30 a.m. – 11:30 a.m.: Roll No. 7 to 12\n​11:30 a.m. – 12:30 p.m.: Roll No. 13 to 18\n​12:30 p.m. – 1:00 p.m.: Teacher's Break\n​1:00 p.m. – 2:00 p.m.: Roll No. 19 to 24.\n​2:00 p.m. – 3:00 p.m.: Roll No. 25 to 30\n​3:00 p.m. – 4:00 p.m.: Roll No. 31 to 33\n\n​Answer sheets will be shown during the meeting. \n\n*​Please Note:*\n* ​Strictly adhere to your allotted time slot (teachers will be unavailable during the break).\n* ​Accompanying students must wear the school uniform.\n* ​Both parent and student must carry their school ID cards.",
+    "attachment_url": null,
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "9b0a0a8c4bae3f76",
+    "posted_date": "01-10-2026",
+    "posted_date_iso": "2026-10-01",
+    "event_date_iso": "2026-10-01",
+    "text": "Dear Parent, \n\nPFA the Culmination Worksheet No. 5 for SST. \n\nPlease note you are required to make your child complete the same at home. The answer key will be shared after 3 days. Parent to use the answer key to correct the child's worksheet at home.",
+    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/1102026115536.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Social Studies",
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": "Worksheet",
+    "worksheet_numbers": [
+      5
+    ],
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
     "id": "a1c79359b51adcfa",
     "posted_date": "30-09-2026",
     "posted_date_iso": "2026-09-30",
@@ -34,6 +157,52 @@
     "is_timetable": false,
     "confidence": 0.85,
     "subject": "Computer Science",
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": "Worksheet",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "b88f2da06c9e84c9",
+    "posted_date": "30-09-2026",
+    "posted_date_iso": "2026-09-30",
+    "event_date_iso": "2026-09-30",
+    "text": "Dear Parent, \n\nPFA the Culmination Worksheet No. 5 for Hindi.\n\nPlease note you are required to make your child complete the same at home. The answer key will be shared after 3 days. Parent to use the answer key to correct the child's worksheet at home.",
+    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3092026204623.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Hindi",
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": "Worksheet",
+    "worksheet_numbers": [
+      5
+    ],
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "a2a396ce6b6bb6ec",
+    "posted_date": "30-09-2026",
+    "posted_date_iso": "2026-09-30",
+    "event_date_iso": "2026-09-30",
+    "text": "Dear Parent, \n\nPFA the Culmination Worksheet of Marathi \n\nPlease note you are required to make your child complete the same at home. The answer key will be shared after 3 days. Parent to use the answer key to correct the child’s worksheet at home. \n\nEnd of each month a worksheet will be shared with you for child to practice at home.",
+    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3092026185914.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Marathi",
     "chapter": null,
     "chapter_number": null,
     "material_type": "Worksheet",
