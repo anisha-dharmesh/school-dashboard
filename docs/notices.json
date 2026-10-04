@@ -44,6 +44,30 @@
     "exam_cycle": null
   },
   {
+    "id": "a07a6b0352c76739",
+    "posted_date": "03-10-2026",
+    "posted_date_iso": "2026-10-03",
+    "event_date_iso": "2026-10-03",
+    "text": "Dear parents,\n\nPlease find the attached answer key for the worksheet no.5 of Hindi\nKindly use the same while correcting your wards work at home.",
+    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3102026192446.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Hindi",
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": "Answer Key",
+    "worksheet_numbers": [
+      5
+    ],
+    "answer_key_url": null,
+    "paired": true,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "c438f3296e673454",
     "posted_date": "02-10-2026",
     "posted_date_iso": "2026-10-02",
@@ -361,7 +385,7 @@
     "worksheet_numbers": [
       5
     ],
-    "answer_key_url": null,
+    "answer_key_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3102026192446.pdf",
     "paired": false,
     "calendar_event_id": null,
     "exam_cycle": []
