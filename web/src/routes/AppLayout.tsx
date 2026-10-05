@@ -145,7 +145,7 @@ export default function AppLayout() {
           </div>
           <div className={`${styles.footerReport} mt-1`}>
             <a
-              href="https://github.com/dharmesh-hemaram/anisha-school-dashboard/issues/new"
+              href="https://github.com/anisha-dharmesh/school-dashboard/issues/new"
               target="_blank"
               rel="noopener noreferrer"
             >

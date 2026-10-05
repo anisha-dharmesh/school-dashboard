@@ -6,7 +6,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/anisha-school-dashboard/",
+  base: "/school-dashboard/",
   plugins: [
     react(),
     tailwindcss(),
@@ -19,12 +19,12 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "favicon.svg", "apple-touch-icon-180x180.png"],
       manifest: {
-        id: "/anisha-school-dashboard/",
+        id: "/school-dashboard/",
         name: "III F Notice Board",
         short_name: "III F Notices",
         description: "Class III F's school notices, homework, exams and timetable.",
         // Relative to the manifest's own URL rather than a hardcoded
-        // "/anisha-school-dashboard/..." -- resolves the same regardless of
+        // "/school-dashboard/..." -- resolves the same regardless of
         // where the site ends up mounted.
         start_url: ".",
         scope: ".",
