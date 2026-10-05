@@ -1,0 +1,647 @@
+{
+  "subject": "English",
+  "chapter": "The Prize",
+  "term": "Term 2",
+  "number": 1,
+  "tests": [],
+  "sections": [
+    {
+      "title": "New Words",
+      "type": "block",
+      "items": [
+        {
+          "heading": "New Words",
+          "lines": [
+            "charged",
+            "screaming",
+            "ill-mannered",
+            "disappointed",
+            "politely",
+            "compound",
+            "grumpy",
+            "muddy",
+            "spotless",
+            "scared",
+            "scrubbed",
+            "spick",
+            "span",
+            "tempting",
+            "pounce",
+            "growled",
+            "deserved"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ],
+      "layout": "chips"
+    },
+    {
+      "title": "Word Meanings & Vocabulary",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "charged",
+          "meaning": "rushed forward with force or attack",
+          "example": "The soldiers charged at the enemy.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "tempting",
+          "meaning": "attractive, something that makes you interested",
+          "example": "The smell of freshly baked pizza is so tempting.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "pounce",
+          "meaning": "to jump over something or someone suddenly",
+          "example": "The eagle pounced from the sky to catch a fish.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "deserved",
+          "meaning": "earned something by working hard",
+          "example": "He deserved a break after such a long day.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Comprehension Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What caught Ronnie's attention one day?",
+          "answer": "Ronnie's attention was caught by a huge house and a big basket full of chocolates with a pink bow at the gate.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "Why did the guard call Ronnie an ill-mannered child?",
+          "answer": "The guard called Ronnie an ill-mannered child because Ronnie had initially charged at the gate and shouted, showing impolite behaviour.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "'No one can turn me away now.' Why did Ronnie think so?",
+          "answer": "Ronnie thought that no one could turn him away because he had taken a bath, combed his hair and wanted to avoid making any more mistakes in order to be well-mannered.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "Why did the tall man send Ronnie away?",
+          "answer": "The tall man sent Ronnie away because Ronnie had failed to use the word 'please' when asking for the basket, showing a lack of manner.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "question": "Do you think Ronnie deserved the basket? Why/Why not?",
+          "answer": "Yes, Ronnie deserved the basket because he learned important lessons about manners & politeness.",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "Why was Ronnie angry and disappointed? (You may choose more than one option.)",
+          "options": "(a) The guard had stopped him.    (b) He was hungry.    (c) He felt that he was the best child and should get the basket.",
+          "answer": "(a) The guard had stopped him.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "How did Ronnie react when he saw the basket of chocolates at the gate?",
+          "options": "(a) 😮 Surprised    (b) 🤔 Thinking    (c) 😔 Sad",
+          "answer": "(a) 😮 Surprised",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "“Never give up, try again.” What did Ronnie's mother mean by saying this?",
+          "options": "(a) Never feel that you can't do something. Go back and try again.    (b) Give everything to others.    (c) If you can't do something, don't do it.",
+          "answer": "(a) Never feel that you can't do something. Go back and try again.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "What did Ronnie's mother advise him to do to get into the house?",
+          "options": "(a) shout at the guard    (b) politely ask the guard to open the gate    (c) break the lock on the gate",
+          "answer": "(b) politely ask the guard to open the gate",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "A: Ronnie did not ask the guard politely to open the gate. B: The guard did not let Ronnie in because he was ill-mannered. Which is correct?",
+          "options": "(a) Both A and B are true and B explains A.    (b) Both A and B are true but B doesn't explain A.    (c) A is false and B is true.",
+          "answer": "(a) Both A and B are true and B explains A.",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Listening: Choose the Correct Word",
+      "type": "mcq",
+      "note": "From the listening story in the textbook (page 58).",
+      "items": [
+        {
+          "question": "Ronnie's garden had a big ___ tree.",
+          "options": "(a) apple    (b) guava    (c) peach",
+          "answer": "(c) peach",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "A ___ got caught in the spider's web.",
+          "options": "(a) butterfly    (b) grasshopper    (c) ant",
+          "answer": "(a) butterfly",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "There was a ___ spider in the middle of the web.",
+          "options": "(a) sleepy    (b) hungry    (c) thirsty",
+          "answer": "(b) hungry",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Ronnie ___ the butterfly.",
+          "options": "(a) caught    (b) watched    (c) threw",
+          "answer": "(a) caught",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Being Polite: Good or Bad Manners",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "Saying “May I?” is good manners.",
+          "answer": true,
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "Making fun of others is good manners.",
+          "answer": false,
+          "explanation": "Making fun of others is bad manners.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "Teasing is good manners.",
+          "answer": false,
+          "explanation": "Teasing is bad manners.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "Making noise is good manners.",
+          "answer": false,
+          "explanation": "Making noise is bad manners.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "Saying “Thank you!” is good manners.",
+          "answer": true,
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "Saying “Please!” is good manners.",
+          "answer": true,
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Grammar Notes",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Pronouns",
+          "lines": [
+            "A pronoun is a word that is used in place of a noun.",
+            "Examples: I, we, he, she, him, her, they",
+            "'It' is used for non-living things and animals when we do not know whether it is male or female."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Articles",
+          "lines": [
+            "A is used with singular number and before consonant sounds. Examples: a boy, a bag",
+            "An is used with singular number and before vowel (a, e, i, o, u) sounds. Examples: an apple, an onion",
+            "Hint: it is the sound that matters and not the letter.",
+            "",
+            "The is a definite article. We use it before the names of a particular person, place or thing. Examples: the Qutub Minar, the Ganga"
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Match the Following",
+      "type": "match",
+      "sets": [
+        {
+          "label": "Match the pictures with the suitable pronouns",
+          "sources": {
+            "textbook": true
+          },
+          "columns": [
+            "Picture",
+            "Pronoun"
+          ],
+          "pairs": [
+            {
+              "left": "A man",
+              "right": "he"
+            },
+            {
+              "left": "Two girls",
+              "right": "they"
+            },
+            {
+              "left": "A girl",
+              "right": "she"
+            },
+            {
+              "left": "A ship",
+              "right": "it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "note": "Use a pronoun in place of the repeated noun",
+          "items": [
+            {
+              "template": "The guard is sleeping. ___ is tired.",
+              "answers": [
+                "He"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Ronnie is laughing. ___ is happy.",
+              "answers": [
+                "He"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The guard and Ronnie are friends. ___ are playing.",
+              "answers": [
+                "They"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        },
+        {
+          "note": "Use a or an",
+          "items": [
+            {
+              "template": "___ iron gate",
+              "answers": [
+                "An"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ chocolate basket",
+              "answers": [
+                "A"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ peacock",
+              "answers": [
+                "A"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ orange",
+              "answers": [
+                "An"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Ronnie is ___ honest child.",
+              "answers": [
+                "an"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "It is ___ rainy day. My mother asked me to carry ___ umbrella.",
+              "answers": [
+                "a",
+                "an"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "I had ___ ice cream with ___ biscuit.",
+              "answers": [
+                "an",
+                "a"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "My mother gave me ___ sandwich and ___ egg for lunch.",
+              "answers": [
+                "a",
+                "an"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        },
+        {
+          "note": "Use a, an or the",
+          "items": [
+            {
+              "template": "___ moon",
+              "answers": [
+                "The"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ computer",
+              "answers": [
+                "A"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ ant",
+              "answers": [
+                "An"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ Taj Mahal",
+              "answers": [
+                "The"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ bottle",
+              "answers": [
+                "A"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ Red Fort is in Delhi.",
+              "answers": [
+                "The"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ Great Barrier Reef is in ___ Pacific Ocean.",
+              "answers": [
+                "The",
+                "the"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ apple a day is healthy for us.",
+              "answers": [
+                "An"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "It is ___ beautiful garden.",
+              "answers": [
+                "a"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        },
+        {
+          "note": "Learn new words: choose the suitable word",
+          "items": [
+            {
+              "template": "Let's not ___ mistakes. (do / make)",
+              "answers": [
+                "make"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Did you ___ that sound? (listen / hear)",
+              "answers": [
+                "hear"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "I want to give her a ___ on her birthday. (present / prize)",
+              "answers": [
+                "present"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ the sum on the board. (Rub / Erase)",
+              "answers": [
+                "Erase"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Underline the Pronouns",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "Find the pronoun: Ronnie and I had fun watching the animals in the zoo.",
+          "answer": "I",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Find the pronoun: She cleaned the kitchen after cooking food.",
+          "answer": "She",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Find the pronoun: I am the best child in the world.",
+          "answer": "I",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Find the pronoun: The book is very popular as it is very inspiring.",
+          "answer": "it",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Find the pronoun: It is hot in summer and cold in winter.",
+          "answer": "It",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Punctuate",
+      "type": "qa",
+      "note": "Add capital letters and full stops.",
+      "items": [
+        {
+          "question": "the house had a huge iron gate",
+          "answer": "The house had a huge iron gate.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "ronnie plays in the afternoon",
+          "answer": "Ronnie plays in the afternoon.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "the grumpy lady lives in that house",
+          "answer": "The grumpy lady lives in that house.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "we are going to the park",
+          "answer": "We are going to the park.",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}

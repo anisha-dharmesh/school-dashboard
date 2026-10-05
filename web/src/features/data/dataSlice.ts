@@ -8,6 +8,7 @@ import type {
   Timetable,
 } from "../../types";
 import type { StudyIndex } from "../../study/types";
+import { nameBareChapters } from "../../lib/study";
 
 interface DashboardData {
   notices: Notice[];
@@ -59,7 +60,9 @@ export const fetchDashboardData = createAsyncThunk<DashboardData>("data/fetchDas
   ]);
 
   return {
-    notices: [...notices].sort((a, b) => parseDMYms(b.posted_date) - parseDMYms(a.posted_date)),
+    notices: nameBareChapters([...notices], studyIndex, portionSchedules).sort(
+      (a, b) => parseDMYms(b.posted_date) - parseDMYms(a.posted_date),
+    ),
     portionSchedules,
     studyIndex,
     holidays: { ...EMPTY_HOLIDAYS, ...holidays },

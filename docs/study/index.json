@@ -66,6 +66,13 @@
           "tests": [
             "Half Yearly"
           ]
+        },
+        {
+          "slug": "prize",
+          "title": "The Prize",
+          "term": "Term 2",
+          "number": 1,
+          "tests": []
         }
       ]
     },
