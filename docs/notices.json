@@ -1,5 +1,104 @@
 [
   {
+    "id": "9575bed12c12f8e6",
+    "posted_date": "05-10-2026",
+    "posted_date_iso": "2026-10-05",
+    "event_date_iso": "2026-10-05",
+    "text": "Dear Parent,\n\nKindly ensure that your ward brings the Leadership Portfolio and Reading Log tomorrow without fail.\n\nThank you for your cooperation.",
+    "attachment_url": null,
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "83b83184de216d99",
+    "posted_date": "05-10-2026",
+    "posted_date_iso": "2026-10-05",
+    "event_date_iso": "2026-10-05",
+    "text": "Class III F\n\n*Today's Daily Class update*\n05/10/2026\n\nPeriod 1:  Science proxy \n\nPeriod 2: Science proxy \n \nPeriod 3: Marathi  - अपठीत उतारा -8 स्पष्टीकरण व लेखन.\nH. W. अपठीत उतारा -9 वहीत सोडवणे.\n\nPeriod 4: Maths\nCh - 5, Exercise 4 page number 124 Q2 was discussed and completed.\nHW- Complete Review Exercise  page number 125 - Q2- (b,d,f) in the notebook.\n\nPeriod 5:  Computer science   Revised the motor chapter questions and answers \n\nPeriod 6:  Art and craft - Object drawing -Alarm clock,Pg. No. 41 is H.W\n\nPeriod 7: Leadership DCU\nHabit 4 Think Win- win\nDiscussed and solved the lesson \nMutual Respect\n\nPeriod 8: Life skills Proxy \n\nPeriod 9 : English proxy",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "pattern",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Science",
+        "note": "proxy",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "proxy",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "अपठीत उतारा -8 स्पष्टीकरण व लेखन",
+        "hw": "अपठीत उतारा -9 वहीत सोडवणे"
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch - 5, Exercise 4 page number 124 Q2 was discussed and completed",
+        "hw": "Complete Review Exercise  page number 125 - Q2- (b,d,f) in the notebook"
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "Revised the motor chapter questions and answers",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Art & Craft",
+        "note": "Object drawing -Alarm clock,Pg. No. 41 is",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Leadership",
+        "note": "DCU\nHabit 4 Think Win- win\nDiscussed and solved the lesson \nMutual Respect",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Life Skills",
+        "note": "Proxy",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "proxy",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 0.9,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "ba1a9fa6f6aeebf5",
     "posted_date": "03-10-2026",
     "posted_date_iso": "2026-10-03",
