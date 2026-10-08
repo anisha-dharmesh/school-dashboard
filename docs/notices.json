@@ -44,6 +44,28 @@
     "exam_cycle": "Half Yearly"
   },
   {
+    "id": "d2c1e68508239db2",
+    "posted_date": "08-10-2026",
+    "posted_date_iso": "2026-10-08",
+    "event_date_iso": "2026-10-08",
+    "text": "Dear Parents \nPFA of\nSubject -English \nChapter -2",
+    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/8102026155817.pdf",
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "718441320106bca9",
     "posted_date": "07-10-2026",
     "posted_date_iso": "2026-10-07",
