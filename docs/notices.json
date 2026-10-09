@@ -1,5 +1,27 @@
 [
   {
+    "id": "cd3ab54ee7d82033",
+    "posted_date": "09-10-2026",
+    "posted_date_iso": "2026-10-09",
+    "event_date_iso": "2026-10-10",
+    "text": "Dear Parent,\n\nA Gentle Reminder!\n\nThis is a gentle reminder that the last date for payment of the Annual Day fee is 10th October 2026 (Saturday).\n\nWe kindly request all parents to ensure that the payment is made on or before the due date.\n\nThank you for your cooperation and support.",
+    "attachment_url": null,
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "4db01b93ff035d39",
     "posted_date": "08-10-2026",
     "posted_date_iso": "2026-10-08",
