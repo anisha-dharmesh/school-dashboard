@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).parent / "docs" / "study"
-SUBJECT_ORDER = ["English", "Hindi", "Maths", "Science", "Social Studies"]
+SUBJECT_ORDER = ["English", "Hindi", "Marathi", "Maths", "Science", "Social Studies", "Computer Science"]
 
 
 def main() -> None:

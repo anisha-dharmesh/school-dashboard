@@ -1,0 +1,156 @@
+{
+  "subject": "Marathi",
+  "chapter": "जंगली प्राणी, कोण कुठे राहतो, कीटकांची ओळख",
+  "term": "Term 2",
+  "number": null,
+  "tests": [],
+  "sections": [
+    {
+      "title": "जंगली प्राणी",
+      "type": "match",
+      "sets": [
+        {
+          "columns": [
+            "प्राणी",
+            "English"
+          ],
+          "pairs": [
+            {
+              "left": "वाघ",
+              "right": "Tiger"
+            },
+            {
+              "left": "जिराफ",
+              "right": "Giraffe"
+            },
+            {
+              "left": "हत्ती",
+              "right": "Elephant"
+            },
+            {
+              "left": "हरीण",
+              "right": "Deer"
+            },
+            {
+              "left": "माकड",
+              "right": "Monkey"
+            },
+            {
+              "left": "अस्वल",
+              "right": "Bear"
+            },
+            {
+              "left": "सिंह",
+              "right": "Lion"
+            },
+            {
+              "left": "कोल्हा",
+              "right": "Fox"
+            }
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "कीटकांची ओळख",
+      "type": "match",
+      "sets": [
+        {
+          "columns": [
+            "कीटक",
+            "English"
+          ],
+          "pairs": [
+            {
+              "left": "फुलपाखरू",
+              "right": "Butterfly"
+            },
+            {
+              "left": "मुंगी",
+              "right": "Ant"
+            },
+            {
+              "left": "नाकतोडा",
+              "right": "Grasshopper"
+            },
+            {
+              "left": "झुरळ",
+              "right": "Cockroach"
+            },
+            {
+              "left": "मधमाशी",
+              "right": "Honeybee"
+            },
+            {
+              "left": "डास",
+              "right": "Mosquito"
+            }
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "कोण कुठे राहतो?",
+      "type": "match",
+      "sets": [
+        {
+          "columns": [
+            "कोण",
+            "घराचे नाव"
+          ],
+          "pairs": [
+            {
+              "left": "माणूस",
+              "right": "घर"
+            },
+            {
+              "left": "वाघ",
+              "right": "गुहा"
+            },
+            {
+              "left": "साप",
+              "right": "वारूळ"
+            },
+            {
+              "left": "ससा",
+              "right": "बीळ"
+            },
+            {
+              "left": "चिमणी",
+              "right": "घरटे"
+            },
+            {
+              "left": "सिंह",
+              "right": "गुहा"
+            },
+            {
+              "left": "उंदीर",
+              "right": "बीळ"
+            },
+            {
+              "left": "घोडा",
+              "right": "तबेला"
+            },
+            {
+              "left": "गाय, म्हैस",
+              "right": "गोठा"
+            },
+            {
+              "left": "मधमाशी",
+              "right": "पोळे"
+            }
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    }
+  ]
+}

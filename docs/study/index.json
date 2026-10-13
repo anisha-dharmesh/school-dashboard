@@ -135,6 +135,26 @@
       ]
     },
     {
+      "subject": "Marathi",
+      "slug": "marathi",
+      "chapters": [
+        {
+          "slug": "aaggaadi",
+          "title": "माझी आगगाडीतून सफर",
+          "term": "Term 2",
+          "number": 8,
+          "tests": []
+        },
+        {
+          "slug": "jungli-prani",
+          "title": "जंगली प्राणी, कोण कुठे राहतो, कीटकांची ओळख",
+          "term": "Term 2",
+          "number": null,
+          "tests": []
+        }
+      ]
+    },
+    {
       "subject": "Science",
       "slug": "science",
       "chapters": [
@@ -222,6 +242,19 @@
           "tests": [
             "Class Test"
           ]
+        }
+      ]
+    },
+    {
+      "subject": "Computer Science",
+      "slug": "computer-science",
+      "chapters": [
+        {
+          "slug": "motors",
+          "title": "Robotics: Motors",
+          "term": "Term 2",
+          "number": 5,
+          "tests": []
         }
       ]
     }

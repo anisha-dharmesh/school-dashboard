@@ -1,0 +1,185 @@
+{
+  "subject": "Computer Science",
+  "chapter": "Robotics: Motors",
+  "term": "Term 2",
+  "number": 5,
+  "tests": [],
+  "sections": [
+    {
+      "title": "New Words",
+      "type": "block",
+      "layout": "chips",
+      "items": [
+        {
+          "heading": "New Words",
+          "lines": [
+            "copter",
+            "propeller",
+            "blades",
+            "shaft",
+            "clockwise",
+            "counterclockwise",
+            "speed",
+            "voltages"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Key Ideas",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "BO motor",
+          "meaning": "A small motor used to make robots move. It consists of a DC motor, gear and shaft internally. BO stands for Battery Operated.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Shaft",
+          "meaning": "The rotating part of a motor that transfers movement.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Motor",
+          "meaning": "Changes electrical energy into mechanical energy.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "A BO motor is used to make robots ___.",
+              "answers": [
+                "move"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "A motor changes electrical energy into ___ energy.",
+              "answers": [
+                "mechanical"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "BO motors usually work with ___ current.",
+              "answers": [
+                "Direct"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "A ___ provides electrical energy to a motor.",
+              "answers": [
+                "battery"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "BO motors are commonly used in ___ projects.",
+              "answers": [
+                "robotics"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "BO stands for Battery ___ motor.",
+              "answers": [
+                "Operated"
+              ],
+              "sources": {
+                "notes": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "True or False",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "A BO motor can be used in robot cars.",
+          "answer": true,
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "A BO motor has a rotating shaft.",
+          "answer": true,
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "BO motors are not useful in robotics.",
+          "answer": false,
+          "explanation": "BO motors are commonly used in robotics projects and robot cars.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Answer the Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What is a BO motor?",
+          "answer": "A BO motor is a small motor used to make robots and it consists of a DC motor, gear and shaft internally.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "What is a shaft?",
+          "answer": "A shaft is the rotating part of a motor that transfers movement.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Can a BO motor make a robot move forward and backward?",
+          "answer": "Yes, it can help a robot move forward and backward.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Where are BO motors commonly used?",
+          "answer": "They are commonly used in robotics projects and robot cars.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    }
+  ]
+}
