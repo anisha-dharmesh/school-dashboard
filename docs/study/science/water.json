@@ -1,0 +1,282 @@
+{
+  "subject": "Science",
+  "chapter": "Water",
+  "term": "Term 2",
+  "number": 1,
+  "tests": [],
+  "sections": [
+    {
+      "title": "New Words",
+      "type": "block",
+      "layout": "chips",
+      "items": [
+        {
+          "heading": "New Words",
+          "lines": [
+            "rainwater",
+            "underground water",
+            "evaporation",
+            "melting",
+            "condensation",
+            "freezing",
+            "transparent",
+            "colourless",
+            "dissolves",
+            "substances",
+            "heavier",
+            "lighter",
+            "water cycle",
+            "containers",
+            "leaking",
+            "ocean",
+            "streams",
+            "watering"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Definitions",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "Melting",
+          "meaning": "When ice changes into water on heating, it is called melting.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Freezing",
+          "meaning": "When water changes into ice on cooling, it is called freezing.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Sink",
+          "meaning": "If an object is heavier than water, it goes down and stays at the bottom.",
+          "example": "A stone sinks.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Float",
+          "meaning": "If an object is lighter than water, it stays on the surface.",
+          "example": "Wood floats on water.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Condensation",
+          "meaning": "The water vapour goes high up in the sky and gets cooled to form clouds.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Points to Remember",
+      "type": "block",
+      "layout": "list",
+      "items": [
+        {
+          "heading": "Summary",
+          "lines": [
+            "All living things need water.",
+            "We get water from different sources.",
+            "Water exists in the form of solid, liquid and gas in nature.",
+            "We should save water everywhere at home and school.",
+            "Reusing the water also saves water.",
+            "Rain is the purest form of natural water."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "The Water Cycle",
+      "type": "block",
+      "layout": "list",
+      "items": [
+        {
+          "heading": "Steps in order",
+          "lines": [
+            "Water evaporates from lakes, ponds and rivers due to the sun's heat.",
+            "Water changes to water vapour.",
+            "Water vapour rises up and mixes with dust particles to form droplets.",
+            "Condensation of water droplets converts them into clouds.",
+            "When the clouds become big and heavy, they fall down as rain.",
+            "Rain water again flows into lakes, ponds, rivers and seas."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Multiple Choice Questions",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "What is formed when water vapour mixes with dust particles and gets cooled in the sky?",
+          "options": "(a) cloud (b) wind (c) rain",
+          "answer": "(a) cloud",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Which one of the following steps is not related to the water cycle?",
+          "options": "(a) Water rises up from the ground. (b) Water vapour rises up from the lakes. (c) Water vapour turns into droplets of water in the sky.",
+          "answer": "(a) Water rises up from the ground.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "During the rainy season there are dark clouds in the sky and the weather becomes cooler. The dark clouds are formed after:",
+          "options": "(a) condensation (b) evaporation (c) rainfall",
+          "answer": "(a) condensation",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Riddles & Very Short Answers",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "I am clear and refreshing, flowing through a stream. But put me in a kettle and make your tea. What am I?",
+          "answer": "Water",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "I am the process of water going round, from the surface to the sky, up and down. I change my form but never disappear. What am I?",
+          "answer": "Water cycle",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "What is the main source of water?",
+          "answer": "Rain",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Name the solid, liquid and gaseous forms of water.",
+          "answer": "Ice, water, water vapour",
+          "sources": {
+            "notes": true,
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Short Answer Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Write any two uses of water.",
+          "answer": [
+            "For drinking.",
+            "To water plants."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Give two properties of water.",
+          "answer": [
+            "Water is transparent and colourless.",
+            "Water dissolves many substances (for example sugar or salt)."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "List any two ways of saving water.",
+          "answer": [
+            "We should avoid cleaning utensils and washing clothes under a running tap.",
+            "We should repair leaking pipelines immediately."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "What do you think would happen in the absence of the water cycle in nature?",
+          "answer": "In the absence of the water cycle there would be no rain, leading to drought and a shortage of water.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Long Answer Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Explain the process of evaporation and condensation in terms of the water cycle.",
+          "answer": [
+            "Evaporation: The water in lakes, ponds, rivers and seas is heated by the sun and changes into water vapour. This water vapour rises into the atmosphere.",
+            "Condensation: The water vapour goes high up in the sky and gets cooled to form clouds. This is called condensation."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Draw a well-labelled diagram of the water cycle.",
+          "answer": "Label: Sun, Evaporation, Water vapour, Cloud, Condensation, Rain cloud, Rain, and the river/lake/sea the rain flows back into.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Application Based Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Priya's teacher suggested that reusing water at home also saves water. Suggest two ways to save water by reusing it.",
+          "answer": [
+            "She can use the water left after washing vegetables to water plants.",
+            "RO waste water can be collected and reused for mopping floors, flushing toilets or washing the car."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Anuj observes that clothes dry faster in summers than in winters. Why does this happen?",
+          "answer": "Clothes dry faster in summers because the heat of the sun is more and water evaporates quickly. In winter the heat from the sun is less, so clothes take longer to dry.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    }
+  ]
+}

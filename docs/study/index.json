@@ -124,6 +124,13 @@
           "tests": [
             "Half Yearly"
           ]
+        },
+        {
+          "slug": "chumbak",
+          "title": "चुंबक का पहाड़",
+          "term": "Term 2",
+          "number": null,
+          "tests": []
         }
       ]
     },
@@ -157,6 +164,13 @@
           "tests": [
             "Half Yearly"
           ]
+        },
+        {
+          "slug": "water",
+          "title": "Water",
+          "term": "Term 2",
+          "number": 1,
+          "tests": []
         }
       ]
     },

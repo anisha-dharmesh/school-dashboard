@@ -4,7 +4,7 @@ import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { fetchStudyChapter, studyKey } from "../../features/study/studySlice";
 import type { SectionType, StudySection } from "../../study/types";
 import { Switch } from "../../components/ui/switch";
-import { ChevronLeft, Layers } from "lucide-react";
+import { Archive, ChevronDown, ChevronLeft, Layers } from "lucide-react";
 import { ToggleGroup, ToggleGroupItem } from "../../components/ui/toggle-group";
 import { Tabs, TabsList, TabsTrigger } from "../../components/ui/tabs";
 import { Badge } from "../../components/ui/badge";
@@ -91,40 +91,61 @@ export default function StudyPage() {
   );
 }
 
+// Chapters of a finished term sit under a collapsed Archive so the list shows
+// what is being studied now.
+const ARCHIVED_TERM = "Term 1";
+
 function ChapterList({ subjectSlug }: { subjectSlug: string }) {
   const subject = useAppSelector((s) => s.data.studyIndex.subjects.find((x) => x.slug === subjectSlug));
   const [params, setParams] = useSearchParams();
   const navigate = useNavigate();
   const [selected, setSelected] = useState<string[]>([]);
+  const [showArchive, setShowArchive] = useState(false);
   if (!subject) return null;
   const tests = [...new Set(subject.chapters.flatMap((c) => c.tests))];
-  const terms = [...new Set(subject.chapters.map((c) => c.term).filter(Boolean) as string[])].sort();
+  const terms = [...new Set(subject.chapters.map((c) => c.term).filter(Boolean) as string[])];
   const test = params.get("test") ?? "All";
-  const term = params.get("term") ?? "All";
-  const chapters = subject.chapters.filter((c) => (test === "All" || c.tests.includes(test)) && (term === "All" || c.term === term));
-  const setFilter = (key: "test" | "term", value: string | undefined) => {
+  const matching = subject.chapters.filter((c) => test === "All" || c.tests.includes(test));
+  const current = matching.filter((c) => c.term !== ARCHIVED_TERM);
+  const archived = matching.filter((c) => c.term === ARCHIVED_TERM);
+  const chapters = showArchive ? [...current, ...archived] : current;
+  const setFilter = (value: string | undefined) => {
     const next = new URLSearchParams(params);
-    if (value && value !== "All") next.set(key, value);
-    else next.delete(key);
+    if (value && value !== "All") next.set("test", value);
+    else next.delete("test");
     setParams(next, { replace: true });
   };
   const picked = chapters.filter((c) => selected.includes(c.slug));
   const toggle = (slug: string, on: boolean) => setSelected(on ? [...selected, slug] : selected.filter((s) => s !== slug));
 
+  const row = (c: (typeof subject.chapters)[number]) => (
+    <div key={c.slug} className="flex items-center gap-3">
+      <Checkbox checked={selected.includes(c.slug)} onCheckedChange={(on) => toggle(c.slug, on)} aria-label={`Select ${c.title}`} />
+      <Link to={`/study/${subject.slug}/${c.slug}`} className="min-w-0 flex-1">
+        <Card size="sm">
+          <CardHeader>
+            <CardTitle>
+              {c.number ? `${c.number}. ` : ""}
+              {c.title}
+            </CardTitle>
+            <CardAction className="flex flex-wrap gap-1">
+              {terms.length > 1 && c.term && <Badge variant="outline">{c.term}</Badge>}
+              {c.tests.map((t) => (
+                <Badge key={t} variant="secondary">
+                  {t}
+                </Badge>
+              ))}
+            </CardAction>
+          </CardHeader>
+        </Card>
+      </Link>
+    </div>
+  );
+
   return (
     <div className="flex flex-col gap-2">
-      {terms.length > 1 && (
-        <ToggleGroup size="sm" value={[term]} onValueChange={(v) => setFilter("term", v[0])}>
-          <ToggleGroupItem value="All">All terms</ToggleGroupItem>
-          {terms.map((t) => (
-            <ToggleGroupItem key={t} value={t}>
-              {t}
-            </ToggleGroupItem>
-          ))}
-        </ToggleGroup>
-      )}
       {tests.length > 0 && (
-        <ToggleGroup size="sm" value={[test]} onValueChange={(v) => setFilter("test", v[0])}>
+        <ToggleGroup size="sm" value={[test]} onValueChange={(v) => setFilter(v[0])}>
           <ToggleGroupItem value="All">All</ToggleGroupItem>
           {tests.map((t) => (
             <ToggleGroupItem key={t} value={t}>
@@ -133,29 +154,18 @@ function ChapterList({ subjectSlug }: { subjectSlug: string }) {
           ))}
         </ToggleGroup>
       )}
-      {chapters.map((c) => (
-        <div key={c.slug} className="flex items-center gap-3">
-          <Checkbox checked={selected.includes(c.slug)} onCheckedChange={(on) => toggle(c.slug, on)} aria-label={`Select ${c.title}`} />
-          <Link to={`/study/${subject.slug}/${c.slug}`} className="min-w-0 flex-1">
-            <Card size="sm">
-              <CardHeader>
-                <CardTitle>
-                  {c.number ? `${c.number}. ` : ""}
-                  {c.title}
-                </CardTitle>
-                <CardAction className="flex flex-wrap gap-1">
-                  {terms.length > 1 && c.term && <Badge variant="outline">{c.term}</Badge>}
-                  {c.tests.map((t) => (
-                    <Badge key={t} variant="secondary">
-                      {t}
-                    </Badge>
-                  ))}
-                </CardAction>
-              </CardHeader>
-            </Card>
-          </Link>
-        </div>
-      ))}
+      {current.map(row)}
+      {current.length === 0 && <EmptyState>{`No ${terms.find((t) => t !== ARCHIVED_TERM) ?? "current-term"} chapters yet.`}</EmptyState>}
+      {archived.length > 0 && (
+        <>
+          <Button variant="ghost" size="sm" className="mt-2 justify-start" onClick={() => setShowArchive(!showArchive)} aria-expanded={showArchive}>
+            <Archive />
+            Archive · {ARCHIVED_TERM} ({archived.length})
+            <ChevronDown className={showArchive ? "rotate-180" : ""} />
+          </Button>
+          {showArchive && archived.map(row)}
+        </>
+      )}
       {chapters.length > 1 && (
         <div className="sticky bottom-3 z-10 mt-2 flex flex-wrap items-center gap-2 rounded-xl bg-card p-3 shadow-md ring-1 ring-foreground/10">
           <span className="text-sm text-muted-foreground">

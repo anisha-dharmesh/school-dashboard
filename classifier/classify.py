@@ -326,6 +326,14 @@ def classify_pattern(text: str) -> Optional[Classification]:
         # A plain recap has no such date phrase, so this is a no-op for it.
         return Classification("Daily Class Update", "pattern", 0.9, event_date_iso=_extract_event_date(text))
 
+    # A "send these materials for the seek kit activity" notice ends with
+    # "PFA for reference picture" and usually has an " of " somewhere in the
+    # activity description, which the Subject Notes rule below would take for
+    # a notes post -- and then the activity's own "Date:" line is never read,
+    # so it lands dated on the posting day instead of the day it happens.
+    if re.search(r"seek kit activity|robotics activity|enrichment activity", t) and not _SUBJECT_MATERIAL_RE.search(t):
+        return Classification("School Event", "pattern", 0.8, event_date_iso=_extract_event_date(text))
+
     if (re.search(r"\bpfa\b", t) and ("notes" in t or " of " in t)) or _SUBJECT_MATERIAL_RE.search(t):
         return Classification(
             "Subject Notes", "pattern", 0.85,
