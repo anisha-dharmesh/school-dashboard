@@ -22,6 +22,105 @@
     "exam_cycle": []
   },
   {
+    "id": "afddf8f422bcaadc",
+    "posted_date": "14-10-2026",
+    "posted_date_iso": "2026-10-14",
+    "event_date_iso": "2026-10-14",
+    "text": "Dear Parent,\n\nPFA notes for:\n\nSubject - Math\nChapter - Measurement ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/14102026152234.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Maths",
+    "chapter": "Measurement",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "893901943951aa80",
+    "posted_date": "14-10-2026",
+    "posted_date_iso": "2026-10-14",
+    "event_date_iso": "2026-10-14",
+    "text": "Daily Class Update\n14-10-2026\n\nPeriod 1: Assembly\nAssembly is conducted\n\nPeriod 2: Science\nExercises if chapter 2 was discussed and done in the textbook\n\nPeriod 3: Marathi\nध्वनीदर्शक शब्दांचे स्पष्टीकरण व लेखन केले.\n\nPeriod 4: Maths\nCh 1 Division - Explanation of the concept Division with Remainder was done. Exercise 2- Q 2,4,6,8 of page number 63 were discussed and completed.\nHW- Complete Exercise 2- Q 2,4,6,8 of page number 63.\n\nPeriod 5: Computer Science\nClass test was conducted\n\nPeriod 6: English\nWritten work of chapter 3 was done in the notebook.\nHW- Read the ch.\n\nPeriod 7: Hindi\nशेर और शतपत्र के लिखित कार्य नोटबुक में करवाए गए\n\nPeriod 8: Maths\nCh 1 Division - Explanation of the concept Dividing 2- Digit Numbers was done. Exercise 3- Q 5 to 8 of page number 65 were discussed and completed.\nHW- Complete Exercise 3 - Q 1 to 4  of page number 65 in the notebook.\n\nPeriod 9: English\nChapter 4 was explained in the class.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "Assembly is conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "Exercises if chapter 2 was discussed and done in the textbook",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "ध्वनीदर्शक शब्दांचे स्पष्टीकरण व लेखन केले.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch 1 Division - Explanation of the concept Division with Remainder was done. Exercise 2- Q 2,4,6,8 of page number 63 were discussed and completed.",
+        "hw": "Complete Exercise 2- Q 2,4,6,8 of page number 63."
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "Class test was conducted",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "English",
+        "note": "Written work of chapter 3 was done in the notebook.",
+        "hw": "Read the ch."
+      },
+      {
+        "period": 7,
+        "subject": "Hindi",
+        "note": "शेर और शतपत्र के लिखित कार्य नोटबुक में करवाए गए",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Maths",
+        "note": "Ch 1 Division - Explanation of the concept Dividing 2- Digit Numbers was done. Exercise 3- Q 5 to 8 of page number 65 were discussed and completed.",
+        "hw": "Complete Exercise 3 - Q 1 to 4  of page number 65 in the notebook."
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Chapter 4 was explained in the class.",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "2409cfc7bb0d3a14",
     "posted_date": "13-10-2026",
     "posted_date_iso": "2026-10-13",
@@ -44,12 +143,89 @@
     "exam_cycle": null
   },
   {
+    "id": "db25e88895d32494",
+    "posted_date": "13-10-2026",
+    "posted_date_iso": "2026-10-13",
+    "event_date_iso": "2026-10-13",
+    "text": "Daily Class Update\n13-10-2026\n\nPeriod 1: Science\nSpecial assembly ‘World Mental Health Day’ was conducted\n\nPeriod 2: Science\nExplanation of topic ‘Seasons and Coithing and Fibres’ was done in the textbook\nHW- Read the same\n\nPeriod 3: Social Studies\nChapter No.2\nNotebook Writing\nHW- Read Chapter No.2\n\nPeriod 4: Maths\nCh Division, Explanation of The topic - One Step Division was done Exercise 1 of page number 61 and Warm up activity of page number 59 was discussed and completed.\nHW- Revise the same.\n\nPeriod 5: Computer Science\nchapter 5: Answer the following in one word was done\n\nPeriod 6: Dance\nproxy\n\nPeriod 7: GK\nSubject Enrichment Activity - ‘Measurement of Length’ was conducted\n\nPeriod 8: Reading Program\nClass is conducted\n\nPeriod 9: Hindi\nproxy",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Science",
+        "note": "Special assembly ‘World Mental Health Day’ was conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "Explanation of topic ‘Seasons and Coithing and Fibres’ was done in the textbook",
+        "hw": "Read the same"
+      },
+      {
+        "period": 3,
+        "subject": "Social Studies",
+        "note": "Chapter No.2\nNotebook Writing",
+        "hw": "Read Chapter No.2"
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch Division, Explanation of The topic - One Step Division was done Exercise 1 of page number 61 and Warm up activity of page number 59 was discussed and completed.",
+        "hw": "Revise the same."
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "chapter 5: Answer the following in one word was done",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Dance",
+        "note": "proxy",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "GK",
+        "note": "Subject Enrichment Activity - ‘Measurement of Length’ was conducted",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Reading Program",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "Hindi",
+        "note": "proxy",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "96ec00f8e2818664",
     "posted_date": "12-10-2026",
     "posted_date_iso": "2026-10-12",
     "event_date_iso": "2026-10-13",
     "text": "Dear Parents,\n\nPlease send  the following materials for seek kit activity:\n\nDate: 13/10/2026, Tuesday\nClass: III F, A\nActivity: To understand the concept of length and measuring length of different items with the help of measuring scale\n\nPlease send the Seek booklet along with the following materials:\n1. Ruler (scale) -1\n2. ⁠Paper clip- 1\n3. ⁠Pencil\n\nPFA for reference picture",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/12102026145558.jpg",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/12102026145558.jpg",
     "category": "School Event",
     "method": "pattern",
     "periods": [],
@@ -71,7 +247,7 @@
     "posted_date_iso": "2026-10-12",
     "event_date_iso": "2026-10-12",
     "text": "Dear Parent,\n\nPFA notes for:\n\nSubject - Robotics \nChapter - 5 Motors",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/1210202694922.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/1210202694922.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -88,12 +264,83 @@
     "exam_cycle": []
   },
   {
+    "id": "a20362e0bea42072",
+    "posted_date": "12-10-2026",
+    "posted_date_iso": "2026-10-12",
+    "event_date_iso": "2026-10-12",
+    "text": "Daily Class Update\n12-10-2026\n\nPeriod 1: Science\nproxy (Maths: Written work is given)\n\nPeriod 2: Science\nproxy (Maths: Written work is given)\n\nPeriod 3: Marathi\nclass Test was Done.\n\nPeriod 4: Maths\nMaths: Written work is given\n\nPeriod 6: Art & Craft\nObject drawing- Telephone\nHW- Complete the unfinished drawing and coloring work.\n\nPeriod 7: Leadership\nDiscussed Attenentive Listening and solved the textbook exercise.\nHW- Discuss What is attentive listening.\n\nPeriod 8: Life Skills\nReading of Ch 8 How am I feeling? Was taken\nHW- Read the chapter\n\nPeriod 9: English\nWritten work of chapter 3 was done in the notebook.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Science",
+        "note": "proxy (Maths: Written work is given)",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "proxy (Maths: Written work is given)",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "class Test was Done.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Maths: Written work is given",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Art & Craft",
+        "note": "Object drawing- Telephone",
+        "hw": "Complete the unfinished drawing and coloring work."
+      },
+      {
+        "period": 7,
+        "subject": "Leadership",
+        "note": "Discussed Attenentive Listening and solved the textbook exercise.",
+        "hw": "Discuss What is attentive listening."
+      },
+      {
+        "period": 8,
+        "subject": "Life Skills",
+        "note": "Reading of Ch 8 How am I feeling? Was taken",
+        "hw": "Read the chapter"
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Written work of chapter 3 was done in the notebook.",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "6b1eac5be011e82a",
     "posted_date": "10-10-2026",
     "posted_date_iso": "2026-10-10",
     "event_date_iso": "2026-10-10",
     "text": "Dear Parent,\n\nPFA notes for:\n\nSubject - Marathi\nChapter - 8 . माझी अगगाडीतून सफर ( Textbook+Notebook )",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/10102026144010.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/10102026144010.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -154,6 +401,77 @@
     "exam_cycle": []
   },
   {
+    "id": "b879137b7632a9bf",
+    "posted_date": "10-10-2026",
+    "posted_date_iso": "2026-10-10",
+    "event_date_iso": "2026-10-10",
+    "text": "Daily Class Update\n10-10-2026\n\nPeriod 1: Assembly\nAssembly class is conducted\n\nPeriod 2: Music\nMusic class is conducted\n\nPeriod 3: English\nWritten work of topics - was, were,has,have, had done in the class.\n\nPeriod 4: Sports\nProxy\n\nPeriod 5: Social Studies\nChapter No.2\nNotebook Writing\nHW- Read Chapter No.2\n\nPeriod 6: Martial Arts\nSports class was conducted\n\nPeriod 7: Hindi\nक्रिया की व्याख्या की गई तथा लिखित कार्य पाठ्यपुस्तक में करवाए गए\n\nPeriod 9: Art & Craft\nComposition Art- Honey comb",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "Assembly class is conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Music",
+        "note": "Music class is conducted",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "English",
+        "note": "Written work of topics - was, were,has,have, had done in the class.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Sports",
+        "note": "Proxy",
+        "hw": null
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "Chapter No.2\nNotebook Writing",
+        "hw": "Read Chapter No.2"
+      },
+      {
+        "period": 6,
+        "subject": "Martial Arts",
+        "note": "Sports class was conducted",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Hindi",
+        "note": "क्रिया की व्याख्या की गई तथा लिखित कार्य पाठ्यपुस्तक में करवाए गए",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "Art & Craft",
+        "note": "Composition Art- Honey comb",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "cd3ab54ee7d82033",
     "posted_date": "09-10-2026",
     "posted_date_iso": "2026-10-09",
@@ -165,6 +483,83 @@
     "periods": [],
     "is_timetable": false,
     "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "01e30d80179d995d",
+    "posted_date": "09-10-2026",
+    "posted_date_iso": "2026-10-09",
+    "event_date_iso": "2026-10-09",
+    "text": "Daily Class Update\n09-10-2026\n\nPeriod 1: Assembly\nAssembly is conducted\n\nPeriod 2: Maths\nIntroduction and explanation of Ch - Division was done.\nHW- Revise the same.\n\nPeriod 3: Social Studies\nChapter No.2\nTextbook Exercises Done\nHW- Read Chapter No.2\n\nPeriod 4: Sports\nClass is conducted\n\nPeriod 5: Social Studies\nChapter No.2\nNotebook Writing\nHW- Write New Words 2 times each in Rough Notebook\n\nPeriod 6: Speech & Drama\nClass is conducted\n\nPeriod 7: Hindi\nविशेषण के लिखित कार्य नोटबुक में करवाए गए\n\nPeriod 8: English\nWritten work of verbs and is,am,are was done in the notebook.\nHW- Complete pg-42(B),pg - 43(in grammar textbook.\n\nPeriod 9: English\nUnseen comprehension was solved in the class.\nHW- solve unseen comprehension in grammar notebook",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "Assembly is conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Maths",
+        "note": "Introduction and explanation of Ch - Division was done.",
+        "hw": "Revise the same."
+      },
+      {
+        "period": 3,
+        "subject": "Social Studies",
+        "note": "Chapter No.2\nTextbook Exercises Done",
+        "hw": "Read Chapter No.2"
+      },
+      {
+        "period": 4,
+        "subject": "Sports",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "Chapter No.2\nNotebook Writing",
+        "hw": "Write New Words 2 times each in Rough Notebook"
+      },
+      {
+        "period": 6,
+        "subject": "Speech & Drama",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Hindi",
+        "note": "विशेषण के लिखित कार्य नोटबुक में करवाए गए",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "English",
+        "note": "Written work of verbs and is,am,are was done in the notebook.",
+        "hw": "Complete pg-42(B),pg - 43(in grammar textbook."
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Unseen comprehension was solved in the class.",
+        "hw": "solve unseen comprehension in grammar notebook"
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
     "subject": null,
     "chapter": null,
     "chapter_number": null,
@@ -225,12 +620,111 @@
     "posted_date_iso": "2026-10-08",
     "event_date_iso": "2026-10-08",
     "text": "Dear Parents \nPFA of\nSubject -English \nChapter -2",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/8102026155817.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/8102026155817.pdf",
     "category": "General/Other",
     "method": "default",
     "periods": [],
     "is_timetable": false,
     "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "e14de6799b5881d8",
+    "posted_date": "08-10-2026",
+    "posted_date_iso": "2026-10-08",
+    "event_date_iso": "2026-10-08",
+    "text": "Dear Parent,\n\nPlease make a note of the following Class Test: \n\nSubject:  Marathi\nDate: 12. October 2026, Monday\nChapter: 7) मुंगीताई , कीटकांची ओळख, कोण कुठे राहतो ",
+    "attachment_url": null,
+    "category": "Exam/Test",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.9,
+    "subject": "Marathi",
+    "chapter": ") मुंगीताई , कीटकांची ओळख, कोण कुठे राहतो",
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": "14r2ugf49hgqrjip68c6rb1qmk",
+    "exam_cycle": "Half Yearly"
+  },
+  {
+    "id": "997c7e7584e9e6ee",
+    "posted_date": "08-10-2026",
+    "posted_date_iso": "2026-10-08",
+    "event_date_iso": "2026-10-08",
+    "text": "Daily Class Update\n08-10-2026\n\nPeriod 1: Assembly\nAssembly is conducted\n\nPeriod 2: Dance\nDance class is conducted\n\nPeriod 3: Marathi\nससा या कवितेचा स्वाध्याय वहीत लिहिला व उजळणी घेतली.\n\nPeriod 4: Maths\nCh 5- Review Exercise of page number 125- Q3,Q4,Q5 were discussed and completed.\nHW- Solve Mental Math Corner pg no 124\n\nPeriod 5: Social Studies\nEnglish ( proxy) Explanation of verbs was done in the class.\n\nPeriod 6: Hindi\nसर्वनाम के लिखित कार्य नोटबुक में करवाए गए\n\nPeriod 7: Skating\nClass is conducted\nHW- _\n\nPeriod 8: Skating\nSkating class is conducted\n\nPeriod 9: Marathi\nध्वनीदर्शक शब्द या घटकाचे स्पष्टीकरण केले व वाचन घेतले.\nHW- पाठय पुस्तकातील ध्वनी दर्शक शब्दांचे वाचन करणे.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "Assembly is conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Dance",
+        "note": "Dance class is conducted",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "ससा या कवितेचा स्वाध्याय वहीत लिहिला व उजळणी घेतली.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch 5- Review Exercise of page number 125- Q3,Q4,Q5 were discussed and completed.",
+        "hw": "Solve Mental Math Corner pg no 124"
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "English ( proxy) Explanation of verbs was done in the class.",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Hindi",
+        "note": "सर्वनाम के लिखित कार्य नोटबुक में करवाए गए",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Skating",
+        "note": "Class is conducted",
+        "hw": "_"
+      },
+      {
+        "period": 8,
+        "subject": "Skating",
+        "note": "Skating class is conducted",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "Marathi",
+        "note": "ध्वनीदर्शक शब्द या घटकाचे स्पष्टीकरण केले व वाचन घेतले.",
+        "hw": "पाठय पुस्तकातील ध्वनी दर्शक शब्दांचे वाचन करणे."
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
     "subject": null,
     "chapter": null,
     "chapter_number": null,
@@ -269,7 +763,7 @@
     "posted_date_iso": "2026-10-07",
     "event_date_iso": "2026-10-07",
     "text": "Dear Parents,\n\nPFA notes for:\n\nSubject: Science \nChapter: Water",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/7102026162939.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/7102026162939.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -328,6 +822,28 @@
     "paired": false,
     "calendar_event_id": null,
     "exam_cycle": null
+  },
+  {
+    "id": "937b38964aae2d63",
+    "posted_date": "07-10-2026",
+    "posted_date_iso": "2026-10-07",
+    "event_date_iso": "2026-10-07",
+    "text": "\nDear Parent,\n\nPFA notes for:\n\nSubject - Hindi\nChapter - चुंबक का पहाड़ ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/7102026152912.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Hindi",
+    "chapter": "चुंबक का पहाड़",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
   },
   {
     "id": "a24b90845c162078",
@@ -511,7 +1027,7 @@
     "posted_date_iso": "2026-10-03",
     "event_date_iso": "2026-10-03",
     "text": "Dear Parent,\n\nKindly find the attached Answerkey for computer science \nCulmination Worksheet \nDo use the same while correcting your ward's work at home.",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/31020269118.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/31020269118.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -533,7 +1049,7 @@
     "posted_date_iso": "2026-10-03",
     "event_date_iso": "2026-10-03",
     "text": "Dear Parent,\n\nKindly find the attached Answerkey for Marathi \nCulmination Worksheet \nDo use the same while correcting your ward's work at home.",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3102026165250.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3102026165250.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -555,7 +1071,7 @@
     "posted_date_iso": "2026-10-03",
     "event_date_iso": "2026-10-03",
     "text": "Dear parents,\n\nPlease find the attached answer key for the worksheet no.5 of Hindi\nKindly use the same while correcting your wards work at home.",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3102026192446.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3102026192446.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -579,7 +1095,7 @@
     "posted_date_iso": "2026-10-02",
     "event_date_iso": "2026-10-02",
     "text": "Respected All,\nWe would like to invite all interested students to participate in the SNBP Wakad Chess League, which will be conducted at SNBP Wakad.\nKindly share this information with all your students and encourage enthusiastic participation.\nRegards,\nSNBP Wakad",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2102026124341.jpg",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2102026124341.jpg",
     "category": "General/Other",
     "method": "default",
     "periods": [],
@@ -623,7 +1139,7 @@
     "posted_date_iso": "2026-10-02",
     "event_date_iso": "2026-10-02",
     "text": "Dear Parents \nPFA of \nSubject -English \nChapter 1",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2102026163013.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2102026163013.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -695,6 +1211,28 @@
     "periods": [],
     "is_timetable": false,
     "confidence": 0.9,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "7fcf14f911ff666e",
+    "posted_date": "02-10-2026",
+    "posted_date_iso": "2026-10-02",
+    "event_date_iso": "2026-10-02",
+    "text": "Dear Parents \nPFA of\nSubject -English \nTopic- Article, pronoun ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2102026163117.pdf",
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
     "subject": null,
     "chapter": null,
     "chapter_number": null,
@@ -810,7 +1348,7 @@
     "posted_date_iso": "2026-10-01",
     "event_date_iso": "2026-10-01",
     "text": "Dear Parent, \n\nPFA the Culmination Worksheet No. 5 for SST. \n\nPlease note you are required to make your child complete the same at home. The answer key will be shared after 3 days. Parent to use the answer key to correct the child's worksheet at home.",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/1102026115536.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/1102026115536.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -856,7 +1394,7 @@
     "posted_date_iso": "2026-09-30",
     "event_date_iso": "2026-09-30",
     "text": "Dear Parent, \n\nPFA the Culmination Worksheet of Computer Science.\n\nPlease note you are required to make your child complete the same at home. The answer key will be shared after 3 days. Parent to use the answer key to correct the child’s worksheet at home. \n\nEnd of each month a worksheet will be shared with you for child to practice at home.",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/30920268367.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/30920268367.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -867,7 +1405,7 @@
     "chapter_number": null,
     "material_type": "Worksheet",
     "worksheet_numbers": null,
-    "answer_key_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/31020269118.pdf",
+    "answer_key_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/31020269118.pdf",
     "paired": false,
     "calendar_event_id": null,
     "exam_cycle": []
@@ -878,7 +1416,7 @@
     "posted_date_iso": "2026-09-30",
     "event_date_iso": "2026-09-30",
     "text": "Dear Parent, \n\nPFA the Culmination Worksheet No. 5 for Hindi.\n\nPlease note you are required to make your child complete the same at home. The answer key will be shared after 3 days. Parent to use the answer key to correct the child's worksheet at home.",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3092026204623.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3092026204623.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -891,7 +1429,7 @@
     "worksheet_numbers": [
       5
     ],
-    "answer_key_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3102026192446.pdf",
+    "answer_key_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3102026192446.pdf",
     "paired": false,
     "calendar_event_id": null,
     "exam_cycle": []
@@ -902,7 +1440,7 @@
     "posted_date_iso": "2026-09-30",
     "event_date_iso": "2026-09-30",
     "text": "Dear Parent, \n\nPFA the Culmination Worksheet of Marathi \n\nPlease note you are required to make your child complete the same at home. The answer key will be shared after 3 days. Parent to use the answer key to correct the child’s worksheet at home. \n\nEnd of each month a worksheet will be shared with you for child to practice at home.",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3092026185914.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3092026185914.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -913,7 +1451,29 @@
     "chapter_number": null,
     "material_type": "Worksheet",
     "worksheet_numbers": null,
-    "answer_key_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3102026165250.pdf",
+    "answer_key_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3102026165250.pdf",
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "4c85a1a27ea100e9",
+    "posted_date": "30-09-2026",
+    "posted_date_iso": "2026-09-30",
+    "event_date_iso": "2026-09-30",
+    "text": "Dear Parent,\n\nPFA notes for\nSubject : SST \nChapter : 1\nKnowing Our Earth ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/3092026105818.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Social Studies",
+    "chapter": "Knowing Our Earth",
+    "chapter_number": 1,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
     "paired": false,
     "calendar_event_id": null,
     "exam_cycle": []
@@ -924,7 +1484,7 @@
     "posted_date_iso": "2026-09-29",
     "event_date_iso": "2026-09-29",
     "text": "PFA notes for:\n\nSubject - Marathi\nChapter - जंगली प्राणी, कोण कुठे राहतो, कीटकांची ओळख ( Notebook + textbook )",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2992026123512.pdf",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2992026123512.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
@@ -1166,7 +1726,7 @@
     "posted_date_iso": "2026-09-26",
     "event_date_iso": "2026-09-29",
     "text": "Dear Parent,\n\nPlease find the details of the Robotics activity to be conducted:\n\nDate:29/09/26\nDay: Tuesday \n\nActivity- Caterpillar Bot\n\nPlease send the below mentioned materials and textbook along with your ward\n1. Caterpillar MDF cut out \n2. AA battery holder with batteries inserted\n3. BO motor ( Double shaft)\n4. Double sided tape - 6\n5. Rubber band - 2",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/269202610154.jpg",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/269202610154.jpg",
     "category": "School Event",
     "method": "pattern",
     "periods": [],
@@ -1188,7 +1748,7 @@
     "posted_date_iso": "2026-09-26",
     "event_date_iso": "2026-09-29",
     "text": "Dear Parent,\n\nPlease send 1 map of continents on 29th September 2026, Tuesday for Map Work Practice.\n\nPicture has been attached for your reference.",
-    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/269202610224.jpg",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/269202610224.jpg",
     "category": "General/Other",
     "method": "default",
     "periods": [],
@@ -1486,6 +2046,28 @@
     "event_date_iso": "2026-09-23",
     "text": "Dear Parent,\n\nPlease note that a few Olympiad dates have been incorrectly printed on the hall tickets.\n\nKindly refer to the attached schedule for the exact dates of the upcoming Olympiad examinations and follow the same accordingly.",
     "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2392026171616.jpg",
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "5113a3a1520210d6",
+    "posted_date": "23-09-2026",
+    "posted_date_iso": "2026-09-23",
+    "event_date_iso": "2026-09-23",
+    "text": "Dear Parent,\n\nPlease note that a few Olympiad dates have been incorrectly printed on the hall tickets.\n\nKindly refer to the attached schedule for the exact dates of the upcoming Olympiad examinations and follow the same accordingly.\n",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2392026171616.jpg",
     "category": "General/Other",
     "method": "default",
     "periods": [],
