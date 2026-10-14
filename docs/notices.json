@@ -1,5 +1,27 @@
 [
   {
+    "id": "09cdd56ef6936184",
+    "posted_date": "14-10-2026",
+    "posted_date_iso": "2026-10-14",
+    "event_date_iso": "2026-10-14",
+    "text": "Dear Parent,\n\nPFA notes for:\n\nSubject - Math\nChapter - Measurement",
+    "attachment_url": "http://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/14102026152234.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Maths",
+    "chapter": "Measurement",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
     "id": "2409cfc7bb0d3a14",
     "posted_date": "13-10-2026",
     "posted_date_iso": "2026-10-13",
