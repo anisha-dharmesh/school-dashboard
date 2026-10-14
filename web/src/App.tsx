@@ -9,6 +9,7 @@ import PracticePage from "./pages/practice/PracticePage";
 import TablesPage from "./pages/tables/TablesPage";
 import HistoryPage from "./pages/history/HistoryPage";
 import StudyPage from "./pages/study/StudyPage";
+import DailyUpdatesPage from "./pages/daily/DailyUpdatesPage";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="upcoming" element={<UpcomingPage />} />
             <Route path="timetable" element={<TimetablePage />} />
             <Route path="hw" element={<HwPage />} />
+            <Route path="daily" element={<DailyUpdatesPage />} />
             <Route path="notes" element={<NotesPage />} />
             <Route path="notes/:subject" element={<NotesPage />} />
             <Route path="study" element={<StudyPage />} />

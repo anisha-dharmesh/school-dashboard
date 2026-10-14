@@ -18,7 +18,15 @@ export default function HistoryPage() {
   const activeCategory = searchParams.get("category") || "All";
   const requestedSubject = searchParams.get("subject") || "All";
 
-  const byCategory = activeCategory === "All" ? notices : notices.filter((r) => r.category === activeCategory);
+  // Daily Class Update has its own tab (a continuous day-by-day diary, not
+  // something to filter down to a handful of items like every other
+  // category here) -- excluded from both the dropdown and "All" so it's
+  // never shown in two places.
+  const historyCategories = ALL_CATEGORIES.filter((c) => c !== "Daily Class Update");
+  const byCategory =
+    activeCategory === "All"
+      ? notices.filter((r) => r.category !== "Daily Class Update")
+      : notices.filter((r) => r.category === activeCategory);
 
   // Only the exam-track subjects (SUBJECT_META) are worth filtering by --
   // co-curricular subjects would clutter the row, and categories like
@@ -69,7 +77,7 @@ export default function HistoryPage() {
         </SelectTrigger>
         <SelectContent>
           <SelectItem value="All">All</SelectItem>
-          {ALL_CATEGORIES.map((c) => {
+          {historyCategories.map((c) => {
             const Icon = CATEGORY_META[c].icon;
             return (
               <SelectItem key={c} value={c}>

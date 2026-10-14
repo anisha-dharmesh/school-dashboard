@@ -1,9 +1,16 @@
-"""Fetch a notice's attachment through the authenticated ERP session -- the
-attachment lives on the same host as the notice list and isn't reachable
-without the login session's cookies."""
+"""Fetch a notice's attachment.
 
-from scraper.login import ERPSession
+Confirmed 2026-10-14: attachments live under NEWPHP/Teacher/Notice_photos/
+on the same host as the notice API and are plain unauthenticated static
+files -- no login session needed (unlike the old StudentModule/-hosted
+attachment links this used to require a session for)."""
+
+import requests
+
+USER_AGENT = "Dart/3.8 (dart:io)"
 
 
-def download(session: ERPSession, url: str) -> bytes:
-    return session.get(url).content
+def download(url: str) -> bytes:
+    resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
+    resp.raise_for_status()
+    return resp.content

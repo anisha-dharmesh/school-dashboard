@@ -93,6 +93,45 @@ def build_record(notice, classification) -> dict:
     }
 
 
+def build_daily_work_record(date_iso: str, periods: list) -> dict:
+    """Build a Daily Class Update record straight from GetDailyWork.php's
+    structured periods -- see scraper/daily_work.py for why this exists
+    alongside build_record() (the free-text notice path). id is keyed on
+    the date alone (not a content hash like notice_id()) so a same-day
+    rerun -- a teacher editing an earlier period's entry later that
+    afternoon -- always overwrites this record in place instead of
+    accumulating a stale duplicate alongside the corrected one."""
+    posted_date = date.fromisoformat(date_iso).strftime("%d-%m-%Y")
+    text = "Daily Class Update\n" + posted_date + "\n\n" + "\n\n".join(
+        f"Period {p['period']}: {p['subject'] or ''}".rstrip()
+        + (f"\n{p['note']}" if p["note"] else "")
+        + (f"\nHW- {p['hw']}" if p["hw"] else "")
+        for p in periods
+    )
+    return {
+        "id": hashlib.sha256(f"dcu|{date_iso}".encode("utf-8")).hexdigest()[:16],
+        "posted_date": posted_date,
+        "posted_date_iso": date_iso,
+        "event_date_iso": date_iso,
+        "text": redact_contact_info(text),
+        "attachment_url": None,
+        "category": "Daily Class Update",
+        "method": "api",
+        "periods": periods,
+        "is_timetable": False,
+        "confidence": 1.0,
+        "subject": None,
+        "chapter": None,
+        "chapter_number": None,
+        "material_type": None,
+        "worksheet_numbers": None,
+        "answer_key_url": None,
+        "paired": False,
+        "calendar_event_id": None,
+        "exam_cycle": None,
+    }
+
+
 def load(path) -> list:
     p = Path(path)
     if not p.exists():

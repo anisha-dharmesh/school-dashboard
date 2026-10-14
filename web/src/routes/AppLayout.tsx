@@ -23,6 +23,7 @@ const TABS = [
   { to: "/upcoming", label: "Upcoming" },
   { to: "/timetable", label: "Timetable" },
   { to: "/hw", label: "Homework" },
+  { to: "/daily", label: "Daily Updates" },
   { to: "/notes", label: "Notes" },
   { to: "/study", label: "Study" },
   { to: "/tables", label: "Tables" },

@@ -36,8 +36,9 @@ jobs:
       - run: python main.py
         env:
           ERP_BASE_URL: ${{ secrets.ERP_BASE_URL }}
-          ERP_USERNAME: ${{ secrets.ERP_USERNAME }}
-          ERP_PASSWORD: ${{ secrets.ERP_PASSWORD }}
+          ERP_STUDENT_ID: ${{ secrets.ERP_STUDENT_ID }}
+          ERP_ACADEMIC_YEAR_ID: ${{ secrets.ERP_ACADEMIC_YEAR_ID }}
+          ERP_CLASS_SECTION_ID: ${{ secrets.ERP_CLASS_SECTION_ID }}
           # Calendar sync is optional -- main.py skips it cleanly if this
           # secret isn't set. GOOGLE_CALENDAR_ID isn't sensitive (it's
           # already public in the app's "Subscribe on Calendar" link, see

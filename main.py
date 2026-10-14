@@ -1,6 +1,10 @@
 """
-Entry point for the notice pipeline: login -> fetch -> classify -> merge
-into docs/notices.json.
+Entry point for the notice pipeline: fetch -> classify -> merge into
+docs/notices.json.
+
+Fetching hits the ERP's own JSON API (the one the School App itself calls)
+rather than logging into the ASP.NET site and scraping HTML -- see
+scraper/notices.py for how that was confirmed. No login/session needed.
 
 Usage:
   python main.py               # daily mode: last N recent notices
@@ -11,7 +15,7 @@ import argparse
 import json
 import logging
 import os
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -20,8 +24,17 @@ from attachments.download import download
 from attachments.master_docs import OUTPUT_PATHS, PARSERS, detect
 from calendar_sync import sync_events
 from classifier.classify import classify
-from datastore.store import build_record, load, merge, pair_worksheets, prune_before, save, tag_exam_cycles
-from scraper.login import build_session_from_env
+from datastore.store import (
+    build_daily_work_record,
+    build_record,
+    load,
+    merge,
+    pair_worksheets,
+    prune_before,
+    save,
+    tag_exam_cycles,
+)
+from scraper.daily_work import fetch_daily_work
 from scraper.notices import fetch_notices, fetch_notices_for_year
 
 DATA_PATH = "docs/notices.json"
@@ -38,7 +51,43 @@ ACADEMIC_YEAR_START = "2026-03-18"
 logger = logging.getLogger(__name__)
 
 
-def process_master_docs(session, notices) -> None:
+def fetch_daily_updates(existing: list) -> list:
+    """Pull one Daily Class Update record per school day from
+    GetDailyWork.php, continuing from the day after whichever such record
+    is already newest in the store (or from ACADEMIC_YEAR_START if there
+    isn't one yet) through today. Deliberately no fixed lookback window --
+    the dashboard's Daily Updates tab is a continuous Timeline, not a
+    paginated-by-date view, so there's nothing for a window to serve; this
+    both catches up after any gap between runs and backfills once on
+    first use, without a separate backfill mode. A day the school hasn't
+    posted for yet (weekend, holiday, not posted yet today) just comes
+    back empty and is skipped -- not an error, and it'll be retried next
+    run since nothing advances the "newest" date past it."""
+    existing_dcu_dates = [r["posted_date_iso"] for r in existing if r["category"] == "Daily Class Update"]
+    start = (
+        date.fromisoformat(max(existing_dcu_dates)) + timedelta(days=1)
+        if existing_dcu_dates
+        else date.fromisoformat(ACADEMIC_YEAR_START)
+    )
+    today = date.today()
+
+    records = []
+    d = start
+    while d <= today:
+        try:
+            periods = fetch_daily_work(d.isoformat())
+        except Exception:
+            logger.exception("Failed to fetch Daily Class Update for %s", d.isoformat())
+        else:
+            if periods:
+                records.append(build_daily_work_record(d.isoformat(), periods))
+        d += timedelta(days=1)
+
+    logger.info("Fetched Daily Class Update for %d of %d days from %s to %s", len(records), (today - start).days + 1, start, today)
+    return records
+
+
+def process_master_docs(notices) -> None:
     """Holiday List / Special Days & Events / Time Table are once-a-year
     attachments carrying structured data notice text never has -- detect
     them, download+parse, and refresh their dedicated output file. Only
@@ -50,7 +99,7 @@ def process_master_docs(session, notices) -> None:
             continue
         out_path = OUTPUT_PATHS[doc_type]
         try:
-            data = PARSERS[doc_type](download(session, n.attachment_url))
+            data = PARSERS[doc_type](download(n.attachment_url))
         except Exception:
             logger.exception("Failed to process %s attachment from notice posted %s", doc_type, n.posted_date)
             continue
@@ -74,16 +123,15 @@ def main():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     load_dotenv()
 
-    session = build_session_from_env()
-    session.login()
-
     notices = (
-        fetch_notices_for_year(session, args.year)
+        fetch_notices_for_year(args.year)
         if args.year
-        else fetch_notices(session, limit=args.recent)
+        else fetch_notices(limit=args.recent)
     )
 
-    process_master_docs(session, notices)
+    process_master_docs(notices)
+
+    existing = load(DATA_PATH)
 
     method_counts = {"pattern": 0, "default": 0}
     fresh_records = []
@@ -92,7 +140,9 @@ def main():
         method_counts[c.method] = method_counts.get(c.method, 0) + 1
         fresh_records.append(build_record(n, c))
 
-    existing = load(DATA_PATH)
+    daily_updates = fetch_daily_updates(existing)
+    fresh_records += daily_updates
+
     merged = merge(existing, fresh_records)
     if args.since:
         before = len(merged)
@@ -123,8 +173,8 @@ def main():
         json.dump({"last_updated": datetime.now(timezone.utc).isoformat()}, f)
 
     logger.info(
-        "Wrote %d total records (%d fresh: %d pattern-matched, %d defaulted to General/Other) to %s",
-        len(merged), len(fresh_records), method_counts["pattern"], method_counts["default"], DATA_PATH,
+        "Wrote %d total records (%d fresh: %d pattern-matched, %d defaulted to General/Other, %d Daily Class Update) to %s",
+        len(merged), len(fresh_records), method_counts["pattern"], method_counts["default"], len(daily_updates), DATA_PATH,
     )
 
 
