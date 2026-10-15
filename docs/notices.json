@@ -1,5 +1,136 @@
 [
   {
+    "id": "777261659abcb278",
+    "posted_date": "15-10-2026",
+    "posted_date_iso": "2026-10-15",
+    "event_date_iso": "2026-10-17",
+    "text": "Dear Parent,\n\nWe cordially invite you to join us for  Navratri Celebration at school along with your ward on 17th October 2026, Saturday from 6:00 p.m. - 8:30 p.m.\n\nPlease find attached the e-invite for the the same.",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/15102026141636.jpg",
+    "category": "Event/Celebration",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "934a1d8df605d53b",
+    "posted_date": "15-10-2026",
+    "posted_date_iso": "2026-10-15",
+    "event_date_iso": "2026-10-15",
+    "text": "Dear Parent,\n\nPFA notes for\nSubject : SST \nChapter : 2\n INDIA - Our Beautiful Country",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/15102026112416.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Social Studies",
+    "chapter": "INDIA - Our Beautiful Country",
+    "chapter_number": 2,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "5acb2328dfa65b36",
+    "posted_date": "15-10-2026",
+    "posted_date_iso": "2026-10-15",
+    "event_date_iso": "2026-10-19",
+    "text": "Dear parent,\nPlease note the details of the class test:\n\nDate: 19/10/26, Monday\nClass: III E, F\nSubject: Science \nChapter: Water",
+    "attachment_url": null,
+    "category": "Exam/Test",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.9,
+    "subject": "Science",
+    "chapter": "Water",
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": "mj3ssit1p67t2ni3mseq32d7jc",
+    "exam_cycle": "Half Yearly"
+  },
+  {
+    "id": "177afe985430c9e6",
+    "posted_date": "15-10-2026",
+    "posted_date_iso": "2026-10-15",
+    "event_date_iso": "2026-10-15",
+    "text": "Daily Class Update\n15-10-2026\n\nPeriod 1: Assembly\nAssembly is conducted\n\nPeriod 2: Dance\nProxy\n\nPeriod 3: Marathi\nध्वनीदर्शक शब्द या घटकाचे स्पष्टीकरण व लेखन केले.\nHW- ध्वनीदर्शक शब्दांचे वाचन करणे.\n\nPeriod 4: Maths\nCh Division, Explanation of The topic - Dividing 3 digit numbers was done. Exercise 4 (Q 2,4,6 ) of page number 66 were discussed and completed.\nHW- Complete Exercise 5 (1,3,5) of page number 66 in the notebook.\n\nPeriod 5: Social Studies\nChapter No.2\nNotebook Writing\nHW- Read Chapter No.2\n\nPeriod 6: Hindi\nशेर और शतपत्र के लिखित कार्य नोटबुक में करवाए गए\n\nPeriod 9: Marathi\nवाचन व उजळणी घेतली",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "Assembly is conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Dance",
+        "note": "Proxy",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "ध्वनीदर्शक शब्द या घटकाचे स्पष्टीकरण व लेखन केले.",
+        "hw": "ध्वनीदर्शक शब्दांचे वाचन करणे."
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch Division, Explanation of The topic - Dividing 3 digit numbers was done. Exercise 4 (Q 2,4,6 ) of page number 66 were discussed and completed.",
+        "hw": "Complete Exercise 5 (1,3,5) of page number 66 in the notebook."
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "Chapter No.2\nNotebook Writing",
+        "hw": "Read Chapter No.2"
+      },
+      {
+        "period": 6,
+        "subject": "Hindi",
+        "note": "शेर और शतपत्र के लिखित कार्य नोटबुक में करवाए गए",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "Marathi",
+        "note": "वाचन व उजळणी घेतली",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "09cdd56ef6936184",
     "posted_date": "14-10-2026",
     "posted_date_iso": "2026-10-14",
