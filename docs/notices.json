@@ -1,5 +1,92 @@
 [
   {
+    "id": "d561500d51925558",
+    "posted_date": "16-10-2026",
+    "posted_date_iso": "2026-10-16",
+    "event_date_iso": "2026-10-21",
+    "text": "Dear Parents,\nPlease note the\n details of the class test:\n\nDate: 21-10-26, Wednesday \nClass: III \nSubject: English \n\nTopic: The prize",
+    "attachment_url": null,
+    "category": "Exam/Test",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.9,
+    "subject": "English",
+    "chapter": "The prize",
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": "3qp2jk2s4c5cde15o63ji0l8ik",
+    "exam_cycle": "Half Yearly"
+  },
+  {
+    "id": "5af2348c8833dab3",
+    "posted_date": "16-10-2026",
+    "posted_date_iso": "2026-10-16",
+    "event_date_iso": "2026-10-16",
+    "text": "Daily Class Update\n16-10-2026\n\nPeriod 1: Assembly\nPractice worksheets was solved in the class.\n\nPeriod 2: Maths\nCh Division, Explanation of The topic - Dividing 3 digit numbers was done. Exercise 4 of page number 66 was discussed and completed.\nHW- Complete the remaining questions of the Exercise 4 in the notebook.\n\nPeriod 3: Social Studies\nChapter No.3\nExplanation and Reading Practice\nHW- Read Chapter No.3\n\nPeriod 5: Social Studies\nChapter No.3\nExplanation and Reading Practice\nHW- Read Chapter No.3\n\nPeriod 7: Hindi\nक्रिया के लिखित कार्य नोटबुक में करवाए गए\n\nPeriod 8: English\nUnseen comprehension was solved in the class.\nHW- Solve unseen comprehension in the class.\n\nPeriod 9: English\nTopic- was, were,has,have explained in the class.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "Practice worksheets was solved in the class.",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Maths",
+        "note": "Ch Division, Explanation of The topic - Dividing 3 digit numbers was done. Exercise 4 of page number 66 was discussed and completed.",
+        "hw": "Complete the remaining questions of the Exercise 4 in the notebook."
+      },
+      {
+        "period": 3,
+        "subject": "Social Studies",
+        "note": "Chapter No.3\nExplanation and Reading Practice",
+        "hw": "Read Chapter No.3"
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "Chapter No.3\nExplanation and Reading Practice",
+        "hw": "Read Chapter No.3"
+      },
+      {
+        "period": 7,
+        "subject": "Hindi",
+        "note": "क्रिया के लिखित कार्य नोटबुक में करवाए गए",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "English",
+        "note": "Unseen comprehension was solved in the class.",
+        "hw": "Solve unseen comprehension in the class."
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Topic- was, were,has,have explained in the class.",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "777261659abcb278",
     "posted_date": "15-10-2026",
     "posted_date_iso": "2026-10-15",
