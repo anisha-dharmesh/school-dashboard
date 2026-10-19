@@ -35,6 +35,7 @@ from datastore.store import (
     tag_exam_cycles,
 )
 from scraper.daily_work import fetch_daily_work
+from scraper.gap_fill import drop_superseded, fetch_gap_notes
 from scraper.notices import fetch_notices, fetch_notices_for_year
 
 DATA_PATH = "docs/notices.json"
@@ -87,6 +88,17 @@ def fetch_daily_updates(existing: list) -> list:
     return records
 
 
+def gap_fill_since(since: str) -> str:
+    """Gap-fill skips everything up to the last exam day of the last finished
+    cycle (PT-1, Half Yearly) -- term 1 material is stale and not worth
+    backfilling."""
+    portion_schedules = load(PORTION_SCHEDULES_PATH) if Path(PORTION_SCHEDULES_PATH).exists() else {}
+    days = [d["date_iso"] for cycle in portion_schedules.values() for d in cycle.get("schedule", [])]
+    if not days:
+        return since
+    return max(since or "", (date.fromisoformat(max(days)) + timedelta(days=1)).isoformat())
+
+
 def process_master_docs(notices) -> None:
     """Holiday List / Special Days & Events / Time Table are once-a-year
     attachments carrying structured data notice text never has -- detect
@@ -118,6 +130,11 @@ def main():
         default=ACADEMIC_YEAR_START,
         help="Exclude notices posted before this ISO date (YYYY-MM-DD) -- defaults to the current academic year's start so a backfill never resurfaces a prior class's leftovers",
     )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Print the Notes/Study gap-fill candidates from the extra section feeds and exit without writing anything",
+    )
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -129,7 +146,8 @@ def main():
         else fetch_notices(limit=args.recent)
     )
 
-    process_master_docs(notices)
+    if not args.dry_run:
+        process_master_docs(notices)
 
     existing = load(DATA_PATH)
 
@@ -140,10 +158,20 @@ def main():
         method_counts[c.method] = method_counts.get(c.method, 0) + 1
         fresh_records.append(build_record(n, c))
 
+    # Notes/Study material other sections received that our feed missed --
+    # additive only, deduped against everything we already hold.
+    gap_notes = fetch_gap_notes(existing + fresh_records, gap_fill_since(args.since))
+    if args.dry_run:
+        for r in sorted(gap_notes, key=lambda r: r["posted_date_iso"]):
+            print(r["posted_date_iso"], r["subject"], "|", r["material_type"], "|", r["chapter"])
+        print(f"{len(gap_notes)} gap notes would be added (nothing written)")
+        return
+
     daily_updates = fetch_daily_updates(existing)
     fresh_records += daily_updates
 
-    merged = merge(existing, fresh_records)
+    merged = merge(existing, fresh_records + gap_notes)
+    merged = drop_superseded(merged, [r for r in fresh_records if r["category"] == "Subject Notes"])
     if args.since:
         before = len(merged)
         merged = prune_before(merged, args.since)

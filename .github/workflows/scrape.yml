@@ -39,6 +39,7 @@ jobs:
           ERP_STUDENT_ID: ${{ secrets.ERP_STUDENT_ID }}
           ERP_ACADEMIC_YEAR_ID: ${{ secrets.ERP_ACADEMIC_YEAR_ID }}
           ERP_CLASS_SECTION_ID: ${{ secrets.ERP_CLASS_SECTION_ID }}
+          ERP_EXTRA_STUDENTS: ${{ secrets.ERP_EXTRA_STUDENTS }}
           # Calendar sync is optional -- main.py skips it cleanly if this
           # secret isn't set. GOOGLE_CALENDAR_ID isn't sensitive (it's
           # already public in the app's "Subscribe on Calendar" link, see
