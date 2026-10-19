@@ -35,6 +35,28 @@
     "exam_cycle": null
   },
   {
+    "id": "8544325b3891dcf1",
+    "posted_date": "19-10-2026",
+    "posted_date_iso": "2026-10-19",
+    "event_date_iso": "2026-10-22",
+    "text": "Dear Parent,\n\nPlease make a note of the following Class Test: \n\nSubject: Maths\nClass: III \nDate: 22/10/2026\nChapter: Measurement",
+    "attachment_url": null,
+    "category": "Exam/Test",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.9,
+    "subject": "Maths",
+    "chapter": "Measurement",
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": "apfkiq3m4kmcfj5ptit72blnhk",
+    "exam_cycle": "Half Yearly"
+  },
+  {
     "id": "1accbc79192b1378",
     "posted_date": "18-10-2026",
     "posted_date_iso": "2026-10-18",
