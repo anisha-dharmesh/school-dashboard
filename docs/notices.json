@@ -1,5 +1,62 @@
 [
   {
+    "id": "5865ee2976b08cb2",
+    "posted_date": "19-10-2026",
+    "posted_date_iso": "2026-10-19",
+    "event_date_iso": "2026-10-19",
+    "text": "Daily Class Update\n19-10-2026\n\nPeriod 3: Marathi\n10. चतुर न्यायाधीश या पाठाचे वाचन घेतले.\nHW- 10. चतुर न्यायाधीश या पाठाचे करून येणे.\n\nPeriod 5: Computer Science\nchapter 5: Answer the question was done",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "10. चतुर न्यायाधीश या पाठाचे वाचन घेतले.",
+        "hw": "10. चतुर न्यायाधीश या पाठाचे करून येणे."
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "chapter 5: Answer the question was done",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "1accbc79192b1378",
+    "posted_date": "18-10-2026",
+    "posted_date_iso": "2026-10-18",
+    "event_date_iso": "2026-10-21",
+    "text": "Dear Parents,\n\nSelection trials for the RGOI Pune/Haveli Roller Skating Championship will be conducted as per the following schedule.\n\nDate: Wednesday, 21 October 2026\nTime: 7:30 a.m. to 8:30 a.m.\nVenue: SNBP International School, Wagholi\n\nImportant Instructions:\n\n1. Students must report in P.E. uniform only.\n2. Parents must drop interested students at school for the trials.\n3. Students must bring their own skates, helmet, and complete set of protective guards.\n4. Championship Date: 1 November 2026.\n5. Regular practice for selected students will begin on Thursday, 22 October 2026.\n\nFor selection confirmation and WhatsApp group updates, contact Mr. Nilesh Jagtap at (check phone number on school app). ",
+    "attachment_url": null,
+    "category": "School Event",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.8,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": "5ui5s7ql8dno07fijl69drhuto",
+    "exam_cycle": null
+  },
+  {
     "id": "d561500d51925558",
     "posted_date": "16-10-2026",
     "posted_date_iso": "2026-10-16",
