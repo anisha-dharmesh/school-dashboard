@@ -1,5 +1,149 @@
 [
   {
+    "id": "8b6eb09eaf938738",
+    "posted_date": "21-10-2026",
+    "posted_date_iso": "2026-10-21",
+    "event_date_iso": "2026-10-21",
+    "text": "\nDear Parent,\n\nPFA notes for:\n\nSubject - Hindi\nChapter - शेर और शतपत्र ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/211020261535.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Hindi",
+    "chapter": "शेर और शतपत्र",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "b762beb33496fc14",
+    "posted_date": "21-10-2026",
+    "posted_date_iso": "2026-10-21",
+    "event_date_iso": "2026-10-24",
+    "text": "Dear Parent,\n\nPlease note that the Skill Fest will be conducted on Saturday, 24 October 2026.\nStudents are requested to come dressed as below:\n\n1. Regular school Uniform with tie, belt and school shoes\n2. ⁠Hairstyle\n        Girls - 2 plaits / 2 ponies with black hair accessories only\n        Boys - neatly trimmed short hair\n\nKindly ensure that your child comes dressed in the prescribed attire for the event.\n\nThank you for your cooperation.",
+    "attachment_url": null,
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "e919c84882906113",
+    "posted_date": "21-10-2026",
+    "posted_date_iso": "2026-10-21",
+    "event_date_iso": "2026-10-21",
+    "text": "Daily Class Update\n21-10-2026\n\nPeriod 1: Assembly\nAssembly prayer is conducted\n\nPeriod 2: Science\nWritten work for chapter 2 was done in the notebook\n\nPeriod 3: Marathi\n10. चतुर न्यायाधीश या पाठाचे स्पष्टीकरण केले.\n\nPeriod 4: Maths\nCh Division - Explanation of The topic - Properties of Division and Dividing by 10 were done. Exercise 7 of page number 69 was discussed and completed.\nHW- Study for the Class Test.\n\nPeriod 5: Computer Science\nChapter 5: Activity conducted in computer lab\n\nPeriod 6: English\nClass test was conducted.\n\nPeriod 7: Hindi\nदीनबंधु एंड्रयूज की व्याख्या की गई तथा मौखिक अभ्यास लिए गए\n\nPeriod 8: Maths\nCh Division - Explanation of The topic -Division in real life was done. Exercise 6 (Q1 to 4) of page number 67 were discussed and completed.\n\nPeriod 9: English\nWritten work of chapter 5 was done in the notebook.\nHW- Read ch3",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "Assembly prayer is conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "Written work for chapter 2 was done in the notebook",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "10. चतुर न्यायाधीश या पाठाचे स्पष्टीकरण केले.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch Division - Explanation of The topic - Properties of Division and Dividing by 10 were done. Exercise 7 of page number 69 was discussed and completed.",
+        "hw": "Study for the Class Test."
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "Chapter 5: Activity conducted in computer lab",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "English",
+        "note": "Class test was conducted.",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Hindi",
+        "note": "दीनबंधु एंड्रयूज की व्याख्या की गई तथा मौखिक अभ्यास लिए गए",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Maths",
+        "note": "Ch Division - Explanation of The topic -Division in real life was done. Exercise 6 (Q1 to 4) of page number 67 were discussed and completed.",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Written work of chapter 5 was done in the notebook.",
+        "hw": "Read ch3"
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "0a9dc9f1f4dfed9f",
+    "posted_date": "21-10-2026",
+    "posted_date_iso": "2026-10-21",
+    "event_date_iso": "2026-10-21",
+    "text": "Dear Parent, \nPFA notes for\nSubject- English Grammar \nChapter - Pronouns, Articles ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2110202611840.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "English",
+    "chapter": "Pronouns, Articles",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "other_section": true,
+    "exam_cycle": []
+  },
+  {
     "id": "5865ee2976b08cb2",
     "posted_date": "19-10-2026",
     "posted_date_iso": "2026-10-19",
