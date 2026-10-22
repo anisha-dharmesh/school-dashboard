@@ -1,5 +1,142 @@
 [
   {
+    "id": "d49d48b51b517409",
+    "posted_date": "22-10-2026",
+    "posted_date_iso": "2026-10-22",
+    "event_date_iso": "2026-10-24",
+    "text": "Dear Parent,\n\nPlease note that Skill Fest 2026: Anusandhan will be held on Saturday, 24th October 2026, at the school grounds. Your ward’s allotted time slot is from 6:45 p.m  to 7:45 p.m.\n\nKindly ensure that your ward reports backstage 10 minutes before the scheduled performance to avoid missing their turn and feeling disappointed.\n\nParents are humbly requested not to enter the backstage area or collect their wards from there, as this may cause overcrowding and disrupt the smooth conduct of the event.\n\nPlease collect your ward after the performance from the New Building, Ground Floor Lobby Area.\n\nStudents and parents must carry their respective school ID cards for identification.\n\nThank you for your understanding and cooperation.",
+    "attachment_url": null,
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "f152a08af9a671b1",
+    "posted_date": "22-10-2026",
+    "posted_date_iso": "2026-10-22",
+    "event_date_iso": "2026-10-24",
+    "text": "Dear Parent,\n\nWe take immense pride in inviting you to Skill Fest 2026: Anusandhan, on Saturday, 24th October 2026, from 5:30 p.m. to 9:00 p.m. at the school grounds.\n\nPlease find attached Circular No. 37 for your reference.\n\n We look forward to your gracious presence as we celebrate our students’ creativity, curiosity, and talents.",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/22102026125445.pdf",
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "fc660cc10498e4de",
+    "posted_date": "22-10-2026",
+    "posted_date_iso": "2026-10-22",
+    "event_date_iso": "2026-10-26",
+    "text": "Dear Parent,\n\nPlease make a note of the following Subject Enrichment Activity: \n\nSubject: English \nClass: III \nDate: 26-10-26 Monday \nChapter: Riding a Rainbow (Poem Recitation)",
+    "attachment_url": null,
+    "category": "School Event",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.8,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": "b4hb2ka6oq654ct81drra3qsvc",
+    "exam_cycle": null
+  },
+  {
+    "id": "c47567d1a829a949",
+    "posted_date": "22-10-2026",
+    "posted_date_iso": "2026-10-22",
+    "event_date_iso": "2026-10-22",
+    "text": "Daily Class Update\n22-10-2026\n\nPeriod 1: Assembly\nprayer is conducted\n\nPeriod 2: Dance\nClass is conducted\n\nPeriod 3: Marathi\n10. चतुर न्यायाधीश या पाठाचा स्वाध्याय पाठय पुस्तकात लिहिला.\nHW- 10.चतुर न्यायाधीश या पाठाचे वाचन करणे.\n\nPeriod 4: Maths\nClass test was conducted.\n\nPeriod 5: Social Studies\nChapter No.3\nNotebook Writing\nHW- Read Chapter No.3\n\nPeriod 6: Hindi\nकाल की व्याख्या की गई तथा लिखित कार्य पाठ्यपुस्तक में करवाए गए\n\nPeriod 7: Skating\nmusic practice for skill fest\n\nPeriod 8: Skating\nmusic practice for skill fest",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "prayer is conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Dance",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "10. चतुर न्यायाधीश या पाठाचा स्वाध्याय पाठय पुस्तकात लिहिला.",
+        "hw": "10.चतुर न्यायाधीश या पाठाचे वाचन करणे."
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Class test was conducted.",
+        "hw": null
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "Chapter No.3\nNotebook Writing",
+        "hw": "Read Chapter No.3"
+      },
+      {
+        "period": 6,
+        "subject": "Hindi",
+        "note": "काल की व्याख्या की गई तथा लिखित कार्य पाठ्यपुस्तक में करवाए गए",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Skating",
+        "note": "music practice for skill fest",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Skating",
+        "note": "music practice for skill fest",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "8b6eb09eaf938738",
     "posted_date": "21-10-2026",
     "posted_date_iso": "2026-10-21",
@@ -142,6 +279,28 @@
     "calendar_event_id": null,
     "other_section": true,
     "exam_cycle": []
+  },
+  {
+    "id": "3b2c74837024e97e",
+    "posted_date": "21-10-2026",
+    "posted_date_iso": "2026-10-21",
+    "event_date_iso": "2026-10-21",
+    "text": "Dear Parent,\n\nWe take great pride in inviting you to Skill Fest 2026: ANUSANDHAN. An exploration of ideas, a celebration of skills, a glimpse into a brighter tomorrow!\n\nJoin us for an inspiring evening celebrating creativity, innovation, and talent. \n\nSharing and e-invite for the same. \n\nDetailed circular shall be shared shortly.",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2110202617323.jpg",
+    "category": "Event/Celebration",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
   },
   {
     "id": "5865ee2976b08cb2",
