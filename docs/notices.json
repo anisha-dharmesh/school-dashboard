@@ -137,6 +137,28 @@
     "exam_cycle": null
   },
   {
+    "id": "cde9c97800fe3f98",
+    "posted_date": "22-10-2026",
+    "posted_date_iso": "2026-10-22",
+    "event_date_iso": "2026-10-24",
+    "text": "Dear Parent,\n\nPlease note that Skill Fest 2026: Anusandhan will be held on Saturday, 24th October 2026, at the school grounds. Your ward’s allotted time slot is from 6:45 p.m. to 7:45 p.m.\n\nKindly ensure that your ward reports backstage 10 minutes before the scheduled performance to avoid missing their turn and feeling disappointed.\n\nParents are humbly requested not to enter the backstage area or collect their wards from there, as this may cause overcrowding and disrupt the smooth conduct of the event.\n\nPlease collect your ward after the performance from the New Building, Ground Floor Lobby Area.\n\nStudents and parents must carry their respective school ID cards for identification.\n\nThank you for your understanding and cooperation.",
+    "attachment_url": null,
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "8b6eb09eaf938738",
     "posted_date": "21-10-2026",
     "posted_date_iso": "2026-10-21",
