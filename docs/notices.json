@@ -1,5 +1,62 @@
 [
   {
+    "id": "1ea6e740ab30bab3",
+    "posted_date": "23-10-2026",
+    "posted_date_iso": "2026-10-23",
+    "event_date_iso": "2026-10-23",
+    "text": "Dear Parent,\n\nLittle Gargi Sandeep Jadhav, sister of one of our SNBPians, is bravely fighting SMA Type 1 and urgently needs gene therapy costing ₹10 crore.\n\nWith your love and support, her family has raised ₹9 crore. Just ₹1 crore more is needed to bring her closer to this life-changing treatment.\n\nWe humbly request our SNBP family to come together and contribute whatever they can. Every rupee, every prayer, and every share can make a difference in little Gargi’s life.\n\nPlease find attached the UPI QR code and donation details.\n\nLet’s join hands to give Gargi hope, strength, and a chance at a healthier future.\n\nThank you for your kindness and generosity.",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/23102026134158.jpg",
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "ff6cdfae38539d4c",
+    "posted_date": "23-10-2026",
+    "posted_date_iso": "2026-10-23",
+    "event_date_iso": "2026-10-23",
+    "text": "Daily Class Update\n23-10-2026\n\nPeriod 1: Assembly\nprayer was conducted\n\nPeriod 2: Maths\nCh Division - Explanation of The topic -Division in real life was done. Exercise 6 (Q5 to 7) of page number 67 were discussed and completed.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "prayer was conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Maths",
+        "note": "Ch Division - Explanation of The topic -Division in real life was done. Exercise 6 (Q5 to 7) of page number 67 were discussed and completed.",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "d49d48b51b517409",
     "posted_date": "22-10-2026",
     "posted_date_iso": "2026-10-22",
