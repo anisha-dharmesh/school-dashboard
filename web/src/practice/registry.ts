@@ -1,13 +1,14 @@
 // The one place that knows which subjects and chapters exist. To add a
 // chapter: create its file under content/<subject>/ and list it here.
 import type { Chapter, PracticeItem, Subject } from "./types";
+import { division } from "./content/maths/ch01-division";
 import { measurement } from "./content/maths/ch09-measurement";
 
 export const SUBJECTS: Subject[] = [
   {
     id: "maths",
     name: "Maths",
-    chapters: [measurement],
+    chapters: [division, measurement],
   },
 ];
 

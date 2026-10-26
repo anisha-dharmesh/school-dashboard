@@ -11,7 +11,16 @@ export interface AnswerPart {
 export type Answer =
   // One numeric input per part. A blank part counts as 0, so "7 km" is
   // accepted for "7 km 0 m".
-  | { kind: "parts"; parts: AnswerPart[] }
+  | {
+      kind: "parts";
+      parts: AnswerPart[];
+      /**
+       * Show every part, zeros included, as "quotient 605, remainder 0".
+       * Without it a zero part is dropped, which suits "7 km" but would
+       * leave a division answer with no remainder at all.
+       */
+      labelled?: boolean;
+    }
   // Pick one option (matching, multiple choice).
   | { kind: "choice"; options: string[]; correct: number };
 

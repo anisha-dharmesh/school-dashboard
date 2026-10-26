@@ -16,6 +16,7 @@ import {
   SidebarMenuItem,
   SidebarProvider,
   SidebarTrigger,
+  useSidebar,
 } from "../components/ui/sidebar";
 import styles from "./AppLayout.module.css";
 
@@ -30,6 +31,15 @@ const TABS = [
   { to: "/practice", label: "Practice" },
   { to: "/history", label: "History" },
 ];
+
+// On mobile the sidebar is a sheet over the page; once a tab has been picked
+// it should get out of the way instead of staying open on top of it.
+function CloseMobileSidebarOnNavigate() {
+  const { key } = useLocation();
+  const { setOpenMobile } = useSidebar();
+  useEffect(() => setOpenMobile(false), [key, setOpenMobile]);
+  return null;
+}
 
 export default function AppLayout() {
   const location = useLocation();
@@ -54,6 +64,7 @@ export default function AppLayout() {
 
   return (
     <SidebarProvider>
+      <CloseMobileSidebarOnNavigate />
       <Sidebar>
         <SidebarHeader>
           <h1 className="text-base font-medium">Class III</h1>

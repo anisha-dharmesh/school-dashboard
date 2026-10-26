@@ -19,19 +19,12 @@ function pick(items: PracticeItem[], count: number): PracticeItem[] {
 }
 
 /**
- * The chosen questions, ready for a session. In "random" mode, every
- * question that supports it (see `Question.regenerate`) gets fresh numbers;
- * a worded problem has no `regenerate` and comes through unchanged either way.
+ * The chosen questions, ready for a session. Every question that supports it
+ * (see `Question.regenerate`) gets fresh numbers each time; a worded problem
+ * has no `regenerate` and comes through unchanged.
  */
-export function drawQueue(items: PracticeItem[], count: number, numbers: "textbook" | "random" = "textbook"): PracticeItem[] {
-  const picked = pick(items, count);
-  if (numbers === "textbook") return picked;
-  return picked.map((item) => (item.question.regenerate ? { ...item, question: item.question.regenerate() } : item));
-}
-
-/** How many of these questions can actually get new numbers -- for the setup screen's helper text. */
-export function countRegenerable(items: PracticeItem[]): number {
-  return items.filter((i) => i.question.regenerate).length;
+export function drawQueue(items: PracticeItem[], count: number): PracticeItem[] {
+  return pick(items, count).map((item) => (item.question.regenerate ? { ...item, question: item.question.regenerate() } : item));
 }
 
 /**
@@ -49,19 +42,23 @@ export function isCorrect(answer: Answer, response: Response): boolean {
   return answer.parts.every((part, i) => Number(response[i]?.trim() || "0") === part.value);
 }
 
-function joinParts(parts: { unit: string; value: number }[]): string {
+function joinParts(parts: { unit: string; value: number }[], labelled = false): string {
+  if (labelled) return parts.map((p) => `${p.unit} ${p.value}`).join(", ");
   const shown = parts.filter((p) => p.value > 0);
   const use = shown.length ? shown : parts.slice(-1).map((p) => ({ ...p, value: 0 }));
   return use.map((p) => `${p.value} ${p.unit}`).join(" ");
 }
 
 export function formatCorrect(answer: Answer): string {
-  return answer.kind === "choice" ? answer.options[answer.correct] : joinParts(answer.parts);
+  return answer.kind === "choice" ? answer.options[answer.correct] : joinParts(answer.parts, answer.labelled);
 }
 
 export function formatResponse(answer: Answer, response: Response): string {
   if (answer.kind === "choice") return answer.options[Number(response[0])] ?? "";
-  return joinParts(answer.parts.map((part, i) => ({ unit: part.unit, value: Number(response[i]?.trim() || "0") })));
+  return joinParts(
+    answer.parts.map((part, i) => ({ unit: part.unit, value: Number(response[i]?.trim() || "0") })),
+    answer.labelled,
+  );
 }
 
 export function toResult(item: PracticeItem, response: Response): PracticeResult {

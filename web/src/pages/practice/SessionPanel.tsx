@@ -147,7 +147,7 @@ function QuestionCard({ item, number, total, isLast, results, onAnswer, onNext }
                     inputMode="numeric"
                     autoComplete="off"
                     autoFocus={i === 0}
-                    aria-label={`Answer in ${part.unit}`}
+                    aria-label={part.unit ? `Answer in ${part.unit}` : "Answer"}
                     value={response[i]}
                     onChange={(e) => setPart(i, e.target.value)}
                     disabled={result !== null}

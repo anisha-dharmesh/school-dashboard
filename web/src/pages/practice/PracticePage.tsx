@@ -21,7 +21,7 @@ export default function PracticePage() {
     const subject = findSubject(scope.subjectId);
     const chapter = findChapter(subject, scope.chapterId);
     if (!subject || !chapter) return;
-    const queue = drawQueue(collectItems(subject, chapter, scope.exerciseIds), scope.count, scope.numbers);
+    const queue = drawQueue(collectItems(subject, chapter, scope.exerciseIds), scope.count);
     if (queue.length > 0) setView({ name: "running", scope, queue });
   }
 
