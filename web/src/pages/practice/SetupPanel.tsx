@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Play } from "lucide-react";
 import { collectItems, findChapter, findSubject, SUBJECTS } from "../../practice/registry";
-import { countRegenerable } from "../../practice/session";
 import type { Chapter, Subject } from "../../practice/types";
 import { Button } from "../../components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../../components/ui/card";
@@ -17,14 +16,6 @@ export interface Scope {
   exerciseIds: string[];
   /** How many questions to ask; 0 means every question in the selection. */
   count: number;
-  /**
-   * "textbook" asks the exact questions from the book. "random" gives fresh
-   * numbers each time to every question that supports it -- same digit
-   * lengths, and a subtraction always bigger-first so it can't go negative
-   * -- while worded problems (fixed numbers baked into a sentence) come
-   * through unchanged either way.
-   */
-  numbers: "textbook" | "random";
 }
 
 const COUNTS = [
@@ -32,11 +23,6 @@ const COUNTS = [
   { value: 10, label: "10" },
   { value: 20, label: "20" },
   { value: 0, label: "All" },
-];
-
-const NUMBER_MODES: { value: Scope["numbers"]; label: string }[] = [
-  { value: "textbook", label: "Textbook" },
-  { value: "random", label: "New each time" },
 ];
 
 const allExercises = (chapter: Chapter) => chapter.exercises.map((e) => e.id);
@@ -48,11 +34,9 @@ export default function SetupPanel({ initial, onStart }: { initial?: Scope; onSt
   const chapter: Chapter = findChapter(subject, chapterId) ?? subject.chapters[0];
   const [selected, setSelected] = useState<string[]>(initial?.exerciseIds ?? allExercises(chapter));
   const [count, setCount] = useState(initial?.count ?? 10);
-  const [numbers, setNumbers] = useState<Scope["numbers"]>(initial?.numbers ?? "textbook");
 
   const items = collectItems(subject, chapter, selected);
   const available = items.length;
-  const regenerable = countRegenerable(items);
   const allSelected = selected.length === chapter.exercises.length;
 
   function changeSubject(id: string) {
@@ -79,7 +63,7 @@ export default function SetupPanel({ initial, onStart }: { initial?: Scope; onSt
     <Card className="w-full max-w-2xl self-center">
       <CardHeader>
         <CardTitle>Start a practice session</CardTitle>
-        <CardDescription>Pick what to practise. Questions come up in random order, and any you get wrong show the solution.</CardDescription>
+        <CardDescription>Pick what to practise. Questions come up in random order with fresh numbers each time (worded problems stay as printed), and any you get wrong show the solution.</CardDescription>
       </CardHeader>
       <CardContent>
         <FieldGroup>
@@ -150,31 +134,13 @@ export default function SetupPanel({ initial, onStart }: { initial?: Scope; onSt
               ))}
             </ToggleGroup>
           </Field>
-
-          <Field>
-            <Label>Numbers</Label>
-            <ToggleGroup variant="outline" value={[numbers]} onValueChange={(v) => v[0] && setNumbers(v[0] as Scope["numbers"])}>
-              {NUMBER_MODES.map((m) => (
-                <ToggleGroupItem key={m.value} value={m.value}>
-                  {m.label}
-                </ToggleGroupItem>
-              ))}
-            </ToggleGroup>
-            <FieldDescription>
-              {numbers === "random"
-                ? regenerable > 0
-                  ? `${regenerable} of ${available} questions get new numbers each time (same number of digits; subtraction stays biggest-first). Worded problems are unaffected and stay as printed.`
-                  : "None of the selected questions support new numbers -- they'll come through as printed."
-                : "The exact questions from the book, every time."}
-            </FieldDescription>
-          </Field>
         </FieldGroup>
       </CardContent>
       <CardFooter className="flex-wrap justify-between gap-3">
         <span className="text-sm text-muted-foreground">
           {available === 0 ? "Select at least one exercise." : `${available} questions available${count > 0 && available > count ? ` · ${count} will be asked` : ""}`}
         </span>
-        <Button disabled={available === 0} onClick={() => onStart({ subjectId, chapterId, exerciseIds: selected, count, numbers })}>
+        <Button disabled={available === 0} onClick={() => onStart({ subjectId, chapterId, exerciseIds: selected, count })}>
           <Play />
           Start session
         </Button>

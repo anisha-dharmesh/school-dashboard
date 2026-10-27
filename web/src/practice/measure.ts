@@ -44,7 +44,7 @@ const split = (sys: UnitSystem, t: number): Measure => [Math.floor(t / sys.ratio
  * generous enough to vary the question but keeps the new number recognizably
  * "that question's number, moved a bit" rather than a fresh draw.
  */
-function randomLike(n: number): number {
+export function randomLike(n: number): number {
   if (n === 0) return 0;
   const digits = String(n).length;
   const min = 10 ** (digits - 1);
