@@ -1,0 +1,285 @@
+{
+  "subject": "Social Studies",
+  "chapter": "India - Our Beautiful Country",
+  "term": "Term 2",
+  "number": 2,
+  "tests": [
+    "Class Test"
+  ],
+  "sections": [
+    {
+      "title": "New Words",
+      "type": "block",
+      "layout": "chips",
+      "items": [
+        {
+          "heading": "New Words",
+          "lines": [
+            "landforms",
+            "coastline",
+            "plateaus",
+            "foothills",
+            "Mussoorie",
+            "Nainital",
+            "Vindhya",
+            "Gangetic",
+            "populated",
+            "Kanniyakumari",
+            "Deccan",
+            "peninsula",
+            "Andaman",
+            "Nicobar",
+            "Arabian",
+            "boundary"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Define",
+      "type": "qa",
+      "layout": "terms",
+      "items": [
+        {
+          "question": "Plains",
+          "answer": "Plains means flat and levelled land. Plains are thickly populated as plenty of food is grown there.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Plateau",
+          "answer": "Plateau is a flat land and looks like a tabletop. It is higher than the surrounding area. The land is rough here.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Peninsula",
+          "answer": "An area of land surrounded by water on three sides is known as a peninsula.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Desert",
+          "answer": "A desert is a vast area of flat land covered with sand.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Island",
+          "answer": "An island is a piece of land surrounded by water on all sides.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "The great ___ form the northern boundary of our country.",
+              "answers": [
+                "Himalayas"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "___ are generally covered with forest.",
+              "answers": [
+                "Foothills"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Lakshadweep islands lie in the ___ Sea.",
+              "answers": [
+                "Arabian"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "The ___ Plateau occupies the largest part of India.",
+              "answers": [
+                "Deccan"
+              ],
+              "sources": {
+                "notes": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Name the Following / One Word",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "Where is Mount Everest located?",
+          "answer": "Nepal",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "Which ranges fall in Central India?",
+          "answer": "Vindhya and Satpura",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "Name the southernmost tip of the Peninsula.",
+          "answer": "Kanniyakumari",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "What is the highest peak in the world?",
+          "answer": "Mount Everest",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "True or False",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "The Ganga and Yamuna flow through the plains and make them fertile.",
+          "answer": true,
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "The Deccan Plateau is called coastline.",
+          "answer": false,
+          "explanation": "The Deccan Plateau is called the Southern Plateau.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "It rains a lot in the desert.",
+          "answer": false,
+          "explanation": "The desert has very little rainfall.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "Plains means flat and levelled land.",
+          "answer": true,
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "The Andaman and Nicobar Islands lie in the Bay of Bengal.",
+          "answer": true,
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Write Short Answers",
+      "type": "qa",
+      "items": [
+        {
+          "question": "List the physical divisions of India.",
+          "answer": "The main physical divisions of India are mountains, plains, plateaus, desert and islands.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Why is life tough in the desert?",
+          "answer": "The life of the people living in the desert area is very difficult because it is very dry land with very little rainfall. It is also very hot here.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "While travelling to the coastal areas, you do not need to carry woollen clothes. Why is it so?",
+          "answer": "The climate in the coastal plain is neither very hot nor very cold. Therefore, you do not need to carry woollen clothes while travelling to the coastal areas.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Answer the Following Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Write a short note on the Himalayas.",
+          "answer": "The great Himalayas form the northern boundary of our country. It is the world's highest mountain range. It is mostly covered with snow.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Why is the Deccan Plateau not fertile?",
+          "answer": "The rivers in the Deccan Plateau depend on the rains for water. So, they become dry in summer and also when rainfall is poor. As a result, the Deccan Plateau is not very fertile.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Why do people prefer to live in the Gangetic plains and not in the Himalayas?",
+          "answer": "The Gangetic plains have fertile land and flat ground, making farming and living easy. In the Himalayas, the land is steep and cold, so farming and living are harder.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "What is the difference between plains and plateau?",
+          "answer": [
+            "Plains: Plains mean flat and levelled land. Plateau: The plateau is flat and looks like a tabletop.",
+            "Plains: It is a fertile land. Plateau: It is a rough land.",
+            "Plains: Example - Indo-Gangetic Plains. Plateau: Example - Deccan Plateau."
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Application Based Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Gagan wants to start a farm in India. He is confused and does not know which area he should choose. Tell him which area would be the best choice and why. Give a reason for your answer.",
+          "answer": "Gagan should choose the great plains to start a farm because it has flat and levelled land. Also, the land of this area is very fertile because many rivers flow through these plains.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    }
+  ]
+}

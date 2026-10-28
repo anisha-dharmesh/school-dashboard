@@ -242,6 +242,15 @@
           "tests": [
             "Class Test"
           ]
+        },
+        {
+          "slug": "india-our-beautiful-country",
+          "title": "India - Our Beautiful Country",
+          "term": "Term 2",
+          "number": 2,
+          "tests": [
+            "Class Test"
+          ]
         }
       ]
     },
