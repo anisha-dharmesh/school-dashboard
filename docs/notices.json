@@ -1,5 +1,142 @@
 [
   {
+    "id": "3aaf294a39545c45",
+    "posted_date": "28-10-2026",
+    "posted_date_iso": "2026-10-28",
+    "event_date_iso": "2026-10-28",
+    "text": "Dear Parents \nPFA of \nSubject -English \nTopic- Verb",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/28102026152543.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "English",
+    "chapter": "Verb",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "04a4e645f0c0ee05",
+    "posted_date": "28-10-2026",
+    "posted_date_iso": "2026-10-28",
+    "event_date_iso": "2026-10-28",
+    "text": "Dear Parents,\nPFA of \nsubject: English \nChapter:3 Heidi Teaches Peter",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/28102026112314.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "English",
+    "chapter": "Heidi Teaches Peter",
+    "chapter_number": 3,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "62d2c159ae343725",
+    "posted_date": "28-10-2026",
+    "posted_date_iso": "2026-10-28",
+    "event_date_iso": "2026-11-04",
+    "text": "Dear Parent,\n\nWe are pleased to inform you that our school will be celebrating ‘Diwali Pahat’ on the auspicious occasion of Diwali.\nStudents who wish to show their talent like singing classical music or playing any instrument are requested to submit their names to their respective class teachers by 30th October.\n\nNote:\n\n1. Date: Wednesday, 4th November 2026\n2. ⁠Time: 7:00 a.m.\n3. ⁠Venue: School Ground\n4. ⁠Buses will not ply for pick up.\n5. There will be regular school after the programme.",
+    "attachment_url": null,
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "937737b717865603",
+    "posted_date": "28-10-2026",
+    "posted_date_iso": "2026-10-28",
+    "event_date_iso": "2026-10-28",
+    "text": "Daily Class Update\n28-10-2026\n\nPeriod 1: Assembly\nprayer is conducted\n\nPeriod 2: Science\nThe topic ‘Structure of Earth’ was discussed in the textbook\nHW- Read the same\n\nPeriod 3: Marathi\nआपले मदतनीस या घटकाचे स्पष्टीकरण देण्यास सुरुवात केली व वाचन घेतले.\n\nPeriod 4: Maths\nCh 6- Time written work of the topic - Reading of time was done.\nHW- Revise the same.\n\nPeriod 5: Computer Science\nChapter 6: Activity are done in the lab\n\nPeriod 6: English\nWritten work of chapter 5 was done in the notebook.\n\nPeriod 8: Maths\nRevision of the topic - Reading of time was done.\n\nPeriod 9: English\nWritten work of chapter 5 was done in the notebook.\nHW- Learn new words of chapter 2",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "prayer is conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "The topic ‘Structure of Earth’ was discussed in the textbook",
+        "hw": "Read the same"
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "आपले मदतनीस या घटकाचे स्पष्टीकरण देण्यास सुरुवात केली व वाचन घेतले.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch 6- Time written work of the topic - Reading of time was done.",
+        "hw": "Revise the same."
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "Chapter 6: Activity are done in the lab",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "English",
+        "note": "Written work of chapter 5 was done in the notebook.",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Maths",
+        "note": "Revision of the topic - Reading of time was done.",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Written work of chapter 5 was done in the notebook.",
+        "hw": "Learn new words of chapter 2"
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "f2f7ea14cbcd6493",
     "posted_date": "27-10-2026",
     "posted_date_iso": "2026-10-27",
