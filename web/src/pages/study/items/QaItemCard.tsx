@@ -78,8 +78,8 @@ const Num = ({ n }: { n?: number }) => (n ? <span className="mr-1.5 font-semibol
 export default function QaItemCard({ item, layout, number }: { item: QaItem; layout?: "terms"; number?: number }) {
   if (layout === "terms" && item.answer) {
     return (
-      <div className="flex gap-3 py-3">
-        <div className="w-24 shrink-0 font-semibold">
+      <div className="flex flex-col gap-0.5 py-3">
+        <div className="font-semibold">
           <Num n={number} />
           {item.question}
           <SourceMarks sources={item.sources} />
