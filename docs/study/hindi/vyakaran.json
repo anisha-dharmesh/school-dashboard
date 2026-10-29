@@ -8,7 +8,7 @@
   ],
   "sections": [
     {
-      "title": "व्याकरण टिप्पणी (Grammar Notes)",
+      "title": "व्याकरण टिप्पणी",
       "type": "block",
       "items": [
         {
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "title": "रिक्त स्थान भरिए (Fill in the Blanks)",
+      "title": "रिक्त स्थान भरिए",
       "type": "fib",
       "sets": [
         {
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "title": "एक शब्द में उत्तर दीजिए (Name the Following)",
+      "title": "एक शब्द में उत्तर दीजिए",
       "type": "name",
       "items": [
         {

@@ -62,6 +62,8 @@ export interface QaItem {
   answer?: string | string[];
   /** Sub-questions of a stem question, each with its own answer, e.g. "(a) Who is meant here?". */
   parts?: { question: string; answer: string | string[] }[];
+  /** A "difference between" answer: a two-column table, one numbered row per point. */
+  compare?: { columns: [string, string]; rows: [string, string][] };
   sources?: SourceMarks;
 }
 

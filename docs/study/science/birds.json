@@ -437,10 +437,21 @@
         },
         {
           "question": "Differentiate between the upstroke and downstroke movement of wings.",
-          "answer": "| Upstroke | Downstroke |\n|---|---|\n| It is the upward movement of wings, which helps birds get ready for the next flap. | It is the downward movement of wings that pushes air and helps the bird rise and fly. |",
           "sources": {
             "notes": true,
             "revisionSheet": true
+          },
+          "compare": {
+            "columns": [
+              "Upstroke",
+              "Downstroke"
+            ],
+            "rows": [
+              [
+                "It is the upward movement of wings, which helps birds get ready for the next flap.",
+                "It is the downward movement of wings that pushes air and helps the bird rise and fly."
+              ]
+            ]
           }
         },
         {

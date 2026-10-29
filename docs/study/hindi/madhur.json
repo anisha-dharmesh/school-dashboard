@@ -8,7 +8,7 @@
   ],
   "sections": [
     {
-      "title": "शब्दार्थ (Word Meanings)",
+      "title": "शब्दार्थ",
       "type": "vocab",
       "items": [
         {
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "title": "रिक्त स्थान भरिए (Fill in the Blanks)",
+      "title": "रिक्त स्थान भरिए",
       "type": "fib",
       "sets": [
         {
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "title": "विलोम एवं पर्यायवाची शब्द (Antonyms & Synonyms)",
+      "title": "विलोम एवं पर्यायवाची शब्द",
       "type": "name",
       "items": [
         {
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "title": "प्रश्न-उत्तर (Question Answers)",
+      "title": "प्रश्न-उत्तर",
       "type": "qa",
       "items": [
         {

@@ -62,7 +62,7 @@ export function sectionParts(section: StudySection): SectionParts {
     case "mcq":
       return { as: "rows", count: section.items.length, nodes: section.items.map((it, i) => <McqItemCard key={i} item={it} />) };
     case "qa":
-      return { as: "rows", count: section.items.length, nodes: section.items.map((it, i) => <QaItemCard key={i} item={it} layout={section.layout} />) };
+      return { as: "rows", count: section.items.length, nodes: section.items.map((it, i) => <QaItemCard key={i} item={it} number={i + 1} layout={section.layout} />) };
     case "passage":
       return { as: "rows", count: section.items.length, nodes: section.items.map((it, i) => <PassageItemCard key={i} item={it} />) };
     case "picture":

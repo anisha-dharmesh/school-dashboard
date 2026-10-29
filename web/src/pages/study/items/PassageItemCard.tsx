@@ -16,7 +16,7 @@ export default function PassageItemCard({ item }: { item: PassageItem }) {
       <p className="rounded-lg bg-muted/60 px-3 py-2 text-[15px] leading-relaxed whitespace-pre-line">{item.text}</p>
       <div className="flex flex-col divide-y">
         {item.questions.map((q, i) => (
-          <QaItemCard key={i} item={q} />
+          <QaItemCard key={i} item={q} number={i + 1} />
         ))}
       </div>
     </div>
