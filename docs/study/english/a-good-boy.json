@@ -1,0 +1,220 @@
+{
+  "subject": "English",
+  "chapter": "A Good Boy (Poem)",
+  "term": "Term 2",
+  "number": null,
+  "tests": [],
+  "sections": [
+    {
+      "title": "About the Poet",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Robert Louis Stevenson (1850-1894)",
+          "lines": [
+            "A Scottish novelist, essayist, poet and travel writer.",
+            "Best known for 'Treasure Island', 'Strange Case of Dr Jekyll and Mr Hyde', 'Kidnapped' and 'A Child's Garden of Verses'."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "New Words",
+      "type": "block",
+      "layout": "chips",
+      "items": [
+        {
+          "heading": "New Words",
+          "lines": [
+            "ugly",
+            "stuck",
+            "linen",
+            "smooth",
+            "fright",
+            "slumber",
+            "dawn",
+            "thrushes",
+            "lilacs",
+            "lawn"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Word Meanings & Sentences",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "dawn",
+          "meaning": "the time just before sunrise",
+          "example": "The sky looks golden at dawn.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "lilacs",
+          "meaning": "shrubs with sweet smelling flowers",
+          "example": "She picked a bunch of lilacs for the vase.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "slumber",
+          "meaning": "sleep",
+          "example": "The storybook put the child into sweet slumber.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "stuck",
+          "meaning": "continued to do something",
+          "example": "I am stuck in traffic and will be late.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "smooth",
+          "meaning": "completely fair and even, without any lumps",
+          "example": "The chocolate melted into a smooth paste.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "linen",
+          "meaning": "a type of cloth",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "ugly",
+          "meaning": "bad",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Answer the Following Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What does the boy do before sleeping?",
+          "answer": "The boy prays before sleeping.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Why is the boy happy?",
+          "answer": "The boy is happy because he knows he has been good to all. His simple act of being good all day makes him happy.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "What does the boy expect when he wakes up the next morning?",
+          "answer": "He expects to see the sun rise and hear the thrushes singing in the lilacs around the lawn.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "What was waiting for the boy at bedtime?",
+          "answer": "His cool and fresh bed with smooth linen was waiting for him, and he also remembered to say his prayer.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Higher Order Thinking Skills (HOTS)",
+      "type": "qa",
+      "items": [
+        {
+          "question": "The poet describes how he wakes up feeling happy and spends the day smiling. How do you feel when you wake up in the morning?",
+          "answer": "When I wake up in the morning, I feel happy and excited about the day ahead. It is like a fresh start to have fun and learn new things.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "What lesson does the poem teach us about being a good boy?",
+          "answer": "The poem teaches us that being kind, cheerful and well behaved brings happiness and peace of mind.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Enjoying the Poem: Add one more rhyming word",
+      "type": "qa",
+      "items": [
+        {
+          "question": "day, play, ___",
+          "answer": "clay",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "wood, good, ___",
+          "answer": "food",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "hold, gold, ___",
+          "answer": "sold",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "dawn, lawn, ___",
+          "answer": "brown",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "When does the boy wake up?",
+          "options": "(a) He wakes up at 6 o' clock in the evening. (b) He wakes up before morning. (c) He wakes up in the afternoon.",
+          "answer": "(b) He wakes up before morning.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Which part of the poem is shown in the picture of a boy playing with a ball?",
+          "options": "(a) 'I never said an ugly word, but smiled and stuck to play.' (b) 'My bed is waiting cool and fresh.' (c) 'And now at last the sun is going down behind the wood.'",
+          "answer": "(a) 'I never said an ugly word, but smiled and stuck to play.'",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}

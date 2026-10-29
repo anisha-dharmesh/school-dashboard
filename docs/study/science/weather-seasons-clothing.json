@@ -1,0 +1,500 @@
+{
+  "subject": "Science",
+  "chapter": "Weather, Seasons and Clothing",
+  "term": "Term 2",
+  "number": 2,
+  "tests": [],
+  "sections": [
+    {
+      "title": "New Words",
+      "type": "block",
+      "layout": "chips",
+      "items": [
+        {
+          "heading": "New Words",
+          "lines": [
+            "atmosphere",
+            "weather",
+            "breeze",
+            "pleasant",
+            "thunder",
+            "air-conditioners",
+            "autumn",
+            "spring",
+            "natural fibres",
+            "gumboots",
+            "synthetic fibres",
+            "factories",
+            "nylon",
+            "terrycot",
+            "polyester"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Definitions",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "Weather",
+          "meaning": "The condition of the atmosphere of a place at a particular time is called weather.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Season",
+          "meaning": "When the weather is the same for a few months, it is called a season.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Breeze",
+          "meaning": "A soft and gentle wind is called breeze.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Fibres",
+          "meaning": "Material that makes up the clothes.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Seasons",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Main seasons in India",
+          "lines": [
+            "When the weather is the same for a few months, it is called a season.",
+            "In India, summer, winter and monsoon are the three main seasons.",
+            "Summer is the hot season, with long and warm days. Monsoon is the rainy season. Winter is the cold season, with short and cold days.",
+            "Seasons also affect our clothes, our food habits and our activities."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Summer season",
+          "lines": [
+            "The season of hot days. The sun shines directly above us, so the air is very warm.",
+            "We use fans, coolers and air-conditioners.",
+            "We drink a lot of water and eat fruits and vegetables like watermelon, cucumber and melon to keep us cool and refreshed.",
+            "We should avoid soft drinks. They are harmful to us."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Rainy season",
+          "lines": [
+            "It comes after the summer season. We see clouds in the sky. It rains and gives us relief from the summer.",
+            "We carry umbrellas or wear raincoats to go out in the rain. Sometimes we see a rainbow in the sky."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Autumn and spring",
+          "lines": [
+            "Autumn: in October and November the weather is neither too hot nor too cold. The trees shed their leaves.",
+            "Spring: in March and April the weather is again neither too cold nor too hot. Flowers bloom and the trees have new leaves."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Winter season",
+          "lines": [
+            "It comes after the autumn season. It is the season of cold weather.",
+            "We do not get very bright sun. Days are short and nights are long. Cold wind blows.",
+            "We wear warm woollen clothes. Some people use room heaters or light a small fire. We eat warm food. We get winter break. In some parts of our country, people enjoy snowfall."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Clothes and Fibres",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Fibres",
+          "lines": [
+            "Clothes are made up of fibres. Fibres are of two types: (a) natural fibres and (b) synthetic (human-made) fibres.",
+            "Natural fibres are obtained from plants or animals. Cotton and jute are plant fibres. Wool and silk are animal fibres.",
+            "Fibres made by humans in factories are called human-made or synthetic fibres. Nylon, terrycot and polyester are synthetic fibres."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "heading": "Clothes and the weather",
+          "lines": [
+            "In winter we wear woollen clothes. Woollen clothes do not allow body heat to escape and keep our bodies warm. Fur clothes also keep us warm.",
+            "In summer we wear cotton clothes. Light-coloured cotton or linen clothes allow body heat to escape and keep us cool. Cotton also absorbs sweat.",
+            "In the rainy season we wear raincoats, gumboots or carry an umbrella. They help us go out in the rain without making our clothes wet and dirty."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Points to Remember",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Points to Remember",
+          "lines": [
+            "The condition of the atmosphere of a place at a particular time is called weather.",
+            "The weather keeps changing because of the sun, wind, rain and clouds.",
+            "A soft and gentle wind is called breeze.",
+            "Season is the weather for a few months.",
+            "Clothes keep us safe from the effects of the seasons. We wear cotton clothes in summer and woollen clothes in winter."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ],
+      "layout": "list"
+    },
+    {
+      "title": "Look Beyond: Material and Source",
+      "type": "match",
+      "sets": [
+        {
+          "columns": [
+            "Clothes",
+            "Material → Source"
+          ],
+          "pairs": [
+            {
+              "left": "Silk sari",
+              "right": "silk → silkworm"
+            },
+            {
+              "left": "Jute bag",
+              "right": "jute → jute plant"
+            },
+            {
+              "left": "Cotton shirt",
+              "right": "cotton → cotton plant"
+            },
+            {
+              "left": "Muffler",
+              "right": "wool → sheep"
+            }
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Multiple Choice Questions",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "A soft and gentle wind is called",
+          "options": "(a) air (b) breeze (c) storm",
+          "answer": "(b) breeze",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Cloudy days are usually ___ than a sunny day.",
+          "options": "(a) drier (b) cooler (c) warmer",
+          "answer": "(b) cooler",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "The sun, wind and clouds decide the",
+          "options": "(a) location of a place (b) living of people (c) weather of a place",
+          "answer": "(c) weather of a place",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Season is the weather",
+          "options": "(a) for few hours in a day of a place (b) for few months of a place (c) for few days of a place",
+          "answer": "(b) for few months of a place",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Which one of the following is the season of hot days?",
+          "options": "(a) winter season (b) summer season (c) rainy season",
+          "answer": "(b) summer season",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "We should avoid ___ during summer season.",
+          "options": "(a) fruits (b) soft drinks (c) water",
+          "answer": "(b) soft drinks",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "The season with short and cold days is",
+          "options": "(a) monsoon (b) winter (c) summer",
+          "answer": "(b) winter",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Raincoats are commonly made of polyester because",
+          "options": "(a) it is strong (b) it absorbs water (c) it is waterproof",
+          "answer": "(c) it is waterproof",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Why do we wear cotton clothes in summer?",
+          "options": "(a) because they allow body heat to escape (b) because they dry easily (c) because they do not allow body heat to escape",
+          "answer": "(a) because they allow body heat to escape",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "During the rainy season there are dark clouds in the sky and the weather becomes cooler. This is because",
+          "options": "(a) wind does not blow (b) sun rays do not reach us directly (c) days are short and cold during rainy season",
+          "answer": "(b) sun rays do not reach us directly",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Match the Following",
+      "type": "match",
+      "sets": [
+        {
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "1. Fur clothes",
+              "right": "c. keep us warm"
+            },
+            {
+              "left": "2. Umbrella",
+              "right": "e. keep us dry during rain"
+            },
+            {
+              "left": "3. Nylon socks",
+              "right": "a. Synthetic"
+            },
+            {
+              "left": "4. Cotton clothes",
+              "right": "b. natural"
+            },
+            {
+              "left": "5. Season",
+              "right": "d. weather for a few months"
+            }
+          ],
+          "sources": {
+            "textbook": true
+          },
+          "answerLine": "1–c, 2–e, 3–a, 4–b, 5–d"
+        }
+      ]
+    },
+    {
+      "title": "True or False",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "Windy days are cooler than sunny days.",
+          "answer": true,
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "The trees shed their leaves in spring season.",
+          "answer": false,
+          "explanation": "The trees shed their leaves in autumn.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "Rainy season comes after the winter season.",
+          "answer": false,
+          "explanation": "The rainy season comes after the summer season.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "Nylon is a natural fibre.",
+          "answer": false,
+          "explanation": "Nylon is a synthetic (human-made) fibre.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Very Short Answers",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "Name two fibres obtained from plants.",
+          "answer": "Cotton, jute",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Name two synthetic fibres.",
+          "answer": "Nylon, polyester",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Why does it become hot during summer?",
+          "answer": "Because the sun shines directly above us.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Name the main seasons in India.",
+          "answer": "Summer, winter and monsoon",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Name the factors that determine weather.",
+          "answer": "Rain, wind, cloud and sun",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Short Answer Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Why do we wear clothes?",
+          "answer": "We wear clothes for protection and comfort. Clothes provide a barrier against environmental elements such as sun, wind and cold.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Why do we not wear woollen clothes in summer season?",
+          "answer": "Woollen clothes keep us warm. Wearing woollen clothes in summer would make us feel very hot.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "How do fur and woollen clothes keep us warm during winter season?",
+          "answer": "Fur and woollen clothes keep us warm during winter by trapping air close to our body. This trapped air prevents the loss of body heat and keeps us warm in cold temperature.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Long Answer Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Differentiate between natural fibres and synthetic fibres. Give two examples of each.",
+          "answer": [
+            "Natural fibres: derived from plants or animals. Examples: cotton (plant based), wool (animal based).",
+            "Synthetic fibres: made by man in factories. Examples: polyester, nylon."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Differentiate between the weather and season.",
+          "answer": [
+            "Weather: the condition of the atmosphere of a place at a particular time. It can change every day or even every hour. Example: sunny weather, cloudy weather.",
+            "Season: when the weather is the same for a few months. It lasts for a few months. Example: summer, winter."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "How do seasons affect our clothes and food?",
+          "answer": [
+            "Clothing: different seasons require different types of clothing. For example, light and cotton clothes in summer season, warm and woollen clothes in winter season.",
+            "Food: we drink a lot of water during summer and eat juicy fruits and vegetables to keep us refreshed. In winter season, we drink hot soup of different vegetables and eat warm food."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "The weather keeps changing throughout the day. But it does not affect our clothing. Why does this happen?",
+          "answer": "Because these changes are for a short time. We wear clothes according to the season, not small changes in weather during the day.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Application Based Question",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Sunny and Krish are going to school. Suddenly it starts raining. Sunny immediately wears a raincoat while Krish wears a woollen coat. Which one of them gets wet in the rain? Give a reason for your answer.",
+          "answer": "Krish gets wet in the rain. A woollen coat cannot stop rainwater from getting in. It is not waterproof, whereas a raincoat can keep the rainwater away.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    }
+  ]
+}

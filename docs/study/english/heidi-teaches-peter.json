@@ -1,0 +1,514 @@
+{
+  "subject": "English",
+  "chapter": "Heidi Teaches Peter",
+  "term": "Term 2",
+  "number": null,
+  "tests": [],
+  "sections": [
+    {
+      "title": "New Words",
+      "type": "block",
+      "layout": "chips",
+      "items": [
+        {
+          "heading": "New Words",
+          "lines": [
+            "grumbled",
+            "planted",
+            "terrible",
+            "frightened",
+            "stubbornly",
+            "pleased",
+            "halt",
+            "comfortingly",
+            "obeying",
+            "progress",
+            "growl",
+            "nevertheless",
+            "hesitate",
+            "triumphantly",
+            "eagerly",
+            "curious",
+            "stammer",
+            "astonishment",
+            "grasp"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Word Meanings & Sentences",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "astonishment",
+          "meaning": "feeling of great surprise or wonder",
+          "example": "Raghav looked at me with astonishment when I told him that he had won a prize.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "grumbled",
+          "meaning": "complained or expressed dissatisfaction",
+          "example": "Rita grumbled because she did not get her favourite toy.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "triumphantly",
+          "meaning": "with great joy and satisfaction after achieving success",
+          "example": "Peter smiled triumphantly after winning the race.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "growl",
+          "meaning": "to make a low sound of anger",
+          "example": "The dog growled to protect its food.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "eagerly",
+          "meaning": "showing great interest in something",
+          "example": "The children waited eagerly for the ice-cream man.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Answer the Following Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "How did Peter's attitude towards learning change over time?",
+          "answer": "Initially, Peter was unwilling to learn but over time his attitude changed as Heidi patiently taught him to read and encouraged him.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Whom did Peter hold responsible for his success in reading?",
+          "answer": "Peter held Heidi responsible for his success in reading.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Reference to Context",
+      "type": "qa",
+      "items": [
+        {
+          "question": "\"I'll learn to read,\" said Peter, half angry and half frightened.",
+          "parts": [
+            {
+              "question": "(a) To whom did Peter say the above lines?",
+              "answer": "Peter said the above lines to Heidi."
+            },
+            {
+              "question": "(b) What was Peter's emotional state when he said these words?",
+              "answer": "Peter's emotional state was half angry and half frightened."
+            },
+            {
+              "question": "(c) What happened next?",
+              "answer": "Peter started learning the rhymes."
+            }
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Higher Order Thinking Skills (HOTS)",
+      "type": "qa",
+      "items": [
+        {
+          "question": "How can you make learning easier when something is difficult and challenging?",
+          "answer": "When something is difficult and challenging, we can make it easier by breaking the task into smaller parts. Ask for help from teachers, friends and family members.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Multiple Choice Questions",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "Who played a significant role in helping Peter learn to read?",
+          "options": "(a) Peter's mother (b) Peter's grandmother (c) Heidi",
+          "answer": "(c) Heidi",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Why was Heidi angry with Peter?",
+          "options": "(a) because he refused to learn to read (b) because he broke her toy (c) because he took her book",
+          "answer": "(a) because he refused to learn to read",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Why did the teacher find Peter's sudden progress in reading miraculous?",
+          "options": "(a) because Peter had always been a fast learner (b) because the teacher had given up on Peter's ability to read (c) because Peter had received private classes",
+          "answer": "(b) because the teacher had given up on Peter's ability to read",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Match the Following",
+      "type": "match",
+      "sets": [
+        {
+          "columns": [
+            "Column A",
+            "Column B"
+          ],
+          "pairs": [
+            {
+              "left": "(a) How did Peter surprise the teacher during a reading session?",
+              "right": "(ii) Peter read three lines without stopping."
+            },
+            {
+              "left": "(b) How did Peter initially feel about learning to read?",
+              "right": "(iii) Peter was unwilling to learn."
+            },
+            {
+              "left": "(c) What would be the result of not learning to read, according to Heidi?",
+              "right": "(i) Peter would have to go to a boys' school in Frankfurt."
+            }
+          ],
+          "sources": {
+            "textbook": true
+          },
+          "answerLine": "a–ii, b–iii, c–i"
+        }
+      ]
+    },
+    {
+      "title": "Grammar: Verbs",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "Peter troubles Heidi. (circle the verb)",
+          "answer": "troubles",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The dog barked at the stranger. (circle the verb)",
+          "answer": "barked",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Heidi sat with Peter. (circle the verb)",
+          "answer": "sat",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Mrs Verma stitched a dress for me. (circle the verb)",
+          "answer": "stitched",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Peter jumped over the gate. (underline the verb)",
+          "answer": "jumped",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Heidi speaks politely. (underline the verb)",
+          "answer": "speaks",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Kunal kept the book down. (underline the verb)",
+          "answer": "kept",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The man dropped his lunch box. (underline the verb)",
+          "answer": "dropped",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Heidi watches the news daily. (write the verb)",
+          "answer": "watches",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "My friend Peter eats a lot of chocolates. (write the verb)",
+          "answer": "eats",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Heidi is playing in the garden. (write the verb)",
+          "answer": "playing",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "I can run fast. (write the verb)",
+          "answer": "run",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Grammar: am, is, are / has, have, had / was, were",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "Heidi ___ teaching rhymes to Peter.",
+              "answers": [
+                "is"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Heidi's friends ___ looking at her.",
+              "answers": [
+                "are"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "My mother ___ a teacher.",
+              "answers": [
+                "is"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "I ___ in grade three.",
+              "answers": [
+                "am"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Heidi ___ a beautiful dream last night. (had/have)",
+              "answers": [
+                "had"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Heidi and Peter ___ a match to play tomorrow. (have/has)",
+              "answers": [
+                "have"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Peter's teacher ___ a rhyme book in his hand. (have/has)",
+              "answers": [
+                "has"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "We ___ a beautiful garden. (have/has)",
+              "answers": [
+                "have"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Rohit ___ fever last Monday. (has/had)",
+              "answers": [
+                "had"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Peter and Heidi ___ studying together. (was/were)",
+              "answers": [
+                "were"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Peter's books ___ on the table. (was/were)",
+              "answers": [
+                "were"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Peter and Heidi ___ reciting the rhymes very well. (was/were)",
+              "answers": [
+                "were"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "It ___ very cold outside. (was/were)",
+              "answers": [
+                "was"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "There ___ a live concert. (was/were)",
+              "answers": [
+                "was"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Learn New Words: Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "Eat is to ate as drink is to ___.",
+              "answers": [
+                "drank"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Sleep is to slept as ___ is to kept.",
+              "answers": [
+                "keep"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Fall is to fell as ___ is to brought.",
+              "answers": [
+                "bring"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Take is to took as give is to ___.",
+              "answers": [
+                "gave"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Punctuate: Rewrite using capital letters and full stops",
+      "type": "qa",
+      "items": [
+        {
+          "question": "peter gave heidi a rhyme book",
+          "answer": "Peter gave Heidi a rhyme book.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "the book is named rhyme and rhythm",
+          "answer": "The book is named Rhyme and Rhythm.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "my sister has gone to delhi to see the red fort",
+          "answer": "My sister has gone to Delhi to see the Red Fort.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "the little bird flew away",
+          "answer": "The little bird flew away.",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}

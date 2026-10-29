@@ -73,6 +73,36 @@
           "term": "Term 2",
           "number": 1,
           "tests": []
+        },
+        {
+          "slug": "a-good-boy",
+          "title": "A Good Boy (Poem)",
+          "term": "Term 2",
+          "number": null,
+          "tests": []
+        },
+        {
+          "slug": "heidi-teaches-peter",
+          "title": "Heidi Teaches Peter",
+          "term": "Term 2",
+          "number": null,
+          "tests": []
+        },
+        {
+          "slug": "pronouns-articles",
+          "title": "Pronouns and Articles",
+          "term": "Term 2",
+          "number": null,
+          "tests": [
+            "Class Test"
+          ]
+        },
+        {
+          "slug": "verbs",
+          "title": "Verbs",
+          "term": "Term 2",
+          "number": null,
+          "tests": []
         }
       ]
     },
@@ -131,6 +161,20 @@
           "term": "Term 2",
           "number": null,
           "tests": []
+        },
+        {
+          "slug": "vyakaran-2",
+          "title": "व्याकरण: विशेषण, सर्वनाम, लिंग, वचन, अशुद्धि-शोधन",
+          "term": "Term 2",
+          "number": null,
+          "tests": []
+        },
+        {
+          "slug": "sher-shatpatra",
+          "title": "शेर और शतपत्र",
+          "term": "Term 2",
+          "number": null,
+          "tests": []
         }
       ]
     },
@@ -148,6 +192,13 @@
         {
           "slug": "jungli-prani",
           "title": "जंगली प्राणी, कोण कुठे राहतो, कीटकांची ओळख",
+          "term": "Term 2",
+          "number": null,
+          "tests": []
+        },
+        {
+          "slug": "sasa",
+          "title": "ससा (कविता)",
           "term": "Term 2",
           "number": null,
           "tests": []
@@ -190,6 +241,13 @@
           "title": "Water",
           "term": "Term 2",
           "number": 1,
+          "tests": []
+        },
+        {
+          "slug": "weather-seasons-clothing",
+          "title": "Weather, Seasons and Clothing",
+          "term": "Term 2",
+          "number": 2,
           "tests": []
         }
       ]
