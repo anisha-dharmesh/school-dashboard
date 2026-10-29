@@ -1,0 +1,734 @@
+{
+  "subject": "English",
+  "chapter": "Pronouns and Articles",
+  "term": "Term 2",
+  "number": null,
+  "tests": [
+    "Class Test"
+  ],
+  "sections": [
+    {
+      "title": "Grammar Notes",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Pronouns",
+          "lines": [
+            "A pronoun is a word that is used in place of a noun.",
+            "Examples: I, we, he, she, it, they, him, her, me, us, you, them, his",
+            "'It' is used for a non-living thing.",
+            "'It' is also used for an animal or a baby when we do not know whether it is male or female.",
+            "Example: Piku is a small boy. He goes to school. He is very naughty but the teachers love him."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Articles",
+          "lines": [
+            "Articles are words used before nouns to tell us whether the noun is specific or general.",
+            "There are three articles: A, An, The.",
+            "A: used before words that begin with a consonant sound. Examples: a cat, a ball",
+            "An: used before words that begin with a vowel sound. Examples: an apple, an egg",
+            "The: used for specific or particular nouns. Examples: the sun, the moon, the Taj Mahal"
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Remember: it is the sound that matters, not the letter",
+          "lines": [
+            "a uniform, a European, a unicorn: these begin with the sound 'yu', a consonant sound.",
+            "an honest man, an honour: the 'h' is silent, so the word begins with the vowel sound 'o'.",
+            "a and an are indefinite articles: we do not talk about a particular person, place or thing. Example: He lives in a city.",
+            "The is a definite article: we talk about a particular person, place or thing. Example: He lives in the city of Agra.",
+            "'The' is not used before proper nouns."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Use 'the' before the names of",
+          "lines": [
+            "Mountain ranges, rivers and oceans: the Himalayas, the Ganga, the Indian Ocean",
+            "Certain religious books, unique things and monuments: the Sun, the Taj Mahal, the Qutub Minar"
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks: Pronouns",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "My mother and ___ are strong.",
+              "answers": [
+                "I"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Silvia is scared. ___ is sad.",
+              "answers": [
+                "She"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Alex and Paul are friends. ___ are my friends too.",
+              "answers": [
+                "They"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Varun is a good boy. ___ is my friend.",
+              "answers": [
+                "He"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Sonia is my friend. ___ is reading a book.",
+              "answers": [
+                "She"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Bob is a small boy. ___ is four years old.",
+              "answers": [
+                "He"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Mrs Sen is our class teacher. ___ teaches English.",
+              "answers": [
+                "She"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The girl is crying. ___ is hungry.",
+              "answers": [
+                "She"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The bag is heavy with school books. I cannot carry ___.",
+              "answers": [
+                "it"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Veena is my sister. ___ studies in my school.",
+              "answers": [
+                "She"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Sonu is a singer. ___ is my neighbour.",
+              "answers": [
+                "He"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Ritu promised to clean the study table. But ___ forgot.",
+              "answers": [
+                "she"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The baby is laughing. ___ is happy.",
+              "answers": [
+                "It"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Vineeta will dance at the function. ___ is a good dancer.",
+              "answers": [
+                "She"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The squirrel and the monkey play together. ___ are good friends.",
+              "answers": [
+                "They"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Mummy loves to read. ___ reads in the library.",
+              "answers": [
+                "She"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Gopu is a cow. ___ gives two litres of milk every morning.",
+              "answers": [
+                "It"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The lion roared as ___ was angry.",
+              "answers": [
+                "it"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "A mobile phone is useful but sometimes ___ becomes a problem.",
+              "answers": [
+                "it"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Rina and Tina promised me that ___ would join me for dinner.",
+              "answers": [
+                "they"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "The duckling is happy because ___ has learned to swim.",
+              "answers": [
+                "it"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks: Pictures (she, he, they, it)",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "___ is dancing. (a girl)",
+              "answers": [
+                "She"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ is brushing his teeth. (a boy)",
+              "answers": [
+                "He"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ are writing. (two boys)",
+              "answers": [
+                "They"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ is roaring. (a lion)",
+              "answers": [
+                "It"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "___ is sleeping. (a girl)",
+              "answers": [
+                "She"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Underline the Pronouns",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "I am not feeling well.",
+          "answer": "I",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "They were talking to each other.",
+          "answer": "They",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "We went to Grandma's house to visit her.",
+          "answer": "We, her",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Mummy and I went to see the play.",
+          "answer": "I",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "It is a comic book.",
+          "answer": "It",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "We cleaned the porch after the storm.",
+          "answer": "We",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The book is interesting as it talks about wild animals.",
+          "answer": "it",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "It is a new bag.",
+          "answer": "It",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "She asked me about the holiday plans.",
+          "answer": "She, me",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Nisha is absent today. She is unwell.",
+          "answer": "She",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks: a, an or the",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "I saw ___ elephant in the zoo.",
+              "answers": [
+                "an"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "___ sun rises in the east.",
+              "answers": [
+                "The"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "He bought ___ new car yesterday.",
+              "answers": [
+                "a"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Rahul asked for ___ cup of milk.",
+              "answers": [
+                "a"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "It takes ___ hour to reach the school.",
+              "answers": [
+                "an"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "If you add ___ onion to the gravy, it tastes good.",
+              "answers": [
+                "an"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "He lives in ___ hut.",
+              "answers": [
+                "a"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Mother gave me ___ ice cream.",
+              "answers": [
+                "an"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Ankur borrowed ___ red polo neck T-shirt we bought yesterday.",
+              "answers": [
+                "a"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "It's ___ honour to be ___ monitor of the class.",
+              "answers": [
+                "an",
+                "a"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Surya is ___ player.",
+              "answers": [
+                "a"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "I found ___ pen I lost yesterday.",
+              "answers": [
+                "the"
+              ],
+              "sources": {
+                "notes": true
+              }
+            }
+          ],
+          "note": "Hint: it is the sound that matters, not the letter."
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks: the Fox and the Grapes",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "One afternoon ___ fox was walking through ___ forest.",
+              "answers": [
+                "a",
+                "the"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "He spotted ___ bunch of grapes hanging from ___ very high branch.",
+              "answers": [
+                "a",
+                "a"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "\"Just ___ thing to quench my thirst,\" said the fox.",
+              "answers": [
+                "the"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Taking a few steps back, ___ fox jumped and just missed ___ hanging grapes.",
+              "answers": [
+                "the",
+                "the"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Again, ___ fox took a few paces back and tried to reach them but still failed.",
+              "answers": [
+                "the"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "After ___ hour, finally ___ fox gave up and said to himself, \"___ grapes are probably sour anyway.\"",
+              "answers": [
+                "an",
+                "the",
+                "The"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Correct Use of a, an, the?",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "A Pacific Ocean has a huge variety of fishes.",
+          "answer": false,
+          "explanation": "It should be 'The Pacific Ocean': 'the' is used before the names of oceans.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "Give me an apple from the basket.",
+          "answer": true,
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "An bird flew over the tree.",
+          "answer": false,
+          "explanation": "It should be 'A bird': bird begins with a consonant sound.",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "A girl lives near my house.",
+          "answer": true,
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "statement": "The Taj Mahal is in Agra.",
+          "answer": true,
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "MCQ Practice: Pronouns",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "Varun is a good boy. ___ is my friend.",
+          "options": "(a) He (b) She (c) They",
+          "answer": "(a) He",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Sonia is my friend. ___ is reading a book.",
+          "options": "(a) It (b) He (c) She",
+          "answer": "(c) She",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Bob is a small boy. ___ is four years old.",
+          "options": "(a) She (b) He (c) You",
+          "answer": "(b) He",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Mrs Sen is our class teacher. ___ teaches English.",
+          "options": "(a) She (b) We (c) I",
+          "answer": "(a) She",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "The bag is heavy with school books. I cannot carry ___.",
+          "options": "(a) him (b) it (c) them",
+          "answer": "(b) it",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Sonu is a singer. ___ is my neighbour.",
+          "options": "(a) It (b) He (c) They",
+          "answer": "(b) He",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "The baby is laughing. ___ is happy.",
+          "options": "(a) He (b) It (c) I",
+          "answer": "(b) It",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Rina and Tina promised me that ___ would join me for dinner.",
+          "options": "(a) you (b) we (c) they",
+          "answer": "(c) they",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Gopu is a cow. ___ gives two litres of milk every morning.",
+          "options": "(a) It (b) They (c) You",
+          "answer": "(a) It",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "The duckling is happy because ___ has learned to swim.",
+          "options": "(a) she (b) it (c) we",
+          "answer": "(b) it",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Let's Revise",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Quick revision",
+          "lines": [
+            "Hello! I am a pronoun. I stand in place of a noun.",
+            "We use 'a' before a word that begins with a consonant sound.",
+            "We use 'an' before a word that begins with a vowel sound.",
+            "'A' or 'an' is used for any singular person or thing.",
+            "'The' is used for a particular person, thing, place or animal."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ],
+      "layout": "list"
+    }
+  ]
+}

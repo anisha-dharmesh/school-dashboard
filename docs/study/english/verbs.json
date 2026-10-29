@@ -1,0 +1,679 @@
+{
+  "subject": "English",
+  "chapter": "Verbs",
+  "term": "Term 2",
+  "number": null,
+  "tests": [],
+  "sections": [
+    {
+      "title": "Grammar Notes",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Verbs",
+          "lines": [
+            "The word which tells us what a person, animal or thing does is known as a doing word or verb.",
+            "Examples: eat, sing, play, bark, write"
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Am, Is, Are (present time, now)",
+          "lines": [
+            "Verbs also tell us what a person, animal or thing is.",
+            "Is: with he, she, it or one name",
+            "Am: with I",
+            "Are: with you, we, they or many names"
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Was, Were (past time: yesterday or before)",
+          "lines": [
+            "Verbs also tell us what persons, animals and things were some time ago.",
+            "Was: with I, he, she, it or one name",
+            "Were: with you, we, they or many names"
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Has, Have, Had",
+          "lines": [
+            "'Has', 'have', 'had' are verbs. They show what a person, animal or thing possesses.",
+            "Has: used with he, she, it or one name",
+            "Have: used with I, you, we, they or many names",
+            "Had: used for past time with all subjects"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Underline the Verb",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "Eat your breakfast quickly.",
+          "answer": "Eat",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "My sister sings well.",
+          "answer": "sings",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "Children play in the park.",
+          "answer": "play",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "The dog barks loudly.",
+          "answer": "barks",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "He writes neatly.",
+          "answer": "writes",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "I swim in the evening.",
+          "answer": "swim",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "Meena draws pictures.",
+          "answer": "draws",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "Father drives a car.",
+          "answer": "drives",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "Grandma walks in the morning.",
+          "answer": "walks",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "Fatima often helps me in the kitchen.",
+          "answer": "helps",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "The lion roars when it is angry.",
+          "answer": "roars",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks: am, is, are",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "I ___ reading a storybook.",
+              "answers": [
+                "am"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "She ___ very kind.",
+              "answers": [
+                "is"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "They ___ playing football now.",
+              "answers": [
+                "are"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "She ___ my cousin.",
+              "answers": [
+                "is"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Monica ___ a good girl.",
+              "answers": [
+                "is"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Meena and Veena ___ sisters.",
+              "answers": [
+                "are"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Elephants ___ large animals.",
+              "answers": [
+                "are"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "I ___ a student of class III.",
+              "answers": [
+                "am"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "The baby ___ hungry.",
+              "answers": [
+                "is"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Deer ___ timid animals.",
+              "answers": [
+                "are"
+              ],
+              "sources": {
+                "notes": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks: was, were",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "He ___ in school yesterday.",
+              "answers": [
+                "was"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "It ___ raining yesterday.",
+              "answers": [
+                "was"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "The boys ___ tired after the game.",
+              "answers": [
+                "were"
+              ],
+              "sources": {
+                "notes": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks: has, have, had",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "I ___ two pencils.",
+              "answers": [
+                "have"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "You ___ a nice smile.",
+              "answers": [
+                "have"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "We ___ a picnic last Sunday.",
+              "answers": [
+                "had"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Mona ___ a new pen.",
+              "answers": [
+                "has"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "We ___ a new pet.",
+              "answers": [
+                "have"
+              ],
+              "sources": {
+                "notes": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Find the Verb: Tick the verb in the sentence",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "Tanu has long hair.",
+          "answer": "has",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The doll has pretty eyes.",
+          "answer": "has",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The children have new toys.",
+          "answer": "have",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Monali has a new dress.",
+          "answer": "has",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Vani and Manu have a new friend.",
+          "answer": "have",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The room has many windows.",
+          "answer": "has",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The book has interesting stories.",
+          "answer": "has",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The spider has eight legs.",
+          "answer": "has",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "We have a holiday tomorrow.",
+          "answer": "have",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "He has a little sister.",
+          "answer": "has",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Underline the Verbs (with helping verbs)",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "The stars are shining in the sky.",
+          "answer": "are shining",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "My grandmother is walking in the garden.",
+          "answer": "is walking",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Vinit and Vishal are reading books.",
+          "answer": "are reading",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "We are doing our homework.",
+          "answer": "are doing",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "I am feeling hungry.",
+          "answer": "am feeling",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The baby is crying.",
+          "answer": "is crying",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The telephone is ringing.",
+          "answer": "is ringing",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The plane will be arriving soon.",
+          "answer": "will be arriving",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "They have called me today.",
+          "answer": "have called",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "Tina has found her pet dog.",
+          "answer": "has found",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "I have a new pencil box.",
+          "answer": "have",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "prompt": "The soldiers are marching down the road.",
+          "answer": "are marching",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Tell us what they are doing (words: are riding, are dancing, are laughing, are playing, is singing, is cutting, is reading, is eating)",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "The boys ___.",
+              "answers": [
+                "are playing"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Jyoti and Ragini ___.",
+              "answers": [
+                "are dancing"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Susan ___ a cake.",
+              "answers": [
+                "is cutting"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Malini ___ a book.",
+              "answers": [
+                "is reading"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Tia ___ well.",
+              "answers": [
+                "is singing"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Veena and Surya ___.",
+              "answers": [
+                "are laughing"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "They ___ bicycles.",
+              "answers": [
+                "are riding"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "Rohan ___ his food.",
+              "answers": [
+                "is eating"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tick the Correct Verbs",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "The boys ___ in the garden.",
+          "options": "(a) singing (b) cut (c) play",
+          "answer": "(c) play",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "I always ___ to school.",
+          "options": "(a) walk (b) coming (c) going",
+          "answer": "(a) walk",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "I have ___ my dinner already.",
+          "options": "(a) do (b) eaten (c) helps",
+          "answer": "(b) eaten",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "The washerwoman ___ our clothes.",
+          "options": "(a) washes (b) reach (c) eaten",
+          "answer": "(a) washes",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "The baby was ___ when it saw me.",
+          "options": "(a) walk (b) smiling (c) skating",
+          "answer": "(b) smiling",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "Rohan is ___ a picture.",
+          "options": "(a) reach (b) helps (c) painting",
+          "answer": "(c) painting",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "I ___ my homework on time.",
+          "options": "(a) do (b) come (c) walk",
+          "answer": "(a) do",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "The girls are ___ outside.",
+          "options": "(a) draw (b) skating (c) doing",
+          "answer": "(b) skating",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "We will ___ the ground at 10 am.",
+          "options": "(a) reach (b) come (c) walk",
+          "answer": "(a) reach",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Let's Revise",
+      "type": "block",
+      "items": [
+        {
+          "heading": "Quick revision",
+          "lines": [
+            "A verb tells us what a person, animal or thing does.",
+            "Am, is, are tell us what a person, animal or thing is (now). Was, were tell us the same for past time.",
+            "Has, have, had tell us what a person, animal or thing has or possesses."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ],
+      "layout": "list"
+    }
+  ]
+}
