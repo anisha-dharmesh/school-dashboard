@@ -5,9 +5,9 @@ import { HIDE } from "../answer";
 import SourceMarks from "../SourceMarks";
 
 // A line that already carries its own label from the notebook: "(a) ...",
-// "a) ...", "1. ...", "(i) ...". Those are shown exactly as written, one per
+// "a) ...", "1. ...", "(i) ...", or a heading such as "Clothing -". Those are shown exactly as written, one per
 // line, so the labels the child sees match the notes.
-const LABELLED = /^\s*(\(?[a-zA-Z0-9]{1,4}\)|\([a-zA-Z0-9]{1,4}\)?|\d{1,2}\.)\s/;
+const LABELLED = /^\s*(\(?[a-zA-Z0-9]{1,4}\)|\([a-zA-Z0-9]{1,4}\)?|\d{1,2}\.)\s|\s-$/;
 
 const AnsLabel = () => <span className="mr-1 font-semibold text-muted-foreground">Ans:</span>;
 

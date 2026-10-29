@@ -491,8 +491,10 @@
         {
           "question": "How do seasons affect our clothes and food?",
           "answer": [
-            "Clothing: different seasons require different types of clothing. For example, light and cotton clothes in summer season, warm and woollen clothes in winter season.",
-            "Food: we drink a lot of water during summer and eat juicy fruits and vegetables to keep us refreshed. In winter season, we drink hot soup of different vegetables and eat warm food."
+            "Clothing -",
+            "Different seasons require different types of clothing. For example, light and cotton clothes in summer season, warm and woollen clothes in winter season.",
+            "Food -",
+            "We drink a lot of water during summer and eat juicy fruits and vegetables to keep us refreshed. In winter season, we drink hot soup of different vegetables and eat warm food."
           ],
           "sources": {
             "notes": true
@@ -508,7 +510,7 @@
       ]
     },
     {
-      "title": "Application Based Question",
+      "title": "Application Based Questions",
       "type": "qa",
       "items": [
         {

@@ -286,11 +286,11 @@
           "question": "What are oceans? Name the five oceans.",
           "answer": [
             "The very large water bodies are called oceans. There are five oceans:",
-            "Pacific Ocean",
-            "Atlantic Ocean",
-            "Indian Ocean",
-            "Arctic Ocean",
-            "Antarctic Ocean"
+            "a) Pacific Ocean",
+            "b) Atlantic Ocean",
+            "c) Indian Ocean",
+            "d) Arctic Ocean",
+            "e) Antarctic Ocean"
           ],
           "sources": {
             "notes": true
@@ -300,13 +300,13 @@
           "question": "What are continents? Name the seven continents.",
           "answer": [
             "Large land masses are called continents. The seven continents are:",
-            "Asia",
-            "Europe",
-            "Africa",
-            "Australia",
-            "Antarctica",
-            "North America",
-            "South America"
+            "a) Asia",
+            "b) Europe",
+            "c) Africa",
+            "d) Australia",
+            "e) Antarctica",
+            "f) North America",
+            "g) South America"
           ],
           "sources": {
             "notes": true

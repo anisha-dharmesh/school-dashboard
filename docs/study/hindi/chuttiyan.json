@@ -8,7 +8,7 @@
   ],
   "sections": [
     {
-      "title": "शब्दार्थ (Word Meanings)",
+      "title": "शब्दार्थ",
       "type": "vocab",
       "items": [
         {
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "title": "रिक्त स्थान भरिए (Fill in the Blanks)",
+      "title": "रिक्त स्थान भरिए",
       "type": "fib",
       "sets": [
         {
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "title": "सुमेलन कीजिए (Match the Following)",
+      "title": "सुमेलन कीजिए",
       "type": "match",
       "sets": [
         {
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "title": "विलोम एवं पर्यायवाची शब्द (Antonyms & Synonyms)",
+      "title": "विलोम एवं पर्यायवाची शब्द",
       "type": "name",
       "items": [
         {
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "title": "बहुविकल्पीय प्रश्न (MCQ Practice)",
+      "title": "बहुविकल्पीय प्रश्न",
       "type": "mcq",
       "items": [
         {
@@ -272,7 +272,7 @@
       ]
     },
     {
-      "title": "प्रश्न-उत्तर (Question Answers)",
+      "title": "प्रश्न-उत्तर",
       "type": "qa",
       "items": [
         {
