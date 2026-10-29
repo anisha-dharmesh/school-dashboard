@@ -446,22 +446,46 @@
       "items": [
         {
           "question": "Differentiate between natural fibres and synthetic fibres. Give two examples of each.",
-          "answer": [
-            "Natural fibres: derived from plants or animals. Examples: cotton (plant based), wool (animal based).",
-            "Synthetic fibres: made by man in factories. Examples: polyester, nylon."
-          ],
           "sources": {
             "notes": true
+          },
+          "compare": {
+            "columns": [
+              "Natural fibres",
+              "Synthetic fibres"
+            ],
+            "rows": [
+              [
+                "Derived from plants or animals.",
+                "Made by man in factories."
+              ],
+              [
+                "Cotton (plant based), wool (animal based).",
+                "Polyester, nylon."
+              ]
+            ]
           }
         },
         {
           "question": "Differentiate between the weather and season.",
-          "answer": [
-            "Weather: the condition of the atmosphere of a place at a particular time. It can change every day or even every hour. Example: sunny weather, cloudy weather.",
-            "Season: when the weather is the same for a few months. It lasts for a few months. Example: summer, winter."
-          ],
           "sources": {
             "notes": true
+          },
+          "compare": {
+            "columns": [
+              "Weather",
+              "Season"
+            ],
+            "rows": [
+              [
+                "It is the condition of the atmosphere of a place at a particular time.",
+                "When the weather is the same for a few months, it is called a season."
+              ],
+              [
+                "It can change every day or even every hour. Example: sunny weather, cloudy weather.",
+                "It lasts for a few months. Example: summer, winter."
+              ]
+            ]
           }
         },
         {

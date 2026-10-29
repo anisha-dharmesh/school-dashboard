@@ -209,7 +209,14 @@
       "items": [
         {
           "question": "List the physical divisions of India.",
-          "answer": "The main physical divisions of India are mountains, plains, plateaus, desert and islands.",
+          "answer": [
+            "The main physical divisions of India are mountains, plains, plateaus, desert and islands.",
+            "a) mountains",
+            "b) plains",
+            "c) plateaus",
+            "d) desert",
+            "e) islands"
+          ],
           "sources": {
             "notes": true
           }
@@ -257,13 +264,28 @@
         },
         {
           "question": "What is the difference between plains and plateau?",
-          "answer": [
-            "Plains: Plains mean flat and levelled land. Plateau: The plateau is flat and looks like a tabletop.",
-            "Plains: It is a fertile land. Plateau: It is a rough land.",
-            "Plains: Example - Indo-Gangetic Plains. Plateau: Example - Deccan Plateau."
-          ],
           "sources": {
             "notes": true
+          },
+          "compare": {
+            "columns": [
+              "Plain",
+              "Plateau"
+            ],
+            "rows": [
+              [
+                "Plains mean flat and levelled land.",
+                "The plateau is flat and looks like a table top."
+              ],
+              [
+                "It is a fertile land.",
+                "It is a rough land."
+              ],
+              [
+                "Eg: Indo-Gangetic Plains.",
+                "Eg: Deccan Plateau."
+              ]
+            ]
           }
         }
       ]
