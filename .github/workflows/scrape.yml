@@ -2,9 +2,10 @@ name: Scrape & deploy
 
 on:
   schedule:
-    # 09:30 UTC = 3:00pm IST, 11:30 UTC = 5:00pm IST.
+    # 09:30 UTC = 3:00pm IST, 11:30 UTC = 5:00pm IST, 15:30 UTC = 9:00pm IST.
     - cron: "30 9 * * *"
     - cron: "30 11 * * *"
+    - cron: "30 15 * * *"
   push:
     branches: [main]
     # web/** = frontend changes; the workflow file itself so editing it redeploys.
