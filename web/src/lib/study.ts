@@ -10,10 +10,24 @@ export function subjectStudyPath(index: StudyIndex, subject: string | null | und
   return s.chapters.some((c) => c.tests.includes(test)) ? `/study/${s.slug}?test=${encodeURIComponent(test)}` : undefined;
 }
 
+/** Order-, plural- and "and"-insensitive form of a chapter name, so a test
+ * notice's "Article, pronoun", a notes notice's "Pronouns, Articles" and the
+ * Study chapter "Pronouns and Articles" all compare equal. */
+export function chapterKey(name: string | null | undefined): string {
+  return (name ?? "")
+    .toLowerCase()
+    .split(/[^\p{L}\p{N}]+/u)
+    .filter((w) => w && w !== "and" && w !== "the" && w !== "of")
+    .map((w) => (w.length > 3 ? w.replace(/s$/, "") : w))
+    .sort()
+    .join(" ");
+}
+
 /** /study/<subject>/<chapter> for a chapter matched by subject + title. */
 export function chapterStudyPath(index: StudyIndex, subject: string | null | undefined, chapter: string | null | undefined): string | undefined {
   const s = index.subjects.find((x) => x.subject === subject);
-  const c = s?.chapters.find((x) => x.title.toLowerCase() === chapter?.toLowerCase());
+  const key = chapterKey(chapter);
+  const c = s?.chapters.find((x) => x.title.toLowerCase() === chapter?.toLowerCase()) ?? (key ? s?.chapters.find((x) => chapterKey(x.title) === key) : undefined);
   return s && c ? `/study/${s.slug}/${c.slug}` : undefined;
 }
 

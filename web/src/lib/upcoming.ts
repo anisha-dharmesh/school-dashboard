@@ -1,3 +1,4 @@
+import { chapterKey } from "./study";
 import type { EventsCalendar, Holidays, Notice, PortionSchedules, SyntheticNotice, UpcomingItem } from "../types";
 import { daysUntil, parseISO } from "./date";
 import { cyclesOf, latestExamCycle } from "./notices";
@@ -166,13 +167,19 @@ export function buildUpcomingItems(
 // included, and only when it matches. Portion-table entries have no single
 // chapter of their own -- those still show everything.
 export function relatedMaterialsFor(notices: Notice[], item: UpcomingItem): Notice[] {
-  if (!item.subject || !item.exam_cycle) return [];
+  if (!item.subject) return [];
+  // A named chapter is matched on its own (spelling-tolerant), regardless of
+  // exam cycle -- notes for a chapter tested in class aren't always tagged
+  // with a cycle at all.
+  if (item.chapter) {
+    const key = chapterKey(item.chapter);
+    return notices.filter(
+      (m) => m.category === "Subject Notes" && m.subject === item.subject && m.material_type === "Notes" && chapterKey(m.chapter) === key,
+    );
+  }
+  if (!item.exam_cycle) return [];
   const cycle = item.exam_cycle;
   return notices.filter(
-    (m) =>
-      m.category === "Subject Notes" &&
-      m.subject === item.subject &&
-      cyclesOf(m).includes(cycle as string) &&
-      (!item.chapter || (m.material_type === "Notes" && m.chapter === item.chapter)),
+    (m) => m.category === "Subject Notes" && m.subject === item.subject && cyclesOf(m).includes(cycle as string),
   );
 }
