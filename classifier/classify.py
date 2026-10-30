@@ -370,6 +370,12 @@ def classify_pattern(text: str) -> Optional[Classification]:
     if _SCHOOL_EVENT_RE.search(t):
         return Classification("School Event", "pattern", 0.8, event_date_iso=_extract_event_date(text))
 
+    # "Saturday ... will be a compensatory working day in lieu of the
+    # holiday on ..." is a school day, not a holiday -- it only names the
+    # holiday it makes up for, so it must not hit the "holiday" keyword below.
+    if re.search(r"working day\s+in lieu of|will be a (?:compensatory )?working day", t):
+        return Classification("School Event", "pattern", 0.85, event_date_iso=_extract_event_date(text))
+
     if "holiday" in t or "school shall remain closed" in t or "school will remain closed" in t:
         return Classification("Holiday", "pattern", 0.85, event_date_iso=_extract_event_date(text))
 

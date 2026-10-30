@@ -211,7 +211,7 @@
     "event_date_iso": "2026-10-31",
     "text": "Dear Parent,\n\nThis is a gentle reminder that Saturday, 31st October 2026, will be a compensatory working day in lieu of the holiday declared on Friday, 18th September 2026, on account of Gauri Pujan.\n\nStudents are required to attend school as per Saturday's timetable.\n\nAttendance is mandatory.",
     "attachment_url": null,
-    "category": "Holiday",
+    "category": "School Event",
     "method": "pattern",
     "periods": [],
     "is_timetable": false,
