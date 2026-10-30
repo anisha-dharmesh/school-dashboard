@@ -158,6 +158,28 @@
     "exam_cycle": []
   },
   {
+    "id": "cd95b7dc7a6ce467",
+    "posted_date": "30-10-2026",
+    "posted_date_iso": "2026-10-30",
+    "event_date_iso": "2026-10-30",
+    "text": "Dear Parent,\n\nAll students who have registered for Annual Day and wish to participate in the drama are required to prepare for the audition, which will be conducted next week.\n\nThe audition script is attached below. Students must prepare only from the given script.\n\nPlease ensure that your ward is well-prepared and present for the audition on the scheduled date. No additional opportunities will be provided to students who miss the audition on the scheduled dates.\n\nThank you for your cooperation.",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/30102026172622.jpg",
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "6d97788ad2ffc7f2",
     "posted_date": "29-10-2026",
     "posted_date_iso": "2026-10-29",
