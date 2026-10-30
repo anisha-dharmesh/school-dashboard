@@ -1,5 +1,74 @@
 [
   {
+    "id": "3e3503f7dec0ffde",
+    "posted_date": "30-10-2026",
+    "posted_date_iso": "2026-10-30",
+    "event_date_iso": "2026-11-03",
+    "text": "Dear Parent, \n\nKindly note the details of Subject Enrichment Activity to be conducted in the class : \n\nSubject :SST \nTopic: Knowing Our Earth \nDate 3/11/2026, Tuesday \nClass: III \n\nMaterials Required:\n\n1. 1 A4-size drawing sheet\n2. ⁠1 craft paper to make boat \n3. ⁠Cutouts of the seven continents\n4. ⁠Crayons or Colour pencils and sketch pens\n5. ⁠Glue\n6. ⁠Pencil and ruler",
+    "attachment_url": null,
+    "category": "School Event",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.8,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": "t3st3ns00ji9p7htj4num9quo4",
+    "exam_cycle": null
+  },
+  {
+    "id": "2c69f6caed262387",
+    "posted_date": "30-10-2026",
+    "posted_date_iso": "2026-10-30",
+    "event_date_iso": "2026-10-30",
+    "text": "Daily Class Update\n30-10-2026\n\nPeriod 1: Assembly\nprayer is conducted\n\nPeriod 2: Maths\nCh 6 Time Explanation of the topic- Conversation - Hours into Minutes was done. Exercise 3 of page number 131 was discussed and completed.\nHW- Revise the same\n\nPeriod 3: Social Studies\nChapter No.4\nExplanation and\nReading Practice\nHW- Read Chapter No.4\n\nPeriod 5: Social Studies\nChapter No.4\nExplanation and\nReading Practice\nHW- Read Chapter No.4",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "prayer is conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Maths",
+        "note": "Ch 6 Time Explanation of the topic- Conversation - Hours into Minutes was done. Exercise 3 of page number 131 was discussed and completed.",
+        "hw": "Revise the same"
+      },
+      {
+        "period": 3,
+        "subject": "Social Studies",
+        "note": "Chapter No.4\nExplanation and\nReading Practice",
+        "hw": "Read Chapter No.4"
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "Chapter No.4\nExplanation and\nReading Practice",
+        "hw": "Read Chapter No.4"
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "6d97788ad2ffc7f2",
     "posted_date": "29-10-2026",
     "posted_date_iso": "2026-10-29",
@@ -134,6 +203,28 @@
     "calendar_event_id": null,
     "other_section": true,
     "exam_cycle": []
+  },
+  {
+    "id": "5fdcdad666396d06",
+    "posted_date": "29-10-2026",
+    "posted_date_iso": "2026-10-29",
+    "event_date_iso": "2026-10-31",
+    "text": "Dear Parent,\n\nThis is a gentle reminder that Saturday, 31st October 2026, will be a compensatory working day in lieu of the holiday declared on Friday, 18th September 2026, on account of Gauri Pujan.\n\nStudents are required to attend school as per Saturday's timetable.\n\nAttendance is mandatory.",
+    "attachment_url": null,
+    "category": "Holiday",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": "b80k1hism6mvovu2g427eo7tc0",
+    "exam_cycle": null
   },
   {
     "id": "3aaf294a39545c45",
