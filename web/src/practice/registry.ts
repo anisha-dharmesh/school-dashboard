@@ -3,6 +3,9 @@
 import type { Chapter, PracticeItem, Subject } from "./types";
 import { division } from "./content/maths/ch01-division";
 import { measurement } from "./content/maths/ch09-measurement";
+import { englishGrammar } from "./content/english/grammar";
+import { hindiGrammar } from "./content/hindi/vyakaran";
+import { marathiGrammar } from "./content/marathi/vyakaran";
 
 export const SUBJECTS: Subject[] = [
   {
@@ -10,6 +13,9 @@ export const SUBJECTS: Subject[] = [
     name: "Maths",
     chapters: [division, measurement],
   },
+  { id: "english", name: "English Grammar", chapters: englishGrammar },
+  { id: "hindi", name: "हिंदी व्याकरण (Hindi)", chapters: hindiGrammar },
+  { id: "marathi", name: "मराठी व्याकरण (Marathi)", chapters: marathiGrammar },
 ];
 
 export function findSubject(id: string): Subject | undefined {

@@ -63,7 +63,7 @@ export default function SetupPanel({ initial, onStart }: { initial?: Scope; onSt
     <Card className="w-full max-w-2xl self-center">
       <CardHeader>
         <CardTitle>Start a practice session</CardTitle>
-        <CardDescription>Pick what to practise. Questions come up in random order with fresh numbers each time (worded problems stay as printed), and any you get wrong show the solution.</CardDescription>
+        <CardDescription>Pick what to practise. Questions come up in random order with fresh numbers or words each time (worded maths problems stay as printed), and any you get wrong show the solution.</CardDescription>
       </CardHeader>
       <CardContent>
         <FieldGroup>

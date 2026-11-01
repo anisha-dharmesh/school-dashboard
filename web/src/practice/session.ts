@@ -24,7 +24,18 @@ function pick(items: PracticeItem[], count: number): PracticeItem[] {
  * has no `regenerate` and comes through unchanged.
  */
 export function drawQueue(items: PracticeItem[], count: number): PracticeItem[] {
-  return pick(items, count).map((item) => (item.question.regenerate ? { ...item, question: item.question.regenerate() } : item));
+  // Generated questions (grammar) can land on the same sentence twice by
+  // chance -- retry a few times so a session doesn't repeat itself.
+  const seen = new Set<string>();
+  return pick(items, count).map((item) => {
+    let question = item.question;
+    for (let tries = 0; question.regenerate && tries < 8; tries++) {
+      question = question.regenerate();
+      if (!seen.has(question.prompt)) break;
+    }
+    seen.add(question.prompt);
+    return question === item.question ? item : { ...item, question };
+  });
 }
 
 /**
