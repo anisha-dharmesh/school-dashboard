@@ -9,6 +9,7 @@ import PracticePage from "./pages/practice/PracticePage";
 import TablesPage from "./pages/tables/TablesPage";
 import HistoryPage from "./pages/history/HistoryPage";
 import StudyPage from "./pages/study/StudyPage";
+import GkPage from "./pages/gk/GkPage";
 import DailyUpdatesPage from "./pages/daily/DailyUpdatesPage";
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
             <Route path="study" element={<StudyPage />} />
             <Route path="study/:subject" element={<StudyPage />} />
             <Route path="study/:subject/:chapter" element={<StudyPage />} />
+            <Route path="gk" element={<GkPage />} />
             <Route path="practice" element={<PracticePage />} />
             <Route path="tables" element={<TablesPage />} />
             <Route path="history" element={<HistoryPage />} />

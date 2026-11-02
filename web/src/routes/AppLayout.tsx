@@ -27,6 +27,7 @@ const TABS = [
   { to: "/daily", label: "Daily Updates" },
   { to: "/notes", label: "Notes" },
   { to: "/study", label: "Study" },
+  { to: "/gk", label: "GK" },
   { to: "/tables", label: "Tables" },
   { to: "/practice", label: "Practice" },
   { to: "/history", label: "History" },
