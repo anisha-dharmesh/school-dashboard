@@ -2,6 +2,7 @@
 // Every question is generated from the small word banks below, so words and
 // sentences change each time while the level stays the one taught in class.
 import type { Chapter } from "../../types";
+import { adjectiveExercises, articleExercises, pronounExercises, verbExercises } from "./more";
 import { findQuiz, mcq, oddQuiz, pairQuiz, pick, pickN, pluralQuiz, slots, sortQuiz, type Pair } from "../../grammar";
 
 const N = 10;
@@ -412,4 +413,17 @@ const opposites: Chapter = {
   ],
 };
 
-export const englishGrammar: Chapter[] = [nouns, pronouns, articles, verbs, opposites];
+pronouns.exercises.push(...pronounExercises);
+articles.exercises.push(...articleExercises);
+verbs.exercises.push(...verbExercises);
+
+const adjectives: Chapter = {
+  id: "adjectives",
+  number: 5,
+  title: "Adjectives",
+  source: "English grammar, Class 2 Olympiad Prep-Guide",
+  exercises: adjectiveExercises,
+};
+opposites.number = 6;
+
+export const englishGrammar: Chapter[] = [nouns, pronouns, articles, verbs, adjectives, opposites];
