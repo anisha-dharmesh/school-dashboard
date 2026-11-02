@@ -1,5 +1,92 @@
 [
   {
+    "id": "add3b26358d603f1",
+    "posted_date": "02-11-2026",
+    "posted_date_iso": "2026-11-02",
+    "event_date_iso": "2026-11-03",
+    "text": "Dear Parent,\n\nPlease send  the following materials for seek kit activity:\n\nDate: 03/11/2026, Monday \nClass: III F, A\n\nActivity: To identify and understand the type of fibres.\n\nPlease send the Seek booklet along with the following materials:\n1. A4 sheet of paper -1\n2. ⁠Cloth samples (variety of fabrics for different fibres)\n3. Sketch pens\n4. Glue \n5. ⁠Ruler\n\nPFA the reference picture",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2112026151039.jpg",
+    "category": "School Event",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.8,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": "gu6hg0vee3q7etv2d79v94i5pc",
+    "exam_cycle": null
+  },
+  {
+    "id": "45bb2e94341a7018",
+    "posted_date": "02-11-2026",
+    "posted_date_iso": "2026-11-02",
+    "event_date_iso": "2026-11-02",
+    "text": "Daily Class Update\n02-11-2026\n\nPeriod 1: Science\nExercises were discussed and done\n\nPeriod 2: Science\nAnnual Day practice was done\n\nPeriod 3: Marathi\nआपले मदतनीस या घटकाचे वाचन व स्पष्टीकरण केले.\n\nPeriod 5: Computer Science\nChapter 6: fill in the blanks are done\n\nPeriod 6: Art & Craft\nPg.No.47\nHW- Craft Activity No.3\n\nPeriod 8: Life Skills\nCh 10 Are you scared of shadows was explained\nHW- Read the chapter\n\nPeriod 9: English\nClass test was conducted.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Science",
+        "note": "Exercises were discussed and done",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "Annual Day practice was done",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "आपले मदतनीस या घटकाचे वाचन व स्पष्टीकरण केले.",
+        "hw": null
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "Chapter 6: fill in the blanks are done",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Art & Craft",
+        "note": "Pg.No.47",
+        "hw": "Craft Activity No.3"
+      },
+      {
+        "period": 8,
+        "subject": "Life Skills",
+        "note": "Ch 10 Are you scared of shadows was explained",
+        "hw": "Read the chapter"
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Class test was conducted.",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "e232c448bcd733e4",
     "posted_date": "31-10-2026",
     "posted_date_iso": "2026-10-31",
