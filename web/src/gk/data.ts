@@ -64,6 +64,8 @@ export interface Fact {
   title: string;
   /** Small tag next to the title, e.g. "Father of the Nation". */
   tag?: string;
+  /** Photo file in public/leaders. */
+  photo?: string;
   lines: string[];
 }
 
@@ -80,6 +82,7 @@ export const PEOPLE: FactGroup[] = [
     facts: [
       {
         title: "Mahatma Gandhi",
+        photo: "gandhi.jpg",
         tag: "Father of the Nation",
         lines: [
           "Full name: Mohandas Karamchand Gandhi. Everyone also called him Bapu.",
@@ -90,6 +93,7 @@ export const PEOPLE: FactGroup[] = [
       },
       {
         title: "Bal Gangadhar Tilak",
+        photo: "tilak.jpg",
         tag: "Lokmanya",
         lines: [
           "Lokmanya means 'respected by all'.",
@@ -99,16 +103,19 @@ export const PEOPLE: FactGroup[] = [
       },
       {
         title: "Sardar Vallabhbhai Patel",
+        photo: "patel.jpg",
         tag: "Iron Man of India",
         lines: ["A lawyer by profession.", "A strong and brave leader.", "He was inspired by Mahatma Gandhi to join the freedom struggle."],
       },
       {
         title: "Sarojini Naidu",
+        photo: "naidu.jpg",
         tag: "Nightingale of India",
         lines: ["First woman President of the Indian National Congress.", "First woman Governor of India."],
       },
       {
         title: "Netaji Subhash Chandra Bose",
+        photo: "bose.jpg",
         lines: [
           "Born in Odisha.",
           "Slogans: \"Jai Hind\" and \"Give me blood, I will give you freedom.\"",
@@ -118,6 +125,7 @@ export const PEOPLE: FactGroup[] = [
       },
       {
         title: "Rani Lakshmi Bai",
+        photo: "rani.jpg",
         tag: "Queen of Jhansi",
         lines: [
           "She was married to Gangadhar Rao, the King of Jhansi.",
@@ -131,12 +139,12 @@ export const PEOPLE: FactGroup[] = [
     title: "Our government today",
     blurb: "As taught in class. These can change after elections, so check with your teacher.",
     facts: [
-      { title: "President of India", tag: "Smt. Droupadi Murmu", lines: ["Lives in Rashtrapati Bhawan, New Delhi."] },
-      { title: "Vice-President of India", tag: "C. P. Radhakrishnan", lines: [] },
-      { title: "Prime Minister of India", tag: "Shri Narendra Modi", lines: ["The Prime Minister and other ministers of the Central Government live in New Delhi."] },
-      { title: "Home Minister of India", tag: "Shri Amit Shah", lines: [] },
-      { title: "Chief Minister of Maharashtra", tag: "Shri Devendra Fadnavis", lines: ["Heads the State Government."] },
-      { title: "Governor of Maharashtra", tag: "Shri Jishnu Dev Varma", lines: ["A Governor lives in the Raj Bhawan of the state."] },
+      { title: "President of India", photo: "murmu.jpg", tag: "Smt. Droupadi Murmu", lines: ["Lives in Rashtrapati Bhawan, New Delhi."] },
+      { title: "Vice-President of India", photo: "radhakrishnan.jpg", tag: "C. P. Radhakrishnan", lines: [] },
+      { title: "Prime Minister of India", photo: "modi.jpg", tag: "Shri Narendra Modi", lines: ["The Prime Minister and other ministers of the Central Government live in New Delhi."] },
+      { title: "Home Minister of India", photo: "shah.jpg", tag: "Shri Amit Shah", lines: [] },
+      { title: "Chief Minister of Maharashtra", photo: "fadnavis.jpg", tag: "Shri Devendra Fadnavis", lines: ["Heads the State Government."] },
+      { title: "Governor of Maharashtra", photo: "varma.jpg", tag: "Shri Jishnu Dev Varma", lines: ["A Governor lives in the Raj Bhawan of the state."] },
     ],
   },
 ];
