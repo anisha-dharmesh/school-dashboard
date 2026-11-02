@@ -7,7 +7,7 @@ import type { Exercise } from "../../types";
 import { mcq, pick, pickN, slots, sortQuiz } from "../../grammar";
 
 const N = 10;
-const BOYS = ["Ravi", "Aman", "Rohan", "Arjun", "Karan", "Sam", "Kabir", "Dev"];
+const BOYS = ["Ravi", "Aman", "Rohan", "Arjun", "Karan", "Samir", "Kabir", "Dev"];
 const GIRLS = ["Meena", "Tina", "Riya", "Sita", "Priya", "Neha", "Isha", "Tara"];
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
@@ -48,7 +48,7 @@ const PERSON_SUBJECT: ((pl: boolean) => string)[] = [
 ];
 const THING_SUBJECT: ((pl: boolean) => string)[] = [
   (pl) => `${pl ? "are" : "is"} on the table`,
-  (pl) => `${pl ? "were" : "was"} very heavy`,
+  (pl) => `${pl ? "were" : "was"} lying on the floor`,
   () => "fell down",
   (pl) => (pl ? "look" : "looks") + " new",
 ];
@@ -62,8 +62,8 @@ const PERSON_OBJECT = [
 const THING_OBJECT = [
   (w: string) => `Did you see ${w}?`,
   (w: string) => `Please bring ${w} to me.`,
-  (w: string) => `I put ${w} on the shelf.`,
-  (w: string) => `Dad fixed ${w} yesterday.`,
+  (w: string) => `Please put ${w} in the bag.`,
+  (w: string) => `Dad cleaned ${w} yesterday.`,
 ];
 
 const SUBJECT_PRONOUNS = ["He", "She", "It", "They", "We"];
@@ -94,15 +94,15 @@ function objectPronoun(id: string) {
       wrong: pickN(OBJECT_PRONOUNS, 3, [w.obj]),
       solution: [
         `'${w.text}' means ${w.why}.`,
-        `The words come after the action word, so we use '${w.obj}' (not '${w.subj.toLowerCase()}').`,
+        `The words tell who or what the action is done to (they come after the action word or a word like 'for' or 'of'), so we use '${w.obj}'${w.subj.toLowerCase() !== w.obj ? ` (not '${w.subj.toLowerCase()}')` : ""}.`,
       ],
     };
   });
 }
 
 const NEAR_THINGS: readonly (readonly [string, string])[] = [
-  ["book", "books"], ["pen", "pens"], ["apple", "apples"], ["bag", "bags"], ["parrot", "parrots"],
-  ["chair", "chairs"], ["flower", "flowers"], ["toy", "toys"], ["cousin", "cousins"], ["friend", "friends"],
+  ["book", "books"], ["pen", "pens"], ["apple", "apples"], ["bag", "bags"], ["pencil", "pencils"],
+  ["cup", "cups"], ["flower", "flowers"], ["toy", "toys"], ["ball", "balls"],
 ];
 const NEAR_PLACES = ["in my hand", "on my desk", "right here"];
 const FAR_PLACES = ["over there", "across the room", "far away"];
@@ -119,7 +119,7 @@ function thisThat(id: string) {
       correct,
       options: ["This", "That", "These", "Those"],
       solution: [
-        `The ${plural ? "things are more than one" : "thing is just one"} and ${near ? "near" : "far"}, so we use '${correct.toLowerCase()}'.`,
+        `${plural ? "There are many" : "There is only one"}, ${near ? "near me" : "far from me"}, so we use '${correct.toLowerCase()}'.`,
         "This and that are for one; these and those are for many. This and these are near; that and those are far.",
       ],
     };
@@ -136,7 +136,7 @@ export const pronounExercises: Exercise[] = [
 
 type Entry = readonly [text: string, plural: boolean];
 const AGREE_SUBJECTS: Entry[] = [
-  ["I", true], ["You", true], ["We", true], ["They", true], ["He", false], ["She", false], ["It", false],
+  ["I", true], ["You", true], ["We", true], ["They", true], ["He", false], ["She", false],
   ["Bunty", false], ["My mother", false], ["The boy", false], ["The farmers", true], ["The athletes", true],
   ["The kids", true], ["Rohan and Meena", true], ["The teacher", false],
 ];
@@ -149,7 +149,7 @@ const ACTIONS: readonly (readonly [base: string, s: string, ing: string, rest: s
   ["wash", "washes", "washing", "the dishes after dinner"],
   ["carry", "carries", "carrying", "the heavy bags"],
   ["watch", "watches", "watching", "cartoons in the evening"],
-  ["brush", "brushes", "brushing", "the teeth twice a day"],
+  ["brush", "brushes", "brushing", "twice a day"],
   ["work", "works", "working", "hard in the fields"],
 ];
 
@@ -163,18 +163,18 @@ function agree(id: string) {
       correct: plural ? base : s,
       wrong: [plural ? s : base, ing, `${plural ? "is" : "are"} ${base}`],
       solution: plural
-        ? [`'${subject}' is I, you, we, they or more than one, so the verb has no -s: '${base}'.`]
+        ? [`With I, you, we, they or more than one person, the verb has no -s: '${base}'.`]
         : [`'${subject}' is one person or thing, so the verb takes -s or -es: '${s}'.`],
     };
   });
 }
 
 const BE_SUBJECTS: readonly (readonly [text: string, present: string, past: string])[] = [
-  ["I", "am", "was"], ["He", "is", "was"], ["She", "is", "was"], ["It", "is", "was"], ["We", "are", "were"],
+  ["I", "am", "was"], ["He", "is", "was"], ["She", "is", "was"], ["We", "are", "were"],
   ["You", "are", "were"], ["They", "are", "were"], ["Sumit", "is", "was"], ["My sister", "is", "was"],
   ["The kids", "are", "were"], ["Jaya and Sumit", "are", "were"], ["The farmers", "are", "were"],
 ];
-const DOING = ["waiting for the bus", "flying kites", "playing in the park", "celebrating our victory", "coming for the party", "reading a story", "banging at the door"];
+const DOING = ["waiting for the bus", "flying kites", "playing in the park", "celebrating the win", "coming to the party", "reading a story", "cleaning the room"];
 const BE_WORDS = ["am", "is", "are", "was", "were"];
 
 function beWithTime(id: string) {
@@ -197,9 +197,12 @@ function beWithTime(id: string) {
 }
 
 const SOUNDS: readonly (readonly [animal: string, does: string])[] = [
-  ["cat", "purrs"], ["dog", "barks"], ["lion", "roars"], ["cow", "moos"], ["horse", "neighs"],
+  ["cat", "meows"], ["dog", "barks"], ["lion", "roars"], ["cow", "moos"], ["horse", "neighs"],
   ["duck", "quacks"], ["frog", "croaks"], ["bee", "buzzes"], ["snake", "hisses"], ["crow", "caws"],
 ];
+
+// Sounds that are also true of an animal, so they can never be a wrong option for it.
+const ALSO_TRUE: Record<string, string[]> = { cat: ["hisses", "roars"], lion: ["roars"], crow: ["croaks"], frog: ["caws"] };
 
 function animalAction(id: string) {
   return mcq(id, () => {
@@ -208,14 +211,14 @@ function animalAction(id: string) {
       instruction: "Choose the correct action word",
       prompt: `A ${animal} ___.`,
       correct: does,
-      wrong: pickN(SOUNDS.map((s) => s[1]), 3, [does]),
+      wrong: pickN(SOUNDS.map((s) => s[1]), 3, [does, ...(ALSO_TRUE[animal] ?? [])]),
       solution: [`A ${animal} ${does}. The action word ends in -s because there is one ${animal}.`],
     };
   });
 }
 
-const VERBS = ["run", "jump", "sleep", "eat", "write", "swim", "climb", "sing", "dance", "throw", "draw", "cook", "pay", "shave", "guide"];
-const NOT_VERBS = ["nearby", "daily", "hence", "much", "late", "red", "great", "only", "kind", "soft", "happy", "quickly", "tall", "away", "never", "boldly"];
+const VERBS = ["run", "jump", "sleep", "eat", "write", "swim", "climb", "sing", "dance", "throw", "draw", "cook"];
+const NOT_VERBS = ["red", "soft", "happy", "tall", "kind", "great", "table", "apple", "garden", "blue"];
 
 function whichIsVerb(id: string) {
   return mcq(id, () => {
@@ -237,6 +240,10 @@ const MODALS: readonly (readonly [prompt: string, answer: string, why: string])[
   ["___ you pass the salt, please?", "Could", "'Could' is used to ask politely."],
   ["It ___ rain this evening, so take an umbrella.", "may", "'may' shows something is possible."],
   ["You ___ brush your teeth twice a day.", "should", "'should' tells us what is right to do."],
+  ["Children ___ listen to their teachers.", "should", "'should' tells us what is right to do."],
+  ["___ I borrow your pen, please?", "May", "'May' is used to ask for permission."],
+  ["___ you help me, please?", "Could", "'Could' is used to ask politely."],
+  ["It ___ be hot tomorrow, so drink water.", "may", "'may' shows something is possible."],
 ];
 
 function modal(id: string) {
@@ -265,47 +272,43 @@ export const verbExercises: Exercise[] = [
 // ------------------------------------------------------------ Articles
 
 // [word, article, note]: the article depends on the SOUND, not the letter.
-const SOUND_NOUNS: readonly (readonly [string, string, string?])[] = [
+type Sound = readonly [word: string, article: string, note?: string];
+const YOO = "starts with the consonant sound 'yoo'";
+const SILENT_H = "has a silent 'h', so it starts with a vowel sound";
+// Things you can point at, so "This is ___ umbrella." always makes sense.
+const SOUND_NOUNS: readonly Sound[] = [
   ["umbrella", "an"], ["egg", "an"], ["orange", "an"], ["ostrich", "an"], ["ice cream", "an"], ["onion", "an"],
-  ["unicorn", "a", "starts with the consonant sound 'yoo'"], ["university", "a", "starts with the consonant sound 'yoo'"],
-  ["uniform", "a", "starts with the consonant sound 'yoo'"], ["European", "a", "starts with the consonant sound 'yoo'"],
-  ["user", "a", "starts with the consonant sound 'yoo'"], ["hour", "an", "has a silent 'h', so it starts with a vowel sound"],
-  ["heir", "an", "has a silent 'h', so it starts with a vowel sound"], ["horse", "a"], ["bungalow", "a"], ["laptop", "a"],
-  ["hospital", "a"], ["tomato", "a"],
+  ["unicorn", "a", YOO], ["uniform", "a", YOO], ["horse", "a"], ["bungalow", "a"], ["laptop", "a"], ["tomato", "a"],
 ];
-const ADJECTIVES: readonly (readonly [string, string, string?])[] = [
-  ["red", "a"], ["small", "a"], ["old", "an"], ["interesting", "an"], ["excellent", "an"], ["big", "a"],
-  ["honest", "an", "has a silent 'h', so it starts with a vowel sound"], ["useful", "a", "starts with the consonant sound 'yoo'"],
+// Describing phrases: the article follows the FIRST word.
+const PHRASES: readonly Sound[] = [
+  ["honest boy", "an", SILENT_H], ["honest officer", "an", SILENT_H], ["useful book", "a", YOO], ["unique gift", "a", YOO],
+  ["old house", "an"], ["unusual egg", "an"], ["excellent dancer", "an"], ["interesting storybook", "an"],
+  ["red rose", "a"], ["small kite", "a"], ["big elephant", "a"], ["tall tree", "a"],
 ];
-const CONCRETE = ["book", "bag", "kite", "umbrella", "egg", "apple", "elephant", "laptop", "bungalow", "tomato"];
 const FRAMES = [
-  (p: string) => `I need ___ ${p}.`,
-  (p: string) => `There is ___ ${p} near my school.`,
-  (p: string) => `My uncle owns ___ ${p}.`,
-  (p: string) => `She saw ___ ${p} in the shop.`,
-  (p: string) => `My brother bought ___ ${p} for me.`,
+  (p: string) => `This is ___ ${p}.`,
+  (p: string) => `Look at ___ ${p}!`,
+  (p: string) => `I can see ___ ${p}.`,
+  (p: string) => `There is ___ ${p} in the picture.`,
 ];
+// 'the' would also fit most frames, so this exercise offers only a / an / no article.
 const ARTICLES = ["a", "an", "the", "no article"];
+const A_AN = ["a", "an", "no article"];
 
 function soundArticle(id: string) {
   return mcq(id, () => {
-    let first: string;
-    let article: string;
-    let note: string | undefined;
-    let phrase: string;
-    if (Math.random() < 0.5) {
-      [first, article, note] = pick(SOUND_NOUNS);
-      phrase = first;
-    } else {
-      [first, article, note] = pick(ADJECTIVES);
-      phrase = `${first} ${pick(CONCRETE)}`;
-    }
+    // The word 'hour' is the classic silent-h trap and needs its own frame.
+    const entry: Sound = Math.random() < 0.15 ? ["hour", "an", SILENT_H] : pick(Math.random() < 0.5 ? SOUND_NOUNS : PHRASES);
+    const [phrase, article, note] = entry;
+    const first = phrase.split(" ")[0];
+    const prompt = first === "hour" ? "It took me ___ hour to reach home." : pick(FRAMES)(phrase);
     const sound = note ?? (article === "an" ? "starts with a vowel sound" : "starts with a consonant sound");
     return {
       instruction: "Choose the correct article",
-      prompt: pick(FRAMES)(phrase),
+      prompt,
       correct: article,
-      options: ARTICLES,
+      options: A_AN,
       solution: [`'${first}' ${sound}.`, `So we use '${article}'. (We go by the sound, not the spelling.)`],
     };
   });
@@ -327,7 +330,7 @@ const THE_SETS: TheSet[] = [
 
 const NAMES_NONE = ["Rajshree", ...BOYS, ...GIRLS];
 const LANGUAGES = ["English", "Hindi", "Marathi", "Gujarati", "Tamil"];
-const ABSTRACT = ["honesty", "bravery", "kindness", "love", "happiness", "friendship"];
+const ABSTRACT = ["honesty", "bravery", "kindness", "patience", "politeness", "friendship"];
 const CITIES = ["Shimla", "Delhi", "Mumbai", "Pune", "Jaipur"];
 
 function startsBlank(prompt: string, options: readonly string[]) {
@@ -344,7 +347,7 @@ function theArticle(id: string) {
       instruction: "Choose the correct article",
       prompt,
       correct: options[2],
-      options,
+      wrong: [options[0], options[1], options[3]],
       solution: [`We use 'the' before ${set.rule}.`, `So: ${prompt.replace("___", options[2])}`],
     };
   });
@@ -373,7 +376,7 @@ function noArticle(id: string) {
       instruction: "Choose the correct article",
       prompt,
       correct: options[3],
-      options,
+      wrong: [options[0], options[1], options[2]],
       solution: [rule, "So the blank stays empty: no article."],
     };
   });
@@ -382,7 +385,7 @@ function noArticle(id: string) {
 function correctSentence(id: string) {
   return mcq(id, () => {
     const nouns = pickN(SOUND_NOUNS, 4);
-    const sentence = (noun: readonly [string, string, string?], right: boolean) => {
+    const sentence = (noun: Sound, right: boolean) => {
       const art = right ? noun[1] : noun[1] === "a" ? "an" : "a";
       return `I saw ${art} ${noun[0]}.`;
     };
@@ -407,22 +410,23 @@ export const articleExercises: Exercise[] = [
 // ----------------------------------------------------------- Adjectives
 
 const WORD_CLASSES = {
-  Noun: ["girl", "box", "rope", "baby", "officer", "rose", "ribbon", "tree", "mango", "pillow"],
+  Noun: ["girl", "box", "rope", "baby", "officer", "rose", "ribbon", "tree", "mango", "flower"],
   Verb: ["run", "jump", "sleep", "eat", "write", "swim", "sing", "throw"],
-  Adjective: ["happy", "heavy", "long", "cute", "honest", "red", "blue", "tall", "sweet", "soft", "brave"],
+  Adjective: ["happy", "heavy", "long", "cute", "honest", "red", "blue", "tall", "juicy", "soft", "brave"],
 };
 
 const DESCRIBED: readonly (readonly [adj: string, noun: string])[] = [
   ["happy", "girl"], ["heavy", "box"], ["long", "rope"], ["cute", "baby"], ["kind", "officer"], ["red", "rose"],
-  ["blue", "ribbon"], ["tall", "tree"], ["sweet", "mango"], ["soft", "pillow"], ["brave", "soldier"], ["tiny", "mouse"],
+  ["blue", "ribbon"], ["tall", "tree"], ["juicy", "mango"], ["soft", "pillow"], ["brave", "soldier"], ["tiny", "mouse"],
 ];
+// Every adjective above starts with a consonant sound, so the frames can say "a".
 const FIND_FRAMES = [
   (n: string, a: string, o: string) => `${n} saw a ${a} ${o}.`,
-  (n: string, a: string, o: string) => `${n} has a ${a} ${o}.`,
+  (n: string, a: string, o: string) => `${n} drew a ${a} ${o}.`,
   (n: string, a: string, o: string) => `${n} found a ${a} ${o} in the garden.`,
   (n: string, a: string, o: string) => `There is a ${a} ${o} near ${n}.`,
 ];
-const VERB_WORDS = ["saw", "has", "found", "is"];
+const VERB_WORDS = ["saw", "drew", "found", "is"];
 
 function findAdjective(id: string) {
   return mcq(id, () => {
@@ -457,9 +461,12 @@ function degreeFill(id: string) {
     const [a, b] = pickN([...BOYS, ...GIRLS], 2);
     const superlative = Math.random() < 0.5;
     const correct = superlative ? sup : comp;
-    const wrongForm = how === "long" ? `${pos}er` : `more ${pos}`;
+    // Clearly wrong forms only: "more clever" or "more kind" are acceptable English.
+    const wrongForm = superlative
+      ? how === "long" ? `${pos}est` : how === "irregular" ? "goodest" : `most ${sup}`
+      : how === "long" ? `${pos}er` : how === "irregular" ? "gooder" : `more ${comp}`;
     return {
-      instruction: superlative ? "Choose the adjective for the most (three or more)" : "Choose the adjective to compare two",
+      instruction: superlative ? "Choose the word that compares three or more" : "Choose the word that compares two",
       prompt: superlative ? `${a} is the ___ in the class.` : `${a} is ___ than ${b}.`,
       correct,
       wrong: [pos, superlative ? comp : sup, wrongForm],
