@@ -1,5 +1,114 @@
 [
   {
+    "id": "865ad2761c14ba71",
+    "posted_date": "04-11-2026",
+    "posted_date_iso": "2026-11-04",
+    "event_date_iso": "2026-11-04",
+    "text": "Dear Parent, \nPFA Notes for:\nSubject - Hindi\nChapter - दीनबंधु एंड्रयूज ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/4112026111853.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Hindi",
+    "chapter": "दीनबंधु एंड्रयूज",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "b1150683fb0a3ed3",
+    "posted_date": "04-11-2026",
+    "posted_date_iso": "2026-11-04",
+    "event_date_iso": "2026-11-04",
+    "text": "Dear Parent,\n\nYesterday, an unfortunate incident was reported in front of Duniya Dari shop IVY Nia, opposite school premises involving a bus ferrying students, which allegedly struck one of the individual. We wish to clarify with utmost transparency that the said bus is not connected with the school in any manner.\n\nWe have consistently advised all parents to either use the officially authorized school transport service or personally drop their wards at the school. Opting for unofficial and unauthorized transport arrangements is always a risky affair.\n\nPlease note that the school maintains zero tolerance towards any breach of safety and security on any front.\n\nSchool Principal  \nSNBP Wagholi",
+    "attachment_url": null,
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "07d9adba221298c3",
+    "posted_date": "04-11-2026",
+    "posted_date_iso": "2026-11-04",
+    "event_date_iso": "2026-11-04",
+    "text": "Daily Class Update\n04-11-2026\n\nPeriod 1: Assembly\nprayer was conducted\n\nPeriod 2: Science\nAnnual day dance practice was done\n\nPeriod 3: Marathi\nAnnual day Dance Practice was conducted.\n\nPeriod 4: Maths\nCh 6- Time - Explanation of the topic- Calender was done. Exercise 5 Q2 of page number 133 was discussed and completed.\nHW- Solve Exercise 5 - Q1 of page 133.\n\nPeriod 5: Computer Science\nReading chapter 6 was done\n\nPeriod 7: Hindi\nदीनबंधु एंड्रयूज के लिखित कार्य नोटबुक में करवाए गए\nHW- दीनबंधु एंड्रयूज के शब्दार्थ लिखकर लाएँ\n\nPeriod 8: Maths\nTime- Explanation of the topic - Conversation Years into Months and Days was done.Exercise 6 - Q1 (a,c) Q2 (b,d) of page number 134 were discussed and completed.\nHW- Solve Remaining questions of Exercise 6 - Q1 and Q2 -  page number 134.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "prayer was conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "Annual day dance practice was done",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "Annual day Dance Practice was conducted.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch 6- Time - Explanation of the topic- Calender was done. Exercise 5 Q2 of page number 133 was discussed and completed.",
+        "hw": "Solve Exercise 5 - Q1 of page 133."
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "Reading chapter 6 was done",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Hindi",
+        "note": "दीनबंधु एंड्रयूज के लिखित कार्य नोटबुक में करवाए गए",
+        "hw": "दीनबंधु एंड्रयूज के शब्दार्थ लिखकर लाएँ"
+      },
+      {
+        "period": 8,
+        "subject": "Maths",
+        "note": "Time- Explanation of the topic - Conversation Years into Months and Days was done.Exercise 6 - Q1 (a,c) Q2 (b,d) of page number 134 were discussed and completed.",
+        "hw": "Solve Remaining questions of Exercise 6 - Q1 and Q2 -  page number 134."
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "0648ba26cb2a2329",
     "posted_date": "03-11-2026",
     "posted_date_iso": "2026-11-03",
