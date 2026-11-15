@@ -1,0 +1,177 @@
+{
+  "subject": "Computer Science",
+  "chapter": "Creating Art with Code",
+  "term": "Term 2",
+  "number": 5,
+  "tests": [],
+  "sections": [
+    {
+      "title": "New Words",
+      "type": "block",
+      "layout": "chips",
+      "items": [
+        {
+          "heading": "New Words",
+          "lines": [
+            "Artist lab",
+            "creative",
+            "character",
+            "draw lines",
+            "turn angles",
+            "pixels"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "True or False",
+      "type": "trueFalse",
+      "items": [
+        {
+          "statement": "The Artist lab is available on code.org.",
+          "answer": true,
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "\"Maybe draw something nice\" is a clear instruction.",
+          "answer": false,
+          "explanation": "A clear instruction tells the Artist exactly what to do, such as move forward or turn.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "statement": "Coding blocks tell the computer what to do.",
+          "answer": true,
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Answer in One Word",
+      "type": "name",
+      "items": [
+        {
+          "prompt": "What do we use instead of a pencil in the Artist lab?",
+          "answer": "Coding blocks",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "What character helps us create drawings?",
+          "answer": "Artist",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "prompt": "What do coding blocks give to the computer?",
+          "answer": "Instructions",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Answer the Following Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What is the Artist lab?",
+          "answer": "The Artist lab on code.org is a fun, creative space where we can draw pictures by writing code.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "How do coding blocks help us?",
+          "answer": "Coding blocks tell the computer how to draw.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "What can the Artist do?",
+          "answer": "The Artist can move in different directions, draw lines, turn angles and change colours.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "What does the \"move\" block do?",
+          "answer": "The \"move\" block makes the Artist move forward or backward by a specified number of pixels.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fill in the Blanks",
+      "type": "fib",
+      "sets": [
+        {
+          "items": [
+            {
+              "template": "The Artist Lab on code.org is a fun space where we draw pictures by writing ___.",
+              "answers": [
+                "code"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "The move block makes the artist go ___ or ___ and draws a line as it moves.",
+              "answers": [
+                "forward",
+                "backward"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "The turn block makes the artist turn either ___ or ___ by a given angle.",
+              "answers": [
+                "right",
+                "left"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "To draw a square, we use the move forward block and the ___ block repeatedly.",
+              "answers": [
+                "turn"
+              ],
+              "sources": {
+                "notes": true
+              }
+            },
+            {
+              "template": "Each side of the window for the spaceship is ___, and every angle is ___.",
+              "answers": [
+                "100 pixels",
+                "90 degrees"
+              ],
+              "sources": {
+                "notes": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

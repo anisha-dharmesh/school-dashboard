@@ -1,0 +1,244 @@
+{
+  "subject": "Maths",
+  "chapter": "Division",
+  "term": "Term 2",
+  "number": 1,
+  "tests": [],
+  "sections": [
+    {
+      "title": "Division Terms",
+      "type": "vocab",
+      "items": [
+        {
+          "word": "Dividend",
+          "meaning": "The number to be divided.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Divisor",
+          "meaning": "The number that divides.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Quotient",
+          "meaning": "The answer of a division.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "word": "Remainder",
+          "meaning": "What is left over; the number left after dividing.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Division Facts",
+      "type": "block",
+      "layout": "list",
+      "items": [
+        {
+          "heading": "Division as equal sharing",
+          "lines": [
+            "Division means sharing things equally.",
+            "Example: Ravi has 12 toffees. He shares them equally among 4 friends. Each friend gets 3 toffees. 12 ÷ 4 = 3."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Division as equal grouping",
+          "lines": [
+            "Division also makes equal groups of items.",
+            "Example: 10 flowers are arranged in groups of 2. 10 ÷ 2 = 5. We get 5 equal groups."
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Division as repeated subtraction",
+          "lines": [
+            "Division means repeatedly subtracting the same number until we reach zero.",
+            "Example: 24 ÷ 4 = 6, since 24 − 4 − 4 − 4 − 4 − 4 − 4 = 0. We subtract 4 six times."
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Properties of Division",
+      "type": "block",
+      "layout": "list",
+      "items": [
+        {
+          "heading": "Properties",
+          "lines": [
+            "Any number ÷ 1 = the same number. Example: 3 ÷ 1 = 3.",
+            "Any number ÷ the number itself = 1. Example: 3 ÷ 3 = 1.",
+            "0 ÷ any number = 0. Example: 0 ÷ 3 = 0.",
+            "Division by 0 is not possible."
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Practice: Divide and Find the Quotient and Remainder",
+      "type": "qa",
+      "items": [
+        {
+          "question": "38 ÷ 3",
+          "answer": "Quotient = 12, Remainder = 2",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "45 ÷ 4",
+          "answer": "Quotient = 11, Remainder = 1",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "86 ÷ 2",
+          "answer": "Quotient = 43, Remainder = 0",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "276 ÷ 2",
+          "answer": "Quotient = 138, Remainder = 0",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "784 ÷ 7",
+          "answer": "Quotient = 112, Remainder = 0",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "979 ÷ 4",
+          "answer": "Quotient = 244, Remainder = 3",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "2315 ÷ 2",
+          "answer": "Quotient = 1157, Remainder = 1",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "9567 ÷ 8",
+          "answer": "Quotient = 1195, Remainder = 7",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "9526 ÷ 7",
+          "answer": "Quotient = 1360, Remainder = 6",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Division in Real Life",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Ayesha spends ₹96 on 8 pencils. How much money did she pay for each pencil?",
+          "answer": "Cost of 1 pencil = ₹96 ÷ 8 = ₹12. So, Ayesha paid ₹12 for each pencil.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Reena has to put 63 empty bottles in 3 crates. How many bottles will she put in each crate?",
+          "answer": "63 ÷ 3 = 21. So, Reena will put 21 bottles in each crate.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "A week has 7 days. How many weeks are there in 84 days?",
+          "answer": "84 ÷ 7 = 12. So, there are 12 weeks in 84 days.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "A bus has 52 seats. Find the total number of rows in the bus if each row has 4 seats.",
+          "answer": "52 ÷ 4 = 13. So, the total number of rows in the bus is 13.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Aditya has 92 toy cars. He puts them equally in 6 boxes. How many toy cars will he put in each box? How many toy cars are left over?",
+          "answer": "92 ÷ 6 = 15, remainder 2. So, Aditya will put 15 toy cars in each box and 2 toy cars will be left over.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Reema sticks 5 pictures on a page. If she has 560 pictures, how many pages will she need?",
+          "answer": "560 ÷ 5 = 112. So, Reema will need 112 pages.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "A fruitseller buys 435 apples. He arranges them equally in 9 boxes. How many apples does he put in each box? How many apples are left over?",
+          "answer": "435 ÷ 9 = 48, remainder 3. So, he puts 48 apples in each box and 3 apples are left over.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "An auditorium has to be filled with 228 chairs. How many chairs are needed in each row if there are 7 rows in total? How many chairs are extra?",
+          "answer": "228 ÷ 7 = 32, remainder 4. So, 32 chairs are needed in each row and 4 chairs are extra.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Mrs. Kapoor paid for a ring in 4 equal instalments. How much money did she pay each time if the total cost of the ring is ₹6124?",
+          "answer": "6124 ÷ 4 = 1531. So, Mrs. Kapoor paid ₹1531 each time as an instalment.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "A box can hold 7 cans. There are 8539 cans to be packed. How many boxes are needed to pack the cans? How many cans will be left over?",
+          "answer": "8539 ÷ 7 = 1219, remainder 6. So, 1219 boxes are needed and 6 cans will be left over.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    }
+  ]
+}

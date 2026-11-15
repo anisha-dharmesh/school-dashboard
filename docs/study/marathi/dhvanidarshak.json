@@ -1,0 +1,240 @@
+{
+  "subject": "Marathi",
+  "chapter": "ध्वनिदर्शक शब्द",
+  "term": "Term 2",
+  "number": null,
+  "tests": [],
+  "sections": [
+    {
+      "title": "ध्वनिदर्शक शब्द म्हणजे काय?",
+      "type": "block",
+      "layout": "text",
+      "items": [
+        {
+          "lines": [
+            "असंख्य प्रकारचे आवाज आपल्या कानावर पडत असतात.",
+            "ध्वनीचा निर्देश करण्यासाठीचे शब्द म्हणजेच ध्वनिदर्शक शब्द."
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "घटक आणि ध्वनिदर्शक शब्द",
+      "type": "match",
+      "sets": [
+        {
+          "columns": [
+            "घटक",
+            "ध्वनिदर्शक शब्द"
+          ],
+          "pairs": [
+            {
+              "left": "पानांची",
+              "right": "सळसळ"
+            },
+            {
+              "left": "ढगांचा",
+              "right": "गडगडाट"
+            },
+            {
+              "left": "विजेचा",
+              "right": "कडकडाट"
+            },
+            {
+              "left": "पाण्याचा",
+              "right": "खळखळाट"
+            },
+            {
+              "left": "घुंगरू, पैंजण",
+              "right": "छुमछुम"
+            },
+            {
+              "left": "ढोल",
+              "right": "ढमढम"
+            },
+            {
+              "left": "बांगड्या हातातल्या",
+              "right": "किणकिण"
+            },
+            {
+              "left": "सुट्टे पैसे, नाणी",
+              "right": "छनछन"
+            },
+            {
+              "left": "घंटा",
+              "right": "घणघण"
+            },
+            {
+              "left": "आगगाडी",
+              "right": "झुकझुक"
+            },
+            {
+              "left": "पक्ष्यांची",
+              "right": "किलबिल"
+            },
+            {
+              "left": "चिमण्यांची",
+              "right": "चिवचिव"
+            },
+            {
+              "left": "कावळ्यांची",
+              "right": "कावकाव"
+            },
+            {
+              "left": "मुलांची",
+              "right": "बडबड"
+            }
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "कंसातील योग्य शब्द रिकाम्या जागी भरा",
+      "type": "fib",
+      "sets": [
+        {
+          "note": "झुक झुक, खळखळ, टिपटिप, टपटप",
+          "items": [
+            {
+              "template": "नदीचे पाणी ___ वाहते.",
+              "answers": [
+                "खळखळ"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "घोडा ___ करत पळतो.",
+              "answers": [
+                "टपटप"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "पाऊस ___ पडतो.",
+              "answers": [
+                "टिपटिप"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            },
+            {
+              "template": "आगगाडी ___ आवाज करत धावते.",
+              "answers": [
+                "झुक झुक"
+              ],
+              "sources": {
+                "textbook": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "जोड्या लावा",
+      "type": "match",
+      "sets": [
+        {
+          "columns": [
+            "शब्द",
+            "ध्वनिदर्शक शब्द"
+          ],
+          "pairs": [
+            {
+              "left": "घुंगरांची",
+              "right": "छुमछुम"
+            },
+            {
+              "left": "पक्ष्यांची",
+              "right": "किलबिल"
+            },
+            {
+              "left": "ढगांची",
+              "right": "गडगडाट"
+            },
+            {
+              "left": "पानांची",
+              "right": "सळसळ"
+            },
+            {
+              "left": "मुलांची",
+              "right": "बडबड"
+            },
+            {
+              "left": "बांगड्यांची",
+              "right": "किणकिण"
+            }
+          ],
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "योग्य ध्वनिदर्शक शब्दाला गोल करा",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "घंटेची",
+          "options": "घणघण, बडबड",
+          "answer": "घणघण",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "विजेचा",
+          "options": "गडगडाट, कडकडाट",
+          "answer": "कडकडाट",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "नाण्यांची",
+          "options": "सळसळ, छनछन",
+          "answer": "छनछन",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "चिमण्यांची",
+          "options": "चिवचिव, चरचर",
+          "answer": "चिवचिव",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "कावळ्यांची",
+          "options": "कुहू कुहू, कावकाव",
+          "answer": "कावकाव",
+          "sources": {
+            "textbook": true
+          }
+        },
+        {
+          "question": "ढोलाची",
+          "options": "चमचमाट, ढमढम",
+          "answer": "ढमढम",
+          "sources": {
+            "textbook": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "subject": "Social Studies",
+  "chapter": "Communication",
+  "term": "Term 2",
+  "number": 3,
+  "tests": [],
+  "sections": [
+    {
+      "title": "New Words",
+      "type": "block",
+      "layout": "chips",
+      "items": [
+        {
+          "heading": "New Words",
+          "lines": [
+            "information",
+            "ancient",
+            "browse",
+            "internet",
+            "satellite",
+            "forecast",
+            "E-mail",
+            "stamp",
+            "envelope",
+            "magazine"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Circle the Odd One Out",
+      "type": "mcq",
+      "items": [
+        {
+          "question": "Circle the odd one out.",
+          "options": "stamp, envelope, radio, courier",
+          "answer": "radio",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Circle the odd one out.",
+          "options": "Skype, Google chat, Microsoft Teams, telephone",
+          "answer": "telephone",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Circle the odd one out.",
+          "options": "newspaper, television, SMS, radio",
+          "answer": "SMS",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Circle the odd one out.",
+          "options": "internet, magazine, e-mail, computer",
+          "answer": "magazine",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Write Short Answers",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Write four items we buy from the post office.",
+          "answer": [
+            "a) Inland letters",
+            "b) Stamps",
+            "c) Envelopes",
+            "d) Postcards"
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Define Communication.",
+          "answer": "Communication is the process of sending and receiving messages. It also means exchanging ideas and information with others.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Why do we use applications such as Google Chat?",
+          "answer": "Applications such as Google Chat help us to connect visually and audibly with someone regardless of where we are located.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Answer the Following Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "What is mass communication?",
+          "answer": "Mass communication is when we communicate to a large number of people at once. Example: if we have to share the name of a new leader with the people of the world, we will give the news through newspaper, radio, or television broadcast. It will appear as a headline in the newspaper and breaking news on the news channel.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "What is an e-reader? How is it useful for you?",
+          "answer": "An e-reader is a small gadget on which we can read books by downloading books from the internet.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Tanya has to send a copy of her school admission form instantly from Delhi to USA. Which means of communication should she use? Why should she use it?",
+          "answer": "Tanya can use the internet and a computer device to send an e-mail. She can e-mail a scanned copy of her school admission form instantly.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "How have satellites made communication easier?",
+          "answer": [
+            "a) Satellites are electronic devices that are sent to space.",
+            "b) They collect information and have made communication easier and faster.",
+            "c) Satellites help us to watch cable television channels all over the world.",
+            "d) Satellites pick up signals from one place and send them to different parts of the world."
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Application Based Questions",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Anita lives in Mumbai. Anita's grandfather uses the courier service to send her home-made cookies on her birthday. Why does he choose courier service to send cookies?",
+          "answer": "Anita's grandfather chooses the courier service to send her cookies because they will reach her in a day or two.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    }
+  ]
+}

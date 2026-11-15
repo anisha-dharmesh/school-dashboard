@@ -1,0 +1,244 @@
+{
+  "subject": "Maths",
+  "chapter": "Measurement",
+  "term": "Term 1",
+  "number": 5,
+  "tests": [],
+  "sections": [
+    {
+      "title": "Units of Measurement",
+      "type": "block",
+      "layout": "list",
+      "items": [
+        {
+          "heading": "Length",
+          "lines": [
+            "1 m = 100 cm",
+            "1 km = 1000 m"
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Weight",
+          "lines": [
+            "1 kg = 1000 g"
+          ],
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "heading": "Capacity",
+          "lines": [
+            "1 l = 1000 ml"
+          ],
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Practice: Convert Units",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Convert into cm: 25 m 20 cm",
+          "answer": "25 × 100 cm + 20 cm = 2500 cm + 20 cm = 2520 cm",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Convert into cm: 17 m 28 cm",
+          "answer": "17 × 100 cm + 28 cm = 1700 cm + 28 cm = 1728 cm",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Convert into m: 9 km 291 m",
+          "answer": "9 × 1000 m + 291 m = 9000 m + 291 m = 9291 m",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Convert into m: 3856 cm",
+          "answer": "3800 cm + 56 cm = 38 m + 56 cm = 38 m 56 cm",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Convert into km: 8345 m",
+          "answer": "8000 m + 345 m = 8 km + 345 m = 8 km 345 m",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Convert into grams: 7 kg 101 g",
+          "answer": "7 × 1000 g + 101 g = 7000 g + 101 g = 7101 g",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Convert into kilograms: 7676 g",
+          "answer": "7000 g + 676 g = 7 kg + 676 g = 7 kg 676 g",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Convert into ml: 6 l 265 ml",
+          "answer": "6 × 1000 ml + 265 ml = 6000 ml + 265 ml = 6265 ml",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Convert into l: 7878 ml",
+          "answer": "7000 ml + 878 ml = 7 l + 878 ml = 7 l 878 ml",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Add and Subtract Measurements",
+      "type": "qa",
+      "items": [
+        {
+          "question": "4 km 210 m + 2 km 215 m",
+          "answer": "6 km 425 m",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "3 kg 170 g + 2 kg 480 g",
+          "answer": "5 kg 650 g",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "3 l 562 ml + 2 l 695 ml",
+          "answer": "6 l 257 ml",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "9 m 28 cm − 3 m 16 cm",
+          "answer": "6 m 12 cm",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "4 l 572 ml − 2 l 170 ml",
+          "answer": "2 l 402 ml",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "9 kg 075 g − 3 kg 498 g",
+          "answer": "5 kg 577 g",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Measurement Word Problems",
+      "type": "qa",
+      "items": [
+        {
+          "question": "Charu travelled 5 km 580 m, then 1 km 750 m, then 250 m. Find the total distance she travelled.",
+          "answer": "5 km 580 m + 1 km 750 m + 250 m = 7 km 580 m. So, Charu travelled 7 km 580 m in total.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Priya jumps a distance of 3 m 25 cm, which is 48 cm more than her first jump. How far was her first jump?",
+          "answer": "3 m 25 cm − 48 cm = 2 m 77 cm. So, Priya's first jump was 2 m 77 cm.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Three pieces of wire measure 4 m 50 cm, 6 m 25 cm and 5 m 70 cm. Find the total length of wire.",
+          "answer": "4 m 50 cm + 6 m 25 cm + 5 m 70 cm = 16 m 45 cm. So, the length of the wire is 16 m 45 cm.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Sohan bought vegetables weighing 1 kg 500 g, 2 kg 500 g and 2 kg. Find the total weight of the vegetables bought.",
+          "answer": "1 kg 500 g + 2 kg 500 g + 2 kg = 6 kg. So, the total weight of the vegetables bought by Sohan is 6 kg.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "The weight of the first bag is 3 kg 350 g, which is 1 kg 200 g more than the second bag. Find the weight of the second bag.",
+          "answer": "3 kg 350 g − 1 kg 200 g = 2 kg 150 g. So, the weight of the second bag is 2 kg 150 g.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "There was 6 kg of rice at the start of the month. 4 kg 540 g was used. How much rice is left at the end of the month?",
+          "answer": "6 kg − 4 kg 540 g = 1 kg 460 g. So, 1 kg 460 g of rice is left at the end of the month.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "A box of fruits has 6 kg 285 g of one fruit and 2 kg 345 g of another. Find the total weight of fruits in the box.",
+          "answer": "6 kg 285 g + 2 kg 345 g = 8 kg 630 g. So, the total weight of fruits in the box is 8 kg 630 g.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "A vessel already has 6 l 600 ml of water and can hold 9 l 200 ml in total. How much more water can be added to the vessel?",
+          "answer": "9 l 200 ml − 6 l 600 ml = 2 l 600 ml. So, 2 l 600 ml more water can be added to the vessel.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "A bottle had 2 l of water. 1 l 575 ml was used. How much water is left in the bottle?",
+          "answer": "2 l − 1 l 575 ml = 425 ml. So, 425 ml of water is left in the bottle.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Aanvi bought two pieces of cloth measuring 5 m 60 cm and 4 m 75 cm. Find the total length of cloth she bought.",
+          "answer": "5 m 60 cm + 4 m 75 cm = 10 m 35 cm. So, Aanvi bought 10 m 35 cm of cloth in total.",
+          "sources": {
+            "notes": true
+          }
+        },
+        {
+          "question": "Gaurav bought vegetables and fruits weighing 2 kg 500 g, 3 kg, 500 g and 2 kg. Find the total weight he bought.",
+          "answer": "2 kg 500 g + 3 kg + 500 g + 2 kg = 8 kg. So, Gaurav bought 8 kg of vegetables and fruits.",
+          "sources": {
+            "notes": true
+          }
+        }
+      ]
+    }
+  ]
+}

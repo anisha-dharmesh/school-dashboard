@@ -190,8 +190,22 @@
           "tests": []
         },
         {
+          "slug": "nyayadhish",
+          "title": "चतुर न्यायाधीश",
+          "term": "Term 2",
+          "number": 10,
+          "tests": []
+        },
+        {
           "slug": "jungli-prani",
           "title": "जंगली प्राणी, कोण कुठे राहतो, कीटकांची ओळख",
+          "term": "Term 2",
+          "number": null,
+          "tests": []
+        },
+        {
+          "slug": "dhvanidarshak",
+          "title": "ध्वनिदर्शक शब्द",
           "term": "Term 2",
           "number": null,
           "tests": []
@@ -201,6 +215,26 @@
           "title": "ससा (कविता)",
           "term": "Term 2",
           "number": null,
+          "tests": []
+        }
+      ]
+    },
+    {
+      "subject": "Maths",
+      "slug": "maths",
+      "chapters": [
+        {
+          "slug": "measurement",
+          "title": "Measurement",
+          "term": "Term 1",
+          "number": 5,
+          "tests": []
+        },
+        {
+          "slug": "division",
+          "title": "Division",
+          "term": "Term 2",
+          "number": 1,
           "tests": []
         }
       ]
@@ -309,6 +343,13 @@
           "tests": [
             "Class Test"
           ]
+        },
+        {
+          "slug": "communication",
+          "title": "Communication",
+          "term": "Term 2",
+          "number": 3,
+          "tests": []
         }
       ]
     },
@@ -316,6 +357,13 @@
       "subject": "Computer Science",
       "slug": "computer-science",
       "chapters": [
+        {
+          "slug": "creating-art",
+          "title": "Creating Art with Code",
+          "term": "Term 2",
+          "number": 5,
+          "tests": []
+        },
         {
           "slug": "motors",
           "title": "Robotics: Motors",
