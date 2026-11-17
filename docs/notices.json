@@ -1,5 +1,128 @@
 [
   {
+    "id": "f8608da9c183cb3b",
+    "posted_date": "17-11-2026",
+    "posted_date_iso": "2026-11-17",
+    "event_date_iso": "2026-11-17",
+    "text": "Daily Class Update\n17-11-2026\n\nPeriod 1: Science\nOral revision of chapter ‘The Solar System’ was done\nHW- Revise the chapter\n\nPeriod 2: Science\nWritten work for chapter ‘The Solar System’ was done in the notebook\n\nPeriod 3: Social Studies\nChapter No.4\nNotebook Writing\nHW- Read Chapter No.4\n\nPeriod 4: Maths\nExplanation of the topic Conversions: Days, Weeks, Months was done. Exercise 7 of page number 135 was discussed and completed.\nHW- Solve Exercise 7- Q1 a,c,e of page number 135 in the notebook.\n\nPeriod 5: Computer Science\nDisscused the chapter 6\n\nPeriod 6: Dance\nProxy Math - Explanation of the topic Conversions: Days, Weeks, Months was done. Exercise 7 of page number 135 was discussed and completed.\n\nPeriod 7: GK\nGK- Textbook page no 225-228 were discussed and done\n\nPeriod 8: Reading Program\nClass is conducted\n\nPeriod 9: Hindi\nऐसा मेरा गाँव की व्याख्या की गई तथा मौखिक अभ्यास लिए गए\nHW- ऐसा मेरा गाँव कविता को याद करके आएँ",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Science",
+        "note": "Oral revision of chapter ‘The Solar System’ was done",
+        "hw": "Revise the chapter"
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "Written work for chapter ‘The Solar System’ was done in the notebook",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Social Studies",
+        "note": "Chapter No.4\nNotebook Writing",
+        "hw": "Read Chapter No.4"
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Explanation of the topic Conversions: Days, Weeks, Months was done. Exercise 7 of page number 135 was discussed and completed.",
+        "hw": "Solve Exercise 7- Q1 a,c,e of page number 135 in the notebook."
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "Disscused the chapter 6",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Dance",
+        "note": "Proxy Math - Explanation of the topic Conversions: Days, Weeks, Months was done. Exercise 7 of page number 135 was discussed and completed.",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "GK",
+        "note": "GK- Textbook page no 225-228 were discussed and done",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Reading Program",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "Hindi",
+        "note": "ऐसा मेरा गाँव की व्याख्या की गई तथा मौखिक अभ्यास लिए गए",
+        "hw": "ऐसा मेरा गाँव कविता को याद करके आएँ"
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "6947b183c88bf6f1",
+    "posted_date": "17-11-2026",
+    "posted_date_iso": "2026-11-17",
+    "event_date_iso": "2026-11-17",
+    "text": "Dear parents, \nPFA for Hindi notes. \nCh. 10 दीनबंधु एंड्रयूज",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/17112026133442.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Hindi",
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "other_section": true,
+    "exam_cycle": []
+  },
+  {
+    "id": "10ba9ce9d0d32db4",
+    "posted_date": "17-11-2026",
+    "posted_date_iso": "2026-11-17",
+    "event_date_iso": "2026-11-17",
+    "text": "Dear parents\nPFA notes for\nSubject- Science \nChapter- Solar system ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/1711202612396.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Science",
+    "chapter": "Solar system",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "other_section": true,
+    "exam_cycle": []
+  },
+  {
     "id": "a37606d5195bab75",
     "posted_date": "06-11-2026",
     "posted_date_iso": "2026-11-06",
