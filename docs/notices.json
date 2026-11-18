@@ -1,5 +1,151 @@
 [
   {
+    "id": "b6471bc59fc756fc",
+    "posted_date": "18-11-2026",
+    "posted_date_iso": "2026-11-18",
+    "event_date_iso": "2026-11-18",
+    "text": "Daily Class Update\n18-11-2026\n\nPeriod 1: Assembly\nprayer was conducted\n\nPeriod 2: Science\nWritten work for chapter ’The Solar System’ was done in the notebook\n\nPeriod 3: Marathi\nProxy\n\nPeriod 4: Maths\nAnnual day dance practice\n\nPeriod 5: Computer Science\nAnnual day dance practice\n\nPeriod 6: English\nProxy\n\nPeriod 7: Hindi\nProxy\n\nPeriod 8: Maths\nCh 2 Fractions - Introduction was done. Exercise 1 of page number 75 was discussed and completed.\nHW- Complete warm up activity of page number 72.\n\nPeriod 9: English\nProxy",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "prayer was conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "Written work for chapter ’The Solar System’ was done in the notebook",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "Proxy",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Annual day dance practice",
+        "hw": null
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "Annual day dance practice",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "English",
+        "note": "Proxy",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Hindi",
+        "note": "Proxy",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Maths",
+        "note": "Ch 2 Fractions - Introduction was done. Exercise 1 of page number 75 was discussed and completed.",
+        "hw": "Complete warm up activity of page number 72."
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Proxy",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "0114a31f4e5c51dd",
+    "posted_date": "18-11-2026",
+    "posted_date_iso": "2026-11-18",
+    "event_date_iso": "2026-11-18",
+    "text": "Dear Parent,\n\nPFA notes for:\n\nSubject - English \nChapter - Mothers are for",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/18112026153023.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "English",
+    "chapter": "Mothers are for",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "other_section": true,
+    "exam_cycle": []
+  },
+  {
+    "id": "7a1f65f53e390118",
+    "posted_date": "18-11-2026",
+    "posted_date_iso": "2026-11-18",
+    "event_date_iso": "2026-11-18",
+    "text": "Dear Parent,\n\nPFA notes for:\n\nSubject - English \nChapter - Mowgli's brothers ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/1811202615291.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "English",
+    "chapter": "Mowgli's brothers",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "other_section": true,
+    "exam_cycle": []
+  },
+  {
+    "id": "e3e7fb06fe0a4e94",
+    "posted_date": "18-11-2026",
+    "posted_date_iso": "2026-11-18",
+    "event_date_iso": "2026-11-18",
+    "text": "Dear Parent,\n\nPFA notes  for:\nSubject - Social Studies\nChapter - 3\nCommunication",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/18112026122715.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Social Studies",
+    "chapter": "Communication",
+    "chapter_number": 3,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "other_section": true,
+    "exam_cycle": []
+  },
+  {
     "id": "f8608da9c183cb3b",
     "posted_date": "17-11-2026",
     "posted_date_iso": "2026-11-17",
