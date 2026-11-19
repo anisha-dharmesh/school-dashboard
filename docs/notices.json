@@ -1,5 +1,82 @@
 [
   {
+    "id": "c812006e6ada94b2",
+    "posted_date": "19-11-2026",
+    "posted_date_iso": "2026-11-19",
+    "event_date_iso": "2026-11-19",
+    "text": "Daily Class Update\n19-11-2026\n\nPeriod 1: Assembly\nprayer is conducted\n\nPeriod 2: Dance\nProxy Math\nWritten work of the Ch Fractions was done in the notebook.\n\nPeriod 3: Marathi\nProxy\n\nPeriod 4: Maths\nCh Fractions- Explanation of the topics Writing A Fraction and Fraction of a collection was done. Exercise 2 and 3 of page number 76 and 77 were discussed and completed.\nHW- Revise the same.\n\nPeriod 5: Social Studies\nChapter No.4 \nNotebook Writing\nHW- Read Chapter No.4\n\nPeriod 6: Hindi\nAnnual day practice was conducted\n\nPeriod 7: Skating\nClass is conducted\n\nPeriod 8: Skating\nClass is conducted\n\nPeriod 9: Marathi\nProxy",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "prayer is conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Dance",
+        "note": "Proxy Math\nWritten work of the Ch Fractions was done in the notebook.",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "Proxy",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch Fractions- Explanation of the topics Writing A Fraction and Fraction of a collection was done. Exercise 2 and 3 of page number 76 and 77 were discussed and completed.",
+        "hw": "Revise the same."
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "Chapter No.4 \nNotebook Writing",
+        "hw": "Read Chapter No.4"
+      },
+      {
+        "period": 6,
+        "subject": "Hindi",
+        "note": "Annual day practice was conducted",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Skating",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Skating",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "Marathi",
+        "note": "Proxy",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "b6471bc59fc756fc",
     "posted_date": "18-11-2026",
     "posted_date_iso": "2026-11-18",
