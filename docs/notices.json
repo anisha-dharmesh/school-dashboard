@@ -1,5 +1,28 @@
 [
   {
+    "id": "cbcf7647a80b5ebf",
+    "posted_date": "21-11-2026",
+    "posted_date_iso": "2026-11-21",
+    "event_date_iso": "2026-11-21",
+    "text": "Dear parent, \n\nPFA of Computer Science \nChapter 6: The Magic of Repeating steps",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/211120268196.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Computer Science",
+    "chapter": "The Magic of Repeating steps",
+    "chapter_number": 6,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "other_section": true,
+    "exam_cycle": []
+  },
+  {
     "id": "10acd2f71d356dd7",
     "posted_date": "20-11-2026",
     "posted_date_iso": "2026-11-20",
