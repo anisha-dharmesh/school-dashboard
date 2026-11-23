@@ -1,19 +1,118 @@
 [
   {
-    "id": "cbcf7647a80b5ebf",
-    "posted_date": "21-11-2026",
-    "posted_date_iso": "2026-11-21",
-    "event_date_iso": "2026-11-21",
-    "text": "Dear parent, \n\nPFA of Computer Science \nChapter 6: The Magic of Repeating steps",
-    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/211120268196.pdf",
+    "id": "1f3a06ed3f9992c7",
+    "posted_date": "23-11-2026",
+    "posted_date_iso": "2026-11-23",
+    "event_date_iso": "2026-11-23",
+    "text": "Dear Parent,\n\nPFA notes for:\n\nSubject - Computer science \nChapter 6:The Magic of Repeating Steps ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/23112026152013.pdf",
     "category": "Subject Notes",
     "method": "pattern",
     "periods": [],
     "is_timetable": false,
     "confidence": 0.85,
     "subject": "Computer Science",
-    "chapter": "The Magic of Repeating steps",
+    "chapter": "The Magic of Repeating Steps",
     "chapter_number": 6,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "4c013241cc833323",
+    "posted_date": "23-11-2026",
+    "posted_date_iso": "2026-11-23",
+    "event_date_iso": "2026-11-23",
+    "text": "Daily Class Update\n23-11-2026\n\nPeriod 1: Science\nproxy\n\nPeriod 2: Science\nproxy\n\nPeriod 3: Marathi\nAnnual day Dance Practice was conducted.\n\nPeriod 4: Maths\nCh Fractions- Explanation of the topic - Fraction of a number was done. Exercise 5 of page number 80 was discussed and completed.\nHW- Revise the same\n\nPeriod 5: Computer Science\nChapter 6: questions and answers are done\n\nPeriod 6: Art & Craft\nComposition Art-Hibiscus,Pg.No.48\nHW- Craft- Activity No.2\n\nPeriod 7: Leadership\nHabit -6 Discussed the lesson 3rd Alternative .\n\nPeriod 8: Life Skills\nReading of Ch 11 Safe and Unsafe Secrets\n\nPeriod 9: English\nChapter 6 was explained in the class.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Science",
+        "note": "proxy",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "proxy",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "Annual day Dance Practice was conducted.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Ch Fractions- Explanation of the topic - Fraction of a number was done. Exercise 5 of page number 80 was discussed and completed.",
+        "hw": "Revise the same"
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "Chapter 6: questions and answers are done",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Art & Craft",
+        "note": "Composition Art-Hibiscus,Pg.No.48",
+        "hw": "Craft- Activity No.2"
+      },
+      {
+        "period": 7,
+        "subject": "Leadership",
+        "note": "Habit -6 Discussed the lesson 3rd Alternative .",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Life Skills",
+        "note": "Reading of Ch 11 Safe and Unsafe Secrets",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Chapter 6 was explained in the class.",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "d3502f96d418d708",
+    "posted_date": "23-11-2026",
+    "posted_date_iso": "2026-11-23",
+    "event_date_iso": "2026-11-23",
+    "text": "Dear Parent\n\nPFA notes for\nSubject :SST\nTopic : Communication ",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/231120269545.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Social Studies",
+    "chapter": "Communication",
+    "chapter_number": null,
     "material_type": "Notes",
     "worksheet_numbers": null,
     "answer_key_url": null,
