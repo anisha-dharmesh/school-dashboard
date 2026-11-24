@@ -1,5 +1,98 @@
 [
   {
+    "id": "9248f97c2e99a33c",
+    "posted_date": "24-11-2026",
+    "posted_date_iso": "2026-11-24",
+    "event_date_iso": "2026-11-24",
+    "text": "Dear Parent,\n\nPFA notes for:\n\nSubject - Math\nChapter - Time",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/2411202682735.pdf",
+    "category": "Subject Notes",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": "Maths",
+    "chapter": "Time",
+    "chapter_number": null,
+    "material_type": "Notes",
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": []
+  },
+  {
+    "id": "94c798c4e2061625",
+    "posted_date": "24-11-2026",
+    "posted_date_iso": "2026-11-24",
+    "event_date_iso": "2026-11-24",
+    "text": "Daily Class Update\n24-11-2026\n\nPeriod 1: Science\nWritten work of chapter ‘The Solar System’ was done in the notebook\n\nPeriod 2: Science\nPractice worksheet page no 82, 83 was discussed and done\n\nPeriod 3: Social Studies\nAnnual Day Practice\nHW- Read Chapter No.4\n\nPeriod 4: Maths\nAnnual day practice.\n\nPeriod 5: Computer Science\nChapter 6: Reading was done\n\nPeriod 6: Dance\nPROXY SST\nChapter No.4\nNotebook Writing\nHW- Read Chapter No.4\n\nPeriod 8: Reading Program\nClass is conducted\n\nPeriod 9: Hindi\nऐसा मेरा गाँव के लिखित कार्य पाठ्यपुस्तक में करवाए गए\nHW- पृष्ठ संख्या 117 प्रश्न संख्या 1",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Science",
+        "note": "Written work of chapter ‘The Solar System’ was done in the notebook",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Science",
+        "note": "Practice worksheet page no 82, 83 was discussed and done",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Social Studies",
+        "note": "Annual Day Practice",
+        "hw": "Read Chapter No.4"
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Annual day practice.",
+        "hw": null
+      },
+      {
+        "period": 5,
+        "subject": "Computer Science",
+        "note": "Chapter 6: Reading was done",
+        "hw": null
+      },
+      {
+        "period": 6,
+        "subject": "Dance",
+        "note": "PROXY SST\nChapter No.4\nNotebook Writing",
+        "hw": "Read Chapter No.4"
+      },
+      {
+        "period": 8,
+        "subject": "Reading Program",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "Hindi",
+        "note": "ऐसा मेरा गाँव के लिखित कार्य पाठ्यपुस्तक में करवाए गए",
+        "hw": "पृष्ठ संख्या 117 प्रश्न संख्या 1"
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "1f3a06ed3f9992c7",
     "posted_date": "23-11-2026",
     "posted_date_iso": "2026-11-23",
