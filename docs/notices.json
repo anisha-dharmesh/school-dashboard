@@ -1,5 +1,126 @@
 [
   {
+    "id": "aa232042c8178b05",
+    "posted_date": "26-11-2026",
+    "posted_date_iso": "2026-11-26",
+    "event_date_iso": "2026-11-26",
+    "text": "Dear Parent,\n\nPlease find attached the circular regarding the revised school fee structure for the upcoming academic sessions.\n\nWe request you to kindly go through the circular carefully and take note of the details mentioned therein.\n\nWe value your continued trust, understanding and cooperation in our journey of providing quality education and meaningful learning experiences to our children.",
+    "attachment_url": "https://wagholierp.snbpinstitutes.in/NEWPHP/Teacher/Notice_photos/26112026162338.pdf",
+    "category": "General/Other",
+    "method": "default",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.5,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "5f7c2477a710a03a",
+    "posted_date": "26-11-2026",
+    "posted_date_iso": "2026-11-26",
+    "event_date_iso": "2026-11-26",
+    "text": "Dear Parent,\n\nWe are pleased to share the Facebook post featuring photographs from our Gurupurab Celebration.\n\nhttps://www.facebook.com/share/p/1AFxvzt81H/\n We invite you to like, share, and follow our Facebook page to stay updated with the latest events, celebrations, and achievements at SNBP International School, Wagholi.",
+    "attachment_url": null,
+    "category": "Event/Celebration",
+    "method": "pattern",
+    "periods": [],
+    "is_timetable": false,
+    "confidence": 0.85,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
+    "id": "9c19cf3f500c5c80",
+    "posted_date": "26-11-2026",
+    "posted_date_iso": "2026-11-26",
+    "event_date_iso": "2026-11-26",
+    "text": "Daily Class Update\n26-11-2026\n\nPeriod 1: Assembly\nprayer was conducted\n\nPeriod 2: Dance\nSpecial assembly was conducted\n\nPeriod 3: Marathi\nDisaster Management Assembly was conducted.\n\nPeriod 4: Maths\nDisaster Management Assembly was conducted.\n\nPeriod 5: Social Studies\nChapter No.4\nNotebook Writing\nHW- Read Chapter No.5\n\nPeriod 6: Hindi\nऐसा मेरा गाँव के लिखित कार्य नोटबुक में करवाए गए\n\nPeriod 7: Skating\nClass is conducted\n\nPeriod 8: Skating\nClass is conducted\n\nPeriod 9: Marathi\nपोहे करू या कवितेचे स्पष्टीकरण केले.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "prayer was conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Dance",
+        "note": "Special assembly was conducted",
+        "hw": null
+      },
+      {
+        "period": 3,
+        "subject": "Marathi",
+        "note": "Disaster Management Assembly was conducted.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Maths",
+        "note": "Disaster Management Assembly was conducted.",
+        "hw": null
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "Chapter No.4\nNotebook Writing",
+        "hw": "Read Chapter No.5"
+      },
+      {
+        "period": 6,
+        "subject": "Hindi",
+        "note": "ऐसा मेरा गाँव के लिखित कार्य नोटबुक में करवाए गए",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Skating",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "Skating",
+        "note": "Class is conducted",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "Marathi",
+        "note": "पोहे करू या कवितेचे स्पष्टीकरण केले.",
+        "hw": null
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "94779bde8d637a38",
     "posted_date": "25-11-2026",
     "posted_date_iso": "2026-11-25",
