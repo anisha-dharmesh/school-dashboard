@@ -1,5 +1,76 @@
 [
   {
+    "id": "22e65aa5d2ad8dcb",
+    "posted_date": "27-11-2026",
+    "posted_date_iso": "2026-11-27",
+    "event_date_iso": "2026-11-27",
+    "text": "Daily Class Update\n27-11-2026\n\nPeriod 1: Assembly\nprayer was conducted\n\nPeriod 2: Maths\nAnnual day dance practice.\n\nPeriod 4: Sports\nClass was conducted\n\nPeriod 5: Social Studies\nProxy Math- Ch Fractions - Exercise 6 Q5 and 6 of page number 82 were discussed and completed.\nHW- Complete Practice worksheet of page number 54 and 55\n\nPeriod 6: Speech & Drama\nScience  Reading of Ch. 4  was done.\n\nPeriod 7: Hindi\nपर्यायवाची शब्द के लिखित कार्य पाठ्यपुस्तक में करवाए गए\n\nPeriod 8: English\nStory writing was explained in the class.\n\nPeriod 9: English\nUnseen comprehension was solved in the class.\nHW- solve unseen comprehension - Dams in grammar notebook.",
+    "attachment_url": null,
+    "category": "Daily Class Update",
+    "method": "api",
+    "periods": [
+      {
+        "period": 1,
+        "subject": "Assembly",
+        "note": "prayer was conducted",
+        "hw": null
+      },
+      {
+        "period": 2,
+        "subject": "Maths",
+        "note": "Annual day dance practice.",
+        "hw": null
+      },
+      {
+        "period": 4,
+        "subject": "Sports",
+        "note": "Class was conducted",
+        "hw": null
+      },
+      {
+        "period": 5,
+        "subject": "Social Studies",
+        "note": "Proxy Math- Ch Fractions - Exercise 6 Q5 and 6 of page number 82 were discussed and completed.",
+        "hw": "Complete Practice worksheet of page number 54 and 55"
+      },
+      {
+        "period": 6,
+        "subject": "Speech & Drama",
+        "note": "Science  Reading of Ch. 4  was done.",
+        "hw": null
+      },
+      {
+        "period": 7,
+        "subject": "Hindi",
+        "note": "पर्यायवाची शब्द के लिखित कार्य पाठ्यपुस्तक में करवाए गए",
+        "hw": null
+      },
+      {
+        "period": 8,
+        "subject": "English",
+        "note": "Story writing was explained in the class.",
+        "hw": null
+      },
+      {
+        "period": 9,
+        "subject": "English",
+        "note": "Unseen comprehension was solved in the class.",
+        "hw": "solve unseen comprehension - Dams in grammar notebook."
+      }
+    ],
+    "is_timetable": false,
+    "confidence": 1.0,
+    "subject": null,
+    "chapter": null,
+    "chapter_number": null,
+    "material_type": null,
+    "worksheet_numbers": null,
+    "answer_key_url": null,
+    "paired": false,
+    "calendar_event_id": null,
+    "exam_cycle": null
+  },
+  {
     "id": "aa232042c8178b05",
     "posted_date": "26-11-2026",
     "posted_date_iso": "2026-11-26",
